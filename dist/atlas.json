@@ -1,0 +1,2489 @@
+{
+  "schema": 2,
+  "convention": {
+    "anchorType": "building_site_with_separate_historical_practice_landmarks",
+    "label": "代表作品實址＋歷史執業地標",
+    "description": "25 件作品依各自建築場址定位；歷史模型取有標籤的原址，移建現址另以橙色標記呈現。人物基地與國籍分開，人物標記不是現居聲明。",
+    "coordinates": "每一建築金色座標釘使用來源場址經緯度，不為排版移往別國。最近六角格只作網格歸屬；同格可選擇不同作品，移動文字的細線回接原點。座標精度逐筆註明，非實測圖。",
+    "buildingLocations": "主標記配合典藏模型年代；2002 年展亭及1995年紙教會主標原址，另列已核實現址與拆卸重組歷史。",
+    "emptyIslandLabel": "本次典藏未收錄的區域",
+    "emptyIslandMeaning": "此25件代表作未覆蓋的區域，不代表該區沒有重要建築師或文化。",
+    "nationalityNotEncoded": true,
+    "associationSemantics": "青色點劃線只連作品場址與不同國家的代表歷史執業基地；不代表師承、國籍、現居或真實行程。",
+    "singleAnchorEditorialCases": [
+      4,
+      6,
+      10,
+      13,
+      19,
+      21,
+      24
+    ]
+  },
+  "architects": [
+    {
+      "id": 1,
+      "slug": "01-tassel",
+      "architect": "維克多・霍塔",
+      "title": "塔塞爾住宅",
+      "url": "https://architecture-v2-tassel-01.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "布魯塞爾",
+        "country": "比利時",
+        "countryCode": "BE",
+        "lon": 4.35,
+        "lat": 50.85,
+        "label": "比利時・布魯塞爾",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以布魯塞爾的建築實踐與住宅工作室為代表錨點，不採出生地根特。",
+        "sources": [
+          {
+            "title": "Brussels Museums：Horta Museum",
+            "url": "https://www.brusselsmuseums.be/en/museums/horta-museum",
+            "supports": "霍塔的住宅及工作室位於布魯塞爾。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "布魯塞爾",
+        "country": "比利時",
+        "countryCode": "BE",
+        "label": "比利時・布魯塞爾",
+        "note": "塔塞爾住宅是 UNESCO 霍塔城市住宅組成之一。",
+        "credits": "Victor Horta",
+        "sources": [
+          {
+            "title": "Brussels regional architectural heritage inventory: Hôtel Tassel",
+            "url": "https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890",
+            "supports": "Official address and original building identity."
+          },
+          {
+            "title": "UNESCO: Horta town houses, geographical data",
+            "url": "https://whc.unesco.org/en/list/1005/maps/",
+            "supports": "Hôtel Tassel component: N50 49 41.00, E4 21 44.00."
+          }
+        ],
+        "lat": 50.82806,
+        "lon": 4.36222,
+        "region": "europe",
+        "address": "Rue Paul-Émile Janson 6, 1000 Bruxelles, Belgium",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO component 1005-001 published reference point, converted from DMS; an approximate building-site anchor, not an as-built survey.",
+        "siteStatus": "原址現存",
+        "siteStatusLabel": "原址現存",
+        "verifiedDate": "2026-10-24",
+        "caveat": "",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO component 1005-001 published reference point, converted from DMS; an approximate building-site anchor, not an as-built survey.",
+        "siteStatusCode": "original_standing"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 1,
+        "architect": "維克多・霍塔",
+        "label": "比利時",
+        "note": "Bozar 的建館歷史明確稱霍塔為比利時建築師；不是由布魯塞爾執業地反推國籍。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.bozar.be/en/beginnings",
+            "supports": "Bozar describes Victor Horta as the renowned Belgian architect selected in 1919."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 2,
+      "slug": "02-batllo",
+      "architect": "安東尼・高第",
+      "title": "巴特婁之家",
+      "url": "https://architecture-v2-batllo-02.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "巴塞隆納",
+        "country": "西班牙",
+        "countryCode": "ES",
+        "lon": 2.17,
+        "lat": 41.39,
+        "label": "西班牙・巴塞隆納",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以加泰隆尼亞巴塞隆納的長期專業實踐為錨點。",
+        "sources": [
+          {
+            "title": "Casa Batlló：Antoni Gaudí biography",
+            "url": "https://www.casabatllo.es/en/antoni-gaudi/",
+            "supports": "高第的巴塞隆納學習與專業生涯。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "巴塞隆納",
+        "country": "西班牙",
+        "countryCode": "ES",
+        "label": "西班牙・巴塞隆納",
+        "note": "位於 Passeig de Gràcia；為既有建築的改造，不是完全新建。",
+        "credits": "Antoni Gaudí（改造設計）",
+        "sources": [
+          {
+            "title": "Barcelona City Council: Casa Batlló",
+            "url": "https://www.ciutatrefugi.barcelona/es/detall/casa-batllo_75990398260.html",
+            "supports": "Official address at Passeig de Gràcia 43."
+          },
+          {
+            "title": "UNESCO: Works of Antoni Gaudí, geographical data",
+            "url": "https://whc.unesco.org/en/list/320/maps/",
+            "supports": "Casa Batlló component: N41 23 30.19, E2 9 53.99."
+          }
+        ],
+        "lat": 41.39172,
+        "lon": 2.165,
+        "region": "europe",
+        "address": "Passeig de Gràcia 43, 08007 Barcelona, Spain",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO component 320-006 published reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatus": "原址現存",
+        "siteStatusLabel": "原址現存",
+        "verifiedDate": "2026-10-24",
+        "caveat": "保留巴特婁之家原件身分；是既有住宅的高第改造作品。",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO component 320-006 published reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatusCode": "original_standing"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "保留巴特婁之家原件身分；是既有住宅的高第改造作品。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 2,
+        "architect": "安東尼・高第",
+        "label": "西班牙",
+        "note": "依 MoMA 館藏人物資料的歷史國別標示；此標籤不否定加泰隆尼亞文化身分，也不是護照沿革。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/2096-antoni-gaudi",
+            "supports": "MoMA labels Antoni Gaudí Spanish, 1852–1926."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 3,
+      "slug": "03-schroder",
+      "architect": "蓋瑞特・里特維德",
+      "title": "施洛德住宅",
+      "url": "https://architecture-v2-schroder-03.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "烏特勒支",
+        "country": "荷蘭",
+        "countryCode": "NL",
+        "lon": 5.12,
+        "lat": 52.09,
+        "label": "荷蘭・烏特勒支",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "里特維德與 Truus Schröder 曾在住宅一樓共同開設建築事務所。",
+        "sources": [
+          {
+            "title": "Rietveld Schröder House：Biography of the house",
+            "url": "https://www.rietveldschroderhuis.nl/en/explore/biography-of-the-house",
+            "supports": "烏特勒支住宅及其一樓的共同事務所。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "烏特勒支",
+        "country": "荷蘭",
+        "countryCode": "NL",
+        "label": "荷蘭・烏特勒支",
+        "note": "館方明確強調 Truus Schröder 對住宅的共同創作角色。",
+        "credits": "Gerrit Rietveld 與 Truus Schröder",
+        "sources": [
+          {
+            "title": "Netherlands Cultural Heritage Agency: Rietveld Schröderhuis",
+            "url": "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/18329",
+            "supports": "National heritage record identifies Prins Hendriklaan 50, Utrecht."
+          },
+          {
+            "title": "UNESCO: Rietveld Schröder House",
+            "url": "https://whc.unesco.org/en/list/965/",
+            "supports": "N52 5 7.2, E5 8 51.2; original setting and restored museum status."
+          }
+        ],
+        "lat": 52.08533,
+        "lon": 5.14756,
+        "region": "europe",
+        "address": "Prins Hendriklaan 50, 3583 EP Utrecht, Netherlands",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO published property reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatus": "原址現存，曾修復",
+        "siteStatusLabel": "原址現存，曾修復",
+        "verifiedDate": "2026-10-24",
+        "caveat": "50a 是鄰接的售票服務位置；此處定位住宅本體及其原址，而不是售票處。共同創作者仍為 Gerrit Rietveld 與 Truus Schröder。",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO published property reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatusCode": "original_standing_restored"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "這件住宅由里特維德與 Truus Schröder 共同形塑。",
+        "50a 是鄰接的售票服務位置；此處定位住宅本體及其原址，而不是售票處。共同創作者仍為 Gerrit Rietveld 與 Truus Schröder。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 3,
+        "architect": "蓋瑞特・里特維德",
+        "label": "荷蘭",
+        "note": "SFMOMA 人物資料明確標示 Dutch；沒有從烏特勒支出生或執業地推論。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.sfmoma.org/artist/Gerrit_Rietveld/",
+            "supports": "SFMOMA labels Gerrit Rietveld Dutch."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 4,
+      "slug": "04-farnsworth",
+      "architect": "密斯・凡德羅",
+      "title": "範斯沃斯住宅",
+      "url": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "芝加哥",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -87.63,
+        "lat": 41.88,
+        "label": "美國・芝加哥",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 1938–1969 年芝加哥事務所與教學實踐為代表；早期柏林與包浩斯時期另列。",
+        "sources": [
+          {
+            "title": "Staatliche Museen zu Berlin：Mies biography",
+            "url": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2014/09/07_DC_en_Pressemappe_Biography_Mies_van_der_Rohe.pdf",
+            "supports": "柏林事務所、1938 年移居芝加哥及其後在芝加哥執業。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "普萊諾附近，伊利諾州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・普萊諾附近，伊利諾州",
+        "note": "範斯沃斯住宅位於 Plano 附近，不在芝加哥市區。",
+        "credits": "Ludwig Mies van der Rohe",
+        "sources": [
+          {
+            "title": "Library of Congress: Edith Farnsworth House survey",
+            "url": "https://www.loc.gov/item/il0323/",
+            "supports": "Official HABS location, street address and latitude/longitude."
+          },
+          {
+            "title": "Edith Farnsworth House: Visit",
+            "url": "https://edithfarnsworthhouse.org/visit/",
+            "supports": "Original Fox River site near Plano; current historic house visitation."
+          }
+        ],
+        "lat": 41.63502,
+        "lon": -88.53574,
+        "region": "north-america",
+        "address": "14520 River Road, Plano, Illinois 60545, USA",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Library of Congress HABS catalogue coordinates: 41.63502,-88.53574; approximate site point rather than a claimed building-centroid survey.",
+        "siteStatus": "原址現存",
+        "siteStatusLabel": "原址現存",
+        "verifiedDate": "2026-10-24",
+        "caveat": "定位普萊諾附近 Fox River 原址，不採芝加哥市中心。",
+        "siteRole": "current",
+        "coordinateNote": "Library of Congress HABS catalogue coordinates: 41.63502,-88.53574; approximate site point rather than a claimed building-centroid survey.",
+        "siteStatusCode": "original_standing"
+      },
+      "alternateBases": [
+        {
+          "city": "柏林",
+          "country": "德國",
+          "lon": 13.41,
+          "lat": 52.52,
+          "note": "早期獨立執業與包浩斯時期；不是本圖主錨點。"
+        }
+      ],
+      "caveats": [
+        "本圖採其美國成熟期工作基地，同時保留德國生涯背景。",
+        "定位普萊諾附近 Fox River 原址，不採芝加哥市中心。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 4,
+        "architect": "密斯・凡德羅",
+        "label": "美國（1944年入籍；德國出生）",
+        "note": "德國出生與早期德國執業背景，和後來取得美國國籍分開陳述；不宣稱雙重國籍或德國國籍喪失。1944 年入籍由柏林國立博物館資料明載。",
+        "status": "verified",
+        "meaning": "historical-citizenship-with-birthplace-separated",
+        "sources": [
+          {
+            "url": "https://www.moma.org/collection/artists/7166",
+            "supports": "MoMA labels Mies American, born Germany."
+          },
+          {
+            "url": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2025/10/02_NNG_251030_FOFN25_ArtistsList.pdf",
+            "supports": "Neue Nationalgalerie publication, PDF page 42: Mies became a US citizen in 1944."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 5,
+      "slug": "05-savoye",
+      "architect": "勒・柯比意",
+      "title": "薩伏伊別墅",
+      "url": "https://architecture-v2-savoye-05.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "巴黎",
+        "country": "法國",
+        "countryCode": "FR",
+        "lon": 2.35,
+        "lat": 48.86,
+        "label": "法國・巴黎",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以 35 rue de Sèvres 的巴黎工作室為錨點，不採瑞士出生地。",
+        "sources": [
+          {
+            "title": "Fondation Le Corbusier：Centenary of the atelier",
+            "url": "https://www.fondationlecorbusier.fr/actualite/centenaire-de-latelier-de-le-corbusier/",
+            "supports": "1924 年起與 Pierre Jeanneret 使用的巴黎建築工作室。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "普瓦西",
+        "country": "法國",
+        "countryCode": "FR",
+        "label": "法國・普瓦西",
+        "note": "位於巴黎以西的 Poissy，非巴黎市區。",
+        "credits": "Le Corbusier 與 Pierre Jeanneret",
+        "sources": [
+          {
+            "title": "Centre des monuments nationaux: Villa Savoye practical information",
+            "url": "https://www.villa-savoye.fr/en/visiter/informations-pratiques",
+            "supports": "Official Villa Savoye address in Poissy."
+          },
+          {
+            "title": "UNESCO: Le Corbusier architectural work, geographical data",
+            "url": "https://whc.unesco.org/en/list/1321/maps/",
+            "supports": "Villa Savoye et loge du jardinier: N48 55 27.92, E2 1 42.03."
+          }
+        ],
+        "lat": 48.92442,
+        "lon": 2.02834,
+        "region": "europe",
+        "address": "82 rue de Villiers, 78300 Poissy, France",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO component 1321rev-006 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatus": "原址現存，曾修復",
+        "siteStatusLabel": "原址現存，曾修復",
+        "verifiedDate": "2026-10-24",
+        "caveat": "世界遺產組成包含別墅與門房；模型身分維持薩伏伊別墅，不改成巴黎工作室。",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO component 1321rev-006 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatusCode": "original_standing_restored"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "本件作品包含 Pierre Jeanneret 的共同設計貢獻。",
+        "世界遺產組成包含別墅與門房；模型身分維持薩伏伊別墅，不改成巴黎工作室。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 5,
+        "architect": "勒・柯比意",
+        "label": "瑞士籍出身，1930年入籍法國",
+        "note": "基金會資料確認入籍前為瑞士籍，1930年9月19日取得法國國籍；此次未查得可靠一手來源確認其後是否保留瑞士國籍，所以不標成已證實的雙重國籍，也不宣稱放棄瑞士籍。",
+        "status": "verified",
+        "meaning": "historical-naturalization-not-complete-dual-citizenship-history",
+        "sources": [
+          {
+            "url": "https://www.fondationlecorbusier.fr/biographie/1929-1938/",
+            "supports": "Foundation chronology records French nationality by decree on 19 September 1930."
+          },
+          {
+            "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2025/04/remi-baudoui-le-corbusier-1938-1945.pdf",
+            "supports": "Foundation-hosted historical research identifies Swiss nationality before his application for French naturalization."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 6,
+      "slug": "06-unity",
+      "architect": "法蘭克・洛伊・萊特",
+      "title": "團結聖殿",
+      "url": "https://architecture-v2-unity-06.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "橡樹園（芝加哥都會區）",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -87.79,
+        "lat": 41.89,
+        "label": "美國・橡樹園（芝加哥都會區）",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "編輯上選用草原學派形成期的 Oak Park 工作室；並非唯一或終身工作基地。",
+        "sources": [
+          {
+            "title": "Frank Lloyd Wright Trust：Home and Studio",
+            "url": "https://www.flwright.org/tour/home-and-studio",
+            "supports": "1889–1909 年橡樹園住宅工作室及草原學派實踐。"
+          },
+          {
+            "title": "Frank Lloyd Wright Trust：Oak Park Studio",
+            "url": "https://cal.flwright.org/explore/oak-park-studio-frank-lloyd-wright",
+            "supports": "團結聖殿在此工作室設計。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "橡樹園，伊利諾州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・橡樹園，伊利諾州",
+        "note": "Unity Temple 位於 Oak Park。",
+        "credits": "Frank Lloyd Wright",
+        "sources": [
+          {
+            "title": "Unity Temple congregation: Tours and Restoration",
+            "url": "https://unitytemple.org/tours/",
+            "supports": "Owner confirms the congregation’s original building at 875 Lake Street, Oak Park."
+          },
+          {
+            "title": "UNESCO: Frank Lloyd Wright architecture, geographical data",
+            "url": "https://whc.unesco.org/en/list/1496/maps/",
+            "supports": "Unity Temple: N41 53 18.3, W87 47 48.6."
+          }
+        ],
+        "lat": 41.88842,
+        "lon": -87.79683,
+        "region": "north-america",
+        "address": "875 Lake Street, Oak Park, Illinois 60301, USA",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO component 1496rev-001 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatus": "原址現存，曾修復",
+        "siteStatusLabel": "原址現存，曾修復",
+        "verifiedDate": "2026-10-24",
+        "caveat": "",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO component 1496rev-001 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatusCode": "original_standing_restored"
+      },
+      "alternateBases": [
+        {
+          "city": "Spring Green（塔里耶森）",
+          "country": "美國",
+          "lon": -90.07,
+          "lat": 43.18,
+          "note": "1911 年起重要住宅與工作室；後期夏季基地。",
+          "source": "https://flwright.org/explore/taliesin"
+        },
+        {
+          "city": "Scottsdale（西塔里耶森）",
+          "country": "美國",
+          "lon": -111.93,
+          "lat": 33.49,
+          "note": "後期冬季工作基地；與威斯康辛州基地並存。",
+          "source": "https://franklloydwright.org/wp-content/uploads/2018/12/The-20th-Century-Architecture-of-Frank-Lloyd-Wright-2019_reduced.pdf"
+        }
+      ],
+      "caveats": [
+        "橡樹園代表草原學派時期，並非萊特唯一的執業基地。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 6,
+        "architect": "法蘭克・洛伊・萊特",
+        "label": "美國",
+        "note": "MoMA 明確標示 American；為歷史人物國別，不表示現居美國。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/6459-frank-lloyd-wright",
+            "supports": "MoMA labels Frank Lloyd Wright American, 1867–1959."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 7,
+      "slug": "07-saynatsalo",
+      "architect": "阿瓦・阿爾托",
+      "title": "珊納特賽羅市政廳",
+      "url": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "赫爾辛基",
+        "country": "芬蘭",
+        "countryCode": "FI",
+        "lon": 24.94,
+        "lat": 60.17,
+        "label": "芬蘭・赫爾辛基",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 Munkkiniemi 的成熟期工作室為代表錨點；早期曾在于韋斯屈萊及圖爾庫活動。",
+        "sources": [
+          {
+            "title": "Alvar Aalto Foundation：Studio Aalto",
+            "url": "https://www.alvaraalto.fi/en/location/studio-aalto/",
+            "supports": "Aalto 工作室位於赫爾辛基並用於建築設計。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "珊納特賽羅（今屬于韋斯屈萊）",
+        "country": "芬蘭",
+        "countryCode": "FI",
+        "label": "芬蘭・珊納特賽羅（今屬于韋斯屈萊）",
+        "note": "Säynätsalo Town Hall；基金會地點列為 Jyväskylä，地址在 Säynätsalo。",
+        "credits": "Alvar Aalto；Elissa Aalto（當時名 Elsa Mäkiniemi）為工地主任建築師",
+        "sources": [
+          {
+            "title": "Alvar Aalto Foundation: Säynätsalo Town Hall",
+            "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+            "supports": "Address Parviaisentie 9, Säynätsalo, 15 km from Jyväskylä; original building and tours."
+          },
+          {
+            "title": "UNESCO: Aalto Works, geographical data",
+            "url": "https://whc.unesco.org/en/list/1752/maps/",
+            "supports": "Säynätsalo Town Hall component: N62 8 24.738, E25 46 8.788."
+          }
+        ],
+        "lat": 62.14021,
+        "lon": 25.76911,
+        "region": "europe",
+        "address": "Parviaisentie 9, 40900 Säynätsalo, Jyväskylä, Finland",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "UNESCO Aalto Works component 1752-003 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatus": "原址現存，使用曾調整",
+        "siteStatusLabel": "原址現存，使用曾調整",
+        "verifiedDate": "2026-10-24",
+        "caveat": "位於珊納特賽羅原址，今屬于韋斯屈萊；不是赫爾辛基工作室。",
+        "siteRole": "current",
+        "coordinateNote": "UNESCO Aalto Works component 1752-003 reference point, converted from DMS; approximate building-site anchor.",
+        "siteStatusCode": "original_standing_adapted"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "位於珊納特賽羅原址，今屬于韋斯屈萊；不是赫爾辛基工作室。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/7.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Alvar_Aalto_1964.jpg",
+        "creator": "Comet Photo AG (Zürich)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "ETH-Bibliothek Zürich, Bildarchiv / Fotograf: Comet Photo AG (Zürich) / Com_L13-0131-0016 / CC BY-SA 4.0",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 7,
+        "architect": "阿瓦・阿爾托",
+        "label": "芬蘭",
+        "note": "官方傳記或獎項資料明確標示的國別歸屬；不是完整法律國籍沿革，也不是現居地聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.alvaraalto.fi/en/megaevent/alvar-aalto-125/",
+            "supports": "Foundation explicitly calls Aalto a Finnish architect."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 8,
+      "slug": "08-luce",
+      "architect": "貝聿銘",
+      "title": "路思義教堂",
+      "url": "https://architecture-v2-luce-08.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "紐約",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -74.01,
+        "lat": 40.71,
+        "label": "美國・紐約",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 I. M. Pei & Associates／Pei Cobb Freed & Partners 的紐約執業基地，不以出生地或臺灣作品地定位。",
+        "sources": [
+          {
+            "title": "Pei Cobb Freed & Partners：About",
+            "url": "https://www.pcf-p.com/about/",
+            "supports": "事務所源自 I. M. Pei & Associates，總部在紐約。"
+          },
+          {
+            "title": "Pritzker Prize：I. M. Pei biography",
+            "url": "https://www.pritzkerprize.com/biography-im-pei",
+            "supports": "1955 年創立事務所及後續名稱沿革。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "臺中",
+        "country": "臺灣",
+        "countryCode": "TW",
+        "label": "臺灣・臺中",
+        "note": "位於東海大學校園；由貝聿銘與陳其寬共同設計。",
+        "credits": "貝聿銘與陳其寬共同設計；張肇康參與並協助第二期工程監造",
+        "sources": [
+          {
+            "title": "內政部臺灣宗教文化地圖：路思義教堂",
+            "url": "https://taiwangods.moi.gov.tw/Religious_Culture/html/cultural/3_0011.aspx?i=331",
+            "supports": "官方文化資產條目明列地址與經緯度 120.60049,24.17883。"
+          },
+          {
+            "title": "東海大學：路思義教堂",
+            "url": "https://www.thu.edu.tw/web/campus/detail.php?scid=27&sid=46",
+            "supports": "校方確認原址與貝聿銘、陳其寬共同設計。"
+          }
+        ],
+        "lat": 24.17883,
+        "lon": 120.60049,
+        "region": "east-asia",
+        "address": "臺中市西屯區臺灣大道四段1727號，東海大學校園內",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Taiwan Ministry of the Interior religious-cultural heritage map explicitly publishes longitude 120.60049 and latitude 24.17883; approximate building-site point.",
+        "siteStatus": "原址現存，曾修復",
+        "siteStatusLabel": "原址現存，曾修復",
+        "verifiedDate": "2026-10-24",
+        "caveat": "定位臺中路思義教堂，不再以貝聿銘紐約執業基地落點；保留陳其寬共同設計貢獻。",
+        "siteRole": "current",
+        "coordinateNote": "Taiwan Ministry of the Interior religious-cultural heritage map explicitly publishes longitude 120.60049 and latitude 24.17883; approximate building-site point.",
+        "siteStatusCode": "original_standing_restored"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "定位臺中路思義教堂，不再以貝聿銘紐約執業基地落點；保留陳其寬共同設計貢獻。"
+      ],
+      "region": "east-asia",
+      "portrait": {
+        "path": "assets/portraits/8.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:I.M._Pei.JPG",
+        "creator": "U.S. Department of State employee (unnamed); crop by Yekrats, later crop by Octave.H",
+        "license": "Public domain (U.S. government)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-DOS",
+        "attribution": "U.S. Department of State / crop by Yekrats and Octave.H / Wikimedia Commons / public domain",
+        "note": "Commons identifies the source as an official U.S. Department of State photograph and reviewed public-domain status. Documentary use only; no endorsement. Current file 324×366 pixels."
+      },
+      "nationality": {
+        "id": 8,
+        "architect": "貝聿銘",
+        "label": "美國（1954年入籍）",
+        "note": "官方事務所傳記明載1954年成為美國公民。廣州出生與華裔背景不等同法律國籍；此標籤不暗示目前仍在世或居住紐約。",
+        "status": "verified",
+        "meaning": "historical-naturalization",
+        "sources": [
+          {
+            "url": "https://www.pcf-p.com/about/i-m-pei/",
+            "supports": "His practice explicitly records American citizenship in 1954 and death in New York in 2019. Guangzhou birth is not used as nationality."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 9,
+      "slug": "09-douglas",
+      "architect": "理查・麥爾",
+      "title": "道格拉斯住宅",
+      "url": "https://architecture-v2-douglas-09.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "紐約",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -74.01,
+        "lat": 40.71,
+        "label": "美國・紐約",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 1963 年創辦事務所的紐約基地；另有洛杉磯分所歷史。",
+        "sources": [
+          {
+            "title": "Meier Partners：2021 restructuring press release",
+            "url": "https://meierpartners.com/storage/948/062321_News_MeierPartners.pdf",
+            "supports": "事務所成立於紐約、紐約地址及洛杉磯辦公室分拆。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "哈伯斯普林斯附近，密西根州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・哈伯斯普林斯附近，密西根州",
+        "note": "Harbor Springs／Lake Michigan 地區；不在紐約。",
+        "credits": "Richard Meier",
+        "sources": [
+          {
+            "title": "Iconic Houses: Douglas House",
+            "url": "https://www.iconichouses.org/houses/douglas-house",
+            "supports": "House listing confirms architect, year, street address and embedded map coordinates; linked to the house owner’s website."
+          },
+          {
+            "title": "National Park Service: National Register weekly listings 2016",
+            "url": "https://www.nps.gov/subjects/nationalregister/upload/weekly-list-2016-national-register-of-historic-places.pdf",
+            "supports": "May 3, 2016 listing: James and Jean Douglas House, 3490 S. Lake Shore Dr., Friendship Township, Michigan."
+          },
+          {
+            "title": "Douglas House: Contact / Credits",
+            "url": "https://www.douglashouse.org/credits",
+            "supports": "Owner’s site identifies preservation record and official National Register nomination."
+          }
+        ],
+        "lat": 45.50085,
+        "lon": -85.09776,
+        "region": "north-america",
+        "address": "3490 S. Lake Shore Drive, Friendship Township, near Harbor Springs, Michigan, USA",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Iconic Houses member listing publishes lat=45.500845051247566 and lng=-85.09776124474111 in the Douglas House map item. Rounded approximate property/site marker; not certified footprint-centroid coordinates.",
+        "siteStatus": "原址現存，曾修復",
+        "siteStatusLabel": "原址現存，曾修復",
+        "verifiedDate": "2026-10-24",
+        "caveat": "此為歷史名宅的約略基地點，公開圖資可有數十公尺差異；不宣稱測量級位置，也不代表可任意進入私人住宅。",
+        "siteRole": "current",
+        "coordinateNote": "Iconic Houses member listing publishes lat=45.500845051247566 and lng=-85.09776124474111 in the Douglas House map item. Rounded approximate property/site marker; not certified footprint-centroid coordinates.",
+        "siteStatusCode": "original_standing_restored"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "此為歷史名宅的約略基地點，公開圖資可有數十公尺差異；不宣稱測量級位置，也不代表可任意進入私人住宅。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "path": "assets/portraits/9.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:12_Meier_portrait.JPG",
+        "creator": "Warburg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Warburg / Wikimedia Commons / CC BY-SA 3.0",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 9,
+        "architect": "理查・麥爾",
+        "label": "美國",
+        "note": "MoMA 人物資料明確標示 American；不由紐約事務所位置推論。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/3910-richard-meier",
+            "supports": "MoMA labels Richard Meier American."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 10,
+      "slug": "10-menil",
+      "architect": "倫佐・皮亞諾",
+      "title": "梅尼爾美術館",
+      "url": "https://architecture-v2-menil-10.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "熱那亞",
+        "country": "義大利",
+        "countryCode": "IT",
+        "lon": 8.95,
+        "lat": 44.41,
+        "label": "義大利・熱那亞",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "熱那亞與巴黎皆為 RPBW 的主要工作基地；本圖選熱那亞作歷史職業脈絡的代表定位，不主張它是唯一基地。",
+        "sources": [
+          {
+            "title": "Renzo Piano Building Workshop：Approach",
+            "url": "https://www.rpbw.com/workshop",
+            "supports": "RPBW 於 1981 年成立，工作室在熱那亞與巴黎。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "休士頓，德州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・休士頓，德州",
+        "note": "Menil Collection 主館，不是義大利作品。",
+        "credits": "Renzo Piano／Renzo Piano Building Workshop；合作建築師 Richard Fitzgerald，工程師 Peter Rice",
+        "sources": [
+          {
+            "title": "Menil Collection: Main Building",
+            "url": "https://www.menil.org/campus/main-building",
+            "supports": "Identifies the original Renzo Piano main building, opened in 1987, and Houston address."
+          },
+          {
+            "title": "Menil Collection: Plan Your Visit",
+            "url": "https://www.menil.org/visit",
+            "supports": "Separately lists Main Building at 1533 Sul Ross Street, distinct from Drawing Institute and Cy Twombly Gallery."
+          },
+          {
+            "title": "Outdooractive map: Menil Collection",
+            "url": "https://www.outdooractive.com/en/poi/harris-county/menil-collection/807635817/",
+            "supports": "Public map point 29.737280,-95.398460 used only as approximate location cross-check."
+          }
+        ],
+        "lat": 29.7373,
+        "lon": -95.3985,
+        "region": "north-america",
+        "address": "1533 Sul Ross Street, Houston, Texas 77006, USA",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Approximate main-building location inferred from mapped site at the museum’s verified official address. Coordinates are not claimed to be supplied or surveyed by the museum.",
+        "siteStatus": "原址現存",
+        "siteStatusLabel": "原址現存",
+        "verifiedDate": "2026-10-24",
+        "caveat": "落點是 Renzo Piano 的梅尼爾主館，不是基金會其他展館，也不是熱那亞或巴黎事務所。",
+        "siteRole": "current",
+        "coordinateNote": "Approximate main-building location inferred from mapped site at the museum’s verified official address. Coordinates are not claimed to be supplied or surveyed by the museum.",
+        "siteStatusCode": "original_standing"
+      },
+      "alternateBases": [
+        {
+          "city": "巴黎",
+          "country": "法國",
+          "lon": 2.35,
+          "lat": 48.86,
+          "note": "與熱那亞並存的 RPBW 工作基地。",
+          "source": "https://www.rpbw.com/workshop"
+        }
+      ],
+      "caveats": [
+        "落點是 Renzo Piano 的梅尼爾主館，不是基金會其他展館，也不是熱那亞或巴黎事務所。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "path": "assets/portraits/10.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Renzo_Piano,_portrait.jpg",
+        "creator": "Cirone-Musi (Festival della Scienza, Genova); edits by Teatroge",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "Cirone-Musi / Festival della Scienza / edited by Teatroge / Wikimedia Commons / CC BY-SA 2.0",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 10,
+        "architect": "倫佐・皮亞諾",
+        "label": "義大利",
+        "note": "MoMA 人物資料明確標示 Italian；此為傳記國別，不是目前居住地聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/8988-renzo-piano",
+            "supports": "MoMA labels Renzo Piano Italian."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 11,
+      "slug": "11-gunma",
+      "architect": "磯崎新",
+      "title": "群馬縣立近代美術館",
+      "url": "https://architecture-v2-gunma-11.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "東京",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 139.69,
+        "lat": 35.69,
+        "label": "日本・東京",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以磯崎新事務所東京基地作代表，不採出生地大分。",
+        "sources": [
+          {
+            "title": "Arata Isozaki & Associates：Contact",
+            "url": "https://isozaki.co.jp/contact/",
+            "supports": "東京事務所地址，另列那霸與海外關聯公司。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "高崎，群馬縣",
+        "country": "日本",
+        "countryCode": "JP",
+        "label": "日本・高崎，群馬縣",
+        "note": "位於群馬縣高崎市的群馬之森公園。",
+        "credits": "磯崎新",
+        "sources": [
+          {
+            "title": "群馬縣立近代美術館：アクセス",
+            "url": "https://mmag.pref.gunma.jp/access",
+            "supports": "館方明列高崎市綿貫町992-1，群馬之森公園內。"
+          },
+          {
+            "title": "群馬縣立近代美術館：磯崎新的建築",
+            "url": "https://mmag.pref.gunma.jp/architecture",
+            "supports": "Original Isozaki building identity; 1994 and 1998 extensions."
+          },
+          {
+            "title": "MapFan: 群馬県立近代美術館",
+            "url": "https://mapfan.com/spots/SC3W5%2CJ%2C5W",
+            "supports": "Mapping provider explicitly supplies the museum coordinate point."
+          }
+        ],
+        "lat": 36.29881,
+        "lon": 139.07831,
+        "region": "east-asia",
+        "address": "〒370-1293 群馬県高崎市綿貫町992-1，群馬の森公園内",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "MapFan published museum map point 36.2988149,139.0783123, matched to the museum’s official address; rounded approximate building-site anchor.",
+        "siteStatus": "原址現存",
+        "siteStatusLabel": "原址現存",
+        "verifiedDate": "2026-10-24",
+        "caveat": "定位近代美術館本體，不是同園同地址的群馬縣立歷史博物館。原建築其後有增建；不是東京工作室。",
+        "siteRole": "current",
+        "coordinateNote": "MapFan published museum map point 36.2988149,139.0783123, matched to the museum’s official address; rounded approximate building-site anchor.",
+        "siteStatusCode": "original_standing"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "定位近代美術館本體，不是同園同地址的群馬縣立歷史博物館。原建築其後有增建；不是東京工作室。"
+      ],
+      "region": "east-asia",
+      "portrait": {
+        "path": "assets/portraits/11.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Arata_Isozaki_(ph._GianAngelo_Pistoia)_1.jpg",
+        "creator": "GianAngelo Pistoia",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "GianAngelo Pistoia / Wikimedia Commons / CC BY-SA 4.0",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 11,
+        "architect": "磯崎新",
+        "label": "日本",
+        "note": "官方傳記或獎項資料明確標示的國別歸屬；不是完整法律國籍沿革，也不是現居地聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/laureates/arata-isozaki",
+            "supports": "Official prize announcement explicitly calls Isozaki a Japanese architect; 1931–2022."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 12,
+      "slug": "12-retti",
+      "architect": "漢斯・霍萊因",
+      "title": "Retti 蠟燭店",
+      "url": "https://architecture-v2-retti-12.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "維也納",
+        "country": "奧地利",
+        "countryCode": "AT",
+        "lon": 16.37,
+        "lat": 48.21,
+        "label": "奧地利・維也納",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "海外學習工作後回到維也納執業。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Hans Hollein",
+            "url": "https://www.pritzkerprize.com/laureates/1985",
+            "supports": "返回維也納執業與 Retti 委託。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "維也納",
+        "country": "奧地利",
+        "countryCode": "AT",
+        "label": "奧地利・維也納",
+        "note": "維也納市中心的蠟燭店。",
+        "credits": "Hans Hollein",
+        "sources": [
+          {
+            "title": "Austrian Federal Monuments Authority: Retti restoration",
+            "url": "https://www.bda.gv.at/themen/ich-bin-denkmal/dezember-2022.html",
+            "supports": "Official preservation authority identifies Kohlmarkt 10 and the restored original Hollein shopfront/interior."
+          },
+          {
+            "title": "Austrian Federal Monuments Authority: Vienna protected monuments list 2025",
+            "url": "https://www.bda.gv.at/dam/jcr%3A8169a67a-9ffd-493d-a7b3-1cd25797e285/NEU_Wien_DML_2025.pdf",
+            "supports": "Protected property Kohlmarkt 8–10, former Retti candle shop, heritage ID 26786."
+          },
+          {
+            "title": "Wikimedia Commons: geolocated original photograph of Kohlmarkt 8–10",
+            "url": "https://commons.wikimedia.org/wiki/File%3AKohlmarkt_8-10-IMG_2877.JPG",
+            "supports": "Photographer-provided object point 48.208914,16.367653 for the containing protected building; used only as approximate location cross-check."
+          }
+        ],
+        "lat": 48.2088,
+        "lon": 16.3675,
+        "region": "europe",
+        "address": "Kohlmarkt 10 (building address Kohlmarkt 8–10), 1010 Wien, Austria",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Approximate street-front site point at the verified Kohlmarkt 10 premises, within the Kohlmarkt 8–10 heritage building. Address and position are not claimed to be survey data.",
+        "siteStatus": "原址現存，使用曾調整",
+        "siteStatusLabel": "原址現存，使用曾調整",
+        "verifiedDate": "2026-10-24",
+        "caveat": "原 Retti 蠟燭店門面與室內已修復，店舖用途曾改變。部分舊建築資料寫 Kohlmarkt 12；採奧地利文化資產主管機關較新修復資料所列 Kohlmarkt 10，建物統一地址為 8–10。",
+        "siteRole": "current",
+        "coordinateNote": "Approximate street-front site point at the verified Kohlmarkt 10 premises, within the Kohlmarkt 8–10 heritage building. Address and position are not claimed to be survey data.",
+        "siteStatusCode": "original_standing_adapted"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "原 Retti 蠟燭店門面與室內已修復，店舖用途曾改變。部分舊建築資料寫 Kohlmarkt 12；採奧地利文化資產主管機關較新修復資料所列 Kohlmarkt 10，建物統一地址為 8–10。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 12,
+        "architect": "漢斯・霍萊因",
+        "label": "奧地利",
+        "note": "MoMA 人物資料明確標示 Austrian；此為歷史國別。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/2705-hans-hollein",
+            "supports": "MoMA labels Hans Hollein Austrian, 1934–2014."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 13,
+      "slug": "13-aerospace",
+      "architect": "法蘭克・蓋瑞",
+      "title": "加州航太博物館",
+      "url": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "洛杉磯都會區",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -118.24,
+        "lat": 34.05,
+        "label": "美國・洛杉磯都會區",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採南加州洛杉磯執業圈；長期工作室亦曾位於聖塔莫尼卡。不是加拿大出生地錨點。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Frank Gehry",
+            "url": "https://www.pritzkerprize.com/laureates/1989",
+            "supports": "1962 年返回洛杉磯成立事務所。"
+          },
+          {
+            "title": "Praemium Imperiale：Frank Gehry",
+            "url": "https://www.praemiumimperiale.org/en/laureate/gehry/",
+            "supports": "1962 年聖塔莫尼卡辦公室。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "洛杉磯，加州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・洛杉磯，加州",
+        "note": "Exposition Park 的 California Aerospace Museum／原 Air and Space Gallery。",
+        "credits": "Frank Gehry",
+        "sources": [
+          {
+            "title": "Los Angeles Conservancy: Air and Space Gallery, California Science Center",
+            "url": "https://www.laconservancy.org/learn/historic-places/air-and-space-gallery-california-science-center/",
+            "supports": "Gehry building identity, 700 State Drive, original site and map coordinates."
+          },
+          {
+            "title": "California Resources Agency heritage record, hosted by Los Angeles County",
+            "url": "https://file.lacounty.gov/bos/supdocs/71662.pdf",
+            "supports": "Historic California Aerospace Museum identity, original-site integrity and closure/relocation of exhibits documented in the heritage record."
+          },
+          {
+            "title": "Getty: Frank Gehry buildings in Los Angeles",
+            "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+            "supports": "Exposition Park’s 1984 air-and-space exhibition building, with documentary photographs."
+          }
+        ],
+        "lat": 34.01708,
+        "lon": -118.28357,
+        "region": "north-america",
+        "address": "700 State Drive, Exposition Park, Los Angeles, California 90037, USA",
+        "coordinatePrecision": "approximate_building_site",
+        "coordinateMethod": "Los Angeles Conservancy’s Get directions link encodes 34.017084,-118.283570 for this specific Gehry building. Rounded approximate site marker, not a measured building centroid.",
+        "siteStatus": "原址現存的歷史館舍，非現行展館",
+        "siteStatusLabel": "原址現存的歷史館舍，非現行展館",
+        "verifiedDate": "2026-10-24",
+        "caveat": "原 California Aerospace Museum／Air and Space Gallery 館舍的歷史位置；展覽已曾關閉遷出，不能據此宣稱現正開館。不是新 Samuel Oschin Air and Space Center，也不是 Sacramento 的 Aerospace Museum of California。",
+        "siteRole": "current",
+        "coordinateNote": "Los Angeles Conservancy’s Get directions link encodes 34.017084,-118.283570 for this specific Gehry building. Rounded approximate site marker, not a measured building centroid.",
+        "siteStatusCode": "original_standing_former_museum"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "原 California Aerospace Museum／Air and Space Gallery 館舍的歷史位置；展覽已曾關閉遷出，不能據此宣稱現正開館。不是新 Samuel Oschin Air and Space Center，也不是 Sacramento 的 Aerospace Museum of California。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 13,
+        "architect": "法蘭克・蓋瑞",
+        "label": "美國（加拿大出生）",
+        "note": "MoMA 分別記載美國國別與加拿大出生地；此查核未確認完整加拿大／美國雙重公民沿革，不從出生地推論雙重國籍，也不作目前在世或現居聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation-with-birthplace-separated",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/2108-frank-o-gehry",
+            "supports": "MoMA labels Frank O. Gehry American, born Canada."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 14,
+      "slug": "14-vitra",
+      "architect": "札哈・哈蒂",
+      "title": "維特拉消防站",
+      "url": "https://architecture-v2-vitra-14.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "倫敦",
+        "country": "英國",
+        "countryCode": "GB",
+        "lon": -0.13,
+        "lat": 51.51,
+        "label": "英國・倫敦",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以創辦建築事務所的倫敦為錨點，不採出生地巴格達。",
+        "sources": [
+          {
+            "title": "Zaha Hadid Foundation：About Zaha",
+            "url": "https://www.zhfoundation.com/about-zaha-hadid/",
+            "supports": "1979 年於倫敦設立建築實踐。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "萊茵河畔魏爾",
+        "country": "德國",
+        "countryCode": "DE",
+        "label": "德國・萊茵河畔魏爾",
+        "note": "Vitra 園區消防站，位於德國，不是瑞士。原消防站現供展覽及活動使用。",
+        "credits": "Zaha Hadid",
+        "sources": [
+          {
+            "title": "Vitra：Fire Station",
+            "url": "https://www.vitra.com/en-lp/campus/architecture/1370600",
+            "supports": "Zaha Hadid、1993 年及現今展覽與活動用途。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Zaha Hadid Foundation：Vitra Fire Station",
+            "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+            "supports": "基金會明確列出 Weil am Rhein, Germany。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "ArchiTravel：Vitra Fire Station",
+            "url": "https://www.architravel.com/project/vitra-fire-station/",
+            "supports": "建築點位 47.600358, 7.614633，交叉核對德國園區。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 47.6003,
+        "lon": 7.6146,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Vitra Campus, Weil am Rhein, Germany",
+        "coordinateMethod": "建築點位四捨五入至小數第四位；非測量成果。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "建築點位四捨五入至小數第四位；非測量成果。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/14.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_-_Presentation_'What_is_new%3F'_(cropped).jpg",
+        "creator": "Columbia GSAPP",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Columbia GSAPP / Wikimedia Commons / CC BY 2.0 / cropped version",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 14,
+        "architect": "札哈・哈蒂",
+        "label": "英國（伊拉克出生）",
+        "note": "MoMA 明確區分 British 與 born Iraq；不因巴格達出生或倫敦執業而推導其他國籍，也不是現居地標籤。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation-with-birthplace-separated",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/6953-zaha-hadid",
+            "supports": "MoMA labels Zaha Hadid British, born Iraq, 1950–2016."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 15,
+      "slug": "15-zueblin",
+      "architect": "哥特弗利德・波姆",
+      "title": "ZÜBLIN 辦公大樓",
+      "url": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "科隆",
+        "country": "德國",
+        "countryCode": "DE",
+        "lon": 6.96,
+        "lat": 50.94,
+        "label": "德國・科隆",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採科隆家族事務所與主要職業活動，不採出生地 Offenbach。",
+        "sources": [
+          {
+            "title": "Ed. Züblin AG：The ZÜBLIN-House",
+            "url": "https://www.zueblin.de/en/projects/the-zueblin-house",
+            "supports": "業主將 Gottfried Böhm 明確稱為科隆建築師。"
+          },
+          {
+            "title": "Pritzker Prize：Gottfried Böhm",
+            "url": "https://www.pritzkerprize.com/laureates/1986",
+            "supports": "家族事務所沿革及科隆身分。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "斯圖加特",
+        "country": "德國",
+        "countryCode": "DE",
+        "label": "德國・斯圖加特",
+        "note": "Gottfried Böhm 設計的 1983–1984 年 ZÜBLIN 原總部大樓，不是旁邊的 Z3 增建。",
+        "credits": "Gottfried Böhm",
+        "sources": [
+          {
+            "title": "Ed. Züblin AG：The ZÜBLIN-House",
+            "url": "https://www.zueblin.de/en/projects/the-zueblin-house",
+            "supports": "業主確認作者、建造年份及 Stuttgart 位置。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Stuttgart 市政府：Züblin-Haus",
+            "url": "https://www.stuttgart.de/organigramm/adresse/zueblin-haus",
+            "supports": "原棟地址 Albstadtweg 3, 70567 Stuttgart 及 Böhm 信用。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "OpenStreetMap 建物資料：Züblin-Haus",
+            "url": "https://mapcarta.com/W30686798",
+            "supports": "特定原棟 way 30686798 的中心為 48.72778, 9.13255。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 48.7278,
+        "lon": 9.1326,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Albstadtweg 3, 70567 Stuttgart, Germany",
+        "coordinateMethod": "由原棟 OSM 建物中心取約略點位。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "由原棟 OSM 建物中心取約略點位。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/15.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Gottfried_B%C3%B6hm_2015.jpg",
+        "creator": "Elke Wetzig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Elke Wetzig / Wikimedia Commons / CC BY-SA 4.0 / cropped version",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 15,
+        "architect": "哥特弗利德・波姆",
+        "label": "德國",
+        "note": "官方傳記或獎項資料明確標示的國別歸屬；不是完整法律國籍沿革，也不是現居地聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/cn/huojiangjiexiaogetefulidebomu-gottfried-bohm",
+            "supports": "Official award announcement explicitly calls Böhm a German architect."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 16,
+      "slug": "16-boa-nova",
+      "architect": "阿爾瓦羅・西扎",
+      "title": "Boa Nova 茶屋",
+      "url": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "波多",
+        "country": "葡萄牙",
+        "countryCode": "PT",
+        "lon": -8.61,
+        "lat": 41.16,
+        "label": "葡萄牙・波多",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 1954 年起的波多私人事務所。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Alvaro Siza",
+            "url": "https://www.pritzkerprize.com/laureates/1992",
+            "supports": "1954 年於 Porto 開設事務所。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "萊薩達帕爾梅拉，馬托西紐什",
+        "country": "葡萄牙",
+        "countryCode": "PT",
+        "label": "葡萄牙・萊薩達帕爾梅拉，馬托西紐什",
+        "note": "西扎的 Boa Nova 茶屋，現為 Casa de Chá da Boa Nova 餐廳；位於 Leça da Palmeira 海岸。",
+        "credits": "Álvaro Siza；計畫源於 Fernando Távora 事務所競圖，後交由西扎主導",
+        "sources": [
+          {
+            "title": "Casa de Chá da Boa Nova：Contactos",
+            "url": "https://www.casadechadaboanova.pt/contactos/",
+            "supports": "營運者地址及 GPS：41°12′10.21″N、8°42′52.87″W。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Matosinhos municipal archive：Boa Nova",
+            "url": "https://arquivomunicipal.cm-matosinhos.pt/Result.aspx?id=36886&type=Autoridade",
+            "supports": "作品及西扎主導的設計脈絡。",
+            "sourceType": "primary"
+          }
+        ],
+        "lat": 41.2028,
+        "lon": -8.7147,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Avenida da Liberdade 1681, 4450-718 Leça da Palmeira, Portugal",
+        "coordinateMethod": "營運者 GPS 轉十進位並取小數第四位。此為建築／入口周邊點，非足跡中心實測。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "營運者 GPS 轉十進位並取小數第四位。此為建築／入口周邊點，非足跡中心實測。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/16.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Siza_Vieira_2015_IMG_0401.jpg",
+        "creator": "Manuelvbotelho",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Manuelvbotelho / Wikimedia Commons / CC BY-SA 4.0",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 16,
+        "architect": "阿爾瓦羅・西扎",
+        "label": "葡萄牙",
+        "note": "官方傳記或獎項資料明確標示的國別歸屬；不是完整法律國籍沿革，也不是現居地聲明。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/announcement-eduardo-souto-de-moura",
+            "supports": "Official prize announcement identifies Siza as the first Portuguese architect honored by the prize."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 17,
+      "slug": "17-light",
+      "architect": "安藤忠雄",
+      "title": "光之教會",
+      "url": "https://architecture-v2-light-17.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "大阪",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 135.5,
+        "lat": 34.69,
+        "label": "日本・大阪",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "安藤長期居住與工作的城市。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Tadao Ando",
+            "url": "https://www.pritzkerprize.com/laureates/1995",
+            "supports": "明確記載 lives and works in Osaka。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "茨木市，大阪府",
+        "country": "日本",
+        "countryCode": "JP",
+        "label": "日本・茨木市，大阪府",
+        "note": "茨木春日丘教會主禮拜堂「光之教會」，位於大阪府茨木市，不是茨城縣。",
+        "credits": "安藤忠雄",
+        "sources": [
+          {
+            "title": "日本基督教團大阪教區：茨木春日丘教会",
+            "url": "https://uccj-osk.org/oum-location/location056/",
+            "supports": "教區列出茨木市北春日丘 4-3-50。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "茨木春日丘教會：アクセス",
+            "url": "https://ibaraki-kasugaoka-church.jp/j-access.html",
+            "supports": "教會官方嵌入地圖中心 34.818454,135.537161，確認所在街區。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "MapFan：日本キリスト教団茨木春日丘教会",
+            "url": "https://mapfan.com/spots/SYYC%2CJ%2CZDAK4",
+            "supports": "世界測地系建築地址點 34.8185371,135.5371768。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 34.8185,
+        "lon": 135.5371,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "4-3-50 Kitakasugaoka, Ibaraki, Osaka, Japan",
+        "coordinateMethod": "官方地圖與地址點交叉核對，建築周邊近似點；部分網頁誤列的 34.8178,135.5355 不採用。",
+        "region": "east-asia",
+        "siteRole": "current",
+        "coordinateNote": "官方地圖與地址點交叉核對，建築周邊近似點；部分網頁誤列的 34.8178,135.5355 不採用。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "east-asia",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 17,
+        "architect": "安藤忠雄",
+        "label": "日本",
+        "note": "MoMA 人物資料明確標示 Japanese；不是僅由大阪出生推論。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/7055-tadao-ando",
+            "supports": "MoMA labels Tadao Ando Japanese."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 18,
+      "slug": "18-serpentine",
+      "architect": "伊東豐雄",
+      "title": "2002 蛇形藝廊展亭",
+      "url": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "東京",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 139.69,
+        "lat": 35.69,
+        "label": "日本・東京",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "1971 年在東京創辦 Urban Robot，後更名為 Toyo Ito & Associates。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Toyo Ito biography",
+            "url": "https://www.pritzkerprize.com/biography-toyo-ito",
+            "supports": "東京事務所創辦與名稱沿革。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "倫敦（2002 年原址）",
+        "country": "英國",
+        "countryCode": "GB",
+        "label": "英國・倫敦（2002 年原址）",
+        "note": "模型及典藏標題對應 2002 年 Kensington Gardens 原展亭。英國標記表示歷史原址，不表示原構造現仍在倫敦；現存移建位置另列法國 Beauvallon。",
+        "credits": "Toyo Ito 與 Cecil Balmond，合作團隊 Arup",
+        "sources": [
+          {
+            "title": "Serpentine：2002 Pavilion",
+            "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+            "supports": "2002 年 7 月 12 日至 9 月 29 日倫敦展亭，作者為 Toyo Ito、Cecil Balmond、Arup。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Balmond Studio：Serpentine Pavilion 2002",
+            "url": "https://www.balmondstudio.com/work/serpentine-pavilion-2002.php",
+            "supports": "原作是 London, UK 的 temporary pavilion。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Wikimedia Commons：Serpentine Gallery Pavilion 2002",
+            "url": "https://commons.wikimedia.org/wiki/Category:Serpentine_Gallery_Pavilion_2002",
+            "supports": "2002 年原展亭條目座標 51°30′17.24″N、0°10′29.94″W；僅作原址區域交叉核對。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 51.5048,
+        "lon": -0.175,
+        "coordinatePrecision": "approximate_historical_site",
+        "siteStatus": "歷史原址，原構造已拆卸移建",
+        "address": "Serpentine South grounds, Kensington Gardens, London W2 3XA, United Kingdom",
+        "coordinateMethod": "原展場約略點，依官方原址識別及條目地理點取至小數第四位；未取得 2002 年測量足跡，應保留約 100 公尺定位不確定性。",
+        "region": "europe",
+        "siteRole": "original",
+        "coordinateNote": "原展場約略點，依官方原址識別及條目地理點取至小數第四位；未取得 2002 年測量足跡，應保留約 100 公尺定位不確定性。",
+        "siteStatusCode": "historical_site_structure_relocated",
+        "originalSite": {
+          "lat": 51.5048,
+          "lon": -0.175,
+          "city": "倫敦（2002 年原址）",
+          "country": "英國",
+          "countryCode": "GB",
+          "label": "英國・倫敦（2002 年原址）",
+          "coordinatePrecision": "approximate_historical_site",
+          "siteStatus": "模型對應的歷史原址",
+          "note": "模型及典藏標題對應 2002 年 Kensington Gardens 原展亭。英國標記表示歷史原址，不表示原構造現仍在倫敦；現存移建位置另列法國 Beauvallon。",
+          "sources": [
+            {
+              "title": "Serpentine：2002 Pavilion",
+              "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+              "supports": "2002 年 7 月 12 日至 9 月 29 日倫敦展亭，作者為 Toyo Ito、Cecil Balmond、Arup。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "Balmond Studio：Serpentine Pavilion 2002",
+              "url": "https://www.balmondstudio.com/work/serpentine-pavilion-2002.php",
+              "supports": "原作是 London, UK 的 temporary pavilion。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "Wikimedia Commons：Serpentine Gallery Pavilion 2002",
+              "url": "https://commons.wikimedia.org/wiki/Category:Serpentine_Gallery_Pavilion_2002",
+              "supports": "2002 年原展亭條目座標 51°30′17.24″N、0°10′29.94″W；僅作原址區域交叉核對。",
+              "sourceType": "secondary"
+            }
+          ],
+          "address": "Serpentine South grounds, Kensington Gardens, London W2 3XA, United Kingdom",
+          "coordinateMethod": "原展場約略點，依官方原址識別及條目地理點取至小數第四位；未取得 2002 年測量足跡，應保留約 100 公尺定位不確定性。",
+          "coordinateNote": "原展場約略點，依官方原址識別及條目地理點取至小數第四位；未取得 2002 年測量足跡，應保留約 100 公尺定位不確定性。",
+          "region": "europe",
+          "siteStatusCode": "historical_site_structure_relocated"
+        },
+        "currentSite": {
+          "lat": 43.2886,
+          "lon": 6.6056,
+          "city": "Beauvallon，格里莫",
+          "country": "法國",
+          "countryCode": "FR",
+          "label": "法國・Beauvallon，格里莫（移建現址）",
+          "region": "europe",
+          "coordinatePrecision": "approximate_building_site",
+          "siteStatus": "原構造移建重組後現址",
+          "address": "COMO Le Beauvallon waterfront, Grimaud, France",
+          "note": "原展亭拆卸後移建／重組，現為 COMO Le Beauvallon 的 Ito Pavilion，位於海濱 Beauvallon Sur Mer 前。此是原作移建脈絡，並非獨立重新設計的新作品。",
+          "coordinateMethod": "公開展亭點位 43.28861,6.60556 取四位小數；酒店及市官方旅遊資料確認海濱現址。尚未找到館方公開的展亭實測點。",
+          "sources": [
+            {
+              "title": "COMO：Ito Pavilion event space",
+              "url": "https://www.comohotels.com/france/como-le-beauvallon/occasions",
+              "supports": "現營運者確認 2002 展亭被運至酒店，今仍列為 Ito Pavilion。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "COMO：Six Standout Art Pieces",
+              "url": "https://www.comohotels.com/stories/travel/six-standout-pieces-from-como-le-beauvallons-art-collection",
+              "supports": "展亭位於海岸旁、Beauvallon Sur Mer 餐廳前。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "Grimaud Tourism：Beauvallon estate",
+              "url": "https://www.visitgrimaud.co.uk/discover/the-charm-of-a-village/heritage-and-monuments/beauvallon-estate-and-its-chapel/",
+              "supports": "市觀光單位記載展亭移至 Beauvallon 海濱，2010 年安置。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "Ito-Balmond Serpentine Pavilion",
+              "url": "https://en.wikipedia.org/wiki/Ito-Balmond_Serpentine_Pavilion",
+              "supports": "法國現展亭位置的公開座標 43.28861,6.60556。",
+              "sourceType": "secondary"
+            }
+          ],
+          "caveats": [
+            "酒店婚禮手冊寫 2008 年運抵，市觀光頁寫 2010 年安置；可能為不同階段，不將兩者擅自合併成單一年份。"
+          ],
+          "coordinateNote": "公開展亭點位 43.28861,6.60556 取四位小數；酒店及市官方旅遊資料確認海濱現址。尚未找到館方公開的展亭實測點。",
+          "siteStatusCode": "relocated_reassembled"
+        }
+      },
+      "alternateBases": [],
+      "caveats": [
+        "展亭位於英國，建築師基地在日本；Cecil Balmond／Arup 為重要合作參與者。",
+        "模型對應 2002 年倫敦原址；原構造已移建法國。日本事務所僅作人物執業地標。",
+        "目前法國場址可作第二標記，但不可無說明替換 2002 年倫敦模型的主標記。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/18.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Toyo_Ito_2009.jpg",
+        "creator": "Jerome Tobias",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Jerome Tobias / Wikimedia Commons / CC BY 2.0 / rotated and cropped version",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 18,
+        "architect": "伊東豐雄",
+        "label": "日本",
+        "note": "Pritzker 明確稱其為日本建築師；首爾出生不能被轉成韓國國籍標記。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/laureates/2013",
+            "supports": "Official prize announcement identifies Ito as the sixth Japanese architect to receive the award; Seoul birth is not used as nationality."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 19,
+      "slug": "19-bordeaux",
+      "architect": "雷姆・庫哈斯／OMA",
+      "title": "波爾多住宅",
+      "url": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "鹿特丹",
+        "country": "荷蘭",
+        "countryCode": "NL",
+        "lon": 4.48,
+        "lat": 51.92,
+        "label": "荷蘭・鹿特丹",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 OMA 鹿特丹代表基地；OMA 是跨城市事務所，不以庫哈斯出生地直接推定。",
+        "sources": [
+          {
+            "title": "OMA：Office",
+            "url": "https://www.oma.com/office",
+            "supports": "鹿特丹辦公室地址與多城市工作室。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "弗盧瓦拉克（波爾多都會區）",
+        "country": "法國",
+        "countryCode": "FR",
+        "label": "法國・弗盧瓦拉克（波爾多都會區）",
+        "note": "Maison à Bordeaux／Maison Lemoine；實際行政地點為 Floirac，不是巴黎或鹿特丹。此為法國文化部公開列冊建築點。",
+        "credits": "Rem Koolhaas／OMA",
+        "sources": [
+          {
+            "title": "法國文化部 POP：Maison Lemoine, PA33000068",
+            "url": "https://pop.culture.gouv.fr/notice/merimee/PA33000068",
+            "supports": "官方古蹟記錄的 COOR 與 POP_COORDONNEES：44.8240436139508,-0.517816182235904；ZONE=WGS84，地籍 AS 446。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "OMA：Maison à Bordeaux",
+            "url": "https://www.oma.com/projects/maison-a-bordeaux",
+            "supports": "作品身份及 Bordeaux 的通稱。",
+            "sourceType": "primary"
+          }
+        ],
+        "lat": 44.8240436,
+        "lon": -0.5178162,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "2 chemin des Plateaux, Floirac, France",
+        "coordinateMethod": "直接讀取文化部官方頁內公開結構化記錄 POP_COORDONNEES；呈現四捨五入值。不宣稱官方點等於建築足跡中心或測量精度。",
+        "publishedCoordinates": {
+          "lat": 44.8240436139508,
+          "lon": -0.517816182235904,
+          "crs": "WGS84",
+          "field": "POP_COORDONNEES / COOR"
+        },
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "直接讀取文化部官方頁內公開結構化記錄 POP_COORDONNEES；呈現四捨五入值。不宣稱官方點等於建築足跡中心或測量精度。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "本圖選鹿特丹作單一錨點，OMA 也在其他城市設有辦公室。",
+        "私人住宅及受保護建築；地圖點不是開放參觀或進入許可。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 19,
+        "architect": "雷姆・庫哈斯／OMA",
+        "label": "荷蘭（庫哈斯）",
+        "note": "MoMA 明確稱雷姆・庫哈斯為 Dutch；標籤描述個人，OMA 是事務所而不是持有公民身分的人，不能將組織或全部合作人員視為單一國籍。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/6956-rem-koolhaas",
+            "supports": "MoMA labels Rem Koolhaas Dutch."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 20,
+      "slug": "20-zollverein",
+      "architect": "妹島和世與西澤立衛／SANAA",
+      "title": "Zollverein 設計學院",
+      "url": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "東京",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 139.69,
+        "lat": 35.69,
+        "label": "日本・東京",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "SANAA 由妹島和世與西澤立衛於東京共同創立；以共同事務所為錨點。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Kazuyo Sejima and Ryue Nishizawa",
+            "url": "https://www.pritzkerprize.com/laureates/2010",
+            "supports": "SANAA 的東京基地與兩位共同創辦人。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "埃森",
+        "country": "德國",
+        "countryCode": "DE",
+        "label": "德國・埃森",
+        "note": "Zollverein 園區的 SANAA-Gebäude，原 Zollverein 設計學院；不是東京的事務所。",
+        "credits": "Kazuyo Sejima 與 Ryue Nishizawa／SANAA",
+        "sources": [
+          {
+            "title": "Zollverein：SANAA-Gebäude",
+            "url": "https://www.zollverein.de/erleben/faszination-unesco-welterbe-zollverein/stachelhaus-sanaa-gebaeude/",
+            "supports": "作者及緊鄰 Gelsenkirchener Straße 的 SANAA 建築。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Folkwang Universität：Schülerlabor info",
+            "url": "https://schuelerlabor.folkwang-uni.de/info",
+            "supports": "目前仍列為該校場址，完整地址 Gelsenkirchener Straße 209,45309 Essen。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Wuppertal Institut：2016 SANAA 場地資料",
+            "url": "https://idw-online.de/de/attachmentdata51183",
+            "supports": "官方主辦方場地資料明載 51°29′17.8″N、7°02′51.0″E。",
+            "sourceType": "primary"
+          }
+        ],
+        "lat": 51.4883,
+        "lon": 7.0475,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Gelsenkirchener Straße 209, 45309 Essen, Germany",
+        "coordinateMethod": "主辦方公開場地 GPS 轉十進位後取四位小數；是建築／入口周邊定位。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "主辦方公開場地 GPS 轉十進位後取四位小數；是建築／入口周邊定位。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "本島同時呈現妹島和世與西澤立衛，作品在德國，事務所基地在日本。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 20,
+        "architect": "妹島和世與西澤立衛／SANAA",
+        "label": "日本",
+        "note": "Pritzker 明確稱妹島和世、西澤立衛兩位為日本建築師；此國別描述兩位創辦人，不把 SANAA 組織當成持有公民身分的人。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/announcement-eduardo-souto-de-moura",
+            "supports": "Official prize announcement explicitly identifies both SANAA principals as Japanese architects."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 21,
+      "slug": "21-paper-church",
+      "architect": "坂茂",
+      "title": "神戶紙教會",
+      "url": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "東京",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 139.69,
+        "lat": 35.69,
+        "label": "日本・東京",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採東京辦公室為代表；另有巴黎與紐約辦公室，並非單一城市事務所。",
+        "sources": [
+          {
+            "title": "Shigeru Ban Architects：Contact",
+            "url": "https://shigerubanarchitects.com/contact/",
+            "supports": "東京、巴黎、紐約辦公室地址。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "神戶（1995 年原址）",
+        "country": "日本",
+        "countryCode": "JP",
+        "label": "日本・神戶（1995 年原址）",
+        "note": "本模型為 1995 年神戶紙教會，主標記取原 Takatori Church 敷地。原紙管構造已拆卸並移至臺灣埔里重組，2008 年開園；神戶今存的是後續重建的膜教會，不是原紙教會。",
+        "credits": "坂茂／Shigeru Ban Architects；由志工共同建造",
+        "sources": [
+          {
+            "title": "Shigeru Ban Architects：Paper Church – Kobe",
+            "url": "https://shigerubanarchitects.com/works/cultural/paper-church-kobe/",
+            "supports": "1995 年建於地震火災後的 Takatori Church 敷地，約十年後原構造移至臺灣。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "たかとりコミュニティセンター：所在地・地図",
+            "url": "https://tcc117.jp/tcc/access.html",
+            "supports": "原教會敷地上的現 TCC 地址及官方 map q=34.651325,135.138493。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "新建築：膜の教会 カトリックたかとり教会",
+            "url": "https://data.shinkenchiku.online/projects/articles/SK_2008_12_120-0",
+            "supports": "明確指紙教會移至臺灣後，原敷地新建膜教會。",
+            "sourceType": "primary_architecture_publication"
+          }
+        ],
+        "lat": 34.6513,
+        "lon": 135.1385,
+        "coordinatePrecision": "approximate_historical_site",
+        "siteStatus": "歷史原址，原構造已拆卸移建",
+        "address": "3-3-8 Kaiuncho, Nagata-ku, Kobe, Hyogo, Japan",
+        "coordinateMethod": "以官方 TCC／Takatori 場址地圖的 q 點定位原敷地；不宣稱已精確重建 1995 年紙教會在敷地中的柱腳或足跡。",
+        "region": "east-asia",
+        "siteRole": "original",
+        "coordinateNote": "以官方 TCC／Takatori 場址地圖的 q 點定位原敷地；不宣稱已精確重建 1995 年紙教會在敷地中的柱腳或足跡。",
+        "siteStatusCode": "historical_site_structure_relocated_and_site_rebuilt",
+        "originalSite": {
+          "lat": 34.6513,
+          "lon": 135.1385,
+          "city": "神戶（1995 年原址）",
+          "country": "日本",
+          "countryCode": "JP",
+          "label": "日本・神戶（1995 年原址）",
+          "coordinatePrecision": "approximate_historical_site",
+          "siteStatus": "模型對應的歷史原址",
+          "note": "本模型為 1995 年神戶紙教會，主標記取原 Takatori Church 敷地。原紙管構造已拆卸並移至臺灣埔里重組，2008 年開園；神戶今存的是後續重建的膜教會，不是原紙教會。",
+          "sources": [
+            {
+              "title": "Shigeru Ban Architects：Paper Church – Kobe",
+              "url": "https://shigerubanarchitects.com/works/cultural/paper-church-kobe/",
+              "supports": "1995 年建於地震火災後的 Takatori Church 敷地，約十年後原構造移至臺灣。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "たかとりコミュニティセンター：所在地・地図",
+              "url": "https://tcc117.jp/tcc/access.html",
+              "supports": "原教會敷地上的現 TCC 地址及官方 map q=34.651325,135.138493。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "新建築：膜の教会 カトリックたかとり教会",
+              "url": "https://data.shinkenchiku.online/projects/articles/SK_2008_12_120-0",
+              "supports": "明確指紙教會移至臺灣後，原敷地新建膜教會。",
+              "sourceType": "primary_architecture_publication"
+            }
+          ],
+          "address": "3-3-8 Kaiuncho, Nagata-ku, Kobe, Hyogo, Japan",
+          "coordinateMethod": "以官方 TCC／Takatori 場址地圖的 q 點定位原敷地；不宣稱已精確重建 1995 年紙教會在敷地中的柱腳或足跡。",
+          "coordinateNote": "以官方 TCC／Takatori 場址地圖的 q 點定位原敷地；不宣稱已精確重建 1995 年紙教會在敷地中的柱腳或足跡。",
+          "region": "east-asia",
+          "siteStatusCode": "historical_site_structure_relocated_and_site_rebuilt"
+        },
+        "currentSite": {
+          "lat": 23.94141,
+          "lon": 120.92707,
+          "city": "埔里，南投縣",
+          "country": "臺灣",
+          "countryCode": "TW",
+          "label": "臺灣・埔里（紙教堂移建現址）",
+          "region": "east-asia",
+          "coordinatePrecision": "approximate_building_site",
+          "siteStatus": "原構造移建重組後現址",
+          "address": "南投縣埔里鎮桃米里桃米巷52-12號",
+          "note": "現為 Paper Dome 紙教堂新故鄉見學園區；原紙管建築由神戶拆卸運至臺灣並重新組立，並非整座連地基搬移。2008 年 9 月 21 日園區開園。",
+          "coordinateMethod": "日月潭國家風景區管理處官方頁面提供的目的地與嵌入地圖座標，23.941410,120.927070。",
+          "sources": [
+            {
+              "title": "日月潭國家風景區：紙教堂新故鄉見學園區",
+              "url": "https://www.sunmoonlake.gov.tw/Attractions/Attractions?a=20&id=4",
+              "supports": "埔里現址、神戶移建歷史，HTML 的方向目的地及 place pin 均為 23.941410,120.927070。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "文化部國家文化記憶庫：新故鄉紙教堂及見學園區",
+              "url": "https://tcmb.culture.tw/zh-tw/detail?id=628529&indexCode=Culture_Place",
+              "supports": "2008 年 1 月立柱及 9 月 21 日開園。",
+              "sourceType": "primary"
+            },
+            {
+              "title": "紙教堂官方網站",
+              "url": "https://paperdome.org.tw/",
+              "supports": "現營運場址及地址。",
+              "sourceType": "primary"
+            }
+          ],
+          "caveats": [
+            "移建後園區與原神戶環境不同；保持原作品名稱並說明模型年代。"
+          ],
+          "coordinateNote": "日月潭國家風景區管理處官方頁面提供的目的地與嵌入地圖座標，23.941410,120.927070。",
+          "siteStatusCode": "relocated_reassembled"
+        }
+      },
+      "alternateBases": [
+        {
+          "city": "巴黎",
+          "country": "法國",
+          "lon": 2.35,
+          "lat": 48.86,
+          "note": "另設辦公室。",
+          "source": "https://shigerubanarchitects.com/contact/"
+        },
+        {
+          "city": "紐約",
+          "country": "美國",
+          "lon": -74.01,
+          "lat": 40.71,
+          "note": "另設辦公室。",
+          "source": "https://shigerubanarchitects.com/contact/"
+        }
+      ],
+      "caveats": [
+        "作品地點採歷史原址，後來遷移至臺灣的脈絡另作註記。",
+        "主標記須明示「1995 年神戶原址／原構造已移建」；不得把現在的神戶膜教會當成原模型。",
+        "臺灣埔里是移建重組後的現址，應以第二標記或歷史沿革資訊呈現。"
+      ],
+      "region": "east-asia",
+      "portrait": {
+        "path": "assets/portraits/21.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Shigeru_Ban.jpg",
+        "creator": "準建築人手札網站",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "準建築人手札網站 / Wikimedia Commons / CC BY 2.0 / cropped version",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 21,
+        "architect": "坂茂",
+        "label": "日本",
+        "note": "日本駐荷蘭大使館與 Pritzker 的頒獎資料明確稱坂茂為日本建築師；不是由東京出生反推。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.nl.emb-japan.go.jp/e/relation/2014_pritzker.html",
+            "supports": "Embassy of Japan calls Shigeru Ban a Japanese architect in its June 2014 award report."
+          },
+          {
+            "url": "https://www.pritzkerprize.com/sites/default/files/file_fields/field_files_inline/2014-PP-Media-Kit-Shigeru-Ban.pdf",
+            "supports": "Pritzker media kit identifies Ban as its seventh Japanese architect laureate."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 22,
+      "slug": "22-hiroshima",
+      "architect": "山本理顯",
+      "title": "廣島市西消防署",
+      "url": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "橫濱",
+        "country": "日本",
+        "countryCode": "JP",
+        "lon": 139.64,
+        "lat": 35.44,
+        "label": "日本・橫濱",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "以山本持續居住與執業的橫濱為錨點，不採北京出生地。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Riken Yamamoto",
+            "url": "https://www.pritzkerprize.com/laureates/riken-yamamoto",
+            "supports": "明確記載持續於 Yokohama 執業及居住。"
+          }
+        ],
+        "region": "east-asia",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "廣島",
+        "country": "日本",
+        "countryCode": "JP",
+        "label": "日本・廣島",
+        "note": "廣島市西消防署本署，西區都町 43-10；不使用山本的橫濱執業地點。",
+        "credits": "山本理顯",
+        "sources": [
+          {
+            "title": "廣島市消防局：管轄區域、所在地與聯絡資訊",
+            "url": "https://www.city.hiroshima.lg.jp/living/shobo-bohan/1006085/1025613/1013783.html",
+            "supports": "市政府原始地址及西消防署本署地圖連結 q=34.39464114847494,132.43662089515544。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Pritzker Prize：Riken Yamamoto",
+            "url": "https://www.pritzkerprize.com/laureates/riken-yamamoto",
+            "supports": "廣島西消防署的作者辨識。",
+            "sourceType": "primary"
+          }
+        ],
+        "lat": 34.39464,
+        "lon": 132.43662,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "43-10 Miyako-machi, Nishi-ku, Hiroshima, Japan",
+        "coordinateMethod": "廣島市官方本署地圖 pin，保留到小數第五位，非建築實測。",
+        "region": "east-asia",
+        "siteRole": "current",
+        "coordinateNote": "廣島市官方本署地圖 pin，保留到小數第五位，非建築實測。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "east-asia",
+      "portrait": {
+        "path": "assets/portraits/22.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Riken_Yamamoto_2016_(cropped).jpg",
+        "creator": "Instituto Cervantes de Tokio",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "Instituto Cervantes de Tokio / Wikimedia Commons / CC BY-SA 2.0 / cropped version",
+        "note": "Filename says 2016 but Commons metadata dates the photograph 20 May 2015. Do not assert photo date as 2016. Preserve source, attribution and license; cropped source version."
+      },
+      "nationality": {
+        "id": 22,
+        "architect": "山本理顯",
+        "label": "日本",
+        "note": "Pritzker 明確稱其為日本建築師；北京出生不能被轉成中國國籍標記。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.pritzkerprize.com/laureates/riken-yamamoto",
+            "supports": "Official biography explicitly calls Yamamoto a Japanese architect; Beijing birth is not used as nationality."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 23,
+      "slug": "23-kimbell",
+      "architect": "路易・康",
+      "title": "金貝爾美術館",
+      "url": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "費城",
+        "country": "美國",
+        "countryCode": "US",
+        "lon": -75.17,
+        "lat": 39.95,
+        "label": "美國・費城",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採費城建築事務所與教學生涯為錨點，不採愛沙尼亞出生地。",
+        "sources": [
+          {
+            "title": "University of Pennsylvania：Barton Myers archive",
+            "url": "https://alumni.design.upenn.edu/stories/barton-myers-donates-papers-architectural-archives",
+            "supports": "記載 Louis Kahn 在費城的事務所。"
+          }
+        ],
+        "region": "north-america",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "沃斯堡，德州",
+        "country": "美國",
+        "countryCode": "US",
+        "label": "美國・沃斯堡，德州",
+        "note": "金貝爾美術館的 1972 年 Louis I. Kahn Building，非西側 2013 年 Renzo Piano Pavilion。",
+        "credits": "Louis I. Kahn",
+        "sources": [
+          {
+            "title": "Kimbell：50th Anniversary",
+            "url": "https://50.kimbellart.org/",
+            "supports": "館方區分 Kahn Building 與 Piano Pavilion，並列 Fort Worth 地址。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Kimbell：2023 Komendant & Kahn press release",
+            "url": "https://kimbellart.org/sites/default/files/2023-08/0814%20Komendant%20Kahn.pdf",
+            "supports": "1972 年 Kahn 原館及 2013 年 Piano 館的明確區別。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Urbipedia：Museo de Arte Kimbell",
+            "url": "https://www.urbipedia.org/hoja/Museo_de_Arte_Kimbell",
+            "supports": "Kahn 原館的地圖點 32.74855,-97.365223。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 32.7486,
+        "lon": -97.3652,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "3333 Camp Bowie Boulevard, Fort Worth, Texas 76107, USA",
+        "coordinateMethod": "原館專屬建築點四捨五入；特別排除 Piano Pavilion 的 -97.366 附近點。",
+        "region": "north-america",
+        "siteRole": "current",
+        "coordinateNote": "原館專屬建築點四捨五入；特別排除 Piano Pavilion 的 -97.366 附近點。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "本典藏對應康的原館；皮亞諾的後期增建另列於關係說明。"
+      ],
+      "region": "north-america",
+      "portrait": {
+        "path": "assets/portraits/23.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Louis_Kahn.jpg",
+        "creator": "Gerhard Richter",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "attribution": "Gerhard Richter / Wikimedia Commons / CC BY-SA 3.0 / crop of Munio and Louis Kahn.jpg",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 23,
+        "architect": "路易・康",
+        "label": "美國（出生地位於今愛沙尼亞）",
+        "note": "MoMA 明確標示 American, born Estonia；愛沙尼亞只作出生地說明，不把康定位成愛沙尼亞國籍。此查核不主張完整入籍或雙重國籍沿革。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation-with-birthplace-separated",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/2964-louis-i-kahn",
+            "supports": "MoMA labels Louis I. Kahn American, born Estonia, 1901–1974."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 24,
+      "slug": "24-olivetti",
+      "architect": "卡羅・斯卡帕",
+      "title": "Olivetti 展示店",
+      "url": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "威尼斯",
+        "country": "義大利",
+        "countryCode": "IT",
+        "lon": 12.34,
+        "lat": 45.44,
+        "label": "義大利・威尼斯",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採威尼斯與穆拉諾的長期設計、工藝及教學實踐；是職業活動錨點，不聲稱一般形式的獨立事務所總部。",
+        "sources": [
+          {
+            "title": "Fondazione CFC：Carlo Scarpa",
+            "url": "https://www.fondazionecfc.org/en/artist/carlo-scarpa",
+            "supports": "威尼斯工作、教學與穆拉諾設計生涯。"
+          },
+          {
+            "title": "Centro Carlo Scarpa：Centenary",
+            "url": "https://www.carloscarpa.it/attivita_scheda.php?id=85&locale=en",
+            "supports": "說明 Scarpa 多在家中以工作坊方式工作，未有一般的 professional studio。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "威尼斯",
+        "country": "義大利",
+        "countryCode": "IT",
+        "label": "義大利・威尼斯",
+        "note": "聖馬可廣場 Procuratie Vecchie 下的 Olivetti 展示店，現由 FAI 管理。",
+        "credits": "Carlo Scarpa",
+        "sources": [
+          {
+            "title": "FAI：Negozio Olivetti",
+            "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+            "supports": "官方地址 Piazza San Marco 101、Scarpa 作者及公開地圖連結 @45.4341926,12.3375392。",
+            "sourceType": "primary"
+          }
+        ],
+        "lat": 45.4342,
+        "lon": 12.3375,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Piazza San Marco 101, Venezia, Italy",
+        "coordinateMethod": "FAI 官方頁面公開的 Google Maps 連結位置四捨五入，屬約略建築／入口點。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "FAI 官方頁面公開的 Google Maps 連結位置四捨五入，屬約略建築／入口點。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [
+        "威尼斯代表其職業實踐脈絡，並非對唯一正式事務所所在地的斷言。"
+      ],
+      "region": "europe",
+      "portrait": {
+        "fallback": "illustration",
+        "note": "本次未取得經核對授權的肖像；使用原創示意公仔，不是紀實照片。"
+      },
+      "nationality": {
+        "id": 24,
+        "architect": "卡羅・斯卡帕",
+        "label": "義大利",
+        "note": "MoMA 人物資料明確標示 Italian；為歷史國別。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.moma.org/artists/5197-carlo-scarpa",
+            "supports": "MoMA labels Carlo Scarpa Italian, 1906–1978."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    },
+    {
+      "id": 25,
+      "slug": "25-bregenz",
+      "architect": "彼得・卒姆托",
+      "title": "布雷根茲美術館",
+      "url": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site",
+      "practiceBase": {
+        "city": "哈爾登施泰因（庫爾附近）",
+        "country": "瑞士",
+        "countryCode": "CH",
+        "lon": 9.53,
+        "lat": 46.88,
+        "label": "瑞士・哈爾登施泰因（庫爾附近）",
+        "coordinatePrecision": "approximate_city_anchor",
+        "note": "採 1979 年成立事務所的 Haldenstein，不採出生地巴塞爾或作品地奧地利。",
+        "sources": [
+          {
+            "title": "Pritzker Prize：Peter Zumthor",
+            "url": "https://www.pritzkerprize.com/laureates/2009",
+            "supports": "1979 年於 Haldenstein 成立工作室。"
+          }
+        ],
+        "region": "europe",
+        "anchorRole": "representative_historical_practice_base"
+      },
+      "building": {
+        "city": "布雷根茲",
+        "country": "奧地利",
+        "countryCode": "AT",
+        "label": "奧地利・布雷根茲",
+        "note": "Kunsthaus Bregenz 玻璃主展館位於奧地利；卒姆托是瑞士建築師，但建築不在瑞士。",
+        "credits": "Peter Zumthor",
+        "sources": [
+          {
+            "title": "Kunsthaus Bregenz：Architecture",
+            "url": "https://www.kunsthaus-bregenz.at/en/architecture",
+            "supports": "主展館與附屬管理樓的區別，作者 Peter Zumthor。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "Kunsthaus Bregenz：Plan your visit",
+            "url": "https://www.kunsthaus-bregenz.at/en/visit/plan-your-visit",
+            "supports": "館方地址 Karl-Tizian-Platz,6900 Bregenz,Austria。",
+            "sourceType": "primary"
+          },
+          {
+            "title": "OpenStreetMap：Kunsthaus Bregenz building",
+            "url": "https://mapcarta.com/W118761081",
+            "supports": "主展館 way 118761081 的位置 47.50499,9.7473。",
+            "sourceType": "secondary"
+          }
+        ],
+        "lat": 47.505,
+        "lon": 9.7473,
+        "coordinatePrecision": "approximate_building_site",
+        "siteStatus": "原址現存；用途或開放情形以館方資料為準",
+        "address": "Karl-Tizian-Platz, 6900 Bregenz, Austria",
+        "coordinateMethod": "主展館 OSM 建物點四捨五入，不採行政樓或建築師瑞士事務所點。",
+        "region": "europe",
+        "siteRole": "current",
+        "coordinateNote": "主展館 OSM 建物點四捨五入，不採行政樓或建築師瑞士事務所點。",
+        "siteStatusCode": "extant_original_site"
+      },
+      "alternateBases": [],
+      "caveats": [],
+      "region": "europe",
+      "portrait": {
+        "path": "assets/portraits/25.jpg",
+        "filePage": "https://commons.wikimedia.org/wiki/File:Peter_Zumthor.jpg",
+        "creator": "KovacsDaniel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "KovacsDaniel / Wikimedia Commons / CC BY-SA 4.0 / cropped version",
+        "note": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site."
+      },
+      "nationality": {
+        "id": 25,
+        "architect": "彼得・卒姆托",
+        "label": "瑞士",
+        "note": "瑞士聯邦外交部的官方文化介紹明確稱卒姆托為瑞士建築師；不只依巴塞爾出生或哈爾登施泰因事務所反推。",
+        "status": "verified",
+        "meaning": "historical-biographical-affiliation",
+        "sources": [
+          {
+            "url": "https://www.aboutswitzerland.eda.admin.ch/en/6-swiss-architects-who-conquered-the-world",
+            "supports": "Presence Switzerland, Federal Department of Foreign Affairs, explicitly calls Zumthor a Swiss architect."
+          }
+        ],
+        "verifiedAt": "2026-10-24",
+        "notResidenceClaim": true
+      }
+    }
+  ]
+}

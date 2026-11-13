@@ -1,0 +1,33 @@
+import {readFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {assembleParts} from './dist/split-model-loader.mjs';
+const base = new URL('./dist/model-parts.json', import.meta.url);
+const entries = JSON.parse(await readFile(base));
+const diskFetch = async url => new Response(await readFile(url));
+for (const entry of entries) {
+  const buffer = await assembleParts(entry, base, {fetchImpl: diskFetch});
+  const view = new DataView(buffer);
+  assert.equal(view.getUint32(0, true), 0x46546c67);
+  assert.equal(view.getUint32(8, true), buffer.byteLength);
+  console.log('PASS full model reassembly + SHA256 + GLB length', entry.path);
+}
+const fixture = new TextEncoder().encode('split-model-test');
+const sha256 = [...new Uint8Array(await crypto.subtle.digest('SHA-256',fixture))].map(x=>x.toString(16).padStart(2,'0')).join('');
+const entry = {size:fixture.length,sha256,parts:['a','b']};
+const fetchImpl = async url => new Response(url.pathname.endsWith('/a')?fixture.slice(0,5):fixture.slice(5));
+assert.deepEqual(new Uint8Array(await assembleParts(entry,base,{fetchImpl})),fixture);
+await assert.rejects(assembleParts({...entry,size:1},base,{fetchImpl}),/大小/);
+await assert.rejects(assembleParts({...entry,size:99},base,{fetchImpl}),/不完整/);
+await assert.rejects(assembleParts({...entry,sha256:'bad'},base,{fetchImpl}),/驗證失敗/);
+await assert.rejects(assembleParts(entry,base,{fetchImpl:async()=>new Response('',{status:404})}),/404/);
+const controller=new AbortController();controller.abort();
+await assert.rejects(assembleParts(entry,base,{signal:controller.signal,fetchImpl}),{name:'AbortError'});
+console.log('PASS byte order, size bounds, checksum, failed response and cancellation');
+const rootURL = new URL('./dist/',import.meta.url);
+globalThis.location={href:new URL('index.html',rootURL).href};
+globalThis.fetch=async(url,options)=>{options?.signal?.throwIfAborted();return new Response(await readFile(url));};
+const {fetchModelBuffer}=await import('./dist/split-model-loader.mjs');
+assert.equal((await fetchModelBuffer(entries[0].path)).byteLength,entries[0].size);
+const unchunked='assets/01-tassel/model.glb';
+assert.deepEqual(Buffer.from(await fetchModelBuffer(unchunked)),await readFile(new URL(unchunked,rootURL)));
+console.log('PASS integrated relative URL lookup + split + ordinary model transport');

@@ -1,0 +1,281 @@
+{
+  "verifiedAt": "2026-10-24",
+  "portraits": [
+    {
+      "id": 1,
+      "architect": "維克多・霍塔",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 2,
+      "architect": "安東尼・高第",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 3,
+      "architect": "蓋瑞特・里特維德",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 4,
+      "architect": "密斯・凡德羅",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 5,
+      "architect": "勒・柯比意",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 6,
+      "architect": "法蘭克・洛伊・萊特",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 7,
+      "architect": "阿瓦・阿爾托",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Alvar_Aalto_1964.jpg",
+      "creator": "Comet Photo AG (Zürich)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "ETH-Bibliothek Zürich, Bildarchiv / Fotograf: Comet Photo AG (Zürich) / Com_L13-0131-0016 / CC BY-SA 4.0",
+      "localAsset": "assets/portraits/7.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 8,
+      "architect": "貝聿銘",
+      "filepage": "https://commons.wikimedia.org/wiki/File:I.M._Pei.JPG",
+      "creator": "U.S. Department of State employee (unnamed); crop by Yekrats, later crop by Octave.H",
+      "license": "Public domain (U.S. government)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-DOS",
+      "attribution": "U.S. Department of State / crop by Yekrats and Octave.H / Wikimedia Commons / public domain",
+      "localAsset": "assets/portraits/8.jpg",
+      "reuseNote": "Commons identifies the source as an official U.S. Department of State photograph and reviewed public-domain status. Documentary use only; no endorsement. Current file 324×366 pixels.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 9,
+      "architect": "理查・麥爾",
+      "filepage": "https://commons.wikimedia.org/wiki/File:12_Meier_portrait.JPG",
+      "creator": "Warburg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Warburg / Wikimedia Commons / CC BY-SA 3.0",
+      "localAsset": "assets/portraits/9.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 10,
+      "architect": "倫佐・皮亞諾",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Renzo_Piano,_portrait.jpg",
+      "creator": "Cirone-Musi (Festival della Scienza, Genova); edits by Teatroge",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Cirone-Musi / Festival della Scienza / edited by Teatroge / Wikimedia Commons / CC BY-SA 2.0",
+      "localAsset": "assets/portraits/10.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 11,
+      "architect": "磯崎新",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Arata_Isozaki_(ph._GianAngelo_Pistoia)_1.jpg",
+      "creator": "GianAngelo Pistoia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "GianAngelo Pistoia / Wikimedia Commons / CC BY-SA 4.0",
+      "localAsset": "assets/portraits/11.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 12,
+      "architect": "漢斯・霍萊因",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 13,
+      "architect": "法蘭克・蓋瑞",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 14,
+      "architect": "札哈・哈蒂",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Zaha_Hadid_-_Presentation_'What_is_new%3F'_(cropped).jpg",
+      "creator": "Columbia GSAPP",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Columbia GSAPP / Wikimedia Commons / CC BY 2.0 / cropped version",
+      "localAsset": "assets/portraits/14.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 15,
+      "architect": "哥特弗利德・波姆",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Gottfried_B%C3%B6hm_2015.jpg",
+      "creator": "Elke Wetzig",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Elke Wetzig / Wikimedia Commons / CC BY-SA 4.0 / cropped version",
+      "localAsset": "assets/portraits/15.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 16,
+      "architect": "阿爾瓦羅・西扎",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Siza_Vieira_2015_IMG_0401.jpg",
+      "creator": "Manuelvbotelho",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Manuelvbotelho / Wikimedia Commons / CC BY-SA 4.0",
+      "localAsset": "assets/portraits/16.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 17,
+      "architect": "安藤忠雄",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 18,
+      "architect": "伊東豐雄",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Toyo_Ito_2009.jpg",
+      "creator": "Jerome Tobias",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Jerome Tobias / Wikimedia Commons / CC BY 2.0 / rotated and cropped version",
+      "localAsset": "assets/portraits/18.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 19,
+      "architect": "雷姆・庫哈斯／OMA",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 20,
+      "architect": "妹島和世與西澤立衛／SANAA",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 21,
+      "architect": "坂茂",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Shigeru_Ban.jpg",
+      "creator": "準建築人手札網站",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "準建築人手札網站 / Wikimedia Commons / CC BY 2.0 / cropped version",
+      "localAsset": "assets/portraits/21.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 22,
+      "architect": "山本理顯",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Riken_Yamamoto_2016_(cropped).jpg",
+      "creator": "Instituto Cervantes de Tokio",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Instituto Cervantes de Tokio / Wikimedia Commons / CC BY-SA 2.0 / cropped version",
+      "localAsset": "assets/portraits/22.jpg",
+      "reuseNote": "Filename says 2016 but Commons metadata dates the photograph 20 May 2015. Do not assert photo date as 2016. Preserve source, attribution and license; cropped source version.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 23,
+      "architect": "路易・康",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Louis_Kahn.jpg",
+      "creator": "Gerhard Richter",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Gerhard Richter / Wikimedia Commons / CC BY-SA 3.0 / crop of Munio and Louis Kahn.jpg",
+      "localAsset": "assets/portraits/23.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    },
+    {
+      "id": 24,
+      "architect": "卡羅・斯卡帕",
+      "filepage": null,
+      "creator": null,
+      "license": null,
+      "licenseUrl": null,
+      "attribution": null,
+      "localAsset": null
+    },
+    {
+      "id": 25,
+      "architect": "彼得・卒姆托",
+      "filepage": "https://commons.wikimedia.org/wiki/File:Peter_Zumthor.jpg",
+      "creator": "KovacsDaniel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "KovacsDaniel / Wikimedia Commons / CC BY-SA 4.0 / cropped version",
+      "localAsset": "assets/portraits/25.jpg",
+      "reuseNote": "Preserve attribution and license link; indicate any crop or other alteration. Do not imply the subject endorses this site.",
+      "downloadStatus": "downloaded-and-pil-verified"
+    }
+  ]
+}

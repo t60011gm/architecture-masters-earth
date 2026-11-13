@@ -1,0 +1,3335 @@
+[
+  {
+    "id": 1,
+    "slug": "01-tassel",
+    "title": "塔塞爾住宅",
+    "architect": "維克多・霍塔",
+    "playable": true,
+    "url": "https://architecture-v2-tassel-01.jackylin.chatgpt.site",
+    "poster": "assets/01.webp",
+    "model": "assets/01-tassel/model.glb",
+    "originalModelUrl": "https://architecture-v2-tassel-01.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-tassel-01.jackylin.chatgpt.site",
+    "modelSha256": "340526872d3f9a9f192b40161c97ed97126d51c4e7915603f6dd14a7130b364b",
+    "modelBytes": 3719396,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -4.2052980132450335,
+        -2.530160985132829,
+        -20.879848628193
+      ],
+      "max": [
+        4.2052980132450335,
+        16.85016067995705,
+        0.9451277199621586
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -6.8920978,
+        6.8222827
+      ],
+      [
+        0,
+        8.1818304
+      ],
+      [
+        6.8920978,
+        6.8222827
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -3.895,
+        -2.53,
+        -20.88
+      ],
+      "max": [
+        3.895,
+        16.85,
+        0.945
+      ]
+    },
+    "uncertainty": "基地深39 m與29 m的來源衝突未解；裝飾、上層與屋架為近似，不代表今日全部現況。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/151511",
+        "title": "ICOMOS evaluation, Horta Houses, No. 1005, 2000"
+      },
+      {
+        "url": "https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890",
+        "title": "Urban Brussels — Hôtel Tassel architectural inventory"
+      },
+      {
+        "url": "https://monument.heritage.brussels/medias/buildings/10006103_0006_W01.jpg",
+        "title": "Le Document 34, 1925 — ground and first floor plans"
+      },
+      {
+        "url": "https://monument.heritage.brussels/medias/buildings/10006103_0006_W02.jpg",
+        "title": "Le Document 34, 1925 — mezzanine and second floor plans"
+      },
+      {
+        "url": "https://histoirearchitecture19.uqam.ca/wp-content/uploads/2022/04/plan-hotel-tassel-autorisation-condtruction-copie.jpg",
+        "title": "Original Horta longitudinal section, reproduced from Loyer et al. 1986 p.18"
+      },
+      {
+        "url": "https://histoirearchitecture19.uqam.ca/wp-content/uploads/2022/03/PXL_20220302_165610542-377x1024.jpg",
+        "title": "Horta original ground plan (1893), reproduced from Loyer et al. 1986 p.18"
+      },
+      {
+        "url": "https://whc.unesco.org/uploads/nominations/1005.pdf",
+        "title": "Complete World Heritage nomination 1005"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Hôtel Tassel – Inventaire du patrimoine architectural",
+        "url": "https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890",
+        "evidence": "1893設計、1982修復起始、木格天花方向、黃銅枝燈、2006照片"
+      }
+    ],
+    "lightingSummary": "樓梯黃銅曲枝乳白玻璃燈：沿用既有燈罩與支架，加入全向直接照明；保留分房間木格天花與採光頂。",
+    "lightingNotes": [
+      "1893 Horta；構造與裝飾整合，人工燈也延續植物曲線。",
+      "Jean Delhaye於1976購入，1982開始修復；官方燈具近照標2006，不能當1893現場照。",
+      "前廳照片可見亮點，但未能證明其為原設計嵌燈；不建議據此加現代spot。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "九個燈罩為現有教學模型配置，並非確證1893原燈數；未將前廳未知亮點新增成嵌燈。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 2,
+    "slug": "02-batllo",
+    "title": "巴特婁之家",
+    "architect": "安東尼・高第",
+    "playable": true,
+    "url": "https://architecture-v2-batllo-02.jackylin.chatgpt.site",
+    "poster": "assets/02.webp",
+    "model": "assets/02-batllo/model.glb",
+    "originalModelUrl": "https://architecture-v2-batllo-02.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-batllo-02.jackylin.chatgpt.site",
+    "modelSha256": "bdb550e822501a41b2ba51988e4bb2498b0a51ac52b2cd025b609e2a6243b390",
+    "modelBytes": 8992896,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -7.3670155949583425,
+        -3.025149552629003,
+        -52.10971175265472
+      ],
+      "max": [
+        7.3670155949583425,
+        32.0001502917266,
+        1.7918660542851939
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        32.1543514,
+        6.0698527
+      ],
+      [
+        0,
+        19.6644945
+      ],
+      [
+        0,
+        -69.9823402
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -7.4009,
+        -3.025,
+        -52.11
+      ],
+      "max": [
+        7.4009,
+        32.0,
+        1.21
+      ]
+    },
+    "uncertainty": "總體尺度約±0.3–0.6 m；申請圖立面與完工狀態不同，屋頂、雕刻、出租住宅及煙囪細節仍含推定。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://fundacionantoniogaudi.org/Publicaciones/los-planos-de-gaudi-del-park-guell-y-la-casa-batllo.pdf",
+        "title": "P1"
+      },
+      {
+        "url": "https://assets.moma.org/documents/moma_catalogue_3347_300190146.pdf",
+        "title": "Gaudí, Museum of Modern Art, 1957"
+      },
+      {
+        "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/facade/",
+        "title": "P3"
+      },
+      {
+        "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/",
+        "title": "P4"
+      },
+      {
+        "url": "https://www.casabatllo.es/en/restoration/rear-facade-backyard/",
+        "title": "P5"
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/320/documents",
+        "title": "P6"
+      },
+      {
+        "url": "https://www.fadu.edu.uy/instituto-de-proyecto/files/2022/01/PA_Maria-Saravia_Casa-Batllo_2016.pdf",
+        "title": "S1"
+      },
+      {
+        "url": "https://gaudi.museum/descubre-gaudi/casa-batllo/",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.rob-tomlinson.com/files/places/zoom-images/casa-batllo-exterior-zoom.jpg",
+        "title": "V1"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Criteria for intervention in the restoration of the main floor of Antoni Gaudí’s Casa Batlló",
+        "url": "https://riunet.upv.es/server/api/core/bitstreams/0821ca30-1fbf-4d21-b274-1d40af129473/content",
+        "evidence": "印刷頁102–103圖5/6、109圖14；原燈／非原燈、天花工法與修復分層"
+      },
+      {
+        "title": "Inside Casa Batlló",
+        "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/",
+        "evidence": "修復後主廳與閣樓照片"
+      },
+      {
+        "title": "The Restoration",
+        "url": "https://www.casabatllo.es/en/restoration/",
+        "evidence": "2018–2019主樓層修復、2020燈具等工藝修復"
+      }
+    ],
+    "lightingSummary": "主沙龍保留漩渦曲面天花，補入修復研究支持的分層黑金框／玻璃垂飾燈；不採修復前非原作的太陽圓盤燈。",
+    "lightingNotes": [
+      "主廳的曲面天花與原燈形式可由修復研究支持。",
+      "2020修復團隊論文圖5/6清楚區分恢復原燈後與先前非原燈；2025官方室內照片顯示垂飾式中央燈。",
+      "常見舊照片的扁平、太陽般圓盤燈，論文明確列為非原燈；不能把舊旅遊照直接當1906原狀。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "主沙龍燈在既有渦旋幾何中心約(0.317,9.2,-3.46)m下方；三層與垂飾數是可辨識形式的簡化，不是修復圖紙複製。餐廳與閣樓未因資料不全加上推測性spot。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 3,
+    "slug": "03-schroder",
+    "title": "施洛德住宅",
+    "architect": "蓋瑞特・里特維德",
+    "playable": true,
+    "url": "https://architecture-v2-schroder-03.jackylin.chatgpt.site",
+    "poster": "assets/03.webp",
+    "model": "assets/03-schroder/model.glb",
+    "bounds": {
+      "min": [
+        -4.3,
+        0,
+        -10.5
+      ],
+      "max": [
+        9.05,
+        8.72,
+        1.75
+      ]
+    },
+    "uncertainty": "7×9 m原文本身為約數；滑牆行程、五金、樓梯與家具細部非機構或製造驗證。",
+    "credit": "保留Truus Schröder共同形塑住宅的角色",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/154710",
+        "title": "ICOMOS2000"
+      },
+      {
+        "url": "https://whc.unesco.org/uploads/nominations/965.pdf",
+        "title": "UNESCO_NOM965"
+      },
+      {
+        "url": "https://books.bk.tudelft.nl/press/catalog/download/681/788/683?inline=1",
+        "title": "CFAS2019"
+      },
+      {
+        "url": "https://www.centraalmuseum.nl/en/collection/12585-militaire-tafel-gerrit-rietveld",
+        "title": "CM12585"
+      },
+      {
+        "url": "https://www.moma.org/collection/works/4044",
+        "title": "MoMA487_1953"
+      },
+      {
+        "url": "https://www.rietveldschroderhuis.nl/en/explore/biography-of-the-house",
+        "title": "MUSEUM_BIO"
+      },
+      {
+        "url": "https://www.rietveldschroderhuis.nl/en/explore/spatial-archive",
+        "title": "ARCHIVE"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "sourceBounds": {
+      "min": [
+        -4.3,
+        0.0,
+        -10.0918
+      ],
+      "max": [
+        8.1,
+        8.72,
+        1.12
+      ]
+    },
+    "originalModelUrl": "https://architecture-v2-schroder-03.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-schroder-03.jackylin.chatgpt.site",
+    "modelSha256": "28e5a8a796e784ffc6a47dc1208d8d31c38ab5917b6dfc782be9d9f7e53287d8",
+    "modelBytes": 2782196,
+    "artificialLightingAvailable": true,
+    "lightingSources": [
+      {
+        "title": "This is the Rietveld Schröder House",
+        "url": "https://www.rietveldschroderhuis.nl/en",
+        "evidence": "房間現況、三維燈具、黑白居住史照片"
+      },
+      {
+        "title": "Spatial archive",
+        "url": "https://www.rietveldschroderhuis.nl/en/explore/spatial-archive",
+        "evidence": "原始圖紙／歷史照片檔案與居住期間變更警示"
+      },
+      {
+        "title": "Colour, Form and Space",
+        "url": "https://www.rietveldschroderhuis.nl/nl/ontdek/colour-form-and-space",
+        "evidence": "1970–80年代修復與1987展示"
+      },
+      {
+        "title": "Gerrit Rietveld. Hanging Lamp",
+        "url": "https://www.moma.org/collection/works/3703",
+        "evidence": "類型1920設計；該藏品1982製作，木、玻璃、管狀燈泡"
+      }
+    ],
+    "lightingSummary": "保留平天花、可動隔間與既有正交管狀燈；細管表面發光搭配局部全向直接光。",
+    "lightingNotes": [
+      "Rietveld燈以三維直角線性構件表達空間；博物館的類型年代有1920、1924等不同編目，不能據此把屋內每件都精確稱1924原物。",
+      "1970–1980年代Bertus Mulder修復；1987作博物館開放。官方空間檔案提醒室內在60年居住中持續改變。",
+      "未取得本次模型房間對應的逐件電燈配置施工圖。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "沿用三段既有管狀玻璃幾何，單管與三維組合區分保留；不把現代複製品的螢光／LED技術說成1924原配。",
+      "既有管狀組合僅見水平X/Z方向，於相同接點補垂直Y方向細管，說明三維正交燈的設計原理；0.37m長度與位置屬教學修正，不代表原裝燈實測。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 4,
+    "slug": "04-farnsworth",
+    "title": "範斯沃斯住宅",
+    "architect": "密斯・凡德羅",
+    "playable": true,
+    "url": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site",
+    "poster": "assets/04.webp",
+    "model": "assets/04-farnsworth/model.glb",
+    "bounds": {
+      "min": [
+        -6.6866,
+        -0.09,
+        -8.9471
+      ],
+      "max": [
+        23.5794,
+        5.3888,
+        8.5719
+      ]
+    },
+    "uncertainty": "文字與圖面尺寸差異保留；家具、五金、基礎與機電非製造／施工級，陳設不等於某一日現況。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.loc.gov/item/il0323/",
+        "title": "美國國會圖書館／National Park Service，2009 measured drawings，2010 addendum"
+      },
+      {
+        "url": "https://edithfarnsworthhouse.org/history-farnsworth-house/",
+        "title": "OFFICIAL-HISTORY"
+      },
+      {
+        "title": "Light beige travertine · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Travertine009"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Teak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/teak_veneer"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "originalModelUrl": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site",
+    "modelSha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd",
+    "modelBytes": 16878468,
+    "artificialLightingAvailable": true,
+    "lightingSources": [
+      "https://www.moma.org/collection/works/129142",
+      "https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il0300/il0323/data/il0323data.pdf",
+      "https://savingplaces.org/stories/fertile-ground-farnsworth-house"
+    ],
+    "lightingSummary": "原來源中的三臂落地燈與廚房檯下螢光燈，位置與光度為教學估算。",
+    "lightingNotes": [
+      "燈具形式、尺寸、位置與輸出依原教學模型，不是實測復原。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 5,
+    "slug": "05-savoye",
+    "title": "薩伏伊別墅",
+    "architect": "勒・柯比意",
+    "playable": true,
+    "url": "https://architecture-v2-savoye-05.jackylin.chatgpt.site",
+    "poster": "assets/05.webp",
+    "model": "assets/05-savoye/model.glb",
+    "bounds": {
+      "min": [
+        -0.14,
+        -2.72,
+        -20.2906
+      ],
+      "max": [
+        19.14,
+        9.35,
+        1.2906
+      ]
+    },
+    "uncertainty": "基於1930歷史狀態研究並參照修復色彩；門窗、牆厚、樓梯、家具與景觀含推定，地下設備未完整重建。",
+    "credit": "勒・柯比意與Pierre Jeanneret",
+    "sources": [
+      {
+        "url": "https://uvadoc.uva.es/handle/10324/66393",
+        "title": "Savoye as built"
+      },
+      {
+        "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/05/2049_3993.pdf",
+        "title": "www.fondationlecorbusier.fr"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "originalModelUrl": "https://architecture-v2-savoye-05.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-savoye-05.jackylin.chatgpt.site",
+    "modelSha256": "5863afff7aabb0e33aad3a6f91ef4c35ea149488bcba00a9f026633dc43197ce",
+    "modelBytes": 3155360,
+    "artificialLightingAvailable": true,
+    "lightingSources": [
+      {
+        "title": "La villa Savoye – Dossier enseignant，頁10–11",
+        "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/05/2049_3993.pdf",
+        "evidence": "客廳鍍鉻溝槽燈、Thomson-Houston、照原樣修復與修復年代"
+      },
+      {
+        "title": "An architectural promenade",
+        "url": "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+        "evidence": "平天花、坡道／樓梯現況圖"
+      },
+      {
+        "title": "La villa Savoye",
+        "url": "https://www.anabf.org/pierredangle/magazine/la-villa-savoye",
+        "evidence": "1996–1997室內油漆與電氣系統更新"
+      }
+    ],
+    "lightingSummary": "客廳長鍍鉻溝槽燈：沿用既有一組線性燈體，採六個局部光樣本近似連續出光；白色平天花與屋頂採光保留。",
+    "lightingNotes": [
+      "客廳長溝槽鍍鉻燈有館方文字直接支持，不應誤稱Le Corbusier設計的現代螢光排燈。",
+      "官方教學冊指客廳燈照原樣復原；1996–1997電氣更新另有修復建築師一手報告。",
+      "燈泡種類、瓦數及精確流明未由官方一手證據確認；教學上不宜寫LED或T5為1931原配。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "六個PointLight是同一條溝槽燈的數值採樣，不是六盞歷史獨立燈；沒有假造天花間接反彈光源。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 6,
+    "slug": "06-unity",
+    "title": "團結聖殿",
+    "architect": "法蘭克・洛伊・萊特",
+    "playable": true,
+    "url": "https://architecture-v2-unity-06.jackylin.chatgpt.site",
+    "poster": "assets/06.webp",
+    "model": "assets/06-unity/model.glb",
+    "originalModelUrl": "https://architecture-v2-unity-06.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-unity-06.jackylin.chatgpt.site",
+    "modelSha256": "c1f15d1955e04314ccaa6dbeb02d60936979f0321f815b6070175b181fad3828",
+    "modelBytes": 1293836,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -17.205298618157506,
+        -0.06998784151280102,
+        -15.455363779780768
+      ],
+      "max": [
+        16.05774890893721,
+        14.066966297905392,
+        35.90781683401858
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -28.3523046,
+        -22.2193329
+      ],
+      [
+        -29.1159323,
+        42.0021025
+      ],
+      [
+        41.4141688,
+        2.3920938
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -17.5,
+        -0.635,
+        -15.455
+      ],
+      "max": [
+        17.5,
+        14.0669,
+        36.6
+      ]
+    },
+    "uncertainty": "64 ft非全部外凸輪廓，38 ft非無障礙淨空；階梯、座席、柱頭、地下與隱藏機電均有簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.loc.gov/pictures/item/il0318/",
+        "title": "Library of Congress：Unity Temple（HABS IL-1093）"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Unity Temple",
+        "url": "https://flwright.org/explore/unity-temple",
+        "evidence": "25格琥珀玻璃天窗、平格頂、1909奉獻"
+      },
+      {
+        "title": "Unity Temple Research Paper 2017，頁24、32、50",
+        "url": "https://flwright.org/sites/default/files/ckfinder/userfiles/files/Unity_Temple_Research_Paper_2017.pdf",
+        "evidence": "球＋方盒電燈、木支架、講壇燈、歷史配線／LED更新、歷史帳單"
+      },
+      {
+        "title": "Unity Temple restoration nears completion",
+        "url": "https://franklloydwright.org/unity-temple-restoration-nears-completion/",
+        "evidence": "2014–2017修復時段及照明升級"
+      }
+    ],
+    "lightingSummary": "主堂25格琥珀玻璃天窗保留為日光開口；修正模型成對球罩為左右乳白方盒＋中央球的幾何懸燈，分離自然與人工發光。",
+    "lightingNotes": [
+      "木線條與球／立方玻璃燈具呼應室內橡木飾條，並與25格日光頂並存。",
+      "2014–2017修復包含歷史燈具修復與照明升級；研究記載重新配線、LED及中央控制，能模擬歷史亮度亦可提高。",
+      "現代LED設定不是1909電氣實況；本次未取得每盞精確光度數據。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "既有24個大球被稍大的乳白方盒包覆，中央補球，12組光源；原GLB不改動。相對中心沿用模型，方盒0.405m與中央球0.34m均為教學尺寸。未確證的小型周邊發光件停用；琥珀天窗夜間不再自發光。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 7,
+    "slug": "07-saynatsalo",
+    "title": "珊納特賽羅市政廳",
+    "architect": "阿瓦・阿爾托",
+    "playable": true,
+    "url": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site",
+    "poster": "assets/07.webp",
+    "model": "assets/07-saynatsalo/model.glb",
+    "originalModelUrl": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site",
+    "modelSha256": "a34a54a2dc36a368d7aaa97d7f7e9ea2620ada2c8fe3740490848c4fa7b4ee2e",
+    "modelBytes": 7642308,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -20.86550492873928,
+        -0.00010862946510314941,
+        -21.86498611407819
+      ],
+      "max": [
+        26.465651417584766,
+        18.399500818517524,
+        18.66512039551988
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        37.4961788,
+        16.9838729
+      ],
+      [
+        29.7306641,
+        -30.3039544
+      ],
+      [
+        -30.6420274,
+        19.155873
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -50.0,
+        -0.73,
+        -48.0
+      ],
+      "max": [
+        50.0,
+        18.4,
+        48.0
+      ]
+    },
+    "uncertainty": "入口往議事廳樓梯、轉折與淨高尚屬簡化；屋架節點、家具、地形及住宅廚衛非完整施工重建。",
+    "credit": "保留Elsa／Elissa Aalto的施工協作脈絡",
+    "sources": [
+      {
+        "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+        "title": "AALTO"
+      },
+      {
+        "url": "https://yksa.disec.fi/Yksa4/download/173178161608900/file/a302f1aa-5ffc-406d-b08a-02a121e477fa/",
+        "title": "Anne Mäkinen, MATKAKERTOMUS 8.10.1993"
+      },
+      {
+        "url": "https://en.docomomo.fi/projects/saynatsalo-town-hall/",
+        "title": "DOCOMOMO"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Säynätsalo Town Hall",
+        "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+        "evidence": "1949–1952、議事廳／蝶形木架官方照片與圖紙"
+      },
+      {
+        "title": "Artek Standard No.3，頁8",
+        "url": "https://www.artek.fi/downloads/Artek_Standard_No3_FI.pdf",
+        "evidence": "A110設計於1952且用於Säynätsalo議事廳"
+      },
+      {
+        "title": "A110 factsheet",
+        "url": "https://www.artek.fi/downloads/Pendant-Light-A110-Hand-Grenade-Factsheet-1839592.pdf",
+        "evidence": "A110產品形體與設計年代；現代規格不等於1952實裝"
+      }
+    ],
+    "lightingSummary": "保留蝶形木頂架與長吊線黑色A110式圓筒燈；直接光只由六個既有圓筒底口下照。",
+    "lightingNotes": [
+      "Aalto 1952 A110類型與本建築有製造方直接關聯；木蝶形頂架有基金會圖說直接支持。",
+      "基金會照片未給拍攝年及逐件燈具更換史；不能說所有眼前黑燈都為1952原件。",
+      "未驗證全議事廳燈數、吊線長度與照度；照片只顯局部。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "六組數量及吊點沿用現有模型；官方照片只見局部，未主張六組即原始總數。spot代表遮光圓筒的向下配光，不是另設嵌燈。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 8,
+    "slug": "08-luce",
+    "title": "路思義教堂",
+    "architect": "貝聿銘",
+    "playable": true,
+    "url": "https://architecture-v2-luce-08.jackylin.chatgpt.site",
+    "poster": "assets/08.webp",
+    "model": "assets/08-luce/model.glb",
+    "originalModelUrl": "https://architecture-v2-luce-08.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-luce-08.jackylin.chatgpt.site",
+    "modelSha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965",
+    "modelBytes": 25644636,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -15.378652572631836,
+        -0.6500004529953003,
+        -28.207998275756836
+      ],
+      "max": [
+        15.378652572631836,
+        21.78000259399414,
+        0.5830000042915344
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -15.4426223,
+        6.5765878
+      ],
+      [
+        25.3787784,
+        -10.6333394
+      ],
+      [
+        -9.9361561,
+        -37.3807458
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -15.3787,
+        -0.65,
+        -28.208
+      ],
+      "max": [
+        15.3787,
+        21.78,
+        0.583
+      ]
+    },
+    "uncertainty": "高度19.60／19.65／19.72 m及肋寬敘述衝突保留；曲面不是唯一精確解析方程，家具與修補細節近似。",
+    "credit": "貝聿銘、陳其寬與團隊；並保留張肇康、鳳後三、營造及工匠脈絡",
+    "sources": [
+      {
+        "url": "https://www.getty.edu/publications-reports/item/2K7KXX",
+        "title": "Tunghai University, Conservation Managament Plan: Luce Memorial Chapel (2018), Getty Keeping It Modern"
+      },
+      {
+        "url": "https://www.tchac.taichung.gov.tw/building?pid=168&uid=33",
+        "title": "臺中市文化資產處：路思義教堂"
+      },
+      {
+        "url": "https://www.tchac.taichung.gov.tw/uploads/tchac/files/202204/8ee488ac-e4e3-4927-90b8-b5c666b7e0fb.pdf",
+        "title": "1060926市定古蹟指定公告及範圍圖（講義引用PDF）"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Teak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/teak_veneer"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Luce Chapel Reopens After Restoration",
+        "url": "https://thupr.thu.edu.tw/EN/newsdetail.php?c=57&id=411",
+        "evidence": "1963落成、2022起兩年修復、2024重啟"
+      },
+      {
+        "title": "靜謐之光｜路思義教堂",
+        "url": "https://taipeidaward.taipei/Post/182397",
+        "evidence": "現代化照明、內部間接反射／遮光、四曲面與一線天"
+      }
+    ],
+    "lightingSummary": "四片混凝土殼與屋脊天窗保持；參考2024修復後低位上投照明，新增低矮遮光燈體及直接洗殼光。",
+    "lightingNotes": [
+      "1963曲面殼體／屋脊採光確定；人工燈具配置保留未知。",
+      "校方2024公告確認兩年修復完成；臺北設計獎官方刊載CosmoC團隊說明，明示引入現代燈具、間接光沿曲面反射、遮光與非對稱光學。",
+      "以現況間接光做教學渲染時，須標「2024修復後照明策略參考」，不可標「1963原設計燈具」。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "六個低位遮光盒及其座標僅為策略的教學近似，沒有原型尺寸證據。光束直接照亮殼面；此引擎不計算殼面反射回室內的間接光，因此不等同修復現場照明或亮度。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 9,
+    "slug": "09-douglas",
+    "title": "道格拉斯住宅",
+    "architect": "理查・麥爾",
+    "playable": true,
+    "url": "https://architecture-v2-douglas-09.jackylin.chatgpt.site",
+    "poster": "assets/09.webp",
+    "model": "assets/09-douglas/model.glb",
+    "originalModelUrl": "https://architecture-v2-douglas-09.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-douglas-09.jackylin.chatgpt.site",
+    "modelSha256": "95d8168df0b2e88f8b822e71661a1d4d7eb224a1ce93a6ad4e3abc276bd94bc0",
+    "modelBytes": 7305424,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -3.9802232237284443,
+        -7.149578980037143,
+        -6.589251380962554
+      ],
+      "max": [
+        20.43763620801691,
+        11.35196228325367,
+        8.176824243903928
+      ]
+    },
+    "modelGroundSourceY": -7.15,
+    "observationEntries": [
+      [
+        -8.2235917,
+        12.6946375
+      ],
+      [
+        26.7612949,
+        9.0914691
+      ],
+      [
+        6.1484162,
+        -19.4047472
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -3.98,
+        -7.15,
+        -6.59
+      ],
+      "max": [
+        20.4385,
+        11.352,
+        8.1755
+      ]
+    },
+    "uncertainty": "後續分析13×9 m與原圖推算不合，差異保留；坡地外圍、入口橋、梯級及家具含推定。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.usmodernist.org/PA/PA-1975-07.pdf",
+        "title": "PA1975"
+      },
+      {
+        "url": "https://www.douglashouse.org/plans",
+        "title": "OWNER_PLANS"
+      },
+      {
+        "url": "https://meierarchitects.us/project/douglas-house",
+        "title": "ARCHITECT"
+      },
+      {
+        "url": "https://www.douglashouse.org/details",
+        "title": "OWNER_DETAILS"
+      },
+      {
+        "url": "https://www.douglashouse.org/exterior",
+        "title": "OWNER_EXTERIOR"
+      },
+      {
+        "url": "https://www.douglashouse.org/interior",
+        "title": "OWNER_INTERIOR"
+      },
+      {
+        "url": "https://www.douglashouse.org/story",
+        "title": "OWNER_STORY"
+      },
+      {
+        "url": "https://pdfs.semanticscholar.org/128c/8dd7d6dd354f2a78ec2b5cd15ef692381190.pdf",
+        "title": "The Hidden Geometry of the Douglas House"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Dark asphalt · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/clean_asphalt"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "landscapeNote": "遊戲島嶼使用平坦的虛構地面，依模型下層基準抬高展示建築，讓下層不被島面遮蔽；不代表原址坡地、海岸或高程已被復原。",
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "The Interior",
+        "url": "https://www.douglashouse.org/interior",
+        "evidence": "現況內部照片、挑空／天窗和不同層視野"
+      },
+      {
+        "title": "The Story",
+        "url": "https://www.douglashouse.org/story",
+        "evidence": "1973完工與兩度修復"
+      },
+      {
+        "title": "The Restorations",
+        "url": "https://www.douglashouse.org/restorations",
+        "evidence": "1985後與2008起修復，不能將現況直接當原狀"
+      }
+    ],
+    "lightingSummary": "保留不同樓層白色平天花與挑空；現況照片可證的嵌入下照型式，將既有兩層燈口接上寬角直接光。",
+    "lightingNotes": [
+      "1973 Meier作品及多層挑空、採光開口有官方文字與圖像支持。",
+      "1985後修復一次；現任屋主2007購入後，自2008展開長期全面修復。官方室內照片展示修復後狀態。",
+      "這件可以有實體嵌入下照燈，因為有清楚照片證據；但不應把該燈陣套用到其他作品，也不能無條件宣稱1973原燈。",
+      "現有模型座標用於定位；新增燈具尺寸、位置、亮度、色溫與光束均為教學推估，不是歷史測量或照度計算。",
+      "真實直接光源搭配可見燈體；沒有全域光照反彈／硬體光線追蹤。高畫質／流暢模式依視點使用最多16／8個直接光樣本，所有已核定燈體仍可見。",
+      "既有24燈口分布是教學模型，並非1973反射天花圖核定的24盞；只能確認現況照片中的燈型與分層照明。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 10,
+    "slug": "10-menil",
+    "title": "梅尼爾美術館",
+    "architect": "倫佐・皮亞諾",
+    "playable": true,
+    "url": "https://architecture-v2-menil-10.jackylin.chatgpt.site",
+    "poster": "assets/10.webp",
+    "model": "assets/10-menil/model.glb",
+    "originalModelUrl": "https://architecture-v2-menil-10.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-menil-10.jackylin.chatgpt.site",
+    "modelSha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7",
+    "modelBytes": 17086772,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -65.92057557908872,
+        -3.999560604989119,
+        -25.089205603198337
+      ],
+      "max": [
+        65.92057557908872,
+        13.399560461937972,
+        25.087893307290873
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -76.655425,
+        -78.3847727
+      ],
+      [
+        -29.5549237,
+        105.5769475
+      ],
+      [
+        106.2103487,
+        -27.1941433
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -77.4233,
+        -4.0,
+        -43.08
+      ],
+      "max": [
+        76.5301,
+        13.4,
+        39.0222
+      ]
+    },
+    "uncertainty": "320 ft（150 m）換算錯誤、291／約300片葉片差異保留；葉片曲線非製造圖，其他樓層標高推定。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-533.pdf",
+        "title": "Floor plan level"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-534.pdf",
+        "title": "Treasure house plan level"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-532.pdf",
+        "title": "Basement plan level"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-535.pdf",
+        "title": "Transversal section,205 B"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/",
+        "title": "F_DATA"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-542.pdf",
+        "title": "Leaf form with dimensions,173"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-543.pdf",
+        "title": "Ferrocement leaf setting out,MS2.3"
+      },
+      {
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/drawing-544.pdf",
+        "title": "Ductile iron roof element1A,MS2.6"
+      },
+      {
+        "url": "https://www.rpbw.com/project/the-menil-collection",
+        "title": "RPBW"
+      },
+      {
+        "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-1987-issue-2.pdf",
+        "title": "Menil Collection Museum roof:evolving the form"
+      },
+      {
+        "url": "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-1983-issue-1.pdf",
+        "title": "The Menil Collection,Houston,Texas"
+      },
+      {
+        "url": "https://www.menil.org/read-watch/renzo-piano-and-light",
+        "title": "MENIL_OWNER"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "The Menil Collection: Renzo Piano and Light",
+        "url": "https://www.menil.org/read-watch/renzo-piano-and-light",
+        "evidence": "館方解釋葉片反射北向天光、深色地板與隨時間變化的光，配2024門廳照片。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Fondazione Renzo Piano: Menil Collection",
+        "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/",
+        "evidence": "原設計及建造年代、薄殼屋頂葉片、檔案圖紙與Paul Hester室內攝影。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "The Menil Collection: Main Building",
+        "url": "https://www.menil.org/campus/main-building",
+        "evidence": "1987開館，畫廊以自然光呈現天候與時間變化。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "保留不發光的薄殼葉片；依基金會檔案的圓筒軌道燈，在10條既有低位軌道下補可見燈體與定向光。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "現況展示隔間、遮光材料及燈具配置可能隨展覽改變，不能反推每個1987位置。",
+      "保留薄殼曲面與葉片間光縫；確認玻璃實際透光。",
+      "檔案照片的燈具類型有依據，但未標拍攝年；18個本次圓筒位置、數量、尺寸和展牆瞄準是教學配置，不宣稱1987逐盞復原。",
+      "Black furniture and light tracks材質完全不設自發光，避免長凳／高處支架誤發光。只以y約5.19m、薄而沿X的10條既有軌道定位。",
+      "CPU射線檢查已將穿過門洞的3束教學光改瞄準實際展牆面；18束皆與既有展牆幾何相交。這只驗證模型瞄準，不證明歷史燈位。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 11,
+    "slug": "11-gunma",
+    "title": "群馬縣立近代美術館",
+    "architect": "磯崎新",
+    "playable": true,
+    "url": "https://architecture-v2-gunma-11.jackylin.chatgpt.site",
+    "poster": "assets/11.webp",
+    "model": "assets/11-gunma/model.glb",
+    "originalModelUrl": "https://architecture-v2-gunma-11.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-gunma-11.jackylin.chatgpt.site",
+    "modelSha256": "a6508ac6bb298703fabeb98e2f3ba7d82f1e7de917a4860359b9b5a2442c758a",
+    "modelBytes": 3230852,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -23.000885036774804,
+        -0.6995640574483293,
+        -66.00079348124638
+      ],
+      "max": [
+        89.09939878536332,
+        12.369377255457948,
+        36.498825037385174
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -19.3779535,
+        62.3294933
+      ],
+      [
+        126.0165137,
+        -7.887927
+      ],
+      [
+        -7.4907896,
+        -98.694519
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -9.2805,
+        -0.2,
+        -60.3
+      ],
+      "max": [
+        89.1,
+        12.37,
+        26.555
+      ]
+    },
+    "uncertainty": "未取得可讀取全部標高的原剖面；樓面0／4.8／6.0／7.2 m、屋頂9.6／12 m及橋高均為推估。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://mmag.pref.gunma.jp/architecture",
+        "title": "S1"
+      },
+      {
+        "url": "https://www.usmodernist.org/PA/PA-1976-09.pdf",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.sawadalab.se.shibaura-it.ac.jp/kenken/kenken2015/2015kenchikuten/exhibition/Kenchikuten2015.pdf",
+        "title": "S3"
+      },
+      {
+        "url": "https://docomomojapan.com/structure/283/?lang=ja",
+        "title": "S4"
+      },
+      {
+        "url": "https://architecture-history.org/architects/architects/ISOZAKI/OBJECTS/1974,%20Gunma%20Prefectural%20Museum%20of%20Fine%20Art,%20Gunma,%20Japan.html",
+        "title": "S5"
+      },
+      {
+        "url": "https://mmag.pref.gunma.jp/outline",
+        "title": "S6"
+      },
+      {
+        "url": "https://mmag.pref.gunma.jp/cms/wp-content/themes/mmag/img/architecture-ph02.jpg",
+        "title": "S7"
+      },
+      {
+        "url": "https://backnumber.japan-architect.co.jp/japanese/2maga/sk/magazine/sk1975/sk01/",
+        "title": "S8"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "群馬県立近代美術館：建築について",
+        "url": "https://mmag.pref.gunma.jp/architecture",
+        "evidence": "館方原設計年代、12m模數及第1／第2展示室、入口大廳官方照片。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "群馬県立近代美術館：美術館概要",
+        "url": "https://mmag.pref.gunma.jp/outline",
+        "evidence": "官方沿革，可區分原館與增建。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "部分照明：僅啟用4盞既有壁燈；展示室光天花與軌道有官方照片，但房號尚未可靠對應模型，不擅加格柵。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "現代增建／修繕與原館照片年代須進一步平面對照。",
+      "第1展示室方格擴散天花及第2展示室中央天窗／兩側軌道是官方現況照片的不同系統，不能互套，也不能直接當作1974原貌。",
+      "六塊perforated ceiling的世界包圍盒只能辨認幾何，不能證明房號；本版全部保留非發光，不加入滿版或局部猜測格柵，不代表原館沒有光天花。",
+      "4盞既有壁燈僅是局部模型照明示意，並非全部展廳或1974原始燈位的復原。數量與位置沿用教學GLB，色溫與強度為推估。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 12,
+    "slug": "12-retti",
+    "title": "Retti 蠟燭店",
+    "architect": "漢斯・霍萊因",
+    "playable": true,
+    "url": "https://architecture-v2-retti-12.jackylin.chatgpt.site",
+    "poster": "assets/12.webp",
+    "model": "assets/12-retti/model.glb",
+    "originalModelUrl": "https://architecture-v2-retti-12.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-retti-12.jackylin.chatgpt.site",
+    "modelSha256": "6ab092f5d598533f50a9fc8917786b6738bdabb960c96ae9d2d310e9a3605d3c",
+    "modelBytes": 2177920,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -3.363989659958219,
+        -0.05507378785993744,
+        -7.4400001130998135
+      ],
+      "max": [
+        3.363989659958219,
+        4.52006169479904,
+        2.200051076719433
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -3.0442267,
+        4.7959794
+      ],
+      [
+        0,
+        5.3964891
+      ],
+      [
+        3.0442267,
+        4.7959794
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -3.364,
+        -0.055,
+        -7.44
+      ],
+      "max": [
+        3.364,
+        5.125,
+        2.2
+      ]
+    },
+    "uncertainty": "尺寸證據相對薄弱；17.78 m²地坪與12.50 m²模型行走面積不可拿來驗證史料14 m²。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://hollein.com/index.php/ger/Architektur/Nach-Typus/Shops-und-Interiors/Retti",
+        "title": "S1"
+      },
+      {
+        "url": "https://www.nextroom.at/building.php?id=2341",
+        "title": "S2"
+      },
+      {
+        "url": "https://designmuseum.nl/wp-content/uploads/2021/07/DM_RA_zaalblad_ENG_DEF_26-04-2021_LR.pdf",
+        "title": "S3"
+      },
+      {
+        "url": "https://www.oris.hr/hr/casopis/clanak/%5B52%5Dprotiv-toga-sam-da-arhitektura-bude-neutralna%2C744.html",
+        "title": "S4"
+      },
+      {
+        "url": "https://www.bmwkms.gv.at/dam/jcr%3A2b6e2e75-3229-4661-bda2-e3ba9c71cb0b/KuKu-Bericht%202017.pdf",
+        "title": "S5"
+      },
+      {
+        "url": "https://www.archiweb.cz/en/b/obchod-se-svickami-retti",
+        "title": "S6"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Hans Hollein studio：Retti",
+        "url": "https://hollein.com/index.php/ger/Architektur/Nach-Typus/Shops-und-Interiors/Retti",
+        "evidence": "設計者官方原圖、Franz Hubmann攝影及1965–1966年代。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Bundesdenkmalamt：Retti，Denkmal des Monats Dezember 2022",
+        "url": "https://www.bda.gv.at/themen/ich-bin-denkmal/dezember-2022.html",
+        "evidence": "國家文物機關記錄原燈光概念恢復、燈頭依原圖重製，並提供修復室內照。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "前室4個實體乳白球燈及12個牆向光件；後室依2022修復照補3×3擴散板，全部為有來源的教學定位。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      [
+        "修復原照明概念，定向燈依Hollein原圖重製",
+        "復原干邑色絲質展示面及依殘樣復原地毯",
+        "官方修復照可清楚看見後室3×3方形擴散板"
+      ],
+      "2022燈具是有史料依據的重製；不應標稱全數1966原物。",
+      "後室現有窄發光條center[0,3.016,-5.26],size[0.3,0.016,2.15]，不同於修復照3×3面板；若補天花，先核對房間邊界且標示依2022修復照的教學重建。",
+      "2022官方修復記錄指出定向燈依原圖重製，並展示後室3×3擴散板；不稱為全部1966原物。鏡中的重複燈影不算實體燈。",
+      "後室原模型金屬頂界線x約±1.625、z約-7.23至-4.01、底面y約3.022；本次面板置於該頂面下，尺寸、接縫及逐盞位置為教學重建。",
+      "原Diffused neutral display light材質含門面／門片，全部停用其人工自發光；後室原窄條仍保留幾何但不作高強度發光。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 13,
+    "slug": "13-aerospace",
+    "title": "加州航太博物館",
+    "architect": "法蘭克・蓋瑞",
+    "playable": true,
+    "url": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site",
+    "poster": "assets/13.webp",
+    "model": "assets/13-aerospace/model.glb",
+    "originalModelUrl": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site",
+    "modelSha256": "448bc722d2a8182a929c699ea3e6ff862fdff412f8c0e63d27c8831b1f94108c",
+    "modelBytes": 626304,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -55.00021362956633,
+        -0.3598895871347665,
+        -37.14975432599872
+      ],
+      "max": [
+        55.00021362956633,
+        27.567476360312362,
+        31.999572740867336
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -52.5769679,
+        72.2791833
+      ],
+      [
+        87.280508,
+        -29.9541491
+      ],
+      [
+        61.897608,
+        -69.9263048
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -39.2772,
+        -0.36,
+        -2.2578
+      ],
+      "max": [
+        33.25,
+        28.158,
+        24.9733
+      ]
+    },
+    "uncertainty": "80／90 ft總高敘述未解；機庫門高12.192 m是照片導向解讀；屋頂水平形狀、F-104及展品簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.usmodernist.org/AR/AR-1985-01.pdf",
+        "title": "Charles K. Gandee, The Right Stuff, Architectural Record January 1985, pp.114–123"
+      },
+      {
+        "url": "https://file.lacounty.gov/bos/supdocs/71662.pdf",
+        "title": "California Aerospace Museum, Department of Parks and Recreation DPR523 survey, Laura Vanaskie O’Neill, January24,2012"
+      },
+      {
+        "url": "https://www.pritzkerprize.com/laureates/1989",
+        "title": "Frank Gehry, 1989 laureate, California Aerospace Museum1984 photographs by Michael Moran"
+      },
+      {
+        "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+        "title": "10 Frank Gehry Buildings to See in L.A."
+      },
+      {
+        "url": "https://www.getty.edu/research/special_collections/notable/gehry.html",
+        "title": "Frank Gehry Papers, Getty Research Institute"
+      },
+      {
+        "url": "https://ntrs.nasa.gov/api/citations/19710017526/downloads/19710017526.pdf?attachment=true",
+        "title": "NASA Technical Note, F-104G three-view dimensional drawing"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "City of Los Angeles：Historic-Cultural Monument nomination 2012",
+        "url": "https://cityclerk.lacity.org/onlinedocs/2012/12-0957_RPT_CHC_06-19-2012.pdf",
+        "evidence": "政府完整保護提名，描述外露梁／空間構架、上層入口通高展廳、大天窗及1998–2002內部改動；內部非2012實勘。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Los Angeles Conservancy：Air and Space Gallery",
+        "url": "https://www.laconservancy.org/learn/historic-places/air-and-space-gallery-california-science-center/",
+        "evidence": "專業保育組織確認Gehry1984機庫式大空間與基地脈絡。",
+        "kind": "保育機構"
+      },
+      {
+        "title": "Getty：10 Frank Gehry buildings to see in Los Angeles",
+        "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+        "evidence": "Getty檔案機構對正確建築身分與外觀的辨識。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "保留外露機庫結構與大型天窗；10條既有模型線燈只作夜景教學假設，尚無1984原燈具證據。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "保護提名報告說明無法入內調查，因此其內部描述據已出版照片、剖面與文字；不能宣稱實測或最新內況。",
+      "保留裸露結構及天窗；不填假平頂。",
+      "建築為洛杉磯1984 California Aerospace Museum，不是其他城市的同名館。政府2012提名的內部描述來自出版照片、剖面與文字，非當時入內實測。",
+      "人工照明類型、原始數量、位置均未證實；本版保留GLB既有10條線件並配向下直接面光，明示為教學夜景，不宣稱歷史照明復原。若研究目標限定原貌，應關閉室內燈。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 14,
+    "slug": "14-vitra",
+    "title": "維特拉消防站",
+    "architect": "札哈・哈蒂",
+    "playable": true,
+    "url": "https://architecture-v2-vitra-14.jackylin.chatgpt.site",
+    "poster": "assets/14.webp",
+    "model": "assets/14-vitra/model.glb",
+    "originalModelUrl": "https://architecture-v2-vitra-14.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-vitra-14.jackylin.chatgpt.site",
+    "modelSha256": "021cfbf46c900c5f70d02d72e29ef4a05eca15edc10ea02a9c0376201fd14821",
+    "modelBytes": 8977600,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -41.71434783935547,
+        -0.18000000715255737,
+        -14.441372871398926
+      ],
+      "max": [
+        45.8764762878418,
+        9.129825592041016,
+        13.667274475097656
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        57.4273847,
+        46.9654469
+      ],
+      [
+        15.4163685,
+        -71.9946168
+      ],
+      [
+        -66.6005606,
+        23.8680223
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -41.7143,
+        -0.18,
+        -14.4414
+      ],
+      "max": [
+        45.8765,
+        9.1298,
+        13.6673
+      ]
+    },
+    "uncertainty": "依出版圖面重建的教學模型；模型樓地板多邊形加總約 706.7 m²，1993 年公布用途面積合計約 840.8 m²，約差 16%；範圍未確認一致，不得用於實測、計量或估價。",
+    "credit": "",
+    "sources": [
+      {
+        "url": "https://www.usmodernist.org/PA/PA-1993-08.pdf",
+        "title": "Ziva Freiman, The Concrete Evidence; Progressive Architecture, August 1993, printed pages 48–59"
+      },
+      {
+        "url": "https://www.zha.com/projects/architecture/vitra-fire-station?disclaimer=true",
+        "title": "Vitra Fire Station, project description"
+      },
+      {
+        "url": "https://www.vitra.com/en-lp/campus/architecture/1370600",
+        "title": "Fire Station, Zaha Hadid, 1993"
+      },
+      {
+        "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+        "title": "Vitra Fire Station"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Dark asphalt · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/clean_asphalt"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Zaha Hadid：Vitra Fire Station，Ars Electronica archive 1994",
+        "url": "https://webarchive.ars.electronica.art/en/archiv_files/19941/E1994a_064.pdf",
+        "evidence": "作者本人Lighting Scheme節明確說全部照明整合為平面切縫線光，並說車庫以地面切槽界定車道；前節描述混凝土與懸挑。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Zaha Hadid Foundation：Vitra Fire Station",
+        "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+        "evidence": "原設計檔案、1993 Christian Richters攝影及設計年代。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Vitra：Fire Station architecture",
+        "url": "https://www.vitra.com/en-pt/campus/architecture/architecture-fire-station",
+        "evidence": "官方業主資料，確認原消防用途及其後展覽用途。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "裸露混凝土與平面切縫維持；依Hadid原文的車庫地槽照明，在模型5條車道方向補低位線槽，不冒稱原尺寸。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "現行展覽設備可能為後加，不能挪用為1993原設計。",
+      "維持裸露混凝土，禁止加一般格柵吊頂或spot網格。",
+      "1994建築師一手文字明確說照明以切縫線而非點整合，車庫由地面切槽界定車道。光源技術、色溫與功率沒有確證。",
+      "模型11條既有發光線全在高處，不能稱為原設計車庫地槽；本版保留幾何、停用原高處發光。",
+      "5條新增地槽採模型五條平行車道線的XZ主軸投影，以原線長92%為初始範圍，再裁切至既有地坪內；後兩條槽端另內退0.1m。深度、寬度與地面位置仍為教學近似，不是原圖逐線測繪。",
+      "每條地槽以3個低位直接點光樣本近似分布光源；不是裸露點燈或一般天花spot網格，也沒有不可見反向光假造GI。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 15,
+    "slug": "15-zueblin",
+    "title": "ZÜBLIN 辦公大樓",
+    "architect": "哥特弗利德・波姆",
+    "playable": true,
+    "url": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site",
+    "poster": "assets/15.webp",
+    "model": "assets/15-zueblin/model.glb",
+    "originalModelUrl": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site",
+    "modelSha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43",
+    "modelBytes": 17025548,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -47.99925229651784,
+        -3.5491863383973836,
+        -27.190023499252298
+      ],
+      "max": [
+        47.99925229651784,
+        31.065639553506056,
+        43.22484511856441
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        67.1372114,
+        51.2085824
+      ],
+      [
+        3.8360461,
+        -71.7207055
+      ],
+      [
+        -70.9732575,
+        44.5643556
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -48.0,
+        -3.55,
+        -27.19
+      ],
+      "max": [
+        48.0,
+        31.065,
+        43.225
+      ]
+    },
+    "uncertainty": "94／100 m翼長、24／24.5 m跨距及25／31–33 m高度敘述保留；部分樓層隔間延用、坡地及接點推定。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.zueblin.de/de/projekte/das-zueblin-haus",
+        "title": "OWNER"
+      },
+      {
+        "url": "https://www.cementonline.nl/artikelen/het-zublin-haus",
+        "title": "Het Züblin-Haus, Cement1986 nr.3, pp.8–15; Dr.-Ing. A. Steinle, Ed. Züblin AG"
+      },
+      {
+        "url": "https://hiddenarchitecture.net/das-zublin-haus/",
+        "title": "WBW1986"
+      },
+      {
+        "url": "https://www.boehmbauten.de/buildings-detail?cHash=5d5e33fe083e8044457c3bb9c7efad1a&tx_buildings_buildingsshow%5Baction%5D=show&tx_buildings_buildingsshow%5Bbuildings%5D=49&tx_buildings_buildingsshow%5Bcontroller%5D=Buildings",
+        "title": "BOEHMB"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "ZÜBLIN：Das ZÜBLIN-Haus",
+        "url": "https://www.zueblin.de/de/projekte/das-zueblin-haus",
+        "evidence": "業主官方資料提供1983–1985年代、七層雙翼、玻璃中庭、尺寸、2009保護與2017修繕；現況攝影Tom Philippi。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "保留玻璃中庭屋頂；僅在84個既有辦公翼燈位配置直接面光，標明非1985原燈具復原。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "官方指出更換玻璃、改善降溫等，未明言燈具完整復原。",
+      "Tom Philippi現況照片不能直接定年為原竣工內觀。",
+      "保留玻璃中庭屋蓋與鋼架；分層辦公平頂只依原模型。",
+      "官方資料確認七層辦公翼、玻璃中庭及2017修繕，但不足以識別原1985人工照明。",
+      "84條燈具的位置完全沿用既有模型，屬辦公翼教學照明。中庭屋頂不插入spot、吊燈或發光平頂；玻璃自然光入口保持。",
+      "84個燈體可發光；最近16／8盞獲得直接光計算，故遠處亮燈不代表完整照度模擬。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 16,
+    "slug": "16-boa-nova",
+    "title": "Boa Nova 茶屋",
+    "architect": "阿爾瓦羅・西扎",
+    "playable": true,
+    "url": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site",
+    "poster": "assets/16.webp",
+    "model": "assets/16-boa-nova/model.glb",
+    "originalModelUrl": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site",
+    "modelSha256": "bd97a47330509118678da9a28aac096dee870c630edf650d1ab1eb7445b5fb39",
+    "modelBytes": 4420836,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -5.451826532792138,
+        -4.4485216677074275,
+        -24.997329630420865
+      ],
+      "max": [
+        28.59538560136723,
+        6.580104694181058,
+        4.675817133091229
+      ]
+    },
+    "modelGroundSourceY": -4.4485216677074275,
+    "observationEntries": [
+      [
+        33.7142913,
+        7.4838468
+      ],
+      [
+        26.1752528,
+        -34.4169186
+      ],
+      [
+        -8.8120493,
+        9.4892404
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -4.9625,
+        -2.45,
+        -25.0
+      ],
+      "max": [
+        28.125,
+        6.5788,
+        4.1762
+      ]
+    },
+    "uncertainty": "SizaAtlas重刊比例尺不一致，未用於換算；歷史／修復資料局部不同，屋面接合、階梯及地形近似。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://sizaatlas.iscte-iul.pt/static/pdfs/books_view/20240917-BoaNova.pdf",
+        "title": "SizaAtlas: Boa Nova Tea House and Restaurant"
+      },
+      {
+        "url": "https://pure.tudelft.nl/ws/portalfiles/portal/84971936/MOTA_N._Boa_Nova_Teahouse_in_Cafes_and_Restaurants_Routledge_2019_.pdf",
+        "title": "Boa Nova Teahouse and Restaurant, in Restaurants and Dining Rooms"
+      },
+      {
+        "url": "https://www.cca.qc.ca/en/archives/447183/alvaro-siza-fonds/469692/architectural-projects/473701/casa-de-cha-restaurante-da-boa-nova-tea-house-boa-nova-restaurant-leca-da-palmeira-portugal-1958-1959-1963",
+        "title": "Casa de Cha, Restaurante da Boa Nova project archive"
+      },
+      {
+        "url": "https://www.cca.qc.ca/en/search/details/collection/object/473757",
+        "title": "Details and plans Casa de cha, Restaurante da Boa Nova (folder1of3)"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "landscapeNote": "遊戲島嶼使用平坦的虛構地面，依模型下層基準抬高展示建築，讓下層不被島面遮蔽；不代表原址坡地、海岸或高程已被復原。",
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Nelson Mota：Boa Nova Teahouse and Restaurant, 1958–1963（2019）",
+        "url": "https://pure.tudelft.nl/ws/portalfiles/portal/84971936/MOTA_N._Boa_Nova_Teahouse_in_Cafes_and_Restaurants_Routledge_2019_.pdf",
+        "evidence": "學術作者據2012建築師訪談並附內觀，明確討論Afzelia木頂、天窗、桌燈與避免頂面附掛燈具；圖文pp284–285。",
+        "kind": "研究者／建築師訪談一手研究"
+      },
+      {
+        "title": "Open House Porto 2018：Casa de Chá da Boa Nova",
+        "url": "https://2018.openhouseporto.com/places/casa-cha/",
+        "evidence": "Casa da Arquitectura建築開放日資料；列1962／1991／2014，說明燈具、桌椅等整體設計。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "保持連續深色木頂；只啟用7個低處桌燈，高處2片共材質薄平面不發光，不增設天花燈。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "官方建築開放日資料確認原設計燈具、桌椅與空間的一體性。",
+      "2011–2014修復不同階段在來源紀年有差異；現代餐廳桌燈的數量、桌位不是原1963實測。",
+      "保留連續木頂，不新增吊燈／spot；以既有桌燈幾何啟用柔和低處真實光源。",
+      "桌燈主導與避免頂面附掛燈具的策略有Siza訪談研究支持；餐桌位置、7盞數量和暖光參數是既有教學模型，不是1963逐盞測繪。",
+      "Warm table lamp shades共9個構件，只選world y小於2m的7個桌燈。高處y約4.203m的兩片薄平面用途待查，不因材質名字而視作燈具。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 17,
+    "slug": "17-light",
+    "title": "光之教會",
+    "architect": "安藤忠雄",
+    "playable": true,
+    "url": "https://architecture-v2-light-17.jackylin.chatgpt.site",
+    "poster": "assets/17.webp",
+    "model": "assets/17-light/model.glb",
+    "originalModelUrl": "https://architecture-v2-light-17.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-light-17.jackylin.chatgpt.site",
+    "modelSha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f",
+    "modelBytes": 11661496,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -1.8802148503067109,
+        -1.160041065518317,
+        -6.152745139927366
+      ],
+      "max": [
+        20.099978637043368,
+        6.314094497700776,
+        3.330118717001862
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -4.5898995,
+        10.6887283
+      ],
+      [
+        26.4387159,
+        4.4030248
+      ],
+      [
+        5.4808293,
+        -19.3256927
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -1.88,
+        -1.16,
+        -6.1526
+      ],
+      "max": [
+        20.1,
+        6.314,
+        3.33
+      ]
+    },
+    "uncertainty": "天花6.05 m、屋頂厚、對拉孔直徑32 mm及燈具推定；十二排地坪／長椅不能作法規或製造依據。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.ibaraki-kasugaoka-church.jp/e-top.html",
+        "title": "Ibaraki Kasugaoka Church official website"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2024/09/Floor-plan-Church-of-Light-by-Tadao-Ando-ArchEyes-.jpg",
+        "title": "Original dimensioned chapel plan 1:50, Tadao Ando Architect & Associates title block; reproduced by ArchEyes"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2024/09/Elevation-Church-of-Light-by-Tadao-Ando-ArchEyes-2.jpg",
+        "title": "Plan and longitudinal section, credited Tadao Ando, reproduced by ArchEyes"
+      },
+      {
+        "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark-tadao-ando-architect-associates/2QVRGQpQrOQ8sQ",
+        "title": "The Church of the Light: A Cross of Light Floating in the Dark"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2024/09/Interior-Light-Church-of-Light-by-Tadao-Ando-ArchEyes-Photograph-by-Hiromitsu-Morimoto.jpg",
+        "title": "Interior Light photograph, Hiromitsu Morimoto"
+      },
+      {
+        "url": "https://www.archiweb.cz/en/b/church-of-light",
+        "title": "Church of Light, Archiweb gallery"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "Tadao Ando Architect & Associates：The Church of the Light: A Cross of Light Floating in the Dark",
+        "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark/2QVRGQpQrOQ8sQ?hl=en",
+        "evidence": "建築師事務所監修，標示1989禮拜堂、1988施工、1999主日學；提供可檢視側牆小壁燈的室內圖。",
+        "kind": "官方／一手資料"
+      },
+      {
+        "title": "Ibaraki Kasugaoka Church 官方網站",
+        "url": "https://ibaraki-kasugaoka-church.jp/",
+        "evidence": "教會身分／現況官方入口；本次未據其頁面推定原燈具。",
+        "kind": "官方／一手資料"
+      }
+    ],
+    "lightingSummary": "十字開口與暗色木地板保持自然光主角；沿用6盞低強度壁燈，雙側配置與暖光值為教學推估。",
+    "lightingNotes": [
+      "新增幾何、光源參數及GLB世界座標均為教學模型推估，不是歷史測繪、原燈具功率或照度量測。",
+      "有可見燈具才設直接光，未查明的天花、家具、屋頂與天窗不因共用材質而發光。即時版本沒有全域光照反彈或硬體光線追蹤；面光源不投影，點光／聚光投影有預算上限。",
+      "所有核定發光表面持續顯示；直接光依相機位置選最近的有限樣本。這是即時顯示限制，不是建築本來只開這些燈。",
+      "1999主日學的木頂與燈不能混入1989混凝土禮拜堂。",
+      "保留無附掛燈的清水混凝土頂；不要發光十字材質替代真正穿過開口的自然光。",
+      "建築師事務所監修圖像可見側牆小壁燈，故不能說禮拜堂完全沒有人工光。可清楚辨識的一側兩件不證明模型雙側六盞等距布局。",
+      "1989禮拜堂的混凝土平頂不混入1999主日學木頂與燈具；本版不新增任何天花燈，不將十字材質自發光來代替穿過開口的光。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 18,
+    "slug": "18-serpentine",
+    "title": "2002 蛇形藝廊展亭",
+    "architect": "伊東豐雄",
+    "playable": true,
+    "url": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site",
+    "poster": "assets/18.webp",
+    "model": "assets/18-serpentine/model.glb",
+    "originalModelUrl": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site",
+    "modelSha256": "9aaf93a386fa11dfe1f1f156ee90e5dff2839c8fda0485e3d2e88e3232ec30c1",
+    "modelBytes": 768856,
+    "artificialLightingAvailable": false,
+    "bounds": {
+      "min": [
+        -11.599902340769676,
+        -0.019762089594511423,
+        -11.599902340769676
+      ],
+      "max": [
+        11.599902340769676,
+        5.100572393269346,
+        11.599902340769676
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        12.8490887,
+        -14.3909793
+      ],
+      [
+        -18.887498,
+        -3.9321476
+      ],
+      [
+        6.0384093,
+        18.3231269
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -11.6,
+        -0.02,
+        -11.6
+      ],
+      "max": [
+        11.6,
+        5.1,
+        11.6
+      ]
+    },
+    "uncertainty": "Balmond340 m²及其他5.3／6.7 m高度基準未解；抬高地坪0.40 m、鋼厚分配、細部及家具推定。",
+    "credit": "伊東豐雄、Cecil Balmond與Arup",
+    "sources": [
+      {
+        "url": "https://www.tozai-as.or.jp/mytech/06/06_ito03.html",
+        "title": "ITO_2006"
+      },
+      {
+        "url": "https://backnumber.japan-architect.co.jp/english/2maga/ja/ja0048/work/37.html",
+        "title": "JA48"
+      },
+      {
+        "url": "https://balmondstudio.com/work/serpentine-pavilion-2002.php",
+        "title": "BALMOND"
+      },
+      {
+        "url": "https://vimeo.com/102108416",
+        "title": "BALMOND_VIDEO"
+      },
+      {
+        "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+        "title": "SERPENTINE"
+      },
+      {
+        "url": "https://block.arch.ethz.ch/eq/files/TEIV_FS20_L2_EN_1582904571.pdf",
+        "title": "ETH"
+      },
+      {
+        "url": "https://www.archiweb.cz/en/b/serpentine-gallery-pavilion-2002",
+        "title": "ARCHIWEB2002"
+      },
+      {
+        "url": "https://www.scribd.com/document/794952159/Serpentine-Gallery-Pavilion-2002",
+        "title": "Serpentine Gallery Pavilion 2002: Toyo Ito with Arup"
+      },
+      {
+        "url": "https://www.domusweb.it/en/architecture/2019/06/21/twenty-tests-of-serpentine-pavilion.html",
+        "title": "DOMUS2019"
+      },
+      {
+        "url": "https://aaltodoc.aalto.fi/bitstreams/4191f1f3-0ad6-4c67-b97f-399d45740daf/download",
+        "title": "Design through wrapping behaviour, Janne Keskinen"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Serpentine官方2002展亭",
+        "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+        "evidence": "2002.7.12–9.29；幾何與透明／半透明面板；2002攝影歸屬。"
+      },
+      {
+        "title": "Balmond Studio工程師項目",
+        "url": "https://balmondstudio.com/work/serpentine-pavilion-2002.php",
+        "evidence": "2002完工；鋼板、玻璃和鋁板；現場圖像。"
+      },
+      {
+        "title": "Balmond Studio原圖7",
+        "url": "https://balmondstudio.com/images/work/Serpentine-Pavilion-2002/7.jpg",
+        "evidence": "實際檢視像素作天花判斷；此圖不可證明夜間燈型。"
+      }
+    ],
+    "lightingSummary": "2002原展亭固定人工燈具未能核實，歷史人工照明停用；保留日光、午後與夜間環境光。",
+    "lightingNotes": [
+      "官方2002日景可見屋頂結構和日光開口，夜景有暖光但無法辨明永久人工燈具的形制、位置及數量。不得據此推成嵌燈或軌道射燈網格。",
+      "2004年Battersea使用的Pixel LED為另一次展示照明，非2002原設計證據。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "人工燈停用不表示原作沒有電燈；只是現有證據不足以可靠重建。",
+      "夜景只呈現環境天空／微弱月光，不補不存在的射燈陣列，也不將膜面、玻璃或鋁板當成電燈。"
+    ],
+    "lightingStatus": "disabled-insufficient-historical-fixture-evidence"
+  },
+  {
+    "id": 19,
+    "slug": "19-bordeaux",
+    "title": "波爾多住宅",
+    "architect": "雷姆・庫哈斯／OMA",
+    "playable": true,
+    "url": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site",
+    "poster": "assets/19.webp",
+    "model": "assets/19-bordeaux/model.glb",
+    "originalModelUrl": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site",
+    "modelSha256": "d14ba8d4676e7106622790da5d1d08037a64ef6522730d185fd89731392e79b0",
+    "modelBytes": 3037696,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -20.00053407391583,
+        -3.9999966001795846,
+        -14.000000536441803
+      ],
+      "max": [
+        25.150074770348215,
+        6.505450949072838,
+        22.110232856227302
+      ]
+    },
+    "modelGroundSourceY": -3.95,
+    "observationEntries": [
+      [
+        29.5952937,
+        -22.0143227
+      ],
+      [
+        -33.5122877,
+        -6.3106241
+      ],
+      [
+        11.641305,
+        40.4902953
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -0.17,
+        -3.95,
+        -14.0
+      ],
+      "max": [
+        25.1,
+        6.505,
+        16.0125
+      ]
+    },
+    "uncertainty": "DCE與1998完工階段不同；模型室內面積代理475.51 m²對公開500 m²約−4.9%，定義／設計階段尚未釐清。",
+    "credit": "OMA與Cecil Balmond／Arup的結構協作",
+    "sources": [
+      {
+        "url": "https://www.oma.com/projects/maison-a-bordeaux",
+        "title": "OMA"
+      },
+      {
+        "url": "https://www.balmondstudio.com/work/bordeaux-villa.php",
+        "title": "BALMOND"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-plans.jpg",
+        "title": "DCE_L0"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-orginal-plan.jpg",
+        "title": "DCE_Lminus1"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-ca.jpg",
+        "title": "DCE_L1"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-roof.jpg",
+        "title": "DCE_ROOF"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-construction-plan.jpg",
+        "title": "DCE_CEILING"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-elevation.jpg",
+        "title": "OMA_ELEV_A"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-elevation-plan.jpg",
+        "title": "OMA_ELEV_B"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-setion-2.jpg",
+        "title": "OMA_SECTION"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/oma-house-maison-bordeaux-plans-2.jpg",
+        "title": "OMA_SITE"
+      },
+      {
+        "url": "https://archeyes.com/maison-house-bordeaux-oma/",
+        "title": "ARCH_EYES_CATALOGUE"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Dark asphalt · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/clean_asphalt"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "landscapeNote": "遊戲島嶼使用平坦的虛構地面，依模型下層基準抬高展示建築，讓下層不被島面遮蔽；不代表原址坡地、海岸或高程已被復原。",
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "OMA Maison à Bordeaux官方項目",
+        "url": "https://www.oma.com/projects/maison-a-bordeaux",
+        "evidence": "1994–1998；三層空間、3×3.5m移動平台、項目圖集。"
+      },
+      {
+        "title": "OMA Pierre Paulin Program",
+        "url": "https://www.oma.com/projects/pierre-paulin-program",
+        "evidence": "不同時期家具展示，作年代排除而非原始燈型依據。"
+      }
+    ],
+    "lightingSummary": "沿裸露混凝土樓板保留電梯開口；僅補一個有照片燈型依據的局部嵌入下照示意，位置依教學模型映射。",
+    "lightingNotes": [
+      "官方書房圖可辨電梯開口旁一只圓形嵌入下照燈及桌上可調工作燈；起居層另有細桿／拉索式可調閱讀燈，夜景是局部照明。燈具品牌、總數及完整配線圖未取得。",
+      "後來的Pierre Paulin家具展示是另一時期，不拿其可移動燈具充作1998竣工配置。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "本輪只重建一個小圓嵌燈的代表性示意，不宣稱原建只有一盞；桌燈與可動閱讀燈因模型錨點不足未增造。",
+      "嵌燈對應電梯開口外側、既有混凝土樓板底；不是把整個鋁地板或開口發光。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 20,
+    "slug": "20-zollverein",
+    "title": "Zollverein 設計學院",
+    "architect": "妹島和世與西澤立衛／SANAA",
+    "playable": true,
+    "url": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site",
+    "poster": "assets/20.webp",
+    "model": "assets/20-zollverein/model.glb",
+    "originalModelUrl": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site",
+    "modelSha256": "0a08dcd8ade0dd067fa2018049404b64cb2105a4a9a2db62de169ed3f8326163",
+    "modelBytes": 6571504,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -18.998992919921875,
+        -4.8392328409657175,
+        -18.998992919921875
+      ],
+      "max": [
+        18.998992919921875,
+        33.99923268837783,
+        18.998992919921875
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        20.3536107,
+        -24.1699127
+      ],
+      [
+        -31.1085637,
+        -5.5417876
+      ],
+      [
+        10.7549531,
+        29.7117003
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -72.5,
+        -4.84,
+        -28.5
+      ],
+      "max": [
+        72.5,
+        34.0,
+        19.0
+      ]
+    },
+    "uncertainty": "139開口＝134窗+5門；保留官方132窗敘述差異。196席原圖與182席現況不同，樓梯及地下隔間簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://media.essen.de/media/wwwessende/aemter/61/dokumente_7/aktionen/stadtentwicklung_2/architekturpreis_der_stadt_essen/architekturpreis_2010/Architekturpreis_2010_Dokumentation.pdf",
+        "title": "S1"
+      },
+      {
+        "url": "https://www.archdaily.com/54212/zollverein-school-of-management-and-design-sanaa",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.folkwang-agentur.de/wp-content/uploads/2022/01/PDF_FOLKWANG_SANAA.pdf",
+        "title": "S3"
+      },
+      {
+        "url": "https://www.zollverein.de/app/uploads/2018/01/20170502_factsheet_sanaa_de_low.pdf",
+        "title": "S4"
+      },
+      {
+        "url": "https://boellarchitekten.de/projekte/zollverein-school",
+        "title": "S5"
+      },
+      {
+        "url": "https://archiv.ruhrtriennale.de/www.2014.ruhrtriennale.de/en/programm/spielstaetten/sanaa-gebaeude-essen/index.html",
+        "title": "S6"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Dark asphalt · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/clean_asphalt"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Zollverein官方SANAA大樓",
+        "url": "https://www.zollverein.de/eventlocations/sanaa/",
+        "evidence": "樓層高度與134窗；高廳照片。"
+      },
+      {
+        "title": "Iwan Baan官方攝影項目",
+        "url": "https://iwan.com/portfolio/sanaa-zollverein-school/",
+        "evidence": "項目頁標2010；餐廳照片的直接攝影來源。"
+      },
+      {
+        "title": "Iwan Baan餐廳原圖",
+        "url": "https://b2832891.assetcdn.net/2.0/2832891/wp-content/uploads/2013/07/SANAA-Zollverein-7406.jpg",
+        "evidence": "像素檢視可辨圓形齊平下照燈；URL上傳年2013不當攝影年。"
+      },
+      {
+        "title": "Folkwang官方建築傳單",
+        "url": "https://www.folkwang-uni.de/fileadmin/medien/Die%20Hochschule/Einzelbilder/Standorte/SANAA/folkwang_sanaa_flyer.pdf",
+        "evidence": "2006建築、2010使用及樓層組織。"
+      }
+    ],
+    "lightingSummary": "保留56個既有圓形燈口與裸混凝土樓板；地面層燈型有2010官方攝影依據，上層數量與配置僅為教學模型推估。",
+    "lightingNotes": [
+      "原建2006燈表未取得。攝影師2010官方作品照中地面層餐廳裸露板底可見疏落小圓形齊平／嵌入下照燈；不支持外露射燈軌道或吊燈。",
+      "2010使用照片證明當時燈型，不能保證全是2006未換燈。其他上層的精確燈距、數量未確認。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "56個既有圓盤幾何沒有新增；照片能確認地面層圓形燈型，不等於核實上層56盞的原建總數、規則間距或2006原燈管。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 21,
+    "slug": "21-paper-church",
+    "title": "神戶紙教會",
+    "architect": "坂茂",
+    "playable": true,
+    "url": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site",
+    "poster": "assets/21.webp",
+    "model": "assets/21-paper-church/model.glb",
+    "originalModelUrl": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site",
+    "modelSha256": "81db7be5a9097607dc691a1192e83d188f25389a58f6c3f05ddf1cf425e14e0e",
+    "modelBytes": 12746964,
+    "artificialLightingAvailable": false,
+    "bounds": {
+      "min": [
+        -7.795037690359203,
+        -0.00016896987000336594,
+        -5.709906308175909
+      ],
+      "max": [
+        7.795037690359203,
+        7.232488887120261,
+        6.2455061494796595
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        8.314175,
+        10.2151415
+      ],
+      [
+        4.457563,
+        -11.9061576
+      ],
+      [
+        -12.771738,
+        2.4944159
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -7.795,
+        0.0,
+        -5.71
+      ],
+      "max": [
+        7.795,
+        7.2325,
+        6.246
+      ]
+    },
+    "uncertainty": "保留舊站10×15 m、325／14.8 mm及168.9 m²面積差異；膜形、索徑、環梁與基礎簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://shigerubanarchitects.com/works/cultural/paper-church-kobe/",
+        "title": "S1"
+      },
+      {
+        "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/index.html",
+        "title": "S2"
+      },
+      {
+        "url": "https://backnumber.japan-architect.co.jp/english/2maga/ja/ja0042/work/08/001.html",
+        "title": "S3"
+      },
+      {
+        "url": "https://shigerubanarchitects.com/works/cultural/paper-dome-taiwan/",
+        "title": "S4"
+      },
+      {
+        "url": "https://www.usmodernist.org/AJ/A-1996-10.pdf",
+        "title": "S5"
+      },
+      {
+        "url": "https://www.tozai-as.or.jp/mytech/01/01_ban07.html",
+        "title": "S6"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "坂茂原神戶歷史項目",
+        "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/index.html",
+        "evidence": "明列1995–2005(disassembled)、58紙管與移往台灣。"
+      },
+      {
+        "title": "原神戶室內原圖",
+        "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/church_int1.jpg",
+        "evidence": "直接檢視像素；膜面與柱圈證據。"
+      },
+      {
+        "title": "坂茂台灣Paper Dome",
+        "url": "https://shigerubanarchitects.com/works/cultural/paper-dome-taiwan/",
+        "evidence": "官方另列2008，與原神戶分期。"
+      },
+      {
+        "title": "坂茂Takatori Catholic Church",
+        "url": "https://shigerubanarchitects.com/works/cultural/takatori-catholic-church/",
+        "evidence": "2007新建日本教堂，非原1995燈具證據。"
+      }
+    ],
+    "lightingSummary": "原神戶1995–2005固定人工燈型未能核實；停用10顆模型推估燈的自發光與真光，保留自然光及夜間環境光。",
+    "lightingNotes": [
+      "原神戶官方室內照片在柱圈屋頂邊緣有微小亮點，但解析度不足以辨燈型或精確數量。中央豎向構件為結構／張拉系統，不能當吊燈。",
+      "台灣遷建Paper Dome、2007新建日本Takatori Catholic Church均須獨立；後者鋼倒錐及膜鼓不屬1995原教會。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "人工燈停用不表示原作沒有電燈；只是現有證據不足以可靠重建。",
+      "夜景只呈現環境天空／微弱月光，不補不存在的射燈陣列，也不將膜面、玻璃或鋁板當成電燈。"
+    ],
+    "lightingStatus": "disabled-insufficient-historical-fixture-evidence"
+  },
+  {
+    "id": 22,
+    "slug": "22-hiroshima",
+    "title": "廣島市西消防署",
+    "architect": "山本理顯",
+    "playable": true,
+    "url": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site",
+    "poster": "assets/22.webp",
+    "model": "assets/22-hiroshima/model.glb",
+    "originalModelUrl": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site",
+    "modelSha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+    "modelBytes": 11777464,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -11.999954222235786,
+        -4.780181537466291,
+        -41.000411999877926
+      ],
+      "max": [
+        54.00021362956633,
+        45.40018285353685,
+        17.000701925717948
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -18.5928157,
+        26.0092303
+      ],
+      [
+        73.7134358,
+        3.2840988
+      ],
+      [
+        7.879769,
+        -65.2928942
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -30.0,
+        -4.78,
+        -62.0
+      ],
+      "max": [
+        65.0,
+        45.4,
+        19.0
+      ]
+    },
+    "uncertainty": "2F夾層+2.625 m推定；24.60／24.95 m高度及基地面積差異保留。樓梯、設備、消防車與服務空間簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.nikkenren.com/kenchiku/pdf/652/0652.pdf",
+        "title": "S1"
+      },
+      {
+        "url": "https://www.vectorworks.net/en-US/newsroom/pritzker-prize-laureate-riken-yamamoto",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.tozai-as.or.jp/mytech/01/01_yamamoto01c.html",
+        "title": "S3"
+      },
+      {
+        "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail",
+        "title": "S4"
+      },
+      {
+        "url": "https://www.city.hiroshima.lg.jp/living/shobo-bohan/1006085/1025622/1025626/1013778.html",
+        "title": "S5"
+      },
+      {
+        "url": "https://structurae.net/en/structures/nishi-ward-fire-station",
+        "title": "S6"
+      },
+      {
+        "url": "https://www.archdaily.com/1014034/hiroshima-nishi-fire-station-riken-yamamoto",
+        "title": "S7"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Dark asphalt · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/clean_asphalt"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "山本理顕事務所官方項目",
+        "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail",
+        "evidence": "2000年3月完工；玻璃百葉、中庭與公共層。"
+      },
+      {
+        "title": "廣島縣官方建築介紹",
+        "url": "https://www.pref.hiroshima.lg.jp/soshiki_file/tatemonogatari/en/page024.html",
+        "evidence": "2000建築及地方官方現場資料。"
+      },
+      {
+        "title": "Pritzker 2024官方圖片集",
+        "url": "https://www.pritzkerprize.com/sites/default/files/2024-12/2024%20Pritzker%20Prize%20Image%20Book.pdf",
+        "evidence": "第18–20頁，攝影Tomio Ohashi；建築和燈具像素依據。"
+      }
+    ],
+    "lightingSummary": "沿用102片既有線形燈，梁下長條向下、低位玻璃展示櫃側燈向內；不新增透明中庭射燈矩陣。",
+    "lightingNotes": [
+      "官方圖像直接可見白色線形燈沿梁腹／梁下成排布置，玻璃後教室亦有線形照明；少數白色錐形可調射燈固定梁角。玻璃地面展示櫃邊緣也有線形燈。線形燈外觀符合螢光燈，但燈管規格／當時品牌未取得。",
+      "照片足以證明空間和燈具配置語彙，不能由2024刊載日推定全為2024新燈或2000未更換燈管。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "102是既有教學模型發光片數，不是原建燈表總數。照片可見少數錐形燈，本輪未能精確對位，故不增造。",
+      "面光源沒有室內投影，跨層遮蔽與間接反彈未模擬；螢光燈外形依照片，品牌、燈管規格與色溫不作已核定宣稱。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 23,
+    "slug": "23-kimbell",
+    "title": "金貝爾美術館",
+    "architect": "路易・康",
+    "playable": true,
+    "url": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site",
+    "poster": "assets/23.webp",
+    "model": "assets/23-kimbell/model.glb",
+    "originalModelUrl": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site",
+    "modelSha256": "89824574fd8a087aafc97df01616c8643291708377c5d5dd7a8a50b676e3724b",
+    "modelBytes": 10250548,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -41.999511703848384,
+        -3.9858137254019432,
+        -57.00430154800415
+      ],
+      "max": [
+        29.999526963103122,
+        6.491343170255273,
+        51.174504837183754
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -63.0599623,
+        66.632357
+      ],
+      [
+        82.7596825,
+        11.7268575
+      ],
+      [
+        -37.6996973,
+        -87.1039095
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -26.5176,
+        -3.9849,
+        -57.0058
+      ],
+      "max": [
+        26.6676,
+        6.4913,
+        48.6132
+      ]
+    },
+    "uncertainty": "20／22 ft拱頂高度措辭差異保留；反射板曲線／穿孔密度未作光度校準，地下隔間及家具含推定。",
+    "credit": "保留Richard Kelly、August Komendant及專案團隊的協作脈絡",
+    "sources": [
+      {
+        "url": "https://kimbellart.org/content/kahn-building-detail",
+        "title": "S1"
+      },
+      {
+        "url": "https://50.kimbellart.org/architecture/the-louis-i-kahn-building/",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.usmodernist.org/I/I-1973-03.pdf",
+        "title": "S3"
+      },
+      {
+        "url": "https://digital.library.unt.edu/ark%3A/67531/metadc504059/m2/1/high_res_d/1002772806-Connally.pdf",
+        "title": "S4"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/kimbell-museum-louis-kahn-original-drawing.jpg",
+        "title": "S5"
+      },
+      {
+        "url": "https://archeyes.com/wp-content/uploads/2020/02/kimbell-museum-louis-kahn-plan.jpg",
+        "title": "S6"
+      },
+      {
+        "url": "https://www.philadelphiabuildings.org/pab/app/ho_display.cfm/5852",
+        "title": "S7"
+      },
+      {
+        "title": "Light beige travertine · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Travertine009"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White oak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_oak_veneer"
+      },
+      {
+        "title": "Short natural green lawn · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Grass001"
+      },
+      {
+        "title": "Fine neutral grey gravel · ambientCG · CC0",
+        "url": "https://ambientcg.com/view?id=Gravel043"
+      },
+      {
+        "title": "Fine linen weave detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_linen"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "Kimbell官方Kahn館建築",
+        "url": "https://kimbellart.org/art-architecture/architecture/kahn-building",
+        "evidence": "1972、擺線拱頂與自然光反射裝置。"
+      },
+      {
+        "title": "IESNY Richard Kelly Works官方檔案展覽冊",
+        "url": "https://iesnyc.starchapter.com/images/downloads/Richard_Kelly_Grant/rk_works_may07.pdf",
+        "evidence": "2007檔案展覽冊印刷頁11–12：初案、最終軌道照明與取消的線形光源。"
+      }
+    ],
+    "lightingSummary": "保留擺線拱頂與不發光鋁翼；依1972實施的反光板支架軌道，補少量對準既有展牆的燈頭示意。",
+    "lightingNotes": [
+      "IESNY／Richard Kelly官方檔案展覽冊明確記載：原擬沿反光板下緣加小型線形電光源照亮反光板的方案因預算取消；實施的是整合在反光板支架的軌道照明。不得把未建成線形上照方案當原建。",
+      "燈泡及展覽射燈可隨展覽更新；本輪只復現1972可證實的軌道型態，未主張特定現代LED燈具品牌或原始色溫。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "原案沿反光板下緣的線形上照方案因預算取消，未在本版復造。",
+      "本輪8個燈頭只作既有8面展牆的局部示意，不是全館燈具總數或1972固定展陳；軌道沿用模型，燈頭間距、朝向及光學為教學推估。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 24,
+    "slug": "24-olivetti",
+    "title": "Olivetti 展示店",
+    "architect": "卡羅・斯卡帕",
+    "playable": true,
+    "url": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site",
+    "poster": "assets/24.webp",
+    "model": "assets/24-olivetti/model.glb",
+    "originalModelUrl": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site",
+    "modelSha256": "0ed15cc6d02f8377d208dabdd5de177414c620d1e79d403b0482f71aee6a426b",
+    "modelBytes": 7404300,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -3.8001091526931816,
+        -0.24001403198282345,
+        -22
+      ],
+      "max": [
+        13.565276627439886,
+        5.485014155960485,
+        4.199999809265137
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -3.3911004,
+        11.2552862
+      ],
+      [
+        4.8825837,
+        12.8873682
+      ],
+      [
+        -10.7467176,
+        6.2794056
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -3.8,
+        -0.24,
+        -22.0
+      ],
+      "max": [
+        13.5652,
+        5.485,
+        4.2
+      ]
+    },
+    "uncertainty": "獨立縱剖推導約19.9 m，對模型同類實體端點約20.9 m仍差約5%；保留約4–6%的縱深尺度疑義。原掃描變形未獨立量測，局部描圖誤差不能涵蓋絕對尺度不確定性。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://fai-internal.s3.eu-west-1.amazonaws.com/Negozio+Olivetti_ok_+Maxxi.pdf",
+        "title": "Il negozio Olivetti di Carlo Scarpa nelle Collezioni del MAXXI Architettura"
+      },
+      {
+        "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf",
+        "title": "Il piano terra — FAI guide"
+      },
+      {
+        "url": "https://fai-website.imgix.net/uploads/2020/05/22070826/Larchitettura2.pdf",
+        "title": "L’architettura — FAI guide"
+      },
+      {
+        "url": "https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf",
+        "title": "Il piano superiore — FAI guide"
+      },
+      {
+        "url": "https://fondoambiente.it/news/negozio-olivetti-dietro-le-quinte-di-unicona-del-novecento",
+        "title": "FAI_restoration"
+      },
+      {
+        "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+        "title": "FAI_site"
+      },
+      {
+        "url": "https://mediateca.palladiomuseum.org/scarpa/web/foto_scheda_ICCD.php?valo=i_6_9704",
+        "title": "CISA"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "White painted plaster · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_plaster_02"
+      },
+      {
+        "title": "Teak veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/teak_veneer"
+      },
+      {
+        "title": "Pale white maple veneer · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/white_maple_veneer"
+      },
+      {
+        "title": "Fine upholstery leather detail · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/leather_white"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島採室外眼高行走。未通過安全地坪與淨空檢查的室內區域不開放；可透過原作品網站閱讀其他視點。",
+    "lightingSources": [
+      {
+        "title": "FAI官方Olivetti",
+        "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+        "evidence": "官方歷史與修復後照片。"
+      },
+      {
+        "title": "FAI修復專文",
+        "url": "https://fondoambiente.it/news/negozio-olivetti-dietro-le-quinte-di-unicona-del-novecento",
+        "evidence": "2010保育修復，Gretchen Alexander、Renata Codello、Tobia Scarpa參與。"
+      },
+      {
+        "title": "FAI上層官方導覽",
+        "url": "https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf",
+        "evidence": "柚木、上層灰泥顏色與修復。"
+      },
+      {
+        "title": "FAI地面層官方導覽",
+        "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf",
+        "evidence": "地面層與夾層構成。"
+      },
+      {
+        "title": "具名策展與修復者同期原文之轉載",
+        "url": "https://www.archilovers.com/projects/37469/negozio-olivetti.html",
+        "evidence": "2011.4.20；建築介紹署Lucia Borromeo Dina，另載Gretchen Alexander第一人稱修復文。垂直螢光、磨砂玻璃與鋼索烏木燈明文；平台非官方，故作具名第一手文字轉載，與FAI影像交叉核實。"
+      },
+      {
+        "title": "Olivetti歷史檔案協會重開消息",
+        "url": "https://www.archiviostoricolivetti.it/news/riapre-il-negozio-olivetti-di-venezia/",
+        "evidence": "1958.11.26開幕與2011重開；協會參與修復技術支援。"
+      }
+    ],
+    "lightingSummary": "沿用13片磨砂玻璃出光片與5個烏木燈殼；分別呈現垂直壁縫、上層展示長條和向下工作光，保留柚木天花。",
+    "lightingNotes": [
+      "修復同期策展文字記載：威尼斯灰泥板間垂直螢光燈由磨砂玻璃保護；另有在鋼索上可滑動的烏木燈。FAI修復後官方照片證實垂直發光玻璃和上層沿展台的長條漫射帶。原1958精確燈泡及照度尚未取得。",
+      "FAI證實2010修復檢查了後增電氣、照明變更、遺失家具；2011重開。現況照片不能逐顆證明1958原件，修復保留／復原原構想與燈體應分開記錄。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "13片中包含6片垂直壁燈、2片上層長條及5個烏木燈底部出光片；不是再額外加5盞，避免重複計數。",
+      "照片為修復後狀態，原構想與現存更換燈管分開記錄；烏木燈可滑動，其模型位置不等於1958歷史固定座標。面光不產生投影，牆面遮蔽與照度只作即時顯示近似。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  },
+  {
+    "id": 25,
+    "slug": "25-bregenz",
+    "title": "布雷根茲美術館",
+    "architect": "彼得・卒姆托",
+    "playable": true,
+    "url": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site",
+    "poster": "assets/25.webp",
+    "model": "assets/25-bregenz/model.glb",
+    "originalModelUrl": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site/webgpu",
+    "originalFallbackUrl": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site",
+    "modelSha256": "826369ea099f57964c261d42d3187a14fef64f0d5ceba6c801bd9242582f0257",
+    "modelBytes": 3780108,
+    "artificialLightingAvailable": true,
+    "bounds": {
+      "min": [
+        -13.344676494598389,
+        -9.699504633313747,
+        -13.344980627298355
+      ],
+      "max": [
+        26.929684281349182,
+        30.042003363370895,
+        28.40983211994171
+      ]
+    },
+    "modelGroundSourceY": 0,
+    "observationEntries": [
+      [
+        -15.5312382,
+        34.1274857
+      ],
+      [
+        40.9863725,
+        13.5678235
+      ],
+      [
+        -5.0776226,
+        -25.098032
+      ]
+    ],
+    "sourceBounds": {
+      "min": [
+        -13.345,
+        -9.7,
+        -13.345
+      ],
+      "max": [
+        26.93,
+        30.0425,
+        28.41
+      ]
+    },
+    "uncertainty": "18欄×10列立面、省略8位置及吊頂邊緣排版未逐片核對；行政棟相對位置約±2 m，設備與接點簡化。",
+    "credit": null,
+    "sources": [
+      {
+        "url": "https://www.kunsthaus-bregenz.at/architektur/daten-und-fakten",
+        "title": "S1"
+      },
+      {
+        "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Architekturfolder_210520_d_web.pdf",
+        "title": "S2"
+      },
+      {
+        "url": "https://www.kunsthaus-bregenz.at/architektur",
+        "title": "S3"
+      },
+      {
+        "title": "Light rough concrete · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/rough_concrete"
+      },
+      {
+        "title": "Neutral daylight, partly cloudy sky · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "title": "Warm late-afternoon landscape · Poly Haven · CC0",
+        "url": "https://polyhaven.com/a/kiara_7_late-afternoon"
+      }
+    ],
+    "navigationNote": "本島有 1 個經模型地坪與淨空檢查的室內觀察區，其餘由室外觀察；不開放全棟任意穿行。",
+    "lightingSources": [
+      {
+        "title": "KUB官方建築",
+        "url": "https://www.kunsthaus-bregenz.at/architektur",
+        "evidence": "1997、蝕刻玻璃、夾層、燈數與控制。"
+      },
+      {
+        "title": "KUB官方2021建築冊",
+        "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Architekturfolder_210520_e_web.pdf",
+        "evidence": "上層235盞／層及玻璃天花結構。"
+      },
+      {
+        "title": "KUB官方剖面",
+        "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Schnitt_A-B.png",
+        "evidence": "天花及不同樓層燈型的圖像依據。"
+      },
+      {
+        "title": "KUB官方地面層含燈平面",
+        "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/EG_mit_Lampen.png",
+        "evidence": "地面層吊燈的位置語彙。"
+      },
+      {
+        "title": "KUB官方2023計畫冊",
+        "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Programmvorschau/KUB_2023_Programm_e_GZD_lowres.pdf",
+        "evidence": "2023換LED計畫與原螢光燈；宣傳總數與每層235不是完全一致口徑。"
+      },
+      {
+        "title": "KUB官方2023年10月永續聲明",
+        "url": "https://www.kunsthaus-bregenz.at/ueber-uns/nachhaltigkeit",
+        "evidence": "明確確認2023年初全棟傳統燈源已換LED。"
+      },
+      {
+        "title": "Zumtobel官方2023更新案例",
+        "url": "https://www.zumtobel.ch/de-ch/cs/kunsthaus-bregenz",
+        "evidence": "保留原燈具形式與安裝點；底層tunableWhite，新增ARCOS III。"
+      }
+    ],
+    "lightingSummary": "上層保留705片玻璃與705個夾層燈，少量面光近似玻璃天花的漫射出光；1997螢光與2023 LED更新分期說明。",
+    "lightingNotes": [
+      "原上層夾層中有規則排列的螢光燈，光透過玻璃天花漫射。館方2021建築冊稱每上層235盞特製燈；現有模型3×235燈與玻璃板。地面層官方平面與剖面顯示分散吊燈，不能把上層玻璃頂複製到底層。",
+      "2023年2–3月更新；2023年10月館方確認全棟傳統光源換LED。Zumtobel證實保留原燈殼／安裝點，底層tunableWhite LED，以及ARCOS III重點照明。這些是2023系統而非1997燈型。",
+      "所有新增燈體尺寸、模型映射位置、色溫與光度參數是教學近似；未取得完整原始燈表或配光資料，不作歷史照度復原。",
+      "27個面光只是在既有玻璃面下抽樣漫射出光的計算近似，沒有新增27個可見燈具，也不是模擬夾層光穿透玻璃的全域光照。",
+      "每層235是2021官方建築冊所記燈具／玻璃分格；2023宣傳總數660採不同口徑，不強行視為同一數量。材料名的4000K不是已核實原燈色溫。",
+      "地面層具有不同的混凝土頂和吊燈語彙；本輪缺少足夠燈位映射，因此未增造地面層人工燈，不以玻璃天花或通用網格替代。",
+      "面光無投影；亮度及選樣不能用作照度計算、跨樓層遮蔽或玻璃間接傳光驗證。2023 LED／tunableWhite及ARCOS III並未冒充1997原裝系統。",
+      "直接光依相機所在樓層選樣，以減少無投影面光穿過樓板；這是視點樓層剔除，不是真實遮蔽或光線穿透計算。遠處燈具外觀仍保留。"
+    ],
+    "lightingStatus": "source-informed-educational-estimate"
+  }
+]

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#081b2c"><meta name="description" content="轉動六角格地球，在作品實址探索 25 座 Q 版建築。另設歷史執業人物地標、跨國地理關聯與可核實的遷移現址，25 座原始材質模型探索島、75 個觀察任務、光影切換與建築護照。">
+<title>建築大師群島｜Hex Earth Atlas</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2321433f'/%3E%3Cpath d='M10 40L32 15 54 40M17 40v12h30V40M32 22v30' fill='none' stroke='%23e9d5a6' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<div id="app">
+<header class="topbar"><button class="brand" id="home" aria-label="返回六角地球"><span class="brand-mark" aria-hidden="true">⬡</span><span>建築大師群島<small>ARCHITECTURE ARCHIPELAGO · HEX EARTH</small></span></button><nav aria-label="遊戲工具"><button id="help" class="icon-btn" aria-label="操作說明">?</button><button id="passport" class="passport-btn"><span>▤</span> 護照 <b id="stamp-count">0/25</b></button></nav></header>
+<main id="main" data-view="map">
+<section id="world" aria-label="六角地球互動場景">
+  <canvas id="scene" tabindex="0" aria-label="六角地球。拖曳旋轉，雙指或滾輪縮放。方向鍵旋轉，F 聚焦選中建築，0 重設。登島後拖曳調整鏡頭，WASD 行走，R 重設鏡頭。"></canvas>
+  <div id="flat-world" hidden></div><div id="atlas-overlay"></div><div id="map-labels" aria-label="25 座建築選擇"></div>
+  <div id="photo-veil" aria-hidden="true"></div>
+  <div class="sea-title" id="sea-title"><span>A WORLD OF ARCHITECTURAL IDEAS</span><i>25 件建築實址 · 獨立人物地標</i></div>
+  <div class="compass" aria-hidden="true"><span id="map-compass">N<br>✧</span><small>探索 · 觀察 · 收藏</small></div>
+</section>
+<section id="map-intro" class="map-intro">
+  <p class="eyebrow">VOL. 05 / TWENTY-FIVE WORLDS</p>
+  <h1>轉動地球，<br>讓思想相遇。</h1>
+  <p>25 件作品，回到各自的真實地點。<br>建築實址與人物歷史執業地標，分開讀。</p>
+  <div class="intro-bottom"><span class="live-dot"></span> 25 座探索島已開放 <span class="muted">／ 75 個觀察任務</span></div>
+  <p class="intro-footnote">建築實址 ≠ 歷史執業據點 ≠ 國籍</p>
+</section>
+<section id="atlas-toolbar" class="atlas-toolbar" aria-label="地球圖層與地理導覽">
+  <div class="network-toggles"><span class="toolbar-caption">關係</span><button data-edge-filter="mentorship" aria-pressed="true"><i class="legend-line mentorship"></i>授業</button><button data-edge-filter="employment" aria-pressed="true"><i class="legend-line employment"></i>共事</button><button data-edge-filter="thematic" aria-pressed="true"><i class="legend-line thematic"></i>理念</button><button id="network-scope" aria-pressed="false">只看選島</button></div>
+  <div class="transport-legend" aria-label="交通呈現與關係種類分開"><span class="toolbar-caption">地理</span><span><i aria-hidden="true">◎</i> 同城</span><span><i aria-hidden="true">≋</i> 道路</span><span><i aria-hidden="true">⚓</i> 航線</span><span><i aria-hidden="true">✈</i> 飛行</span><small>地理示意，非歷史行程</small></div>
+  <details class="landmark-layers" id="landmark-layers"><summary><span>地理圖層</span><span class="layer-summary"><i class="legend-dot building" aria-hidden="true"></i>建築 <i class="legend-dot master" aria-hidden="true"></i>人物 <i class="legend-line geography" aria-hidden="true"></i>跨國關聯 <i class="legend-dot history" aria-hidden="true"></i>現址</span></summary><div class="landmark-options"><button data-landmark-layer="building" aria-pressed="true"><i class="legend-dot building" aria-hidden="true"></i>建築實址／原址</button><button data-landmark-layer="master" aria-pressed="true"><i class="legend-dot master" aria-hidden="true"></i>歷史執業人物</button><button data-landmark-layer="geography" aria-pressed="true"><i class="legend-line geography" aria-hidden="true"></i>跨國地理關聯</button><button data-landmark-layer="history" aria-pressed="true"><i class="legend-dot history" aria-hidden="true"></i>已核實現址</button><p>青色線不是師承、任職或旅行；現址為次要標記，不重複計件。</p></div></details>
+  <div class="region-tools" aria-label="旋轉至區域"><span class="toolbar-caption">聚焦</span><button data-map-action="region-america">北美</button><button data-map-action="region-europe">歐洲</button><button data-map-action="region-japan">日本</button><button data-map-action="region-taiwan">臺灣</button><button data-map-action="reset">全地球</button></div>
+  <div class="atlas-links"><button id="open-atlas">讀圖與來源 ↗</button><button id="open-network">連線圖鑑 ↗</button></div>
+</section>
+<section id="map-toolbar" class="map-toolbar" aria-label="地球控制">
+  <p id="map-gesture-hint">拖曳轉動地球 · 滾輪縮放 · 點建築探索</p>
+  <div class="map-tools"><button id="map-left" data-map-action="left" aria-label="地球向左旋轉">↶</button><button id="map-right" data-map-action="right" aria-label="地球向右旋轉">↷</button><button id="map-in" data-map-action="in" aria-label="拉近地球">＋</button><button id="map-out" data-map-action="out" aria-label="拉遠地球">−</button><button id="map-pan" data-map-action="pan" aria-label="切換地球俯仰視角">俯仰視角</button><button id="map-reset" data-map-action="reset">重設全景</button></div>
+  <span class="map-disclaimer">連線不可行走 · 非旅行模擬 · 未連線不等於沒有關係</span>
+  <p id="rendering-note" class="rendering-note" hidden>2D 球面投影 · 非即時 3D</p>
+</section>
+<aside id="selection" class="selection" aria-labelledby="selected-title"></aside>
+<section id="island-hud" class="island-hud" hidden><button id="back-map" class="back-btn">↖ 六角地球</button><div class="island-heading"><p id="island-kicker" class="eyebrow"></p><h1 id="island-title"></h1><p id="island-author"></p><a id="island-original-link" class="original-model-link" href="#" target="_blank" rel="noopener noreferrer">開啟原作品模型網站 ↗</a><div class="island-lighting"><label>光影 <select id="time-of-day" aria-label="建築光影時段" disabled><option value="day">日間</option><option value="golden">黃昏</option><option value="night">夜間</option></select></label><label class="lamp-toggle"><input id="lights-enabled" type="checkbox" checked disabled> 室內燈</label><small id="lighting-note">原作品材質與光影</small></div></div><button id="objectives-toggle" class="objectives-toggle" aria-expanded="true">觀察任務 <b id="task-count">0/3</b> <span>⌄</span></button><div id="objectives" class="objectives"></div></section>
+<section id="photo-info" class="photo-info" hidden aria-live="polite"><p id="photo-kicker"></p><h2 id="photo-title"></h2><p id="photo-note"></p><div class="photo-actions"><a id="photo-original-link" class="original-model-link" href="#" target="_blank" rel="noopener noreferrer">開啟原作品模型網站 ↗</a><button id="photo-leave">返回俯視 · Esc</button><button id="photo-free">返回俯視</button></div></section>
+<div id="island-controls" class="island-controls" hidden><div class="camera-controls" aria-label="鏡頭控制"><button id="rotate-left" aria-label="視角向左旋轉">↶</button><button id="rotate-right" aria-label="視角向右旋轉">↷</button><button id="zoom-in" aria-label="拉近鏡頭">＋</button><button id="zoom-out" aria-label="拉遠鏡頭">−</button><button id="reset-camera" aria-label="重設島嶼鏡頭，快捷鍵 R" title="重設鏡頭（R），不改變角色位置">重設鏡頭</button></div><div id="interaction"><span id="movement-hint">拖曳轉視角 · WASD 移動 · 點地面前往</span><button id="interact-btn" disabled>走近大師或觀察點</button></div><div class="dpad" aria-label="移動方向"><button data-move="up" aria-label="向前走">↑</button><button data-move="left" aria-label="向左走">←</button><button data-move="down" aria-label="向後走">↓</button><button data-move="right" aria-label="向右走">→</button></div></div>
+<div id="loading" class="loading" hidden><span class="spinner"></span><h2 id="load-title">準備登島</h2><p id="load-text">只載入這座島的原始建築模型</p><progress id="load-progress" max="100"></progress><div id="load-error-actions" hidden><button id="retry-model" class="primary">重新載入</button><button id="loading-map">返回地圖</button></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer class="statusbar"><span id="renderer-status">準備六角地球</span><span id="save-status">進度保存在此瀏覽器</span><label>畫質 <select id="quality" aria-label="畫質"><option value="auto">自動</option><option value="low">省電</option><option value="high">精緻</option></select></label></footer>
+</main>
+</div>
+<dialog id="modal" aria-labelledby="modal-title"><div class="modal-top"><span id="modal-label" class="eyebrow"></span><button id="close-modal" class="icon-btn" aria-label="關閉視窗">×</button></div><div id="modal-content"></div></dialog>
+<noscript><p class="noscript">這個遊戲需要 JavaScript。請開啟後重新整理，或前往既有的建築導覽網站。</p></noscript>
+<script type="module" src="app.js"></script>
+</body></html>

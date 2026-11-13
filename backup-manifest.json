@@ -1,0 +1,1336 @@
+{
+  "source_url": "https://architecture-master-islands.jackylin.chatgpt.site",
+  "source_commit": "713e9f8be28f87f68329ab428d6d4afa0fcc6526",
+  "files": [
+    {
+      "path": "BACKUP.md",
+      "bytes": 879,
+      "sha256": "5004779e3806cd3ef2d8f2327aa80e4cee4fadfe8631d8d45ce2e5505330d970"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16134,
+      "sha256": "fcd4bfb4c5c667df919da24ba6587149122babaf91914fd168350fbe93e092db"
+    },
+    {
+      "path": "asset-provenance.json",
+      "bytes": 576,
+      "sha256": "1f4131699d47e4f97635fe4afde711be8d0582fb73f09089f8612b5d32514966"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 55591,
+      "sha256": "da78eb395e9006760300a18e22dc1e542f2e26c3057cc5fd94d3d58bc7a72788"
+    },
+    {
+      "path": "dist/architectural-lighting.js",
+      "bytes": 13847,
+      "sha256": "1bce719ed2ec358f95d7b41b3afa3bcacaf79f5cac14b15961e59c32f9bbeeb0"
+    },
+    {
+      "path": "dist/assets/01-tassel/config.json",
+      "bytes": 12504,
+      "sha256": "df9e472d101f99df460e186a3c52372ad4b147361321c82c50f11d637b26710e"
+    },
+    {
+      "path": "dist/assets/01-tassel/historic-lighting.json",
+      "bytes": 3531,
+      "sha256": "d3ff70107a2ab5de897a85e0457ef454384e11f1c027f67b72f2587b62a84555"
+    },
+    {
+      "path": "dist/assets/01-tassel/materials.json",
+      "bytes": 23416,
+      "sha256": "a0d41e2933fdce348a2216c0a7054b2babfe1eae00c0b933ffe771893782a347"
+    },
+    {
+      "path": "dist/assets/01-tassel/model.glb",
+      "bytes": 3719396,
+      "sha256": "340526872d3f9a9f192b40161c97ed97126d51c4e7915603f6dd14a7130b364b"
+    },
+    {
+      "path": "dist/assets/01.webp",
+      "bytes": 48846,
+      "sha256": "80f3ca65d2b8cd2ae202dea82dced94c4d2c4a5bd60d9f071b3b0149b7b24f15"
+    },
+    {
+      "path": "dist/assets/02-batllo/config.json",
+      "bytes": 14501,
+      "sha256": "ac61152c7b25d30ad5b2e8f24f4e42b89392deb0c1981cd26067d62de582a815"
+    },
+    {
+      "path": "dist/assets/02-batllo/historic-lighting.json",
+      "bytes": 12755,
+      "sha256": "871c829d9cdbcd53603b0f3f8dbe08aa24fc1828c6c8e9560a7a23848a0086d9"
+    },
+    {
+      "path": "dist/assets/02-batllo/materials.json",
+      "bytes": 21040,
+      "sha256": "baa70053c34de131a10ef6fef2b5560db404ee7a645df9d34b169fccf3cdd22d"
+    },
+    {
+      "path": "dist/assets/02-batllo/model.glb",
+      "bytes": 8992896,
+      "sha256": "bdb550e822501a41b2ba51988e4bb2498b0a51ac52b2cd025b609e2a6243b390"
+    },
+    {
+      "path": "dist/assets/02.webp",
+      "bytes": 44836,
+      "sha256": "c9df3daa68531d0b3cb2d37d5f33bcb8560bfed0938e2feccdcf85d2ee257732"
+    },
+    {
+      "path": "dist/assets/03-schroder/config.json",
+      "bytes": 10810,
+      "sha256": "cebe50eede514b8399c19841f6992a6ffc0583be45c1d1e41acd43c034cc9319"
+    },
+    {
+      "path": "dist/assets/03-schroder/historic-lighting.json",
+      "bytes": 3633,
+      "sha256": "4f3b2986b7c44f2ea165c8de72693fb2521e0caf945a4f3cb6c064b8d8337ace"
+    },
+    {
+      "path": "dist/assets/03-schroder/materials.json",
+      "bytes": 23360,
+      "sha256": "1cc36eee9c2e674d09397e2f67bfee7a883c3a9e5582f01df628ed1c41d14f70"
+    },
+    {
+      "path": "dist/assets/03-schroder/model.glb",
+      "bytes": 2782196,
+      "sha256": "28e5a8a796e784ffc6a47dc1208d8d31c38ab5917b6dfc782be9d9f7e53287d8"
+    },
+    {
+      "path": "dist/assets/03.webp",
+      "bytes": 69508,
+      "sha256": "4026e55895cfa33a42ee5010ae7b2bd375dd89364aa6e43a2e8630d6db4d50f2"
+    },
+    {
+      "path": "dist/assets/04-farnsworth/config.json",
+      "bytes": 10268,
+      "sha256": "4c22d73a84b42596378b115c8cb27e37dbd5c50b52713723846e50144d75fe93"
+    },
+    {
+      "path": "dist/assets/04-farnsworth/materials.json",
+      "bytes": 34097,
+      "sha256": "0ced58301f9777386addcef1a10b586a1f5b7e6876170d54d47d8f856081fef2"
+    },
+    {
+      "path": "dist/assets/04-farnsworth/model.glb",
+      "bytes": 16878468,
+      "sha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd"
+    },
+    {
+      "path": "dist/assets/04.webp",
+      "bytes": 83808,
+      "sha256": "21727d418bbea79380bac02df09d7cb5ed2be2a6678d6534f3c683a9d6dcc24a"
+    },
+    {
+      "path": "dist/assets/05-savoye/config.json",
+      "bytes": 12066,
+      "sha256": "5358f2bbd37507058e08331684ef27debbd13aca4216dc7de258238f57a1277f"
+    },
+    {
+      "path": "dist/assets/05-savoye/historic-lighting.json",
+      "bytes": 3310,
+      "sha256": "f301993e69044e28093196967752e99b2bdf95deb8547e6fff478ce5ba782ab6"
+    },
+    {
+      "path": "dist/assets/05-savoye/materials.json",
+      "bytes": 28617,
+      "sha256": "957c272f198788e73d29f040307538b6d40e1bfc2c0583c8ef66054d80a5d20e"
+    },
+    {
+      "path": "dist/assets/05-savoye/model.glb",
+      "bytes": 3155360,
+      "sha256": "5863afff7aabb0e33aad3a6f91ef4c35ea149488bcba00a9f026633dc43197ce"
+    },
+    {
+      "path": "dist/assets/05.webp",
+      "bytes": 43330,
+      "sha256": "e65a8dbc54d0a5d8c95528bab36f9af71ee4d5633e7a8f7c2ace8b6388bc13cf"
+    },
+    {
+      "path": "dist/assets/06-unity/config.json",
+      "bytes": 8824,
+      "sha256": "c921171a01a0d56d4c18d49a9fe22d0d02704a4834b33130f02129fd58d26011"
+    },
+    {
+      "path": "dist/assets/06-unity/historic-lighting.json",
+      "bytes": 15683,
+      "sha256": "eb859575ab838415c56d44471bfcef62c53b028518ed4293d7eba83674f068d6"
+    },
+    {
+      "path": "dist/assets/06-unity/materials.json",
+      "bytes": 23902,
+      "sha256": "bd33d04fb0fa03db1d944110958e72c438d620db0b9d1e8e103476c314dfb49d"
+    },
+    {
+      "path": "dist/assets/06-unity/model.glb",
+      "bytes": 1293836,
+      "sha256": "c1f15d1955e04314ccaa6dbeb02d60936979f0321f815b6070175b181fad3828"
+    },
+    {
+      "path": "dist/assets/06.webp",
+      "bytes": 30384,
+      "sha256": "eb3d6461c42cfaeba0d37a5124554170fef4154a928216057e731e53383871cc"
+    },
+    {
+      "path": "dist/assets/07-saynatsalo/config.json",
+      "bytes": 10615,
+      "sha256": "2ecfe67ffc777347ff0403c1732a54263c76c1a367c761423dfe9faca9f9ca0f"
+    },
+    {
+      "path": "dist/assets/07-saynatsalo/historic-lighting.json",
+      "bytes": 4103,
+      "sha256": "7592f62437ac44d7706f184e6b9114747c9335db04944134530d9d9d3b9a72d5"
+    },
+    {
+      "path": "dist/assets/07-saynatsalo/materials.json",
+      "bytes": 29072,
+      "sha256": "61ef83b888409a575fbf5dae5be3288428914e2852d468b2c7b491d5fa48c5d2"
+    },
+    {
+      "path": "dist/assets/07-saynatsalo/model.glb",
+      "bytes": 7642308,
+      "sha256": "a34a54a2dc36a368d7aaa97d7f7e9ea2620ada2c8fe3740490848c4fa7b4ee2e"
+    },
+    {
+      "path": "dist/assets/07.webp",
+      "bytes": 74472,
+      "sha256": "be84fd052327535ec35122d9c9dcf19da2480018540ecec0b11fb682fb69bf36"
+    },
+    {
+      "path": "dist/assets/08-luce/config.json",
+      "bytes": 8622,
+      "sha256": "16edb082733d0c310d0bb9cadf26bfd2f33d502894d8b4b60a43810e68901f45"
+    },
+    {
+      "path": "dist/assets/08-luce/historic-lighting.json",
+      "bytes": 5106,
+      "sha256": "e7738ddd422df9f6082e330a489731022a4533e6420d31d494ce86f75242dc10"
+    },
+    {
+      "path": "dist/assets/08-luce/materials.json",
+      "bytes": 24468,
+      "sha256": "7ac7f88d019cb71c06fc71b44f2485f64252102c09913a5cbb4cec80dd28244b"
+    },
+    {
+      "path": "dist/assets/08-luce/model.glb",
+      "bytes": 25644636,
+      "sha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965"
+    },
+    {
+      "path": "dist/assets/08.webp",
+      "bytes": 28252,
+      "sha256": "73857ada3528c89b374e664dc265b1289a4dcb1805e9ba2eb9f991fa5c046b0f"
+    },
+    {
+      "path": "dist/assets/09-douglas/config.json",
+      "bytes": 14756,
+      "sha256": "b042ffdecbc95f1ef9fcb00f1d40f901c061ea4fff70c29fdeec8d3518c48482"
+    },
+    {
+      "path": "dist/assets/09-douglas/historic-lighting.json",
+      "bytes": 9595,
+      "sha256": "d3333a398ba3123eca6397d70a464bf0022a43fed4214e95e91b41da0dbcb65f"
+    },
+    {
+      "path": "dist/assets/09-douglas/materials.json",
+      "bytes": 29595,
+      "sha256": "58596e5f1a91d6e1ac8ef9ae3286110fcf6f1fe96fbf9fc0a566be9ae612573c"
+    },
+    {
+      "path": "dist/assets/09-douglas/model.glb",
+      "bytes": 7305424,
+      "sha256": "95d8168df0b2e88f8b822e71661a1d4d7eb224a1ce93a6ad4e3abc276bd94bc0"
+    },
+    {
+      "path": "dist/assets/09.webp",
+      "bytes": 148050,
+      "sha256": "2ec3baa393d68e5b4c9f19601c43ddb37541f728e962ad485fe31e6f6ee2c270"
+    },
+    {
+      "path": "dist/assets/10-menil/config.json",
+      "bytes": 12610,
+      "sha256": "7a0120f8b8ae181fba7cff53755a5efcd4dc22251db1f0a84edc13140d05136a"
+    },
+    {
+      "path": "dist/assets/10-menil/historic-lighting.json",
+      "bytes": 24691,
+      "sha256": "3b284e67eaeb0888e006f1a3ae206dad7c70a16c0952b88d2afd2461b47a09d3"
+    },
+    {
+      "path": "dist/assets/10-menil/materials.json",
+      "bytes": 24357,
+      "sha256": "8ab8018baa8de4cca79878767a1014af6dd478a5b83c7e3b4ecfba59a7de231b"
+    },
+    {
+      "path": "dist/assets/10-menil/model.glb",
+      "bytes": 17086772,
+      "sha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7"
+    },
+    {
+      "path": "dist/assets/10.webp",
+      "bytes": 57170,
+      "sha256": "df9fba88f3f860059fedc198365ce9c8fdd1a09029fe146b29266ccb7e6ffc49"
+    },
+    {
+      "path": "dist/assets/11-gunma/config.json",
+      "bytes": 16485,
+      "sha256": "b4a13844f58abc7433e65a8b9e74ae32ebf3fff684bfc097e1481af89123a58a"
+    },
+    {
+      "path": "dist/assets/11-gunma/historic-lighting.json",
+      "bytes": 4232,
+      "sha256": "2dd32bd6a7e9fdbb45295a199bdce64fa5d48767585a07369d197ab2523293f0"
+    },
+    {
+      "path": "dist/assets/11-gunma/materials.json",
+      "bytes": 24552,
+      "sha256": "bf3d673d36d497241552c41d738ae630773b1b22d6e6217c5d48cb521855363c"
+    },
+    {
+      "path": "dist/assets/11-gunma/model.glb",
+      "bytes": 3230852,
+      "sha256": "a6508ac6bb298703fabeb98e2f3ba7d82f1e7de917a4860359b9b5a2442c758a"
+    },
+    {
+      "path": "dist/assets/11.webp",
+      "bytes": 56828,
+      "sha256": "e5e0074c5137c8afc07f38504aebd3bd24a77e6bfef7c5f5041b35a05fdf70e5"
+    },
+    {
+      "path": "dist/assets/12-retti/config.json",
+      "bytes": 14875,
+      "sha256": "006f6a3dc43b41364a4abe0afd1efaec7f7842663a6d70ae72cae5b2406eaa73"
+    },
+    {
+      "path": "dist/assets/12-retti/historic-lighting.json",
+      "bytes": 15213,
+      "sha256": "4ce943a0f99fad3e5f0805c05c3876400f9ee9aa655e8ca11d7c428a64c21018"
+    },
+    {
+      "path": "dist/assets/12-retti/materials.json",
+      "bytes": 19314,
+      "sha256": "16f675e30e3648b92587a2948f8b183e120743805a5807351993c4b618e9e53f"
+    },
+    {
+      "path": "dist/assets/12-retti/model.glb",
+      "bytes": 2177920,
+      "sha256": "6ab092f5d598533f50a9fc8917786b6738bdabb960c96ae9d2d310e9a3605d3c"
+    },
+    {
+      "path": "dist/assets/12.webp",
+      "bytes": 27594,
+      "sha256": "003c3467f91b67386cca8f8f970e2047f80365627e5c4ac07864540967e16f5e"
+    },
+    {
+      "path": "dist/assets/13-aerospace/config.json",
+      "bytes": 10056,
+      "sha256": "0575006fdb812e25f95c2f239327ab44a1c7cd5c47fefceb88402dde65bca121"
+    },
+    {
+      "path": "dist/assets/13-aerospace/historic-lighting.json",
+      "bytes": 6773,
+      "sha256": "12755b7f22fc6d1121bcbe82864ea92d712bd243428a97078718c424310f21f5"
+    },
+    {
+      "path": "dist/assets/13-aerospace/materials.json",
+      "bytes": 19119,
+      "sha256": "1168366396ee92c923510b5221581ed64d3b573efe9a49d4b572198a175728ba"
+    },
+    {
+      "path": "dist/assets/13-aerospace/model.glb",
+      "bytes": 626304,
+      "sha256": "448bc722d2a8182a929c699ea3e6ff862fdff412f8c0e63d27c8831b1f94108c"
+    },
+    {
+      "path": "dist/assets/13.webp",
+      "bytes": 47794,
+      "sha256": "47973dc56830d242336d945d827dd141340db1e30c079f4ae88325796d118d89"
+    },
+    {
+      "path": "dist/assets/14-vitra/config.json",
+      "bytes": 12759,
+      "sha256": "00e54f14afb17bdbb118d92fd368d5edb53798f5656db032b3854bf8d69b047b"
+    },
+    {
+      "path": "dist/assets/14-vitra/historic-lighting.json",
+      "bytes": 9373,
+      "sha256": "73918e626a9c9163a0183a4dfc88988cb5fe3dd4299f5f09409923ae9ac61a4f"
+    },
+    {
+      "path": "dist/assets/14-vitra/materials.json",
+      "bytes": 26351,
+      "sha256": "aff050cc56986fff7c3def6a6e7bd1d248f79003cbca21078071e626ad83fb9a"
+    },
+    {
+      "path": "dist/assets/14-vitra/model.glb",
+      "bytes": 8977600,
+      "sha256": "021cfbf46c900c5f70d02d72e29ef4a05eca15edc10ea02a9c0376201fd14821"
+    },
+    {
+      "path": "dist/assets/14.webp",
+      "bytes": 39822,
+      "sha256": "3d15a31d59b8a512eaaa110672298342560058a72e90e13581795d6da524e566"
+    },
+    {
+      "path": "dist/assets/15-zueblin/config.json",
+      "bytes": 11126,
+      "sha256": "c4e08f1f7082134634d975e37e9e7aafc891e90a2105d6e8e890f2d808820ab9"
+    },
+    {
+      "path": "dist/assets/15-zueblin/historic-lighting.json",
+      "bytes": 32774,
+      "sha256": "47c48b6d7a0dd97d1d31122205e1eb44dcc4c5588217868a76f61c5cb8da6cdc"
+    },
+    {
+      "path": "dist/assets/15-zueblin/materials.json",
+      "bytes": 23902,
+      "sha256": "bd33d04fb0fa03db1d944110958e72c438d620db0b9d1e8e103476c314dfb49d"
+    },
+    {
+      "path": "dist/assets/15-zueblin/model.glb",
+      "bytes": 17025548,
+      "sha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43"
+    },
+    {
+      "path": "dist/assets/15.webp",
+      "bytes": 92918,
+      "sha256": "d27218f50ffdfe47697f2ffd3fd938a76a508e49379d22b1eb5ec906a6bbd6ed"
+    },
+    {
+      "path": "dist/assets/16-boa-nova/config.json",
+      "bytes": 11106,
+      "sha256": "062a13062a5b167484aa083a65219142a57c9fd013ad61f23d8f1978a7abb05a"
+    },
+    {
+      "path": "dist/assets/16-boa-nova/historic-lighting.json",
+      "bytes": 4875,
+      "sha256": "aea25650b427981d2fc37abadba1f9db29fb1633416451b425fb219f40f98637"
+    },
+    {
+      "path": "dist/assets/16-boa-nova/materials.json",
+      "bytes": 25917,
+      "sha256": "165a739ca7138459f878ed7dc7f1e14b2c31f35001651df6167f837bf99b3191"
+    },
+    {
+      "path": "dist/assets/16-boa-nova/model.glb",
+      "bytes": 4420836,
+      "sha256": "bd97a47330509118678da9a28aac096dee870c630edf650d1ab1eb7445b5fb39"
+    },
+    {
+      "path": "dist/assets/16.webp",
+      "bytes": 87802,
+      "sha256": "f21d695f3704279e9056d37d7a10da2ab4ea5de616bbcf31c538da99720b398b"
+    },
+    {
+      "path": "dist/assets/17-light/config.json",
+      "bytes": 8523,
+      "sha256": "97629e9da73299a35a2c70bdc1b338ea95e4aa83726976e7eba88f143a2d526a"
+    },
+    {
+      "path": "dist/assets/17-light/historic-lighting.json",
+      "bytes": 4534,
+      "sha256": "2682b09641334512765007c2d914929219a61bd0800f05a10f4a0eb96477aa87"
+    },
+    {
+      "path": "dist/assets/17-light/materials.json",
+      "bytes": 21983,
+      "sha256": "41903581dfefc269ce9f1ce96c52390be80efc63edc0d4fabc2b0528920f0f64"
+    },
+    {
+      "path": "dist/assets/17-light/model.glb",
+      "bytes": 11661496,
+      "sha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f"
+    },
+    {
+      "path": "dist/assets/17.webp",
+      "bytes": 31152,
+      "sha256": "f4ba609eb8ebdb5f3d2d66db1295ac2223077b30033471cdeb7d10c53b1eb3de"
+    },
+    {
+      "path": "dist/assets/18-serpentine/config.json",
+      "bytes": 8323,
+      "sha256": "bb569e3430d59476ce9f648d524f98dae09563088918273bc59b72a57b7aba52"
+    },
+    {
+      "path": "dist/assets/18-serpentine/historic-lighting.json",
+      "bytes": 2931,
+      "sha256": "e2049539616017cb9d341d073a325e66bb495ccdac007209b7ba5fe53921a90c"
+    },
+    {
+      "path": "dist/assets/18-serpentine/materials.json",
+      "bytes": 22873,
+      "sha256": "85d5681315ba33c281f69c1fd2a11f008f19780d0e54038530ac00036188e2eb"
+    },
+    {
+      "path": "dist/assets/18-serpentine/model.glb",
+      "bytes": 768856,
+      "sha256": "9aaf93a386fa11dfe1f1f156ee90e5dff2839c8fda0485e3d2e88e3232ec30c1"
+    },
+    {
+      "path": "dist/assets/18.webp",
+      "bytes": 32246,
+      "sha256": "49cb736135d702c6f11555991d00f0497b153c59317292200d5cf621660583f4"
+    },
+    {
+      "path": "dist/assets/19-bordeaux/config.json",
+      "bytes": 12502,
+      "sha256": "56dbddfbbdba64c2c0de6dfd603d3c820ac102416afd3082daac5b1a65357be3"
+    },
+    {
+      "path": "dist/assets/19-bordeaux/historic-lighting.json",
+      "bytes": 4159,
+      "sha256": "e5e8f468670cea92005c8900eea03b122b9f2add87df510c42027e6c606f7de0"
+    },
+    {
+      "path": "dist/assets/19-bordeaux/materials.json",
+      "bytes": 27979,
+      "sha256": "1e92d46f7939e10198af8778f76233773722cf34c1159216b9ec434c852b15d9"
+    },
+    {
+      "path": "dist/assets/19-bordeaux/model.glb",
+      "bytes": 3037696,
+      "sha256": "d14ba8d4676e7106622790da5d1d08037a64ef6522730d185fd89731392e79b0"
+    },
+    {
+      "path": "dist/assets/19.webp",
+      "bytes": 46274,
+      "sha256": "d9373bc527d61bcbe6af6aac25456c8582ffa911a32e57df0ddddb2190fc9a15"
+    },
+    {
+      "path": "dist/assets/20-zollverein/config.json",
+      "bytes": 17407,
+      "sha256": "cb88b1bba050da83aa2be8af95307a8930d006a33d98dc9dd5a6c7ef997df822"
+    },
+    {
+      "path": "dist/assets/20-zollverein/historic-lighting.json",
+      "bytes": 27496,
+      "sha256": "98fa2785667d759c9e0347d95b689fa5acc1ebb9ece7ae117076e8b813508cde"
+    },
+    {
+      "path": "dist/assets/20-zollverein/materials.json",
+      "bytes": 26309,
+      "sha256": "673b000a25fd99fe224350a49ba5a2a972af7e4fe6483583ca2c70b1d30c6af3"
+    },
+    {
+      "path": "dist/assets/20-zollverein/model.glb",
+      "bytes": 6571504,
+      "sha256": "0a08dcd8ade0dd067fa2018049404b64cb2105a4a9a2db62de169ed3f8326163"
+    },
+    {
+      "path": "dist/assets/20.webp",
+      "bytes": 31744,
+      "sha256": "7ca5a33984e5f72bd348fb7f80632cc69b29b4ce5675ec3d2ec874d4f83eeb31"
+    },
+    {
+      "path": "dist/assets/21-paper-church/config.json",
+      "bytes": 7299,
+      "sha256": "526be439b905a819086a2ad7e474eafa3b7760ce0bfe224ae789d38bc47180fa"
+    },
+    {
+      "path": "dist/assets/21-paper-church/historic-lighting.json",
+      "bytes": 3235,
+      "sha256": "1f04e4640f507fa72afdf2bf5bdd0016c5332247f1fcb2f514080efbb2c88714"
+    },
+    {
+      "path": "dist/assets/21-paper-church/materials.json",
+      "bytes": 24303,
+      "sha256": "e209961d67eb25a9ee81963fac466786a966a53a44fa0ae1854236eeb9d0f61d"
+    },
+    {
+      "path": "dist/assets/21-paper-church/model.glb",
+      "bytes": 12746964,
+      "sha256": "81db7be5a9097607dc691a1192e83d188f25389a58f6c3f05ddf1cf425e14e0e"
+    },
+    {
+      "path": "dist/assets/21.webp",
+      "bytes": 71794,
+      "sha256": "b99d4689302c986840480202eac72c6f3bcb12bc5cc29c633cc0b77013c337a3"
+    },
+    {
+      "path": "dist/assets/22-hiroshima/config.json",
+      "bytes": 11049,
+      "sha256": "7b8e437ca630504fcb27331aa60f1a9b08a7a8365101249ef0d2186c190ec64c"
+    },
+    {
+      "path": "dist/assets/22-hiroshima/historic-lighting.json",
+      "bytes": 44076,
+      "sha256": "ae083e5d2c00324c02d05b5771acd8c02f4a14406f305d04001e114e97162239"
+    },
+    {
+      "path": "dist/assets/22-hiroshima/materials.json",
+      "bytes": 23447,
+      "sha256": "1ce04ce36f208f5e892fc67e0d1de82132b76209ce497e567607fa842f98ed99"
+    },
+    {
+      "path": "dist/assets/22-hiroshima/model.glb",
+      "bytes": 11777464,
+      "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d"
+    },
+    {
+      "path": "dist/assets/22.webp",
+      "bytes": 81830,
+      "sha256": "7de1458567d1533187e863ef6faa04a307b5fb25b745ab54cba3ceeab7415b3c"
+    },
+    {
+      "path": "dist/assets/23-kimbell/config.json",
+      "bytes": 14723,
+      "sha256": "0e467adc40432c5d58acc2c5fac6283deba2d9d937093fc6e2e2c1ea589123ad"
+    },
+    {
+      "path": "dist/assets/23-kimbell/historic-lighting.json",
+      "bytes": 14893,
+      "sha256": "379aec5fe4144d4b9b40f5e5f1eb25eb9b09bac4492b5b8bf4b44c99b0e055a9"
+    },
+    {
+      "path": "dist/assets/23-kimbell/materials.json",
+      "bytes": 29095,
+      "sha256": "552a3781f8eba837d514d17d2df658ac4d8c7fd920adb6c31df8412d7d954d93"
+    },
+    {
+      "path": "dist/assets/23-kimbell/model.glb",
+      "bytes": 10250548,
+      "sha256": "89824574fd8a087aafc97df01616c8643291708377c5d5dd7a8a50b676e3724b"
+    },
+    {
+      "path": "dist/assets/23.webp",
+      "bytes": 51486,
+      "sha256": "1138216c0d5d40f29f34ef97f6ca8cd76faf457be886cab6fac4d5f094b35079"
+    },
+    {
+      "path": "dist/assets/24-olivetti/config.json",
+      "bytes": 17888,
+      "sha256": "e4fdef53d9cb9ad05f94c82148b877ce68edfe65c6c96ec30666b3597e9877c8"
+    },
+    {
+      "path": "dist/assets/24-olivetti/historic-lighting.json",
+      "bytes": 9736,
+      "sha256": "862e46d999de1458bf17c78b4561e47e6141d947fcf3418ee32e5fc0a13e5524"
+    },
+    {
+      "path": "dist/assets/24-olivetti/materials.json",
+      "bytes": 25833,
+      "sha256": "f1455cb52a1614f392b688c0fd8a0c07a672ad101e3711e684f8bc391bb4baa5"
+    },
+    {
+      "path": "dist/assets/24-olivetti/model.glb",
+      "bytes": 7404300,
+      "sha256": "0ed15cc6d02f8377d208dabdd5de177414c620d1e79d403b0482f71aee6a426b"
+    },
+    {
+      "path": "dist/assets/24.webp",
+      "bytes": 39036,
+      "sha256": "5f097f8f4181679ba90ab14ce1040754db7b961c25901ea740721362b1697540"
+    },
+    {
+      "path": "dist/assets/25-bregenz/config.json",
+      "bytes": 17057,
+      "sha256": "556ade9d5b6d844467bc44bf2ffebe49bb39c888629a84a9a24741bb4f0aee66"
+    },
+    {
+      "path": "dist/assets/25-bregenz/historic-lighting.json",
+      "bytes": 16090,
+      "sha256": "e3cb60f4fc27cc6962cd0e9388538ddf43e695945a6223dc4bf76f4dd6bfe897"
+    },
+    {
+      "path": "dist/assets/25-bregenz/materials.json",
+      "bytes": 16994,
+      "sha256": "fcc733aa7490b13e2d2d74520fc332433e8e857dd0b8a40d57ad122137568ad5"
+    },
+    {
+      "path": "dist/assets/25-bregenz/model.glb",
+      "bytes": 3780108,
+      "sha256": "826369ea099f57964c261d42d3187a14fef64f0d5ceba6c801bd9242582f0257"
+    },
+    {
+      "path": "dist/assets/25.webp",
+      "bytes": 60182,
+      "sha256": "6cf09972867041ab3d8efb1fded94ca5bae15efe0988eb0b87f01559cc0beed7"
+    },
+    {
+      "path": "dist/assets/_original-materials/environments/daylight_1k.hdr",
+      "bytes": 1435119,
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+    },
+    {
+      "path": "dist/assets/_original-materials/environments/warm_1k.hdr",
+      "bytes": 1510522,
+      "sha256": "d17787e1e404b601e2ec5a2e5910aa739130ad25477d1da8220cec4ca7291eb5"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/asphalt/1k/basecolor.jpg",
+      "bytes": 697630,
+      "sha256": "ddf9224e9cfa3eb2998d9097e4cd34bd3630c85e0e6798e5a0a000415a684083"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/asphalt/1k/normal.jpg",
+      "bytes": 776360,
+      "sha256": "99cdf6b6f0b8a319d206e1d561bf2a5d9933d8d33e1d685f8e25388101d21310"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/asphalt/1k/roughness.jpg",
+      "bytes": 641634,
+      "sha256": "2280be133c104eb04370b625ebcc7f6709d2173b43ae2cd15a0074c26f492bf9"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/concrete/1k/basecolor.jpg",
+      "bytes": 1042065,
+      "sha256": "dd7fc03e152eb8c2fd511248aa2e9bf7428a645bd0e0b74ac1d887ad136cb0bc"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/concrete/1k/normal.jpg",
+      "bytes": 1447537,
+      "sha256": "54c85854ad5cafb16840df91a605c857bdf3d07fa79f11921c8327fccf6423ae"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/concrete/1k/roughness.jpg",
+      "bytes": 566436,
+      "sha256": "2d392a3e0d44087ddecc0cd3fd27367a6cc0c16f94bbba2e8fbfbdf77eb105be"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/grass/web-compact/basecolor.webp",
+      "bytes": 375158,
+      "sha256": "5d433fb47704b4532b42529856b257736ed8f1f7e9e3e036aeec12a564662574"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/grass/web-compact/normal.webp",
+      "bytes": 574970,
+      "sha256": "29fa22619d60c8e5a626a5bf9a9d03887c5feb786966c55b768810d91ebbe07b"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/grass/web-compact/roughness.webp",
+      "bytes": 367002,
+      "sha256": "de9ac065513ef0c1fab7aacd902ab1f538aaf28b55efb1ec70533f8b8b2db42c"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/gravel/web-compact/basecolor.webp",
+      "bytes": 433050,
+      "sha256": "0b3b595e07c49f39aad852b68c6b86980ad19f6d5f5e78eeb2ec154c9268e646"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/gravel/web-compact/normal.webp",
+      "bytes": 505036,
+      "sha256": "119b0e3a20f44cc977de63349899034e5db9b5e17137130fb03df24260030a54"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/gravel/web-compact/roughness.webp",
+      "bytes": 322022,
+      "sha256": "127b66a34fb0da059d6bc3438a07f78c2939219cf92efe7df9b534b3ce6dc605"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/leather/web-compact/normal.webp",
+      "bytes": 215174,
+      "sha256": "11e3434c3514781ca346ff6b9fc9cd9e26b3a26c29c9a6bb4f199fbf2eee999f"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/leather/web-compact/roughness.webp",
+      "bytes": 199010,
+      "sha256": "5b2b738e6da1dfbed115a1495d8256ea18c10298a101245aef9d642c37da049a"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/linen/web-compact/normal.webp",
+      "bytes": 310256,
+      "sha256": "9b57dba754221ba918ab5ba62faf4ec02cde54b5cae3667901ca03b9b2b9c9d3"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/linen/web-compact/roughness.webp",
+      "bytes": 457190,
+      "sha256": "5ea04cce49a739bf33e9fc3c81ec5ecdc84ecceeaada9d4316fc79d2bb01293a"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/oak/1k/basecolor.jpg",
+      "bytes": 595257,
+      "sha256": "8fdec14fd3c06de907693c9c3241037dc93327ad907296371a2f74a0becd8187"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/oak/1k/normal.jpg",
+      "bytes": 623607,
+      "sha256": "9e8dd65e443d92107caa4cd30403d78946a8b8c5a6029e6446c7368865b1d1c0"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/oak/1k/roughness.jpg",
+      "bytes": 520649,
+      "sha256": "a8670e80f203bd031ac3c80f0f606383be51a0ee108e016fa19cad6b9bd373e7"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/pale_veneer/1k/basecolor.jpg",
+      "bytes": 443279,
+      "sha256": "0cdcb6d726ca7e6039ab0eeb2b1828a0ef188b43c2370972cf6eebeaff76aaa0"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/pale_veneer/1k/normal.jpg",
+      "bytes": 275968,
+      "sha256": "fb63ac49ab9a8f1e650a7886e570bfb46a1970d73b9a943c29015f3f111078fc"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/pale_veneer/1k/roughness.jpg",
+      "bytes": 721797,
+      "sha256": "6bacc0bae40c52759e91d77555baad27f9e8cb2bec471d755726262539e6df02"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/plaster/1k/basecolor.jpg",
+      "bytes": 527219,
+      "sha256": "a1ebbe091bd1ae93d2abd5de8d69f9003a8d0ee6532bcf9a87c2492c97051f23"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/plaster/1k/normal.jpg",
+      "bytes": 652310,
+      "sha256": "eb572ca3630d5bfde72e2601b1f02412da23ca005cd19384dced8690be4cb783"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/plaster/1k/roughness.jpg",
+      "bytes": 295900,
+      "sha256": "4ff1fe957cd161b07f721fe6c28a9459c8c2e8ec65627a26c16e483a07c80d85"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/teak/1k/basecolor.jpg",
+      "bytes": 612194,
+      "sha256": "ba501180029ec8804e430177e4d67446da23a3be4d5dbad94a498de070324275"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/teak/1k/normal.jpg",
+      "bytes": 410625,
+      "sha256": "e2cd5aa363feea0bb1fd5c682f9b28c9810def07621915a413a834fafd57c851"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/teak/1k/roughness.jpg",
+      "bytes": 731629,
+      "sha256": "cb8a09ae509a4c89df998fc14e1deb0c623615bf2f480af78d561d8536972db0"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/travertine/1k/basecolor.jpg",
+      "bytes": 922573,
+      "sha256": "6561c87d92aef321aef4095fbcc5518cec4d711e642be6beaa90d13829e6cd2b"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/travertine/1k/normal.jpg",
+      "bytes": 332407,
+      "sha256": "635256a78537253a2d2bc5fef5fcda6e4e03349b960c57f15cf721b7cf5ba098"
+    },
+    {
+      "path": "dist/assets/_original-materials/textures/travertine/1k/roughness.jpg",
+      "bytes": 298778,
+      "sha256": "f4094c2149e257f4b6e17e5c5da70101fcbffaf0ce4016ab5d6aac7e45112e37"
+    },
+    {
+      "path": "dist/assets/miniatures/01.png",
+      "bytes": 46952,
+      "sha256": "90323d851655db61bc33c42f3a726969a5df7c3bc470bd8bffc370aab2e14f3a"
+    },
+    {
+      "path": "dist/assets/miniatures/01.svg",
+      "bytes": 225465,
+      "sha256": "9aa59c7a26f082228d508f53d1b6d1371adf32827ced60ed8d403b4af38e25fc"
+    },
+    {
+      "path": "dist/assets/miniatures/02.png",
+      "bytes": 68935,
+      "sha256": "ce35a479dd68ff9b1c8d45c52fe7c741ff872dd6550b2a9c12983534e887a312"
+    },
+    {
+      "path": "dist/assets/miniatures/02.svg",
+      "bytes": 1388093,
+      "sha256": "527daea1aadf7b783a437f6a612ff2df0a6e656500be9950c34ac8b44a04ea11"
+    },
+    {
+      "path": "dist/assets/miniatures/03.png",
+      "bytes": 39810,
+      "sha256": "9277915100146ac2b1302ecaa065c026d0d885de3167f906b4c9f82cc4969348"
+    },
+    {
+      "path": "dist/assets/miniatures/03.svg",
+      "bytes": 36229,
+      "sha256": "759667aeb77087749ae562b6e6ca852650e82c0a1ef0ddc25ddae4d5db6a6d65"
+    },
+    {
+      "path": "dist/assets/miniatures/04.png",
+      "bytes": 37757,
+      "sha256": "65ca34973b5d412088c1fb028f0393336ce8c53e2cfc44684e15462c03af0e69"
+    },
+    {
+      "path": "dist/assets/miniatures/04.svg",
+      "bytes": 46018,
+      "sha256": "8aae6a2d5d83220a63b1ef63123e8fb52d25cb7b82f46e506754bfe02472398d"
+    },
+    {
+      "path": "dist/assets/miniatures/05.png",
+      "bytes": 39780,
+      "sha256": "aa750ee83ef987a5b898e22d08a9ae96051a58ffe4b80acded3871ffd08332a0"
+    },
+    {
+      "path": "dist/assets/miniatures/05.svg",
+      "bytes": 118929,
+      "sha256": "7727d24325a1f64b73b57969d39897ed417904fce2a52cfc83f0311c3fc297d7"
+    },
+    {
+      "path": "dist/assets/miniatures/06.png",
+      "bytes": 35447,
+      "sha256": "75b9b77e28ed11aec714ee62e5990606a410d2acc328a0d432649a549e6136ee"
+    },
+    {
+      "path": "dist/assets/miniatures/06.svg",
+      "bytes": 57442,
+      "sha256": "3dd894dc541692c309822ba55496caa78f594cb7aa61865eb6c301dd9f21fde4"
+    },
+    {
+      "path": "dist/assets/miniatures/07.png",
+      "bytes": 30723,
+      "sha256": "685fd235d70c356e4306fad338e0910b5ee2d42a1cc67dad71f0c3130fed887b"
+    },
+    {
+      "path": "dist/assets/miniatures/07.svg",
+      "bytes": 57451,
+      "sha256": "b8451d68ca84ddfb1c72aa8e9eb21ed9443a8a2d551fc2bab67e381bcaa4fc5c"
+    },
+    {
+      "path": "dist/assets/miniatures/08.png",
+      "bytes": 57621,
+      "sha256": "6016b7223f0aa0f515a0df8e6ff33aa117635917d8e48178730d9bae30bc35d5"
+    },
+    {
+      "path": "dist/assets/miniatures/08.svg",
+      "bytes": 326931,
+      "sha256": "9a215550865d94a67f173c6fc03fff688e6973fc97d90854a4ab7d50c98b1c86"
+    },
+    {
+      "path": "dist/assets/miniatures/09.png",
+      "bytes": 69517,
+      "sha256": "fb4df55596c7ceecaf8d9657e7fc1fb88bf5974b08c72c2c34447902e2714f35"
+    },
+    {
+      "path": "dist/assets/miniatures/09.svg",
+      "bytes": 178515,
+      "sha256": "290dac29877e3a9e6a30b989e443b4e609816840f88051aa4d5ee30a372e1be1"
+    },
+    {
+      "path": "dist/assets/miniatures/10.png",
+      "bytes": 46636,
+      "sha256": "e76ffeda75ebd021d2847bce1c953cb1d4ba71c726adbeacbc201ff6a555ca62"
+    },
+    {
+      "path": "dist/assets/miniatures/10.svg",
+      "bytes": 125992,
+      "sha256": "6be14e061cd4f21b199f6e3778b67ea89a22c98e8e6a1dc4ae8af78ba79c7716"
+    },
+    {
+      "path": "dist/assets/miniatures/11.png",
+      "bytes": 40367,
+      "sha256": "d8729dcf78c5083a5b3e181646682a739bc39c02fe67553a40d3f44679ae08e0"
+    },
+    {
+      "path": "dist/assets/miniatures/11.svg",
+      "bytes": 67237,
+      "sha256": "01ed58732271860590fcdadf151260396a43dd97d9d6137d7a062a753c124663"
+    },
+    {
+      "path": "dist/assets/miniatures/12.png",
+      "bytes": 33014,
+      "sha256": "4492e6e2489761823bba9466aaaf2761720f913a3f1c19884dcdd9bc4f4fbf54"
+    },
+    {
+      "path": "dist/assets/miniatures/12.svg",
+      "bytes": 82471,
+      "sha256": "e3d79806fb144fb2ac835e7a3458475b760d86a41ee3e4f5a85abfe00c1adc99"
+    },
+    {
+      "path": "dist/assets/miniatures/13.png",
+      "bytes": 42865,
+      "sha256": "23b4dbac277969041109c725cad57e40b618b35ca75cd2bd192d63c3734c60da"
+    },
+    {
+      "path": "dist/assets/miniatures/13.svg",
+      "bytes": 81388,
+      "sha256": "20da6ffd61dc172fe0156845a8efc2001eed6502558b0c19e411f6a5196c6e01"
+    },
+    {
+      "path": "dist/assets/miniatures/14.png",
+      "bytes": 43357,
+      "sha256": "ea28484fad4a464f2ac3067cd7143ecdb9a3e7f431fae7b36bf746c99eeda5cb"
+    },
+    {
+      "path": "dist/assets/miniatures/14.svg",
+      "bytes": 14768,
+      "sha256": "c1b8052b0ca3f12a02cea74ad94fc9cd49a18bc2205c3453e0849bb32263060f"
+    },
+    {
+      "path": "dist/assets/miniatures/15.png",
+      "bytes": 83601,
+      "sha256": "523721e61b69631c64015e2bcea3656123262f12829b4a466bd52a6f8fe59685"
+    },
+    {
+      "path": "dist/assets/miniatures/15.svg",
+      "bytes": 113637,
+      "sha256": "d47fb43c96cfc2953854a29a66f7c91115199a8212a9e822a3d6e8091e2d21f8"
+    },
+    {
+      "path": "dist/assets/miniatures/16.png",
+      "bytes": 43927,
+      "sha256": "21a3a2850a69ec1d9c870a70db4c44622e5813ec9f461eef6c8abb1af936a5f7"
+    },
+    {
+      "path": "dist/assets/miniatures/16.svg",
+      "bytes": 28487,
+      "sha256": "dc08b1c07d999384b933a198c25b4b2736eb6ccc340dce3e2f4175370bf57379"
+    },
+    {
+      "path": "dist/assets/miniatures/17.png",
+      "bytes": 23956,
+      "sha256": "4a0c5e0546a9d6b91c51e094bf8a273908424382ce3b4ce1c91c3a0552fbf682"
+    },
+    {
+      "path": "dist/assets/miniatures/17.svg",
+      "bytes": 15838,
+      "sha256": "5d179e5664beb6d98c698bf4fa3a081ab686026b0d0de4dc06657865f959af9a"
+    },
+    {
+      "path": "dist/assets/miniatures/18.png",
+      "bytes": 71147,
+      "sha256": "de0d30e94cb3c4d6f3568d0053a0a19797672a63c696d8f85b84ff28cdaa5e2f"
+    },
+    {
+      "path": "dist/assets/miniatures/18.svg",
+      "bytes": 34623,
+      "sha256": "e006589840f474aa82f0701553a016f170267e440ae2e0dd475378f320d35467"
+    },
+    {
+      "path": "dist/assets/miniatures/19.png",
+      "bytes": 43233,
+      "sha256": "0dc4cc4cf54d5e83cabafeb83c13ca0a8fcad3acbd55587e6973c3d25bc12d77"
+    },
+    {
+      "path": "dist/assets/miniatures/19.svg",
+      "bytes": 62360,
+      "sha256": "88884ce1828b52e864867eedc2b94a6dc288527203ff8a7fcbe01a24527c1b56"
+    },
+    {
+      "path": "dist/assets/miniatures/20.png",
+      "bytes": 40697,
+      "sha256": "3ac5d3bdad181830ab659eb8f3f927a4d126be0976bb40153a08e63965f42cf3"
+    },
+    {
+      "path": "dist/assets/miniatures/20.svg",
+      "bytes": 43595,
+      "sha256": "446eb106f07096d09e6324065ad61ff9e17bc5ffac6bd7eb7d0ccf5ff2221876"
+    },
+    {
+      "path": "dist/assets/miniatures/21.png",
+      "bytes": 38806,
+      "sha256": "ccf340d0bbf9c58b76a40c97af9f6d241232d2a1d9e139730c3273abc60f1b72"
+    },
+    {
+      "path": "dist/assets/miniatures/21.svg",
+      "bytes": 99623,
+      "sha256": "b6e749e658c6f17cbbd236eb20c53c245261649779b8708dca0a6891dd7051ec"
+    },
+    {
+      "path": "dist/assets/miniatures/22.png",
+      "bytes": 86673,
+      "sha256": "a9c42010a6d5789f21fe9b07ac12edeff096c16c3de28b5b9da70d435b03ec44"
+    },
+    {
+      "path": "dist/assets/miniatures/22.svg",
+      "bytes": 79414,
+      "sha256": "e61cbedfaaa5e82dca5500d6093b8c575cae49beaf2ae382210889f62af0ebaf"
+    },
+    {
+      "path": "dist/assets/miniatures/23.png",
+      "bytes": 38561,
+      "sha256": "cc5a11e8a45294103d2b4139de9d319a83c01bb53c91ff002e86baf8d7f3a42c"
+    },
+    {
+      "path": "dist/assets/miniatures/23.svg",
+      "bytes": 77045,
+      "sha256": "ddf1858b47ea0c5f25daa38036da311f8b91ba75a9855f11ad9000f3fdac5c68"
+    },
+    {
+      "path": "dist/assets/miniatures/24.png",
+      "bytes": 48241,
+      "sha256": "fafdbd61e51bbea92da4c1e9f309042b1c505f08618542531692e3bcb3418d27"
+    },
+    {
+      "path": "dist/assets/miniatures/24.svg",
+      "bytes": 126277,
+      "sha256": "f408504ea2f72523e8363f7878272b8f46c19d979180f481a0fdeab353290292"
+    },
+    {
+      "path": "dist/assets/miniatures/25.png",
+      "bytes": 49610,
+      "sha256": "69548b445bb3fb6d7971d1d179c4057a329b6b770bf83ec02d186b32dd260c61"
+    },
+    {
+      "path": "dist/assets/miniatures/25.svg",
+      "bytes": 144735,
+      "sha256": "4b4f067839da965dd3427bba2bf8977effd3a8c998ba0c3dc43a806251de86ef"
+    },
+    {
+      "path": "dist/assets/portraits/10.jpg",
+      "bytes": 6890579,
+      "sha256": "03a6158512da7852979d679bd69b9870c8c06332e3236509c506359d4d0478cc"
+    },
+    {
+      "path": "dist/assets/portraits/11.jpg",
+      "bytes": 124290,
+      "sha256": "11103f41a8d85d3584371d70c1f0381b500538cfeefe6886cbfc2ff5c9aee8f6"
+    },
+    {
+      "path": "dist/assets/portraits/14.jpg",
+      "bytes": 928103,
+      "sha256": "19901ae8963db692b9337ab19e0e50b3a997dafd54a548692ec003d03815e0a3"
+    },
+    {
+      "path": "dist/assets/portraits/15.jpg",
+      "bytes": 1471968,
+      "sha256": "149631ea4dc954ab2854a96482dd6bc263a4139e19a7a9c8f7d309d71d81af86"
+    },
+    {
+      "path": "dist/assets/portraits/16.jpg",
+      "bytes": 269574,
+      "sha256": "b687ca95014d9d2fea092946288314004411a27ac67d52dc4f067c606f625a89"
+    },
+    {
+      "path": "dist/assets/portraits/18.jpg",
+      "bytes": 126269,
+      "sha256": "86c88cc1f0f182e7f6e868e757903ab2c52594f0a64c288cf4d8897bfff40a2c"
+    },
+    {
+      "path": "dist/assets/portraits/21.jpg",
+      "bytes": 797330,
+      "sha256": "042198ad567a53377a6c55b22412bd3f173edfcc5d0b542b547501821b225f5b"
+    },
+    {
+      "path": "dist/assets/portraits/22.jpg",
+      "bytes": 349244,
+      "sha256": "8bdaf5147df60cf1427970ad68a9bb6abcab32e2def674fc446230ba8835e77c"
+    },
+    {
+      "path": "dist/assets/portraits/23.jpg",
+      "bytes": 408399,
+      "sha256": "29912969216fc2cd1fdfeab6d7dbdcdd2c90b1bb07667b826b7d0c32fc7fb411"
+    },
+    {
+      "path": "dist/assets/portraits/25.jpg",
+      "bytes": 443366,
+      "sha256": "8c857d0b88c000e2b03730841028a51c613cbe39ff0daaf074050728beae87de"
+    },
+    {
+      "path": "dist/assets/portraits/7.jpg",
+      "bytes": 9863411,
+      "sha256": "40b1f62baff56e7fbe5a187535d9ba8630e88a1827db4cde8a4f7e65e0f6bfd4"
+    },
+    {
+      "path": "dist/assets/portraits/8.jpg",
+      "bytes": 17425,
+      "sha256": "062bb3dd09a214ba4898d92d3c3b5c776f74187ad873c480d8550d7d3b7dc517"
+    },
+    {
+      "path": "dist/assets/portraits/9.jpg",
+      "bytes": 1303909,
+      "sha256": "1a8e08c2e8835a79d9a151dc864e82c57994b5a3e4789fe2413915e633a95289"
+    },
+    {
+      "path": "dist/assets-manifest.json",
+      "bytes": 95837,
+      "sha256": "286d3488177fec461995243e794cca13308c306ba8c17308267ebfc6ca41ac54"
+    },
+    {
+      "path": "dist/atlas.json",
+      "bytes": 115643,
+      "sha256": "b1acda811eec0cb3fc8db6bcc3850c904aa6a2315c1f505f425cf4a6989e0b32"
+    },
+    {
+      "path": "dist/catalog.json",
+      "bytes": 135823,
+      "sha256": "f14c0356e5c507c9d2f3ab20222dd57052a6b369024418fa1b1380086a744281"
+    },
+    {
+      "path": "dist/core.js",
+      "bytes": 6296,
+      "sha256": "a8f3edd22726c91a42cef5cc1853234a3aa30c4b3e9ebed4ebfff58c296c6d2b"
+    },
+    {
+      "path": "dist/engine.js",
+      "bytes": 48178,
+      "sha256": "52d70a1d202c176bb3199a0b7d56a678e0bd24659c663d834e9704451672118c"
+    },
+    {
+      "path": "dist/expanded-model-context.js",
+      "bytes": 4088,
+      "sha256": "9fbc45ed17b06be953fcd2be772948e32f38c63b061f817f4872b9ec88aedae2"
+    },
+    {
+      "path": "dist/globe-geometry.js",
+      "bytes": 23576,
+      "sha256": "5aecdf277938bd72dc13fde501c50d1c7c068055b02c15ae707c1f7aa232fe46"
+    },
+    {
+      "path": "dist/globe-orbit.js",
+      "bytes": 2303,
+      "sha256": "eeff2db4595cfc73d77b53dea431b30e95f07b81f8990a9cfeb4cb33fb4bbaef"
+    },
+    {
+      "path": "dist/globe-view.js",
+      "bytes": 27865,
+      "sha256": "a5e37b539822c6521281864de0207fdf2378a522ff41567b4c00e2a9b3a265e4"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 9856,
+      "sha256": "8787f2fc7680a5f198ca8c67359bda3f6405706c2941c1dcae79154a58921df3"
+    },
+    {
+      "path": "dist/island-controls.js",
+      "bytes": 4143,
+      "sha256": "0bf2101fea352c682715e9795f5221bdd9851916c1d2d93ea6cd396a3ce1b6e9"
+    },
+    {
+      "path": "dist/layout-check.html",
+      "bytes": 527,
+      "sha256": "75a74cbef30e4fdd77231b880805fb4138f7c57291ea9a42a32bfed920d35dba"
+    },
+    {
+      "path": "dist/lighting-support/HDRLoader.js",
+      "bytes": 12079,
+      "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1"
+    },
+    {
+      "path": "dist/lighting-support/RectAreaLightTexturesLib.js",
+      "bytes": 314764,
+      "sha256": "6dd4043bb052594357a5eeff13dc0519f0a80b100b97ec80c12808f887897bc1"
+    },
+    {
+      "path": "dist/lighting-support/source-environment.js",
+      "bytes": 8649,
+      "sha256": "0fd019d5498c9dcf77a8f3973b07279957016d3d90ccb8452201c26eeeebbda3"
+    },
+    {
+      "path": "dist/lighting-support/source-farnsworth-night.js",
+      "bytes": 8465,
+      "sha256": "02c81409b5f9525bcc199fb339eaa625f871d393961f4c5451900be0a7de4f01"
+    },
+    {
+      "path": "dist/lighting-support/source-night.js",
+      "bytes": 14375,
+      "sha256": "84f8ef3a28f2da8aeeaeb201066606c3362a694daa3d7f6faf0728b5c2b9ae98"
+    },
+    {
+      "path": "dist/lighting-support/source-pbr.js",
+      "bytes": 7057,
+      "sha256": "b522c59fb105c6111f0805d861237f1a6b49d43d8743c2ff3fd4496c2d6b2d66"
+    },
+    {
+      "path": "dist/lighting-support/texture-dimensions.js",
+      "bytes": 1760,
+      "sha256": "dac5ec1c333e735386e5b2c913f8a3792a2c3703e76af221556551db3771fa0f"
+    },
+    {
+      "path": "dist/map-orbit.js",
+      "bytes": 3270,
+      "sha256": "7c1b27f79c41224280326b86d3134c5676bf4d1422ea73bb2bb6866d2f1bbe2e"
+    },
+    {
+      "path": "dist/miniatures-a.js",
+      "bytes": 26608,
+      "sha256": "a86f1af1b471b0f4961ca30c1d83e0f40349d3d4e8644a1fa0981ff27181270f"
+    },
+    {
+      "path": "dist/miniatures-b.js",
+      "bytes": 20730,
+      "sha256": "8df289978fceb76674e527045d988c23dabb73e4e6839bff5d16602053b4d5be"
+    },
+    {
+      "path": "dist/miniatures.js",
+      "bytes": 485,
+      "sha256": "708e85d7855068c404d38e02dad95ae9a5e733dd8c182b4048708eb610097407"
+    },
+    {
+      "path": "dist/model-display.js",
+      "bytes": 1712,
+      "sha256": "aae9158ef977e6175c3d07f2bc6ab13d82ac0f4776b6d25d024d3609319f1b01"
+    },
+    {
+      "path": "dist/observation-camera.js",
+      "bytes": 8348,
+      "sha256": "e2396456167d3c6d94df49e647c3ac6b46700297c7fb32543e2db962f4fa2b4d"
+    },
+    {
+      "path": "dist/observation-navigation.js",
+      "bytes": 45977,
+      "sha256": "9282d9b85df4604d864566f90c70143b29b29fba104e3b77a581e2c0979b19a8"
+    },
+    {
+      "path": "dist/observation-navigation.json",
+      "bytes": 76908,
+      "sha256": "8610d1733abcc4dbd859614023db3cfabfd034713f1c516aaa6362238b6e1201"
+    },
+    {
+      "path": "dist/observation-shots.js",
+      "bytes": 44207,
+      "sha256": "141fea59605be7e14bf16ddaf91474aa496bdda2a5bbaacacde339a9d215fd71"
+    },
+    {
+      "path": "dist/portrait-credits.json",
+      "bytes": 11227,
+      "sha256": "7eeeaed9475cd2c3686d8ee342c24e630e3a4738f7db12e8d4d98c82810f5ef2"
+    },
+    {
+      "path": "dist/quests.json",
+      "bytes": 121646,
+      "sha256": "aeb58c2541a186a50819476ad84b5bd249bfdb36c3c475fb1cb1ef6b5c7e2b77"
+    },
+    {
+      "path": "dist/relationships.json",
+      "bytes": 9657,
+      "sha256": "cdc4c173fbd72387ac56c5163694845de1476556d535de5ca0947ee4cc9d72a9"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 45761,
+      "sha256": "e7c71cddcaa2f2c88b905c60d1fcf5f7926095230a4a3ab4938458e53e6e4004"
+    },
+    {
+      "path": "dist/vendor/BufferGeometryUtils.js",
+      "bytes": 37712,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+    },
+    {
+      "path": "dist/vendor/GLTFLoader.js",
+      "bytes": 117556,
+      "sha256": "200cb5621236d83d241662078878de25800b152d091ac63678d74179abb0df6b"
+    },
+    {
+      "path": "dist/vendor/SkeletonUtils.js",
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "dist/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "dist/vendor/meshopt_decoder.module.js",
+      "bytes": 29256,
+      "sha256": "d428e73a000057c6c94bfcedc3412d0c2dc14ca8800e88553aab05113ad2bf19"
+    },
+    {
+      "path": "dist/vendor/package.json",
+      "bytes": 58,
+      "sha256": "e2852559de6184aa550ae76c8a6b4c6a77cd18d7e2ff009ff8daebd75041cd63"
+    },
+    {
+      "path": "dist/vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "dist/vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "dist/world-map.js",
+      "bytes": 3302,
+      "sha256": "c45b0ce1d7e401dd01906c165ab7b4a84d66ce774dc7f793aa45401b6df38e2a"
+    }
+  ]
+}
