@@ -1,0 +1,229 @@
+[
+  {
+    "id": "ito-sejima-office",
+    "from": 18,
+    "to": 20,
+    "label": "伊東事務所任職",
+    "type": "employment",
+    "directed": true,
+    "factual": true,
+    "explanation": "妹島和世完成學業後進入伊東豐雄事務所，1987 年成立自己的事務所。這條關係指向 SANAA 島中的妹島，不包括西澤立衛。",
+    "sources": [
+      {
+        "title": "Pritzker Architecture Prize：Kazuyo Sejima and Ryue Nishizawa（2010）",
+        "url": "https://www.pritzkerprize.com/laureates/2010",
+        "supports": "傳記直接記載妹島完成學業後在 Toyo Ito 辦公室工作，並於 1987 年自立。"
+      }
+    ],
+    "shortLabel": "伊東豐雄 → 妹島和世",
+    "summary": "伊東事務所任職",
+    "caveat": "這段任職經歷僅指妹島，不包括 SANAA 共同創辦人西澤立衛。任職本身不自動等於正式師承。",
+    "bend": 5
+  },
+  {
+    "id": "isozaki-ban-office",
+    "from": 11,
+    "to": 21,
+    "label": "磯崎事務所任職",
+    "type": "employment",
+    "directed": true,
+    "factual": true,
+    "explanation": "坂茂在 Cooper Union 就讀期間休學一年，於東京的磯崎新事務所工作，之後返校並於 1984 年取得建築學位。",
+    "sources": [
+      {
+        "title": "Pritzker Architecture Prize：Shigeru Ban（2014）",
+        "url": "https://www.pritzkerprize.com/laureates/2014",
+        "supports": "傳記直接記載 Ban 在 Cooper Union 第四學年後暫停學業一年，在 Arata Isozaki 東京事務所工作。"
+      }
+    ],
+    "shortLabel": "磯崎新 → 坂茂",
+    "summary": "磯崎事務所任職",
+    "caveat": "此線只表示在學期間的事務所工作，不把它等同正式師承。",
+    "bend": -4
+  },
+  {
+    "id": "koolhaas-hadid-teaching",
+    "from": 19,
+    "to": 14,
+    "label": "AA 授業・OMA 共事",
+    "type": "mentorship",
+    "secondary_types": [
+      "employment"
+    ],
+    "directed": true,
+    "factual": true,
+    "explanation": "哈蒂在倫敦 AA 就學時由庫哈斯及 Elia Zenghelis 授課，之後與兩人在 OMA 工作。授業關係和事務所共事分別有官方傳記支持。",
+    "sources": [
+      {
+        "title": "Zaha Hadid Foundation：About Zaha",
+        "url": "https://www.zhfoundation.com/about-zaha-hadid/",
+        "supports": "基金會直接確認 Rem Koolhaas、Elia Zenghelis 為其 AA 教師及後續 OMA 共事關係。"
+      },
+      {
+        "title": "Pritzker Architecture Prize：Biography of Zaha Hadid",
+        "url": "https://www.pritzkerprize.com/biography-zaha-hadid",
+        "supports": "記載她於 1977 年畢業後加入 OMA。"
+      }
+    ],
+    "shortLabel": "庫哈斯 → 札哈・哈蒂",
+    "summary": "AA 授業・OMA 共事",
+    "caveat": "AA 授業與後來的 OMA 共事是兩段關係；AA 教師還包括 Elia Zenghelis。",
+    "bend": 5
+  },
+  {
+    "id": "kahn-piano-office",
+    "from": 23,
+    "to": 10,
+    "label": "康事務所短期任職",
+    "type": "employment",
+    "directed": true,
+    "factual": true,
+    "explanation": "金貝爾美術館官方介紹明確記載，年輕時的皮亞諾曾短暫在路易・康事務所工作。皮亞諾後來設計金貝爾擴建館，與康的原館形成對話。",
+    "sources": [
+      {
+        "title": "Kimbell Art Museum：The Renzo Piano Pavilion",
+        "url": "https://50.kimbellart.org/architecture/the-renzo-piano-pavilion/",
+        "supports": "美術館直接確認其年輕時短暫在康的事務所工作，並說明擴建館與原館的形式、材料、自然光呼應。"
+      },
+      {
+        "title": "Pritzker Architecture Prize：Biography of Renzo Piano",
+        "url": "https://www.pritzkerprize.com/biography-renzo-piano",
+        "supports": "亦記載 Piano 曾與費城的 Louis Kahn 事務所有工作關聯。"
+      }
+    ],
+    "shortLabel": "路易・康 → 倫佐・皮亞諾",
+    "summary": "康事務所短期任職",
+    "caveat": "來源只確認短期任職，未在此主張長期學徒或共同設計原金貝爾館。島 10 的代表作品仍是梅尼爾美術館。",
+    "bend": -22
+  },
+  {
+    "id": "horta-gaudi-organic-comparison",
+    "from": 1,
+    "to": 2,
+    "label": "曲線與有機裝飾",
+    "type": "thematic",
+    "directed": false,
+    "factual": false,
+    "explanation": "策展比較：將霍塔的新藝術曲線、結構與裝飾整合，對照高第巴特婁之家受自然與海洋啟發的波動立面。不是兩人有師承或直接交流的主張。",
+    "sources": [
+      {
+        "title": "UNESCO：Major Town Houses of Victor Horta",
+        "url": "https://whc.unesco.org/en/list/1005/",
+        "supports": "確認霍塔住宅的新藝術地位，並描述曲線裝飾與結構的結合。"
+      },
+      {
+        "title": "Casa Batlló：The façade",
+        "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/facade/",
+        "supports": "官方描述海洋啟發、波動表面，以及石材、玻璃、陶瓷組成的立面。"
+      }
+    ],
+    "shortLabel": "霍塔 ↔ 高第",
+    "summary": "曲線與有機裝飾",
+    "caveat": "",
+    "bend": 6
+  },
+  {
+    "id": "rietveld-corbusier-modern-home-comparison",
+    "from": 3,
+    "to": 5,
+    "label": "現代住宅・彈性空間",
+    "type": "thematic",
+    "directed": false,
+    "factual": false,
+    "explanation": "策展比較：將施洛德住宅的彈性空間、風格派構成，對照薩伏伊的柱架與自由平面，觀察兩種現代住宅如何重新組織日常生活。",
+    "sources": [
+      {
+        "title": "UNESCO：Rietveld Schröderhuis",
+        "url": "https://whc.unesco.org/en/list/965/",
+        "supports": "確認住宅的彈性空間安排、風格派理念及其現代建築地位。"
+      },
+      {
+        "title": "Centre des monuments nationaux／Villa Savoye：Le Corbusier’s 5 points",
+        "url": "https://www.villa-savoye.fr/en/discover/le-corbusier-s-5-points-of-modern-architecture",
+        "supports": "詳解柱架、自由平面、自由立面、長窗和屋頂花園。"
+      }
+    ],
+    "shortLabel": "里特維德 ↔ 勒・柯比意",
+    "summary": "現代住宅・彈性空間",
+    "caveat": "",
+    "bend": -5
+  },
+  {
+    "id": "gehry-hadid-deconstructivist-context",
+    "from": 13,
+    "to": 14,
+    "label": "解構幾何・共同展覽脈絡",
+    "type": "thematic",
+    "directed": false,
+    "factual": false,
+    "explanation": "策展比較：蓋瑞與哈蒂均列入 MoMA 1988 年《Deconstructivist Architecture》展，適合對照破碎量體與非正交幾何；共同入選並不表示師承、共同設計或認同同一學派。",
+    "sources": [
+      {
+        "title": "MoMA：Deconstructivist Architecture，1988 原始新聞稿",
+        "url": "https://www.moma.org/momaorg/shared/pdfs/docs/press_archives/6559/releases/MOMA_1988_0062_63.pdf",
+        "supports": "列出 Gehry、Hadid、Koolhaas 等人，並說明其獨立工作及形式上的相似處。"
+      },
+      {
+        "title": "MoMA：Deconstructivist Architecture exhibition archive",
+        "url": "https://www.moma.org/calendar/exhibitions/1813?locale=en",
+        "supports": "確認展名與 1988 年 6 月 23 日至 8 月 30 日展期。"
+      }
+    ],
+    "shortLabel": "蓋瑞 ↔ 哈蒂",
+    "summary": "解構幾何・共同展覽脈絡",
+    "caveat": "",
+    "bend": -25
+  },
+  {
+    "id": "ando-sanaa-opening-light-comparison",
+    "from": 17,
+    "to": 20,
+    "label": "開口・光・空間",
+    "type": "thematic",
+    "directed": false,
+    "factual": false,
+    "explanation": "策展比較：光之教會以十字狹縫把日光引入暗室；SANAA 的 Zollverein 設計學院以不同尺寸的窗洞配置回應室內採光並框取周遭景物。連線比較混凝土量體中的開口策略。",
+    "sources": [
+      {
+        "title": "Pritzker Architecture Prize：Tadao Ando，1995 biography",
+        "url": "https://www.pritzkerprize.com/sites/default/files/file_fields/field_files_inline/1995_bio.pdf",
+        "supports": "描述光之教會混凝土空間與十字形玻璃狹縫導入日光。"
+      },
+      {
+        "title": "Stiftung Zollverein：SANAA-Gebäude",
+        "url": "https://www.zollverein.de/eventlocations/sanaa/",
+        "supports": "官方記載 134 個窗洞因應室內光線安排，並如相框般框取周遭景物。"
+      }
+    ],
+    "shortLabel": "安藤忠雄 ↔ SANAA",
+    "summary": "開口・光・空間",
+    "caveat": "",
+    "bend": 6
+  },
+  {
+    "id": "scarpa-zumthor-craft-comparison",
+    "from": 24,
+    "to": 25,
+    "label": "材料・工藝・感官",
+    "type": "thematic",
+    "directed": false,
+    "factual": false,
+    "explanation": "策展比較：以斯卡帕對石材、玻璃、木作及接合細節的精密處理，對照卒姆托以材料本質、工藝和感官經驗塑造建築的取向。這條邊不主張兩人有直接師承。",
+    "sources": [
+      {
+        "title": "FAI：Negozio Olivetti",
+        "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+        "supports": "官方描述 Scarpa 的細部、Aurisina 石階、玻璃馬賽克、木材與威尼斯工藝傳統。"
+      },
+      {
+        "title": "Pritzker Architecture Prize：Peter Zumthor（2009）",
+        "url": "https://www.pritzkerprize.com/laureates/2009",
+        "supports": "評審詞明述其材料本質、工匠式運用，以及觸覺、聽覺和嗅覺等建築經驗。"
+      }
+    ],
+    "shortLabel": "斯卡帕 ↔ 卒姆托",
+    "summary": "材料・工藝・感官",
+    "caveat": "",
+    "bend": -4
+  }
+]

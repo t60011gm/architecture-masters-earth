@@ -1,0 +1,2522 @@
+{
+  "schema": 1,
+  "policy": "Byte-identical original models and source configuration. Shared material and HDR files are deduplicated without resampling or transcoding. All islands load on entry, only used texture packs and selected environment.",
+  "sourceUnits": "retained original GLB world metres; game transform is separate",
+  "islands": [
+    {
+      "id": 1,
+      "slug": "01-tassel",
+      "projectId": "appgprj_6ad33e9016ac819199defb6dc266deea",
+      "sourceCommit": "ceeba2d249cb0d6440a43dbbb6687ff44b215bde",
+      "originalUrl": "https://architecture-v2-tassel-01.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-tassel-01.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/01-tassel/model.glb",
+      "config": "assets/01-tassel/config.json",
+      "materials": "assets/01-tassel/materials.json",
+      "historicLighting": "assets/01-tassel/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -3.895,
+          -2.53,
+          -20.88
+        ],
+        "max": [
+          3.895,
+          16.85,
+          0.945
+        ]
+      },
+      "originalBytes": 3719396,
+      "sha256": "340526872d3f9a9f192b40161c97ed97126d51c4e7915603f6dd14a7130b364b",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 9,
+      "sources": [
+        {
+          "title": "Hôtel Tassel – Inventaire du patrimoine architectural",
+          "url": "https://monument.heritage.brussels/fr/Bruxelles_Extension_Sud/Rue_Paul_Emile_Janson/6/15890",
+          "evidence": "1893設計、1982修復起始、木格天花方向、黃銅枝燈、2006照片"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/01-tassel/model.glb",
+          "bytes": 3719396,
+          "sha256": "340526872d3f9a9f192b40161c97ed97126d51c4e7915603f6dd14a7130b364b",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/01-tassel/config.json",
+          "bytes": 12504,
+          "sha256": "df9e472d101f99df460e186a3c52372ad4b147361321c82c50f11d637b26710e",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/01-tassel/materials.json",
+          "bytes": 23416,
+          "sha256": "a0d41e2933fdce348a2216c0a7054b2babfe1eae00c0b933ffe771893782a347",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/01-tassel/historic-lighting.json",
+          "bytes": 3531,
+          "sha256": "d3ff70107a2ab5de897a85e0457ef454384e11f1c027f67b72f2587b62a84555",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -4.2052980132450335,
+          -2.530160985132829,
+          -20.879848628193
+        ],
+        "max": [
+          4.2052980132450335,
+          16.85016067995705,
+          0.9451277199621586
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 422
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "塔塞爾住宅・史料照明 WebGPU 版"
+    },
+    {
+      "id": 2,
+      "slug": "02-batllo",
+      "projectId": "appgprj_6ad33eba373081919c1e17ca710f81c2",
+      "sourceCommit": "29ce36479f56a87bf5f381fd3f27fc1233b7d875",
+      "originalUrl": "https://architecture-v2-batllo-02.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-batllo-02.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/02-batllo/model.glb",
+      "config": "assets/02-batllo/config.json",
+      "materials": "assets/02-batllo/materials.json",
+      "historicLighting": "assets/02-batllo/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -7.4009,
+          -3.025,
+          -52.11
+        ],
+        "max": [
+          7.4009,
+          32,
+          1.21
+        ]
+      },
+      "originalBytes": 8992896,
+      "sha256": "bdb550e822501a41b2ba51988e4bb2498b0a51ac52b2cd025b609e2a6243b390",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 1,
+      "sources": [
+        {
+          "title": "Criteria for intervention in the restoration of the main floor of Antoni Gaudí’s Casa Batlló",
+          "url": "https://riunet.upv.es/server/api/core/bitstreams/0821ca30-1fbf-4d21-b274-1d40af129473/content",
+          "evidence": "印刷頁102–103圖5/6、109圖14；原燈／非原燈、天花工法與修復分層"
+        },
+        {
+          "title": "Inside Casa Batlló",
+          "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/inside/",
+          "evidence": "修復後主廳與閣樓照片"
+        },
+        {
+          "title": "The Restoration",
+          "url": "https://www.casabatllo.es/en/restoration/",
+          "evidence": "2018–2019主樓層修復、2020燈具等工藝修復"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/02-batllo/model.glb",
+          "bytes": 8992896,
+          "sha256": "bdb550e822501a41b2ba51988e4bb2498b0a51ac52b2cd025b609e2a6243b390",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/02-batllo/config.json",
+          "bytes": 14501,
+          "sha256": "ac61152c7b25d30ad5b2e8f24f4e42b89392deb0c1981cd26067d62de582a815",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/02-batllo/materials.json",
+          "bytes": 21040,
+          "sha256": "baa70053c34de131a10ef6fef2b5560db404ee7a645df9d34b169fccf3cdd22d",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/02-batllo/historic-lighting.json",
+          "bytes": 12755,
+          "sha256": "871c829d9cdbcd53603b0f3f8dbe08aa24fc1828c6c8e9560a7a23848a0086d9",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -7.3670155949583425,
+          -3.025149552629003,
+          -52.10971175265472
+        ],
+        "max": [
+          7.3670155949583425,
+          32.0001502917266,
+          1.7918660542851939
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 0,
+        "removedContextTriangles": 376
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "巴特婁之家・史料照明 WebGPU 版"
+    },
+    {
+      "id": 3,
+      "slug": "03-schroder",
+      "projectId": "appgprj_6ad33ee2a6408191840426ac14442350",
+      "sourceCommit": "e816d81346eaf1c757d1a349d7b61f61f17bcadc",
+      "originalUrl": "https://architecture-v2-schroder-03.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-schroder-03.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/03-schroder/model.glb",
+      "config": "assets/03-schroder/config.json",
+      "materials": "assets/03-schroder/materials.json",
+      "historicLighting": "assets/03-schroder/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -4.3,
+          0,
+          -10.0918
+        ],
+        "max": [
+          8.1,
+          8.72,
+          1.12
+        ]
+      },
+      "originalBytes": 2782196,
+      "sha256": "28e5a8a796e784ffc6a47dc1208d8d31c38ab5917b6dfc782be9d9f7e53287d8",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 4,
+      "sources": [
+        {
+          "title": "This is the Rietveld Schröder House",
+          "url": "https://www.rietveldschroderhuis.nl/en",
+          "evidence": "房間現況、三維燈具、黑白居住史照片"
+        },
+        {
+          "title": "Spatial archive",
+          "url": "https://www.rietveldschroderhuis.nl/en/explore/spatial-archive",
+          "evidence": "原始圖紙／歷史照片檔案與居住期間變更警示"
+        },
+        {
+          "title": "Colour, Form and Space",
+          "url": "https://www.rietveldschroderhuis.nl/nl/ontdek/colour-form-and-space",
+          "evidence": "1970–80年代修復與1987展示"
+        },
+        {
+          "title": "Gerrit Rietveld. Hanging Lamp",
+          "url": "https://www.moma.org/collection/works/3703",
+          "evidence": "類型1920設計；該藏品1982製作，木、玻璃、管狀燈泡"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/03-schroder/model.glb",
+          "bytes": 2782196,
+          "sha256": "28e5a8a796e784ffc6a47dc1208d8d31c38ab5917b6dfc782be9d9f7e53287d8",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/03-schroder/config.json",
+          "bytes": 10810,
+          "sha256": "cebe50eede514b8399c19841f6992a6ffc0583be45c1d1e41acd43c034cc9319",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/03-schroder/materials.json",
+          "bytes": 23360,
+          "sha256": "1cc36eee9c2e674d09397e2f67bfee7a883c3a9e5582f01df628ed1c41d14f70",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/03-schroder/historic-lighting.json",
+          "bytes": 3633,
+          "sha256": "4f3b2986b7c44f2ea165c8de72693fb2521e0caf945a4f3cb6c064b8d8337ace",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -4.299935453281591,
+          -9.276525872792263e-06,
+          -10.49504340827514
+        ],
+        "max": [
+          9.044904717091665,
+          8.71992196571614,
+          1.74490476477538
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 3,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "施洛德住宅・史料照明 WebGPU 版"
+    },
+    {
+      "id": 4,
+      "slug": "04-farnsworth",
+      "projectId": "appgprj_6ad2405416e08191bd89dd864f1797b2",
+      "sourceCommit": "226e6a66adae6920300eeda02909e3605614f8f5",
+      "originalUrl": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-farnsworth-04.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/04-farnsworth/model.glb",
+      "config": "assets/04-farnsworth/config.json",
+      "materials": "assets/04-farnsworth/materials.json",
+      "historicLighting": null,
+      "fixtureImplementation": "source-informed-farnsworth-bespoke",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -6.6866,
+          -0.09,
+          -8.9471
+        ],
+        "max": [
+          23.5794,
+          5.3888,
+          8.5719
+        ]
+      },
+      "originalBytes": 16878468,
+      "sha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 6,
+      "sources": [
+        "https://www.moma.org/collection/works/129142",
+        "https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il0300/il0323/data/il0323data.pdf",
+        "https://savingplaces.org/stories/fertile-ground-farnsworth-house"
+      ],
+      "files": [
+        {
+          "path": "assets/04-farnsworth/model.glb",
+          "bytes": 16878468,
+          "sha256": "8aba9d2225163b028caa86a79708bb3e49da68dc1cf20cc7dc88af06fff478bd",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/04-farnsworth/config.json",
+          "bytes": 10268,
+          "sha256": "4c22d73a84b42596378b115c8cb27e37dbd5c50b52713723846e50144d75fe93",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/04-farnsworth/materials.json",
+          "bytes": 34097,
+          "sha256": "0ced58301f9777386addcef1a10b586a1f5b7e6876170d54d47d8f856081fef2",
+          "sourcePath": "materials.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -6.686550140380859,
+          -0.09000000357627869,
+          -8.947149276733398
+        ],
+        "max": [
+          23.579376220703125,
+          5.388799667358398,
+          8.571937561035156
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 7,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "範斯沃斯住宅・WebGPU 高畫質試版"
+    },
+    {
+      "id": 5,
+      "slug": "05-savoye",
+      "projectId": "appgprj_6ad33f24d2848191b1345be1bfcec2bf",
+      "sourceCommit": "5ff7b0281cd741a76f8cf0d466b392783422bf6f",
+      "originalUrl": "https://architecture-v2-savoye-05.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-savoye-05.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/05-savoye/model.glb",
+      "config": "assets/05-savoye/config.json",
+      "materials": "assets/05-savoye/materials.json",
+      "historicLighting": "assets/05-savoye/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -0.14,
+          -2.72,
+          -20.2906
+        ],
+        "max": [
+          19.14,
+          9.35,
+          1.2906
+        ]
+      },
+      "originalBytes": 3155360,
+      "sha256": "5863afff7aabb0e33aad3a6f91ef4c35ea149488bcba00a9f026633dc43197ce",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 6,
+      "sources": [
+        {
+          "title": "La villa Savoye – Dossier enseignant，頁10–11",
+          "url": "https://www.fondationlecorbusier.fr/wp-content/uploads/2022/05/2049_3993.pdf",
+          "evidence": "客廳鍍鉻溝槽燈、Thomson-Houston、照原樣修復與修復年代"
+        },
+        {
+          "title": "An architectural promenade",
+          "url": "https://www.villa-savoye.fr/en/discover/an-architectural-promenade",
+          "evidence": "平天花、坡道／樓梯現況圖"
+        },
+        {
+          "title": "La villa Savoye",
+          "url": "https://www.anabf.org/pierredangle/magazine/la-villa-savoye",
+          "evidence": "1996–1997室內油漆與電氣系統更新"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/05-savoye/model.glb",
+          "bytes": 3155360,
+          "sha256": "5863afff7aabb0e33aad3a6f91ef4c35ea149488bcba00a9f026633dc43197ce",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/05-savoye/config.json",
+          "bytes": 12066,
+          "sha256": "5358f2bbd37507058e08331684ef27debbd13aca4216dc7de258238f57a1277f",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/05-savoye/materials.json",
+          "bytes": 28617,
+          "sha256": "957c272f198788e73d29f040307538b6d40e1bfc2c0583c8ef66054d80a5d20e",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/05-savoye/historic-lighting.json",
+          "bytes": 3310,
+          "sha256": "f301993e69044e28093196967752e99b2bdf95deb8547e6fff478ce5ba782ab6",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -0.14000157669341728,
+          -2.720256659071392,
+          -20.290224090626467
+        ],
+        "max": [
+          19.139760185183725,
+          9.349139421816279,
+          1.291391991039518
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 6,
+        "removedContextTriangles": 4416
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "薩伏伊別墅・史料照明 WebGPU 版"
+    },
+    {
+      "id": 6,
+      "slug": "06-unity",
+      "projectId": "appgprj_6ad33f4c1bb8819181979d5d359de7b6",
+      "sourceCommit": "1abdee4b942b579a544695bc9e07508a4ee9ea86",
+      "originalUrl": "https://architecture-v2-unity-06.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-unity-06.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/06-unity/model.glb",
+      "config": "assets/06-unity/config.json",
+      "materials": "assets/06-unity/materials.json",
+      "historicLighting": "assets/06-unity/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -17.5,
+          -0.635,
+          -15.455
+        ],
+        "max": [
+          17.5,
+          14.0669,
+          36.6
+        ]
+      },
+      "originalBytes": 1293836,
+      "sha256": "c1f15d1955e04314ccaa6dbeb02d60936979f0321f815b6070175b181fad3828",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 12,
+      "sources": [
+        {
+          "title": "Unity Temple",
+          "url": "https://flwright.org/explore/unity-temple",
+          "evidence": "25格琥珀玻璃天窗、平格頂、1909奉獻"
+        },
+        {
+          "title": "Unity Temple Research Paper 2017，頁24、32、50",
+          "url": "https://flwright.org/sites/default/files/ckfinder/userfiles/files/Unity_Temple_Research_Paper_2017.pdf",
+          "evidence": "球＋方盒電燈、木支架、講壇燈、歷史配線／LED更新、歷史帳單"
+        },
+        {
+          "title": "Unity Temple restoration nears completion",
+          "url": "https://franklloydwright.org/unity-temple-restoration-nears-completion/",
+          "evidence": "2014–2017修復時段及照明升級"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/06-unity/model.glb",
+          "bytes": 1293836,
+          "sha256": "c1f15d1955e04314ccaa6dbeb02d60936979f0321f815b6070175b181fad3828",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/06-unity/config.json",
+          "bytes": 8824,
+          "sha256": "c921171a01a0d56d4c18d49a9fe22d0d02704a4834b33130f02129fd58d26011",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/06-unity/materials.json",
+          "bytes": 23902,
+          "sha256": "bd33d04fb0fa03db1d944110958e72c438d620db0b9d1e8e103476c314dfb49d",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/06-unity/historic-lighting.json",
+          "bytes": 15683,
+          "sha256": "eb859575ab838415c56d44471bfcef62c53b028518ed4293d7eba83674f068d6",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -17.205298618157506,
+          -0.06998784151280102,
+          -15.455363779780768
+        ],
+        "max": [
+          16.05774890893721,
+          14.066966297905392,
+          35.90781683401858
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 2,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "團結聖殿・史料照明 WebGPU 版"
+    },
+    {
+      "id": 7,
+      "slug": "07-saynatsalo",
+      "projectId": "appgprj_6ad33f77bdf8819186f0cbf04d17e3e7",
+      "sourceCommit": "ae6d959fe401fa8351e633868ebdcd3d4d02657b",
+      "originalUrl": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-saynatsalo-07.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/07-saynatsalo/model.glb",
+      "config": "assets/07-saynatsalo/config.json",
+      "materials": "assets/07-saynatsalo/materials.json",
+      "historicLighting": "assets/07-saynatsalo/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -50,
+          -0.73,
+          -48
+        ],
+        "max": [
+          50,
+          18.4,
+          48
+        ]
+      },
+      "originalBytes": 7642308,
+      "sha256": "a34a54a2dc36a368d7aaa97d7f7e9ea2620ada2c8fe3740490848c4fa7b4ee2e",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 6,
+      "sources": [
+        {
+          "title": "Säynätsalo Town Hall",
+          "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/",
+          "evidence": "1949–1952、議事廳／蝶形木架官方照片與圖紙"
+        },
+        {
+          "title": "Artek Standard No.3，頁8",
+          "url": "https://www.artek.fi/downloads/Artek_Standard_No3_FI.pdf",
+          "evidence": "A110設計於1952且用於Säynätsalo議事廳"
+        },
+        {
+          "title": "A110 factsheet",
+          "url": "https://www.artek.fi/downloads/Pendant-Light-A110-Hand-Grenade-Factsheet-1839592.pdf",
+          "evidence": "A110產品形體與設計年代；現代規格不等於1952實裝"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/07-saynatsalo/model.glb",
+          "bytes": 7642308,
+          "sha256": "a34a54a2dc36a368d7aaa97d7f7e9ea2620ada2c8fe3740490848c4fa7b4ee2e",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/07-saynatsalo/config.json",
+          "bytes": 10615,
+          "sha256": "2ecfe67ffc777347ff0403c1732a54263c76c1a367c761423dfe9faca9f9ca0f",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/07-saynatsalo/materials.json",
+          "bytes": 29072,
+          "sha256": "61ef83b888409a575fbf5dae5be3288428914e2852d468b2c7b491d5fa48c5d2",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/07-saynatsalo/historic-lighting.json",
+          "bytes": 4103,
+          "sha256": "7592f62437ac44d7706f184e6b9114747c9335db04944134530d9d9d3b9a72d5",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -20.86550492873928,
+          -0.00010862946510314941,
+          -21.86498611407819
+        ],
+        "max": [
+          26.465651417584766,
+          18.399500818517524,
+          18.66512039551988
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 6,
+        "removedContextTriangles": 1024
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "珊納特賽羅市政廳・史料照明 WebGPU 版"
+    },
+    {
+      "id": 8,
+      "slug": "08-luce",
+      "projectId": "appgprj_6ad33fa6c4e08191a13723b4034f9e95",
+      "sourceCommit": "2389321b925d684b04d3eb2133d55cef3ad8c8d0",
+      "originalUrl": "https://architecture-v2-luce-08.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-luce-08.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/08-luce/model.glb",
+      "config": "assets/08-luce/config.json",
+      "materials": "assets/08-luce/materials.json",
+      "historicLighting": "assets/08-luce/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -15.3787,
+          -0.65,
+          -28.208
+        ],
+        "max": [
+          15.3787,
+          21.78,
+          0.583
+        ]
+      },
+      "originalBytes": 25644636,
+      "sha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 6,
+      "sources": [
+        {
+          "title": "Luce Chapel Reopens After Restoration",
+          "url": "https://thupr.thu.edu.tw/EN/newsdetail.php?c=57&id=411",
+          "evidence": "1963落成、2022起兩年修復、2024重啟"
+        },
+        {
+          "title": "靜謐之光｜路思義教堂",
+          "url": "https://taipeidaward.taipei/Post/182397",
+          "evidence": "現代化照明、內部間接反射／遮光、四曲面與一線天"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/08-luce/model.glb",
+          "bytes": 25644636,
+          "sha256": "01ebf319e9834c8b986d932bf489f24a1d2bbf37e23a5e91333ac63279a9b965",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/08-luce/config.json",
+          "bytes": 8622,
+          "sha256": "16edb082733d0c310d0bb9cadf26bfd2f33d502894d8b4b60a43810e68901f45",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/08-luce/materials.json",
+          "bytes": 24468,
+          "sha256": "7ac7f88d019cb71c06fc71b44f2485f64252102c09913a5cbb4cec80dd28244b",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/08-luce/historic-lighting.json",
+          "bytes": 5106,
+          "sha256": "e7738ddd422df9f6082e330a489731022a4533e6420d31d494ce86f75242dc10",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -15.378652572631836,
+          -0.6500004529953003,
+          -28.207998275756836
+        ],
+        "max": [
+          15.378652572631836,
+          21.78000259399414,
+          0.5830000042915344
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 3,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "路思義教堂・史料照明 WebGPU 版"
+    },
+    {
+      "id": 9,
+      "slug": "09-douglas",
+      "projectId": "appgprj_6ad33fdf906881918b33daa4d6b3d0f8",
+      "sourceCommit": "390b9442c962b41d173b69cf3730203adc9afd98",
+      "originalUrl": "https://architecture-v2-douglas-09.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-douglas-09.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/09-douglas/model.glb",
+      "config": "assets/09-douglas/config.json",
+      "materials": "assets/09-douglas/materials.json",
+      "historicLighting": "assets/09-douglas/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -3.98,
+          -7.15,
+          -6.59
+        ],
+        "max": [
+          20.4385,
+          11.352,
+          8.1755
+        ]
+      },
+      "originalBytes": 7305424,
+      "sha256": "95d8168df0b2e88f8b822e71661a1d4d7eb224a1ce93a6ad4e3abc276bd94bc0",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 24,
+      "sources": [
+        {
+          "title": "The Interior",
+          "url": "https://www.douglashouse.org/interior",
+          "evidence": "現況內部照片、挑空／天窗和不同層視野"
+        },
+        {
+          "title": "The Story",
+          "url": "https://www.douglashouse.org/story",
+          "evidence": "1973完工與兩度修復"
+        },
+        {
+          "title": "The Restorations",
+          "url": "https://www.douglashouse.org/restorations",
+          "evidence": "1985後與2008起修復，不能將現況直接當原狀"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/09-douglas/model.glb",
+          "bytes": 7305424,
+          "sha256": "95d8168df0b2e88f8b822e71661a1d4d7eb224a1ce93a6ad4e3abc276bd94bc0",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/09-douglas/config.json",
+          "bytes": 14756,
+          "sha256": "b042ffdecbc95f1ef9fcb00f1d40f901c061ea4fff70c29fdeec8d3518c48482",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/09-douglas/materials.json",
+          "bytes": 29595,
+          "sha256": "58596e5f1a91d6e1ac8ef9ae3286110fcf6f1fe96fbf9fc0a566be9ae612573c",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/09-douglas/historic-lighting.json",
+          "bytes": 9595,
+          "sha256": "d3333a398ba3123eca6397d70a464bf0022a43fed4214e95e91b41da0dbcb65f",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -3.9802232237284443,
+          -7.149578980037143,
+          -6.589251380962554
+        ],
+        "max": [
+          20.43763620801691,
+          11.35196228325367,
+          8.176824243903928
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 8,
+        "removedContextTriangles": 3240
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "道格拉斯住宅・史料照明 WebGPU 版"
+    },
+    {
+      "id": 10,
+      "slug": "10-menil",
+      "projectId": "appgprj_6ad3401fcf4c8191b6a3a2fe5a54275e",
+      "sourceCommit": "bc13f3177ad968e3c95b0cfb0f2a7726dede22cc",
+      "originalUrl": "https://architecture-v2-menil-10.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-menil-10.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/10-menil/model.glb",
+      "config": "assets/10-menil/config.json",
+      "materials": "assets/10-menil/materials.json",
+      "historicLighting": "assets/10-menil/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -77.4233,
+          -4,
+          -43.08
+        ],
+        "max": [
+          76.5301,
+          13.4,
+          39.0222
+        ]
+      },
+      "originalBytes": 17086772,
+      "sha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 18,
+      "sources": [
+        {
+          "title": "The Menil Collection: Renzo Piano and Light",
+          "url": "https://www.menil.org/read-watch/renzo-piano-and-light",
+          "evidence": "館方解釋葉片反射北向天光、深色地板與隨時間變化的光，配2024門廳照片。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Fondazione Renzo Piano: Menil Collection",
+          "url": "https://www.fondazionerenzopiano.org/en/project/menil-collection/",
+          "evidence": "原設計及建造年代、薄殼屋頂葉片、檔案圖紙與Paul Hester室內攝影。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "The Menil Collection: Main Building",
+          "url": "https://www.menil.org/campus/main-building",
+          "evidence": "1987開館，畫廊以自然光呈現天候與時間變化。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/10-menil/model.glb",
+          "bytes": 17086772,
+          "sha256": "0f737deaefcd8ec5ec13b5ba3b6c04980905a2c89259b9cfc02faa17e9e655d7",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/10-menil/config.json",
+          "bytes": 12610,
+          "sha256": "7a0120f8b8ae181fba7cff53755a5efcd4dc22251db1f0a84edc13140d05136a",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/10-menil/materials.json",
+          "bytes": 24357,
+          "sha256": "8ab8018baa8de4cca79878767a1014af6dd478a5b83c7e3b4ecfba59a7de231b",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/10-menil/historic-lighting.json",
+          "bytes": 24691,
+          "sha256": "3b284e67eaeb0888e006f1a3ae206dad7c70a16c0952b88d2afd2461b47a09d3",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -65.92057557908872,
+          -3.999560604989119,
+          -25.089205603198337
+        ],
+        "max": [
+          65.92057557908872,
+          13.399560461937972,
+          25.087893307290873
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 6,
+        "removedContextTriangles": 162
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "梅尼爾美術館・史料照明 WebGPU 版"
+    },
+    {
+      "id": 11,
+      "slug": "11-gunma",
+      "projectId": "appgprj_6ad34051bdf48191aad969234f21119d",
+      "sourceCommit": "8367f8152f689e66ac71b138ad2815b46e975fa9",
+      "originalUrl": "https://architecture-v2-gunma-11.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-gunma-11.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/11-gunma/model.glb",
+      "config": "assets/11-gunma/config.json",
+      "materials": "assets/11-gunma/materials.json",
+      "historicLighting": "assets/11-gunma/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -9.2805,
+          -0.2,
+          -60.3
+        ],
+        "max": [
+          89.1,
+          12.37,
+          26.555
+        ]
+      },
+      "originalBytes": 3230852,
+      "sha256": "a6508ac6bb298703fabeb98e2f3ba7d82f1e7de917a4860359b9b5a2442c758a",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 4,
+      "sources": [
+        {
+          "title": "群馬県立近代美術館：建築について",
+          "url": "https://mmag.pref.gunma.jp/architecture",
+          "evidence": "館方原設計年代、12m模數及第1／第2展示室、入口大廳官方照片。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "群馬県立近代美術館：美術館概要",
+          "url": "https://mmag.pref.gunma.jp/outline",
+          "evidence": "官方沿革，可區分原館與增建。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/11-gunma/model.glb",
+          "bytes": 3230852,
+          "sha256": "a6508ac6bb298703fabeb98e2f3ba7d82f1e7de917a4860359b9b5a2442c758a",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/11-gunma/config.json",
+          "bytes": 16485,
+          "sha256": "b4a13844f58abc7433e65a8b9e74ae32ebf3fff684bfc097e1481af89123a58a",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/11-gunma/materials.json",
+          "bytes": 24552,
+          "sha256": "bf3d673d36d497241552c41d738ae630773b1b22d6e6217c5d48cb521855363c",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/11-gunma/historic-lighting.json",
+          "bytes": 4232,
+          "sha256": "2dd32bd6a7e9fdbb45295a199bdce64fa5d48767585a07369d197ab2523293f0",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -23.000885036774804,
+          -0.6995640574483293,
+          -66.00079348124638
+        ],
+        "max": [
+          89.09939878536332,
+          12.369377255457948,
+          36.498825037385174
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 6,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "群馬縣立近代美術館・史料照明 WebGPU 版"
+    },
+    {
+      "id": 12,
+      "slug": "12-retti",
+      "projectId": "appgprj_6ad34078c48c8191a3bbbf59440cf8a4",
+      "sourceCommit": "a8b58d95ea9fb9993a4f7d6b89b43e3167601748",
+      "originalUrl": "https://architecture-v2-retti-12.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-retti-12.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/12-retti/model.glb",
+      "config": "assets/12-retti/config.json",
+      "materials": "assets/12-retti/materials.json",
+      "historicLighting": "assets/12-retti/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -3.364,
+          -0.055,
+          -7.44
+        ],
+        "max": [
+          3.364,
+          5.125,
+          2.2
+        ]
+      },
+      "originalBytes": 2177920,
+      "sha256": "6ab092f5d598533f50a9fc8917786b6738bdabb960c96ae9d2d310e9a3605d3c",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 25,
+      "sources": [
+        {
+          "title": "Hans Hollein studio：Retti",
+          "url": "https://hollein.com/index.php/ger/Architektur/Nach-Typus/Shops-und-Interiors/Retti",
+          "evidence": "設計者官方原圖、Franz Hubmann攝影及1965–1966年代。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Bundesdenkmalamt：Retti，Denkmal des Monats Dezember 2022",
+          "url": "https://www.bda.gv.at/themen/ich-bin-denkmal/dezember-2022.html",
+          "evidence": "國家文物機關記錄原燈光概念恢復、燈頭依原圖重製，並提供修復室內照。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/12-retti/model.glb",
+          "bytes": 2177920,
+          "sha256": "6ab092f5d598533f50a9fc8917786b6738bdabb960c96ae9d2d310e9a3605d3c",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/12-retti/config.json",
+          "bytes": 14875,
+          "sha256": "006f6a3dc43b41364a4abe0afd1efaec7f7842663a6d70ae72cae5b2406eaa73",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/12-retti/materials.json",
+          "bytes": 19314,
+          "sha256": "16f675e30e3648b92587a2948f8b183e120743805a5807351993c4b618e9e53f",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/12-retti/historic-lighting.json",
+          "bytes": 15213,
+          "sha256": "4ce943a0f99fad3e5f0805c05c3876400f9ee9aa655e8ca11d7c428a64c21018",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -3.363989659958219,
+          -0.05507378785993744,
+          -7.4400001130998135
+        ],
+        "max": [
+          3.363989659958219,
+          4.52006169479904,
+          2.200051076719433
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "Retti 蠟燭店・史料照明 WebGPU 版"
+    },
+    {
+      "id": 13,
+      "slug": "13-aerospace",
+      "projectId": "appgprj_6ad340a5eeb88191a7841693dfcff6ae",
+      "sourceCommit": "ef3524c71d92c1f49437b906ca2636dc938c26ce",
+      "originalUrl": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-aerospace-13.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/13-aerospace/model.glb",
+      "config": "assets/13-aerospace/config.json",
+      "materials": "assets/13-aerospace/materials.json",
+      "historicLighting": "assets/13-aerospace/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -39.2772,
+          -0.36,
+          -2.2578
+        ],
+        "max": [
+          33.25,
+          28.158,
+          24.9733
+        ]
+      },
+      "originalBytes": 626304,
+      "sha256": "448bc722d2a8182a929c699ea3e6ff862fdff412f8c0e63d27c8831b1f94108c",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 10,
+      "sources": [
+        {
+          "title": "City of Los Angeles：Historic-Cultural Monument nomination 2012",
+          "url": "https://cityclerk.lacity.org/onlinedocs/2012/12-0957_RPT_CHC_06-19-2012.pdf",
+          "evidence": "政府完整保護提名，描述外露梁／空間構架、上層入口通高展廳、大天窗及1998–2002內部改動；內部非2012實勘。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Los Angeles Conservancy：Air and Space Gallery",
+          "url": "https://www.laconservancy.org/learn/historic-places/air-and-space-gallery-california-science-center/",
+          "evidence": "專業保育組織確認Gehry1984機庫式大空間與基地脈絡。",
+          "kind": "保育機構"
+        },
+        {
+          "title": "Getty：10 Frank Gehry buildings to see in Los Angeles",
+          "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/",
+          "evidence": "Getty檔案機構對正確建築身分與外觀的辨識。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/13-aerospace/model.glb",
+          "bytes": 626304,
+          "sha256": "448bc722d2a8182a929c699ea3e6ff862fdff412f8c0e63d27c8831b1f94108c",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/13-aerospace/config.json",
+          "bytes": 10056,
+          "sha256": "0575006fdb812e25f95c2f239327ab44a1c7cd5c47fefceb88402dde65bca121",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/13-aerospace/materials.json",
+          "bytes": 19119,
+          "sha256": "1168366396ee92c923510b5221581ed64d3b573efe9a49d4b572198a175728ba",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/13-aerospace/historic-lighting.json",
+          "bytes": 6773,
+          "sha256": "12755b7f22fc6d1121bcbe82864ea92d712bd243428a97078718c424310f21f5",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -55.00021362956633,
+          -0.3598895871347665,
+          -37.14975432599872
+        ],
+        "max": [
+          55.00021362956633,
+          27.567476360312362,
+          31.999572740867336
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 2,
+        "removedContextTriangles": 690
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "加州航太博物館・史料照明 WebGPU 版"
+    },
+    {
+      "id": 14,
+      "slug": "14-vitra",
+      "projectId": "appgprj_6ad340c9d1cc8191896ea502ad772ea5",
+      "sourceCommit": "b2b79217573543cb9429f831a3a05285d3c8a87d",
+      "originalUrl": "https://architecture-v2-vitra-14.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-vitra-14.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/14-vitra/model.glb",
+      "config": "assets/14-vitra/config.json",
+      "materials": "assets/14-vitra/materials.json",
+      "historicLighting": "assets/14-vitra/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -41.7143,
+          -0.18,
+          -14.4414
+        ],
+        "max": [
+          45.8765,
+          9.1298,
+          13.6673
+        ]
+      },
+      "originalBytes": 8977600,
+      "sha256": "021cfbf46c900c5f70d02d72e29ef4a05eca15edc10ea02a9c0376201fd14821",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 15,
+      "sources": [
+        {
+          "title": "Zaha Hadid：Vitra Fire Station，Ars Electronica archive 1994",
+          "url": "https://webarchive.ars.electronica.art/en/archiv_files/19941/E1994a_064.pdf",
+          "evidence": "作者本人Lighting Scheme節明確說全部照明整合為平面切縫線光，並說車庫以地面切槽界定車道；前節描述混凝土與懸挑。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Zaha Hadid Foundation：Vitra Fire Station",
+          "url": "https://www.zhfoundation.com/collections/vitra-fire-station/",
+          "evidence": "原設計檔案、1993 Christian Richters攝影及設計年代。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Vitra：Fire Station architecture",
+          "url": "https://www.vitra.com/en-pt/campus/architecture/architecture-fire-station",
+          "evidence": "官方業主資料，確認原消防用途及其後展覽用途。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/14-vitra/model.glb",
+          "bytes": 8977600,
+          "sha256": "021cfbf46c900c5f70d02d72e29ef4a05eca15edc10ea02a9c0376201fd14821",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/14-vitra/config.json",
+          "bytes": 12759,
+          "sha256": "00e54f14afb17bdbb118d92fd368d5edb53798f5656db032b3854bf8d69b047b",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/14-vitra/materials.json",
+          "bytes": 26351,
+          "sha256": "aff050cc56986fff7c3def6a6e7bd1d248f79003cbca21078071e626ad83fb9a",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/14-vitra/historic-lighting.json",
+          "bytes": 9373,
+          "sha256": "73918e626a9c9163a0183a4dfc88988cb5fe3dd4299f5f09409923ae9ac61a4f",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -41.71434783935547,
+          -0.18000000715255737,
+          -14.441372871398926
+        ],
+        "max": [
+          45.8764762878418,
+          9.129825592041016,
+          13.667274475097656
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 6,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "維特拉消防站・史料照明 WebGPU 版"
+    },
+    {
+      "id": 15,
+      "slug": "15-zueblin",
+      "projectId": "appgprj_6ad340f67ea8819186e71eaa71d973fc",
+      "sourceCommit": "993cd05c76605e39e5ac67b14867a960bd3fb9f8",
+      "originalUrl": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-zueblin-15.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/15-zueblin/model.glb",
+      "config": "assets/15-zueblin/config.json",
+      "materials": "assets/15-zueblin/materials.json",
+      "historicLighting": "assets/15-zueblin/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -48,
+          -3.55,
+          -27.19
+        ],
+        "max": [
+          48,
+          31.065,
+          43.225
+        ]
+      },
+      "originalBytes": 17025548,
+      "sha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 84,
+      "sources": [
+        {
+          "title": "ZÜBLIN：Das ZÜBLIN-Haus",
+          "url": "https://www.zueblin.de/de/projekte/das-zueblin-haus",
+          "evidence": "業主官方資料提供1983–1985年代、七層雙翼、玻璃中庭、尺寸、2009保護與2017修繕；現況攝影Tom Philippi。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/15-zueblin/model.glb",
+          "bytes": 17025548,
+          "sha256": "e9c640cf46bd4f496203ab0b7e0133afc9513269baefbaac2347829344ac9c43",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/15-zueblin/config.json",
+          "bytes": 11126,
+          "sha256": "c4e08f1f7082134634d975e37e9e7aafc891e90a2105d6e8e890f2d808820ab9",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/15-zueblin/materials.json",
+          "bytes": 23902,
+          "sha256": "bd33d04fb0fa03db1d944110958e72c438d620db0b9d1e8e103476c314dfb49d",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/15-zueblin/historic-lighting.json",
+          "bytes": 32774,
+          "sha256": "47c48b6d7a0dd97d1d31122205e1eb44dcc4c5588217868a76f61c5cb8da6cdc",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -47.99925229651784,
+          -3.5491863383973836,
+          -27.190023499252298
+        ],
+        "max": [
+          47.99925229651784,
+          31.065639553506056,
+          43.22484511856441
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 7,
+        "removedContextTriangles": 22
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "ZÜBLIN 辦公大樓・史料照明 WebGPU 版"
+    },
+    {
+      "id": 16,
+      "slug": "16-boa-nova",
+      "projectId": "appgprj_6ad34150a1cc8191a468d4b6ffd243e8",
+      "sourceCommit": "66965832413de267f5378399e0e4caab6fc6d668",
+      "originalUrl": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-boa-nova-16.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/16-boa-nova/model.glb",
+      "config": "assets/16-boa-nova/config.json",
+      "materials": "assets/16-boa-nova/materials.json",
+      "historicLighting": "assets/16-boa-nova/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -4.9625,
+          -2.45,
+          -25
+        ],
+        "max": [
+          28.125,
+          6.5788,
+          4.1762
+        ]
+      },
+      "originalBytes": 4420836,
+      "sha256": "bd97a47330509118678da9a28aac096dee870c630edf650d1ab1eb7445b5fb39",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 7,
+      "sources": [
+        {
+          "title": "Nelson Mota：Boa Nova Teahouse and Restaurant, 1958–1963（2019）",
+          "url": "https://pure.tudelft.nl/ws/portalfiles/portal/84971936/MOTA_N._Boa_Nova_Teahouse_in_Cafes_and_Restaurants_Routledge_2019_.pdf",
+          "evidence": "學術作者據2012建築師訪談並附內觀，明確討論Afzelia木頂、天窗、桌燈與避免頂面附掛燈具；圖文pp284–285。",
+          "kind": "研究者／建築師訪談一手研究"
+        },
+        {
+          "title": "Open House Porto 2018：Casa de Chá da Boa Nova",
+          "url": "https://2018.openhouseporto.com/places/casa-cha/",
+          "evidence": "Casa da Arquitectura建築開放日資料；列1962／1991／2014，說明燈具、桌椅等整體設計。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/16-boa-nova/model.glb",
+          "bytes": 4420836,
+          "sha256": "bd97a47330509118678da9a28aac096dee870c630edf650d1ab1eb7445b5fb39",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/16-boa-nova/config.json",
+          "bytes": 11106,
+          "sha256": "062a13062a5b167484aa083a65219142a57c9fd013ad61f23d8f1978a7abb05a",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/16-boa-nova/materials.json",
+          "bytes": 25917,
+          "sha256": "165a739ca7138459f878ed7dc7f1e14b2c31f35001651df6167f837bf99b3191",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/16-boa-nova/historic-lighting.json",
+          "bytes": 4875,
+          "sha256": "aea25650b427981d2fc37abadba1f9db29fb1633416451b425fb219f40f98637",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -5.451826532792138,
+          -4.4485216677074275,
+          -24.997329630420865
+        ],
+        "max": [
+          28.59538560136723,
+          6.580104694181058,
+          4.675817133091229
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 2,
+        "removedContextTriangles": 5982
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "Boa Nova 茶屋・史料照明 WebGPU 版"
+    },
+    {
+      "id": 17,
+      "slug": "17-light",
+      "projectId": "appgprj_6ad34179386481918fcfb71f663ce0a2",
+      "sourceCommit": "613758bd19db71ec371cdb7c39b63c8768e771c2",
+      "originalUrl": "https://architecture-v2-light-17.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-light-17.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/17-light/model.glb",
+      "config": "assets/17-light/config.json",
+      "materials": "assets/17-light/materials.json",
+      "historicLighting": "assets/17-light/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -1.88,
+          -1.16,
+          -6.1526
+        ],
+        "max": [
+          20.1,
+          6.314,
+          3.33
+        ]
+      },
+      "originalBytes": 11661496,
+      "sha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 6,
+      "sources": [
+        {
+          "title": "Tadao Ando Architect & Associates：The Church of the Light: A Cross of Light Floating in the Dark",
+          "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark/2QVRGQpQrOQ8sQ?hl=en",
+          "evidence": "建築師事務所監修，標示1989禮拜堂、1988施工、1999主日學；提供可檢視側牆小壁燈的室內圖。",
+          "kind": "官方／一手資料"
+        },
+        {
+          "title": "Ibaraki Kasugaoka Church 官方網站",
+          "url": "https://ibaraki-kasugaoka-church.jp/",
+          "evidence": "教會身分／現況官方入口；本次未據其頁面推定原燈具。",
+          "kind": "官方／一手資料"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/17-light/model.glb",
+          "bytes": 11661496,
+          "sha256": "2bb35def51a112ae6fe8f87b47677544580a05713bb2985dbad1e039c34c939f",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/17-light/config.json",
+          "bytes": 8523,
+          "sha256": "97629e9da73299a35a2c70bdc1b338ea95e4aa83726976e7eba88f143a2d526a",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/17-light/materials.json",
+          "bytes": 21983,
+          "sha256": "41903581dfefc269ce9f1ce96c52390be80efc63edc0d4fabc2b0528920f0f64",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/17-light/historic-lighting.json",
+          "bytes": 4534,
+          "sha256": "2682b09641334512765007c2d914929219a61bd0800f05a10f4a0eb96477aa87",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -1.8802148503067109,
+          -1.160041065518317,
+          -6.152745139927366
+        ],
+        "max": [
+          20.099978637043368,
+          6.314094497700776,
+          3.330118717001862
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "光之教會・史料照明 WebGPU 版"
+    },
+    {
+      "id": 18,
+      "slug": "18-serpentine",
+      "projectId": "appgprj_6ad341a3843c8191bb99dc28b88d25ca",
+      "sourceCommit": "1044e40375d1d94d800ec7a609b4ea0037ef3b27",
+      "originalUrl": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-serpentine-18.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/18-serpentine/model.glb",
+      "config": "assets/18-serpentine/config.json",
+      "materials": "assets/18-serpentine/materials.json",
+      "historicLighting": "assets/18-serpentine/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -11.6,
+          -0.02,
+          -11.6
+        ],
+        "max": [
+          11.6,
+          5.1,
+          11.6
+        ]
+      },
+      "originalBytes": 768856,
+      "sha256": "9aaf93a386fa11dfe1f1f156ee90e5dff2839c8fda0485e3d2e88e3232ec30c1",
+      "artificialLightingAvailable": false,
+      "artificialLightingStatus": "disabled-insufficient-historical-fixture-evidence",
+      "availableLightSamples": 0,
+      "sources": [
+        {
+          "title": "Serpentine官方2002展亭",
+          "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/",
+          "evidence": "2002.7.12–9.29；幾何與透明／半透明面板；2002攝影歸屬。"
+        },
+        {
+          "title": "Balmond Studio工程師項目",
+          "url": "https://balmondstudio.com/work/serpentine-pavilion-2002.php",
+          "evidence": "2002完工；鋼板、玻璃和鋁板；現場圖像。"
+        },
+        {
+          "title": "Balmond Studio原圖7",
+          "url": "https://balmondstudio.com/images/work/Serpentine-Pavilion-2002/7.jpg",
+          "evidence": "實際檢視像素作天花判斷；此圖不可證明夜間燈型。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/18-serpentine/model.glb",
+          "bytes": 768856,
+          "sha256": "9aaf93a386fa11dfe1f1f156ee90e5dff2839c8fda0485e3d2e88e3232ec30c1",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/18-serpentine/config.json",
+          "bytes": 8323,
+          "sha256": "bb569e3430d59476ce9f648d524f98dae09563088918273bc59b72a57b7aba52",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/18-serpentine/materials.json",
+          "bytes": 22873,
+          "sha256": "85d5681315ba33c281f69c1fd2a11f008f19780d0e54038530ac00036188e2eb",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/18-serpentine/historic-lighting.json",
+          "bytes": 2931,
+          "sha256": "e2049539616017cb9d341d073a325e66bb495ccdac007209b7ba5fe53921a90c",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -11.599902340769676,
+          -0.019762089594511423,
+          -11.599902340769676
+        ],
+        "max": [
+          11.599902340769676,
+          5.100572393269346,
+          11.599902340769676
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 4,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "2002 蛇形藝廊展亭・史料照明 WebGPU 版"
+    },
+    {
+      "id": 19,
+      "slug": "19-bordeaux",
+      "projectId": "appgprj_6ad341c58d788191b8a486f726bd38a1",
+      "sourceCommit": "02f2b8fa6b96683f64eab04601761c1b1480b835",
+      "originalUrl": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-bordeaux-19.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/19-bordeaux/model.glb",
+      "config": "assets/19-bordeaux/config.json",
+      "materials": "assets/19-bordeaux/materials.json",
+      "historicLighting": "assets/19-bordeaux/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -0.17,
+          -3.95,
+          -14
+        ],
+        "max": [
+          25.1,
+          6.505,
+          16.0125
+        ]
+      },
+      "originalBytes": 3037696,
+      "sha256": "d14ba8d4676e7106622790da5d1d08037a64ef6522730d185fd89731392e79b0",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 1,
+      "sources": [
+        {
+          "title": "OMA Maison à Bordeaux官方項目",
+          "url": "https://www.oma.com/projects/maison-a-bordeaux",
+          "evidence": "1994–1998；三層空間、3×3.5m移動平台、項目圖集。"
+        },
+        {
+          "title": "OMA Pierre Paulin Program",
+          "url": "https://www.oma.com/projects/pierre-paulin-program",
+          "evidence": "不同時期家具展示，作年代排除而非原始燈型依據。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/19-bordeaux/model.glb",
+          "bytes": 3037696,
+          "sha256": "d14ba8d4676e7106622790da5d1d08037a64ef6522730d185fd89731392e79b0",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/19-bordeaux/config.json",
+          "bytes": 12502,
+          "sha256": "56dbddfbbdba64c2c0de6dfd603d3c820ac102416afd3082daac5b1a65357be3",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/19-bordeaux/materials.json",
+          "bytes": 27979,
+          "sha256": "1e92d46f7939e10198af8778f76233773722cf34c1159216b9ec434c852b15d9",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/19-bordeaux/historic-lighting.json",
+          "bytes": 4159,
+          "sha256": "e5e8f468670cea92005c8900eea03b122b9f2add87df510c42027e6c606f7de0",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -20.00053407391583,
+          -3.9999966001795846,
+          -14.000000536441803
+        ],
+        "max": [
+          25.150074770348215,
+          6.505450949072838,
+          22.110232856227302
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 3,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "波爾多住宅・史料照明 WebGPU 版"
+    },
+    {
+      "id": 20,
+      "slug": "20-zollverein",
+      "projectId": "appgprj_6ad341ed88608191a4cac13e2ce1524c",
+      "sourceCommit": "1b9e9245c6206fecbfccc27af0f76b008f770300",
+      "originalUrl": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-zollverein-20.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/20-zollverein/model.glb",
+      "config": "assets/20-zollverein/config.json",
+      "materials": "assets/20-zollverein/materials.json",
+      "historicLighting": "assets/20-zollverein/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -72.5,
+          -4.84,
+          -28.5
+        ],
+        "max": [
+          72.5,
+          34,
+          19
+        ]
+      },
+      "originalBytes": 6571504,
+      "sha256": "0a08dcd8ade0dd067fa2018049404b64cb2105a4a9a2db62de169ed3f8326163",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 56,
+      "sources": [
+        {
+          "title": "Zollverein官方SANAA大樓",
+          "url": "https://www.zollverein.de/eventlocations/sanaa/",
+          "evidence": "樓層高度與134窗；高廳照片。"
+        },
+        {
+          "title": "Iwan Baan官方攝影項目",
+          "url": "https://iwan.com/portfolio/sanaa-zollverein-school/",
+          "evidence": "項目頁標2010；餐廳照片的直接攝影來源。"
+        },
+        {
+          "title": "Iwan Baan餐廳原圖",
+          "url": "https://b2832891.assetcdn.net/2.0/2832891/wp-content/uploads/2013/07/SANAA-Zollverein-7406.jpg",
+          "evidence": "像素檢視可辨圓形齊平下照燈；URL上傳年2013不當攝影年。"
+        },
+        {
+          "title": "Folkwang官方建築傳單",
+          "url": "https://www.folkwang-uni.de/fileadmin/medien/Die%20Hochschule/Einzelbilder/Standorte/SANAA/folkwang_sanaa_flyer.pdf",
+          "evidence": "2006建築、2010使用及樓層組織。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/20-zollverein/model.glb",
+          "bytes": 6571504,
+          "sha256": "0a08dcd8ade0dd067fa2018049404b64cb2105a4a9a2db62de169ed3f8326163",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/20-zollverein/config.json",
+          "bytes": 17407,
+          "sha256": "cb88b1bba050da83aa2be8af95307a8930d006a33d98dc9dd5a6c7ef997df822",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/20-zollverein/materials.json",
+          "bytes": 26309,
+          "sha256": "673b000a25fd99fe224350a49ba5a2a972af7e4fe6483583ca2c70b1d30c6af3",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/20-zollverein/historic-lighting.json",
+          "bytes": 27496,
+          "sha256": "98fa2785667d759c9e0347d95b689fa5acc1ebb9ece7ae117076e8b813508cde",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -18.998992919921875,
+          -4.8392328409657175,
+          -18.998992919921875
+        ],
+        "max": [
+          18.998992919921875,
+          33.99923268837783,
+          18.998992919921875
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 2,
+        "removedContextTriangles": 22
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "Zollverein 設計學院・史料照明 WebGPU 版"
+    },
+    {
+      "id": 21,
+      "slug": "21-paper-church",
+      "projectId": "appgprj_6ad3422685608191b33299c81c813923",
+      "sourceCommit": "b686fccf3d2d8e09d603a237a6ba2dd0aa5857f5",
+      "originalUrl": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-paper-church-21.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/21-paper-church/model.glb",
+      "config": "assets/21-paper-church/config.json",
+      "materials": "assets/21-paper-church/materials.json",
+      "historicLighting": "assets/21-paper-church/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -7.795,
+          0,
+          -5.71
+        ],
+        "max": [
+          7.795,
+          7.2325,
+          6.246
+        ]
+      },
+      "originalBytes": 12746964,
+      "sha256": "81db7be5a9097607dc691a1192e83d188f25389a58f6c3f05ddf1cf425e14e0e",
+      "artificialLightingAvailable": false,
+      "artificialLightingStatus": "disabled-insufficient-historical-fixture-evidence",
+      "availableLightSamples": 0,
+      "sources": [
+        {
+          "title": "坂茂原神戶歷史項目",
+          "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/index.html",
+          "evidence": "明列1995–2005(disassembled)、58紙管與移往台灣。"
+        },
+        {
+          "title": "原神戶室內原圖",
+          "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/church_int1.jpg",
+          "evidence": "直接檢視像素；膜面與柱圈證據。"
+        },
+        {
+          "title": "坂茂台灣Paper Dome",
+          "url": "https://shigerubanarchitects.com/works/cultural/paper-dome-taiwan/",
+          "evidence": "官方另列2008，與原神戶分期。"
+        },
+        {
+          "title": "坂茂Takatori Catholic Church",
+          "url": "https://shigerubanarchitects.com/works/cultural/takatori-catholic-church/",
+          "evidence": "2007新建日本教堂，非原1995燈具證據。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/21-paper-church/model.glb",
+          "bytes": 12746964,
+          "sha256": "81db7be5a9097607dc691a1192e83d188f25389a58f6c3f05ddf1cf425e14e0e",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/21-paper-church/config.json",
+          "bytes": 7299,
+          "sha256": "526be439b905a819086a2ad7e474eafa3b7760ce0bfe224ae789d38bc47180fa",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/21-paper-church/materials.json",
+          "bytes": 24303,
+          "sha256": "e209961d67eb25a9ee81963fac466786a966a53a44fa0ae1854236eeb9d0f61d",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/21-paper-church/historic-lighting.json",
+          "bytes": 3235,
+          "sha256": "1f04e4640f507fa72afdf2bf5bdd0016c5332247f1fcb2f514080efbb2c88714",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -7.795037690359203,
+          -0.00016896987000336594,
+          -5.709906308175909
+        ],
+        "max": [
+          7.795037690359203,
+          7.232488887120261,
+          6.2455061494796595
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "神戶紙教會・史料照明 WebGPU 版"
+    },
+    {
+      "id": 22,
+      "slug": "22-hiroshima",
+      "projectId": "appgprj_6ad3424de30481919f1a2751edcf07ee",
+      "sourceCommit": "158e97af33ee3b6a90f3387a102878085b12b272",
+      "originalUrl": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-hiroshima-22.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/22-hiroshima/model.glb",
+      "config": "assets/22-hiroshima/config.json",
+      "materials": "assets/22-hiroshima/materials.json",
+      "historicLighting": "assets/22-hiroshima/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -30,
+          -4.78,
+          -62
+        ],
+        "max": [
+          65,
+          45.4,
+          19
+        ]
+      },
+      "originalBytes": 11777464,
+      "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 102,
+      "sources": [
+        {
+          "title": "山本理顕事務所官方項目",
+          "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail",
+          "evidence": "2000年3月完工；玻璃百葉、中庭與公共層。"
+        },
+        {
+          "title": "廣島縣官方建築介紹",
+          "url": "https://www.pref.hiroshima.lg.jp/soshiki_file/tatemonogatari/en/page024.html",
+          "evidence": "2000建築及地方官方現場資料。"
+        },
+        {
+          "title": "Pritzker 2024官方圖片集",
+          "url": "https://www.pritzkerprize.com/sites/default/files/2024-12/2024%20Pritzker%20Prize%20Image%20Book.pdf",
+          "evidence": "第18–20頁，攝影Tomio Ohashi；建築和燈具像素依據。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/22-hiroshima/model.glb",
+          "bytes": 11777464,
+          "sha256": "60b8d6647eae2a254ad427b03131a9fcee2cfa4bd8561200156f8979cf56ea5d",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/22-hiroshima/config.json",
+          "bytes": 11049,
+          "sha256": "7b8e437ca630504fcb27331aa60f1a9b08a7a8365101249ef0d2186c190ec64c",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/22-hiroshima/materials.json",
+          "bytes": 23447,
+          "sha256": "1ce04ce36f208f5e892fc67e0d1de82132b76209ce497e567607fa842f98ed99",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/22-hiroshima/historic-lighting.json",
+          "bytes": 44076,
+          "sha256": "ae083e5d2c00324c02d05b5771acd8c02f4a14406f305d04001e114e97162239",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -11.999954222235786,
+          -4.780181537466291,
+          -41.000411999877926
+        ],
+        "max": [
+          54.00021362956633,
+          45.40018285353685,
+          17.000701925717948
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "廣島市西消防署・史料照明 WebGPU 版"
+    },
+    {
+      "id": 23,
+      "slug": "23-kimbell",
+      "projectId": "appgprj_6ad3427e59e8819192426538adcd8ba5",
+      "sourceCommit": "2b32cb40107b7464d9de07c9817f1da47b2cc737",
+      "originalUrl": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-kimbell-23.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/23-kimbell/model.glb",
+      "config": "assets/23-kimbell/config.json",
+      "materials": "assets/23-kimbell/materials.json",
+      "historicLighting": "assets/23-kimbell/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -26.5176,
+          -3.9849,
+          -57.0058
+        ],
+        "max": [
+          26.6676,
+          6.4913,
+          48.6132
+        ]
+      },
+      "originalBytes": 10250548,
+      "sha256": "89824574fd8a087aafc97df01616c8643291708377c5d5dd7a8a50b676e3724b",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 8,
+      "sources": [
+        {
+          "title": "Kimbell官方Kahn館建築",
+          "url": "https://kimbellart.org/art-architecture/architecture/kahn-building",
+          "evidence": "1972、擺線拱頂與自然光反射裝置。"
+        },
+        {
+          "title": "IESNY Richard Kelly Works官方檔案展覽冊",
+          "url": "https://iesnyc.starchapter.com/images/downloads/Richard_Kelly_Grant/rk_works_may07.pdf",
+          "evidence": "2007檔案展覽冊印刷頁11–12：初案、最終軌道照明與取消的線形光源。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/23-kimbell/model.glb",
+          "bytes": 10250548,
+          "sha256": "89824574fd8a087aafc97df01616c8643291708377c5d5dd7a8a50b676e3724b",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/23-kimbell/config.json",
+          "bytes": 14723,
+          "sha256": "0e467adc40432c5d58acc2c5fac6283deba2d9d937093fc6e2e2c1ea589123ad",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/23-kimbell/materials.json",
+          "bytes": 29095,
+          "sha256": "552a3781f8eba837d514d17d2df658ac4d8c7fd920adb6c31df8412d7d954d93",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/23-kimbell/historic-lighting.json",
+          "bytes": 14893,
+          "sha256": "379aec5fe4144d4b9b40f5e5f1eb25eb9b09bac4492b5b8bf4b44c99b0e055a9",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -41.999511703848384,
+          -3.9858137254019432,
+          -57.00430154800415
+        ],
+        "max": [
+          29.999526963103122,
+          6.491343170255273,
+          51.174504837183754
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 7,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "金貝爾美術館・史料照明 WebGPU 版"
+    },
+    {
+      "id": 24,
+      "slug": "24-olivetti",
+      "projectId": "appgprj_6ad342aca59c81918cad2f7dbfc9f030",
+      "sourceCommit": "290858a8c12056ec0d8cecfd5a8251debaa646bd",
+      "originalUrl": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-olivetti-24.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/24-olivetti/model.glb",
+      "config": "assets/24-olivetti/config.json",
+      "materials": "assets/24-olivetti/materials.json",
+      "historicLighting": "assets/24-olivetti/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -3.8,
+          -0.24,
+          -22
+        ],
+        "max": [
+          13.5652,
+          5.485,
+          4.2
+        ]
+      },
+      "originalBytes": 7404300,
+      "sha256": "0ed15cc6d02f8377d208dabdd5de177414c620d1e79d403b0482f71aee6a426b",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 13,
+      "sources": [
+        {
+          "title": "FAI官方Olivetti",
+          "url": "https://fondoambiente.it/luoghi/negozio-olivetti",
+          "evidence": "官方歷史與修復後照片。"
+        },
+        {
+          "title": "FAI修復專文",
+          "url": "https://fondoambiente.it/news/negozio-olivetti-dietro-le-quinte-di-unicona-del-novecento",
+          "evidence": "2010保育修復，Gretchen Alexander、Renata Codello、Tobia Scarpa參與。"
+        },
+        {
+          "title": "FAI上層官方導覽",
+          "url": "https://fai-website.imgix.net/uploads/2020/05/22070407/Il-piano-superiore.pdf",
+          "evidence": "柚木、上層灰泥顏色與修復。"
+        },
+        {
+          "title": "FAI地面層官方導覽",
+          "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf",
+          "evidence": "地面層與夾層構成。"
+        },
+        {
+          "title": "具名策展與修復者同期原文之轉載",
+          "url": "https://www.archilovers.com/projects/37469/negozio-olivetti.html",
+          "evidence": "2011.4.20；建築介紹署Lucia Borromeo Dina，另載Gretchen Alexander第一人稱修復文。垂直螢光、磨砂玻璃與鋼索烏木燈明文；平台非官方，故作具名第一手文字轉載，與FAI影像交叉核實。"
+        },
+        {
+          "title": "Olivetti歷史檔案協會重開消息",
+          "url": "https://www.archiviostoricolivetti.it/news/riapre-il-negozio-olivetti-di-venezia/",
+          "evidence": "1958.11.26開幕與2011重開；協會參與修復技術支援。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/24-olivetti/model.glb",
+          "bytes": 7404300,
+          "sha256": "0ed15cc6d02f8377d208dabdd5de177414c620d1e79d403b0482f71aee6a426b",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/24-olivetti/config.json",
+          "bytes": 17888,
+          "sha256": "e4fdef53d9cb9ad05f94c82148b877ce68edfe65c6c96ec30666b3597e9877c8",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/24-olivetti/materials.json",
+          "bytes": 25833,
+          "sha256": "f1455cb52a1614f392b688c0fd8a0c07a672ad101e3711e684f8bc391bb4baa5",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/24-olivetti/historic-lighting.json",
+          "bytes": 9736,
+          "sha256": "862e46d999de1458bf17c78b4561e47e6141d947fcf3418ee32e5fc0a13e5524",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -3.8001091526931816,
+          -0.24001403198282345,
+          -22
+        ],
+        "max": [
+          13.565276627439886,
+          5.485014155960485,
+          4.199999809265137
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 0,
+        "removedContextTriangles": 0
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "Olivetti 展示店・史料照明 WebGPU 版"
+    },
+    {
+      "id": 25,
+      "slug": "25-bregenz",
+      "projectId": "appgprj_6ad342ddbaf88191b943c42fded6d15a",
+      "sourceCommit": "7862f25d37b2ba78dd740aa96d5d69a59b7b8c77",
+      "originalUrl": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site",
+      "webgpuUrl": "https://architecture-v2-bregenz-25.jackylin.chatgpt.site/webgpu",
+      "webgpuSourceRouteExists": true,
+      "routeVerification": "Source-established WebGPU route verified by anonymous HTTPS GET: HTTP 200, matching WebGPU page title and bootstrap.",
+      "model": "assets/25-bregenz/model.glb",
+      "config": "assets/25-bregenz/config.json",
+      "materials": "assets/25-bregenz/materials.json",
+      "historicLighting": "assets/25-bregenz/historic-lighting.json",
+      "fixtureImplementation": "source-historic-json",
+      "materialsBase": "assets/_original-materials/",
+      "originalConfigBounds": {
+        "min": [
+          -13.345,
+          -9.7,
+          -13.345
+        ],
+        "max": [
+          26.93,
+          30.0425,
+          28.41
+        ]
+      },
+      "originalBytes": 3780108,
+      "sha256": "826369ea099f57964c261d42d3187a14fef64f0d5ceba6c801bd9242582f0257",
+      "artificialLightingAvailable": true,
+      "artificialLightingStatus": "source-informed-educational-estimate",
+      "availableLightSamples": 27,
+      "sources": [
+        {
+          "title": "KUB官方建築",
+          "url": "https://www.kunsthaus-bregenz.at/architektur",
+          "evidence": "1997、蝕刻玻璃、夾層、燈數與控制。"
+        },
+        {
+          "title": "KUB官方2021建築冊",
+          "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Architekturfolder_210520_e_web.pdf",
+          "evidence": "上層235盞／層及玻璃天花結構。"
+        },
+        {
+          "title": "KUB官方剖面",
+          "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/KUB_Schnitt_A-B.png",
+          "evidence": "天花及不同樓層燈型的圖像依據。"
+        },
+        {
+          "title": "KUB官方地面層含燈平面",
+          "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Architektur/EG_mit_Lampen.png",
+          "evidence": "地面層吊燈的位置語彙。"
+        },
+        {
+          "title": "KUB官方2023計畫冊",
+          "url": "https://www.kunsthaus-bregenz.at/fileadmin/user_upload/KUB/Programmvorschau/KUB_2023_Programm_e_GZD_lowres.pdf",
+          "evidence": "2023換LED計畫與原螢光燈；宣傳總數與每層235不是完全一致口徑。"
+        },
+        {
+          "title": "KUB官方2023年10月永續聲明",
+          "url": "https://www.kunsthaus-bregenz.at/ueber-uns/nachhaltigkeit",
+          "evidence": "明確確認2023年初全棟傳統燈源已換LED。"
+        },
+        {
+          "title": "Zumtobel官方2023更新案例",
+          "url": "https://www.zumtobel.ch/de-ch/cs/kunsthaus-bregenz",
+          "evidence": "保留原燈具形式與安裝點；底層tunableWhite，新增ARCOS III。"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/25-bregenz/model.glb",
+          "bytes": 3780108,
+          "sha256": "826369ea099f57964c261d42d3187a14fef64f0d5ceba6c801bd9242582f0257",
+          "sourcePath": "model.glb"
+        },
+        {
+          "path": "assets/25-bregenz/config.json",
+          "bytes": 17057,
+          "sha256": "556ade9d5b6d844467bc44bf2ffebe49bb39c888629a84a9a24741bb4f0aee66",
+          "sourcePath": "config.json"
+        },
+        {
+          "path": "assets/25-bregenz/materials.json",
+          "bytes": 16994,
+          "sha256": "fcc733aa7490b13e2d2d74520fc332433e8e857dd0b8a40d57ad122137568ad5",
+          "sourcePath": "materials.json"
+        },
+        {
+          "path": "assets/25-bregenz/historic-lighting.json",
+          "bytes": 16090,
+          "sha256": "e3cb60f4fc27cc6962cd0e9388538ddf43e695945a6223dc4bf76f4dd6bfe897",
+          "sourcePath": "historic-lighting.json"
+        }
+      ],
+      "architectureBounds": {
+        "min": [
+          -13.344676494598389,
+          -9.699504633313747,
+          -13.344980627298355
+        ],
+        "max": [
+          26.929684281349182,
+          30.042003363370895,
+          28.40983211994171
+        ]
+      },
+      "contextMask": {
+        "hiddenContext": 1,
+        "removedContextTriangles": 636
+      },
+      "webgpuHTTPStatus": 200,
+      "webgpuPageTitle": "布雷根茲美術館・史料照明 WebGPU 版"
+    }
+  ],
+  "sharedFiles": [
+    {
+      "path": "assets/_original-materials/environments/warm_1k.hdr",
+      "bytes": 1510522,
+      "sha256": "d17787e1e404b601e2ec5a2e5910aa739130ad25477d1da8220cec4ca7291eb5"
+    },
+    {
+      "path": "assets/_original-materials/environments/daylight_1k.hdr",
+      "bytes": 1435119,
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+    },
+    {
+      "path": "assets/_original-materials/textures/plaster/1k/normal.jpg",
+      "bytes": 652310,
+      "sha256": "eb572ca3630d5bfde72e2601b1f02412da23ca005cd19384dced8690be4cb783"
+    },
+    {
+      "path": "assets/_original-materials/textures/plaster/1k/roughness.jpg",
+      "bytes": 295900,
+      "sha256": "4ff1fe957cd161b07f721fe6c28a9459c8c2e8ec65627a26c16e483a07c80d85"
+    },
+    {
+      "path": "assets/_original-materials/textures/plaster/1k/basecolor.jpg",
+      "bytes": 527219,
+      "sha256": "a1ebbe091bd1ae93d2abd5de8d69f9003a8d0ee6532bcf9a87c2492c97051f23"
+    },
+    {
+      "path": "assets/_original-materials/textures/oak/1k/normal.jpg",
+      "bytes": 623607,
+      "sha256": "9e8dd65e443d92107caa4cd30403d78946a8b8c5a6029e6446c7368865b1d1c0"
+    },
+    {
+      "path": "assets/_original-materials/textures/oak/1k/roughness.jpg",
+      "bytes": 520649,
+      "sha256": "a8670e80f203bd031ac3c80f0f606383be51a0ee108e016fa19cad6b9bd373e7"
+    },
+    {
+      "path": "assets/_original-materials/textures/oak/1k/basecolor.jpg",
+      "bytes": 595257,
+      "sha256": "8fdec14fd3c06de907693c9c3241037dc93327ad907296371a2f74a0becd8187"
+    },
+    {
+      "path": "assets/_original-materials/textures/pale_veneer/1k/normal.jpg",
+      "bytes": 275968,
+      "sha256": "fb63ac49ab9a8f1e650a7886e570bfb46a1970d73b9a943c29015f3f111078fc"
+    },
+    {
+      "path": "assets/_original-materials/textures/pale_veneer/1k/roughness.jpg",
+      "bytes": 721797,
+      "sha256": "6bacc0bae40c52759e91d77555baad27f9e8cb2bec471d755726262539e6df02"
+    },
+    {
+      "path": "assets/_original-materials/textures/pale_veneer/1k/basecolor.jpg",
+      "bytes": 443279,
+      "sha256": "0cdcb6d726ca7e6039ab0eeb2b1828a0ef188b43c2370972cf6eebeaff76aaa0"
+    },
+    {
+      "path": "assets/_original-materials/textures/concrete/1k/normal.jpg",
+      "bytes": 1447537,
+      "sha256": "54c85854ad5cafb16840df91a605c857bdf3d07fa79f11921c8327fccf6423ae"
+    },
+    {
+      "path": "assets/_original-materials/textures/concrete/1k/roughness.jpg",
+      "bytes": 566436,
+      "sha256": "2d392a3e0d44087ddecc0cd3fd27367a6cc0c16f94bbba2e8fbfbdf77eb105be"
+    },
+    {
+      "path": "assets/_original-materials/textures/concrete/1k/basecolor.jpg",
+      "bytes": 1042065,
+      "sha256": "dd7fc03e152eb8c2fd511248aa2e9bf7428a645bd0e0b74ac1d887ad136cb0bc"
+    },
+    {
+      "path": "assets/_original-materials/textures/linen/web-compact/normal.webp",
+      "bytes": 310256,
+      "sha256": "9b57dba754221ba918ab5ba62faf4ec02cde54b5cae3667901ca03b9b2b9c9d3"
+    },
+    {
+      "path": "assets/_original-materials/textures/linen/web-compact/roughness.webp",
+      "bytes": 457190,
+      "sha256": "5ea04cce49a739bf33e9fc3c81ec5ecdc84ecceeaada9d4316fc79d2bb01293a"
+    },
+    {
+      "path": "assets/_original-materials/textures/gravel/web-compact/normal.webp",
+      "bytes": 505036,
+      "sha256": "119b0e3a20f44cc977de63349899034e5db9b5e17137130fb03df24260030a54"
+    },
+    {
+      "path": "assets/_original-materials/textures/gravel/web-compact/basecolor.webp",
+      "bytes": 433050,
+      "sha256": "0b3b595e07c49f39aad852b68c6b86980ad19f6d5f5e78eeb2ec154c9268e646"
+    },
+    {
+      "path": "assets/_original-materials/textures/gravel/web-compact/roughness.webp",
+      "bytes": 322022,
+      "sha256": "127b66a34fb0da059d6bc3438a07f78c2939219cf92efe7df9b534b3ce6dc605"
+    },
+    {
+      "path": "assets/_original-materials/textures/leather/web-compact/normal.webp",
+      "bytes": 215174,
+      "sha256": "11e3434c3514781ca346ff6b9fc9cd9e26b3a26c29c9a6bb4f199fbf2eee999f"
+    },
+    {
+      "path": "assets/_original-materials/textures/leather/web-compact/roughness.webp",
+      "bytes": 199010,
+      "sha256": "5b2b738e6da1dfbed115a1495d8256ea18c10298a101245aef9d642c37da049a"
+    },
+    {
+      "path": "assets/_original-materials/textures/grass/web-compact/normal.webp",
+      "bytes": 574970,
+      "sha256": "29fa22619d60c8e5a626a5bf9a9d03887c5feb786966c55b768810d91ebbe07b"
+    },
+    {
+      "path": "assets/_original-materials/textures/grass/web-compact/basecolor.webp",
+      "bytes": 375158,
+      "sha256": "5d433fb47704b4532b42529856b257736ed8f1f7e9e3e036aeec12a564662574"
+    },
+    {
+      "path": "assets/_original-materials/textures/grass/web-compact/roughness.webp",
+      "bytes": 367002,
+      "sha256": "de9ac065513ef0c1fab7aacd902ab1f538aaf28b55efb1ec70533f8b8b2db42c"
+    },
+    {
+      "path": "assets/_original-materials/textures/teak/1k/normal.jpg",
+      "bytes": 410625,
+      "sha256": "e2cd5aa363feea0bb1fd5c682f9b28c9810def07621915a413a834fafd57c851"
+    },
+    {
+      "path": "assets/_original-materials/textures/teak/1k/roughness.jpg",
+      "bytes": 731629,
+      "sha256": "cb8a09ae509a4c89df998fc14e1deb0c623615bf2f480af78d561d8536972db0"
+    },
+    {
+      "path": "assets/_original-materials/textures/teak/1k/basecolor.jpg",
+      "bytes": 612194,
+      "sha256": "ba501180029ec8804e430177e4d67446da23a3be4d5dbad94a498de070324275"
+    },
+    {
+      "path": "assets/_original-materials/textures/travertine/1k/normal.jpg",
+      "bytes": 332407,
+      "sha256": "635256a78537253a2d2bc5fef5fcda6e4e03349b960c57f15cf721b7cf5ba098"
+    },
+    {
+      "path": "assets/_original-materials/textures/travertine/1k/roughness.jpg",
+      "bytes": 298778,
+      "sha256": "f4094c2149e257f4b6e17e5c5da70101fcbffaf0ce4016ab5d6aac7e45112e37"
+    },
+    {
+      "path": "assets/_original-materials/textures/travertine/1k/basecolor.jpg",
+      "bytes": 922573,
+      "sha256": "6561c87d92aef321aef4095fbcc5518cec4d711e642be6beaa90d13829e6cd2b"
+    },
+    {
+      "path": "assets/_original-materials/textures/asphalt/1k/normal.jpg",
+      "bytes": 776360,
+      "sha256": "99cdf6b6f0b8a319d206e1d561bf2a5d9933d8d33e1d685f8e25388101d21310"
+    },
+    {
+      "path": "assets/_original-materials/textures/asphalt/1k/roughness.jpg",
+      "bytes": 641634,
+      "sha256": "2280be133c104eb04370b625ebcc7f6709d2173b43ae2cd15a0074c26f492bf9"
+    },
+    {
+      "path": "assets/_original-materials/textures/asphalt/1k/basecolor.jpg",
+      "bytes": 697630,
+      "sha256": "ddf9224e9cfa3eb2998d9097e4cd34bd3630c85e0e6798e5a0a000415a684083"
+    }
+  ],
+  "totalModelBytes": 198959288,
+  "sharedBytes": 19840363,
+  "publicAssetReceipt": "Only runtime models, configuration, material library and provenance. Verification source snapshots remain outside the published dist folder."
+}

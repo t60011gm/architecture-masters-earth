@@ -1,0 +1,2354 @@
+{
+  "locale": "zh-Hant-TW",
+  "title": "建築群島",
+  "subtitle": "25 座名作、75 個觀察任務，從材料與光讀懂建築。",
+  "intro": "不必背年代。走訪 25 座大師群島，從立面、構造、光線與已開放的室內片段，讀出每座名作不同的設計想法。",
+  "tutorial": [
+    {"title": "先走近，再發現", "text": "沿步道前往建築，靠近發光的觀察點，開啟一段探索。"},
+    {"title": "把視線交給細節", "text": "先讀提示，再看看眼前的柱、窗或牆。每個問題都有三個選項，答錯也能再試。"},
+    {"title": "收集你的建築護照", "text": "每島完成三個觀察任務，就能獲得一張概念卡。完成 25 島、75 個任務，收齊你的群島建築護照。"}
+  ],
+  "globalDisclaimer": "建築沿用有材質與燈光的教學模型，並非精密測繪或完整現況復原；尺度、構造細節、家具與光照含近似。島嶼、步道與返回標記為遊戲設計，不代表原址。NPC 對話皆為教學改寫，非建築師本人原話。",
+  "positionNote": "front、side、rear 是任務序位標籤，不對應原址方位。各站另有實際位置說明；部分站可進入已驗證的限定室內地坪，返回標記為遊戲傳送設施，不是歷史出入口。",
+  "feedback": {
+    "correct": "觀察得很好！你找到關鍵線索了。",
+    "incorrect": "再看看眼前的線索，不急著猜。",
+    "islandComplete": "三個線索，連成一個空間想法。概念卡已收入護照。",
+    "allComplete": "25 座群島、75 個線索完成！你已從不同材料、構造、光線與空間關係，建立自己的建築閱讀方法。"
+  },
+  "islands": [
+    {
+      "id": "farnsworth",
+      "name": "光之島",
+      "theme": "讓結構變清楚，讓風景進來",
+      "building": "范斯沃斯住宅",
+      "buildingEnglish": "Edith Farnsworth House",
+      "architect": "路德維希・密斯・凡德羅",
+      "architectEnglish": "Ludwig Mies van der Rohe",
+      "credit": "為業主 Edith Farnsworth 醫師設計的週末住宅",
+      "year": "1951 年完工",
+      "location": "美國・伊利諾州普萊諾近郊",
+      "npc": {
+        "name": "密斯｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "歡迎。先別急著找房間，看看地板怎麼離開地面、玻璃怎麼接近樹林。這座為 Edith Farnsworth 設計的住宅，邀請你從最少的構件裡，發現空間的秩序。"
+      },
+      "quests": [
+        {
+          "id": "farnsworth-raised",
+          "title": "房子為什麼浮起來？",
+          "position": "front",
+          "locationLabel": "入口前方・抬高的平台",
+          "observation": ["看看草地與主要地板之間：房屋不是整片貼在地上，而由細長的鋼柱支撐。", "入口的台階與平台，把地面和居住空間分成不同高度。"],
+          "question": "哪個細節最直接讓住宅看起來懸浮？",
+          "choices": ["屋頂上的裝飾", "抬離地面的樓板與細鋼柱", "厚重且連續的底層牆"],
+          "correctIndex": 1,
+          "explanation": "抬高樓板與纖細支撐共同形成輕盈感。原址鄰近河流，抬高也有防洪考量，但不代表從此不會淹水。",
+          "sourceIds": ["farnsworth-history"]
+        },
+        {
+          "id": "farnsworth-glass",
+          "title": "牆可以很透明",
+          "position": "side",
+          "locationLabel": "側面・玻璃與鋼柱",
+          "observation": ["從側面找出大片玻璃，與它外側清楚可見的白色鋼柱。", "玻璃保留了視線穿越的可能，鋼架則負責主要支撐。"],
+          "question": "這裡的玻璃與鋼架，最接近哪一種分工？",
+          "choices": ["玻璃承受全部重量，鋼柱只是裝飾", "兩者都只是表面圖案", "玻璃形成透明邊界，鋼架提供支撐"],
+          "correctIndex": 2,
+          "explanation": "透明圍護與承重骨架可以分工；視線延伸到戶外，並不等於建築沒有邊界。",
+          "sourceIds": ["farnsworth-habs", "farnsworth-history"]
+        },
+        {
+          "id": "farnsworth-planes",
+          "title": "用三片水平面作曲",
+          "position": "rear",
+          "locationLabel": "後側斜角・平台、樓板與屋頂",
+          "observation": ["退後一點，辨認較低的露台、主要樓板，以及上方的平屋頂。", "它們像三條安靜的水平線，與垂直鋼柱、周圍樹幹形成對照。"],
+          "question": "這座住宅主要用什麼建立外觀秩序？",
+          "choices": ["水平平台與垂直鋼柱的組合", "密集的雕花與尖塔", "完全隱藏的結構"],
+          "correctIndex": 0,
+          "explanation": "露台、樓板、屋頂與柱子的比例關係，讓簡單構件也能形成清楚而完整的空間。",
+          "sourceIds": ["farnsworth-history"]
+        }
+      ],
+      "conceptCard": {
+        "title": "透明的秩序",
+        "keywords": ["鋼構骨架", "透明邊界", "水平面", "建築與自然"],
+        "summary": "范斯沃斯住宅以清晰的骨架和水平面組織空間，用大片玻璃連結視線與景觀。簡潔不是沒有設計，而是讓構件、比例與環境的關係更清楚。",
+        "reflection": "如果玻璃換成不透明的牆，這座房子的感受會改變什麼？"
+      }
+    },
+    {
+      "id": "schroder",
+      "name": "色之島",
+      "theme": "把線、面與生活重新組合",
+      "building": "里特維爾德・施洛德住宅",
+      "buildingEnglish": "Rietveld Schröder House",
+      "architect": "赫里特・里特維爾德",
+      "architectEnglish": "Gerrit Rietveld",
+      "credit": "與業主暨共同設計者 Truus Schröder-Schräder 合作",
+      "year": "1924 年建成",
+      "location": "荷蘭・烏特勒支",
+      "npc": {
+        "name": "里特維爾德｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "歡迎來看我和 Truus Schröder 一起思考的家。她不只是業主，也是設計的合作者。試著把眼前的房子拆成線、面與顏色，再看看它們如何重新組合。"
+      },
+      "quests": [
+        {
+          "id": "schroder-colour",
+          "title": "找到三原色線索",
+          "position": "front",
+          "locationLabel": "正面・彩色構件",
+          "observation": ["在白、灰、黑之間，找找紅、黃、藍出現在哪些細部。", "鮮明色彩配合水平線與垂直線，讓不同構件容易被辨認。"],
+          "question": "哪一組最符合這座住宅的色彩語彙？",
+          "choices": ["只有金色和紫色", "紅、黃、藍，搭配白、灰、黑", "只有自然木紋"],
+          "correctIndex": 1,
+          "explanation": "三原色與中性色，加上水平、垂直的構圖，是風格派（De Stijl）在這座住宅上的重要線索。",
+          "sourceIds": ["schroder-unesco-museum", "schroder-official"]
+        },
+        {
+          "id": "schroder-planes",
+          "title": "這不是一個實心盒子",
+          "position": "side",
+          "locationLabel": "側面・錯落的牆面與陽台",
+          "observation": ["沿著側面看，牆面、陽台與細長構件並不全部收在同一個平整表面。", "它們在不同深度伸出、交錯，讓建築像由獨立的線與面組成。"],
+          "question": "哪種描述最能說明這裡的造形？",
+          "choices": ["把不同線與面在空間中組合", "在實心石塊上貼滿裝飾", "只追求左右完全對稱"],
+          "correctIndex": 0,
+          "explanation": "從不同角度觀看，線與面的前後關係會變化。建築不只是一張立面圖，而是可以繞行閱讀的三維組合。",
+          "sourceIds": ["schroder-unesco-dossier"]
+        },
+        {
+          "id": "schroder-corner",
+          "title": "轉角也能打開",
+          "position": "rear",
+          "locationLabel": "後側斜角・上層轉角窗",
+          "observation": ["抬頭觀察上層兩面相交的窗，想像兩扇窗向外打開。", "這個特殊轉角窗能讓角落敞開，弱化室內與室外的分界。"],
+          "question": "轉角窗一起打開後，最主要改變了什麼？",
+          "choices": ["讓牆壁變得更厚", "把住宅變成圓形", "讓角落的視線與空間更連續"],
+          "correctIndex": 2,
+          "explanation": "當轉角不再像封閉盒子的接縫，室內與景觀便產生更直接的聯繫；這是可觀察的空間設計，不只是一個造形手勢。",
+          "sourceIds": ["schroder-official"]
+        }
+      ],
+      "conceptCard": {
+        "title": "可以重組的家",
+        "keywords": ["風格派", "三原色", "線與面", "空間連續"],
+        "summary": "里特維爾德與 Truus Schröder 以線、面與色彩探索不同的居住方式。外觀打散封閉盒子的印象，室內也以可移動隔間回應生活變化。",
+        "reflection": "如果你能讓一面牆移動，你希望家裡哪兩種活動共享同一個空間？"
+      }
+    },
+    {
+      "id": "savoye",
+      "name": "風之島",
+      "theme": "讓地面、立面與屋頂獲得自由",
+      "building": "薩伏伊別墅",
+      "buildingEnglish": "Villa Savoye",
+      "architect": "勒・柯比意、皮耶・讓納雷",
+      "architectEnglish": "Le Corbusier and Pierre Jeanneret",
+      "credit": "為 Eugénie 與 Pierre Savoye 設計的週末住宅",
+      "year": "1931 年完工",
+      "location": "法國・普瓦西",
+      "npc": {
+        "name": "柯比意｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "歡迎來到我與 Pierre Jeanneret 設計的住宅。請從地面抬頭看：柱子、長窗與屋頂，能不能一起改變生活與風景的關係？繞一圈，你就會找到三個答案。"
+      },
+      "quests": [
+        {
+          "id": "savoye-pilotis",
+          "title": "把地面還給通行",
+          "position": "front",
+          "locationLabel": "入口前方・底層架空柱",
+          "observation": ["看看白色主要量體下方的細柱，以及柱子之間留下的空間。", "居住層被抬高，地面便不必全部由連續的承重牆占滿。"],
+          "question": "底層架空柱（pilotis）的關鍵效果是什麼？",
+          "choices": ["把所有入口封住", "把屋頂變成尖頂", "支撐上層，同時釋放部分地面"],
+          "correctIndex": 2,
+          "explanation": "鋼筋混凝土柱承擔結構，讓下方保留通行空間。原設計也把汽車動線納入柱間與底層配置。",
+          "sourceIds": ["savoye-five-points", "savoye-guide"]
+        },
+        {
+          "id": "savoye-ribbon",
+          "title": "一條窗，拉長風景",
+          "position": "side",
+          "locationLabel": "側面・水平帶狀窗",
+          "observation": ["順著側面看，窗不是一個個孤立的洞，而是沿水平方向延展。", "當承重結構與外牆分工，開口的位置與長度就能有更多安排。"],
+          "question": "水平長窗與自由立面的關係，哪個說法最適合？",
+          "choices": ["外牆不必全面承重，開口配置更自由", "長窗讓建築完全不需要結構", "自由立面就是每面牆都要彎曲"],
+          "correctIndex": 0,
+          "explanation": "骨架承重，讓外牆開口不再受同樣的限制；水平長窗也把採光與景觀連成較長的視野。",
+          "sourceIds": ["savoye-five-points"]
+        },
+        {
+          "id": "savoye-roof",
+          "title": "屋頂不只是蓋子",
+          "position": "rear",
+          "locationLabel": "後方遠觀・屋頂輪廓",
+          "observation": ["從後方拉開距離，看平屋頂上方露出的弧形圍牆。", "這些線索提示：上方不只是遮雨的頂面，還有可以使用的戶外空間。"],
+          "question": "屋頂花園／露台概念，把屋頂變成什麼？",
+          "choices": ["只能遠看的裝飾品", "可停留、接近陽光與戶外的生活場所", "永遠無法抵達的空隙"],
+          "correctIndex": 1,
+          "explanation": "薩伏伊別墅以露台與日光浴空間擴展戶外生活。這一站只從室外閱讀屋頂輪廓，不必登上屋頂。",
+          "sourceIds": ["savoye-five-points", "savoye-foundation"]
+        }
+      ],
+      "conceptCard": {
+        "title": "現代建築的五個提案",
+        "keywords": ["底層架空", "自由平面", "自由立面", "水平長窗", "屋頂花園"],
+        "summary": "薩伏伊別墅把五個提案結合成一座住宅：結構與隔間分工、地面保持通透、長窗延伸視野，屋頂也成為生活的一部分。",
+        "reflection": "哪一個提案最能改善你熟悉的住家？為什麼？"
+      }
+    },
+    {
+      "id": "tassel",
+      "name": "蔓線島",
+      "theme": "從街屋表情讀出材料的新組合",
+      "building": "塔塞爾住宅",
+      "buildingEnglish": "Hôtel Tassel",
+      "architect": "維克多・霍塔",
+      "architectEnglish": "Victor Horta",
+      "credit": "為 Émile Tassel 委託設計；不是霍塔自己的住宅工作室",
+      "year": "1893–1894 年",
+      "location": "比利時・布魯塞爾",
+      "npc": {
+        "name": "霍塔｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先站在街道這一側。石材、金屬和玻璃如何一起形成凸出的窗？新藝術的線條不只要好看，也要參與空間的組織。"
+      },
+      "quests": [
+        {
+          "id": "tassel-bay",
+          "title": "一扇窗為何向街道伸出？",
+          "position": "front",
+          "locationLabel": "街側・中央凸窗",
+          "observation": [
+            "找到入口上方凸出牆面的窗組。",
+            "換一個斜角，比較玻璃、細金屬構件與兩側石面的位置。"
+          ],
+          "question": "凸窗與平貼牆面的窗相比，最明顯改變什麼？",
+          "choices": [
+            "把立面變成有深度的空間",
+            "把所有樓層合成一層",
+            "取消對外採光"
+          ],
+          "correctIndex": 0,
+          "explanation": "凸窗不是貼上的平面圖案。霍塔以鋼構與石材結合，讓街屋表面形成可感知的深度。",
+          "sourceIds": [
+            "tassel-icomos"
+          ]
+        },
+        {
+          "id": "tassel-iron",
+          "title": "硬材料也能畫柔軟的線",
+          "position": "side",
+          "locationLabel": "冬園室內・鐵件與曲線",
+          "observation": [
+            "在冬園安全範圍內，觀察細長金屬與周圍表面的交接。",
+            "順著可見曲線看它如何接續直線；馬賽克與裝飾為近似重建，不必逐片數花紋。"
+          ],
+          "question": "最適合讀懂這組材料的方法是？",
+          "choices": [
+            "只看石頭，把金屬當不存在",
+            "認為曲線構件一定不能承重",
+            "比較構件厚薄、形狀及相互連接"
+          ],
+          "correctIndex": 2,
+          "explanation": "新藝術把線條、構件與空間放在一起思考；但不能僅憑曲線就判定承重。請沿地面返回標記離開，勿把遊戲傳送點當成原住宅出入口。",
+          "sourceIds": [
+            "horta-unesco",
+            "tassel-icomos"
+          ]
+        },
+        {
+          "id": "tassel-townhouse",
+          "title": "窄面寬，深房子",
+          "position": "rear",
+          "locationLabel": "街側遠觀・整體比例",
+          "observation": [
+            "退後比較住宅的面寬與高度。",
+            "原作是布魯塞爾連棟街屋；遊戲移到獨立島嶼後，並未保留原街區相鄰建物。"
+          ],
+          "question": "狹長街屋中央若離街窗很遠，哪種策略更有幫助？",
+          "choices": [
+            "把所有窗封住",
+            "從上方引入日光",
+            "只把外牆改成深色"
+          ],
+          "correctIndex": 1,
+          "explanation": "原住宅以冬園頂部與樓梯上方玻璃引光到中央。這是由街屋比例延伸的史料解讀，不表示此室外站能看見全部室內。",
+          "sourceIds": [
+            "tassel-icomos"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "曲線背後的空間",
+        "keywords": [
+          "新藝術",
+          "石與鐵",
+          "凸窗",
+          "深進街屋"
+        ],
+        "summary": "霍塔用不同材料與連續線條重新組織街屋。閱讀立面的厚薄與起伏，再追問光如何抵達中央，比只尋找花紋更接近設計的核心。",
+        "reflection": "你熟悉的深長房間，可以從哪裡再借一點光？"
+      }
+    },
+    {
+      "id": "batllo",
+      "name": "鱗彩島",
+      "theme": "讓既有街屋長出色彩與起伏",
+      "building": "巴特婁之家",
+      "buildingEnglish": "Casa Batlló",
+      "architect": "安東尼・高第",
+      "architectEnglish": "Antoni Gaudí",
+      "credit": "為 Josep Batlló 家族改造既有建物；由工匠共同完成細部",
+      "year": "1904–1906 年改造",
+      "location": "西班牙・巴塞隆納",
+      "npc": {
+        "name": "高第｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先不要替房子決定它像什麼。走近看拼貼，退後看陽台，再抬頭看屋頂；同一座街屋，會因距離與光線換一種表情。"
+      },
+      "quests": [
+        {
+          "id": "batllo-mosaic",
+          "title": "碎片怎麼連成一片海？",
+          "position": "front",
+          "locationLabel": "街側・彩色表皮",
+          "observation": [
+            "比較立面的彩色碎片與波動表面。",
+            "留意亮面和陰影的差別；遊戲光照為情境模擬，不是原址實測。"
+          ],
+          "question": "立面的色彩變化主要來自哪種組合？",
+          "choices": [
+            "完全相同的白色平板",
+            "石材、玻璃與陶瓷的不同表面",
+            "一整面沒有接縫的金屬"
+          ],
+          "correctIndex": 1,
+          "explanation": "多種表面讓光產生不同反應。拼貼與起伏一起作用，而不是只在平牆上塗一種顏色。",
+          "sourceIds": [
+            "batllo-facade"
+          ]
+        },
+        {
+          "id": "batllo-balconies",
+          "title": "陽台的面具",
+          "position": "side",
+          "locationLabel": "街側斜角・陽台與窗廊",
+          "observation": [
+            "找找突出的淺色陽台輪廓。",
+            "再看下方石柱的細長曲線，對比兩種不同的造形與材料。"
+          ],
+          "question": "官方記錄中的陽台欄杆主要是什麼材料？",
+          "choices": [
+            "鑄鐵",
+            "紙管",
+            "透明塑膠"
+          ],
+          "correctIndex": 0,
+          "explanation": "面具般的欄杆採鑄鐵，下方骨骼感柱子則是石材。顏色相近，不代表材料與做法相同。",
+          "sourceIds": [
+            "batllo-facade"
+          ]
+        },
+        {
+          "id": "batllo-roof",
+          "title": "屋頂的鱗片有唯一答案嗎？",
+          "position": "rear",
+          "locationLabel": "街側遠觀・屋頂輪廓",
+          "observation": [
+            "抬頭找鱗片般的屋面與不平直的輪廓。",
+            "可以聯想到動物或海浪，但先分清楚可見形狀與故事解讀。"
+          ],
+          "question": "把屋頂讀成龍背，應怎麼說較準確？",
+          "choices": [
+            "已證明高第只允許這個解釋",
+            "真有一隻龍藏在屋頂",
+            "這是由造形引發的流傳解讀"
+          ],
+          "correctIndex": 2,
+          "explanation": "官方介紹記錄了龍與聖喬治的常見解讀，但觀察建築不必把想像說成唯一史實。",
+          "sourceIds": [
+            "batllo-facade"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "材料會改變光的表情",
+        "keywords": [
+          "既有建物改造",
+          "拼貼",
+          "鑄鐵",
+          "有機輪廓"
+        ],
+        "summary": "巴特婁之家把街屋改造為材料與光的組合。鱗片、面具與骨骼是閱讀形狀的線索，不必把每個聯想都當成作者留下的確切解答。",
+        "reflection": "如果保留舊房子的骨架，你會先改變哪一層表皮？"
+      }
+    },
+    {
+      "id": "unity",
+      "name": "凝聚島",
+      "theme": "用厚實邊界守住共同聚會的光",
+      "building": "團結聖殿",
+      "buildingEnglish": "Unity Temple",
+      "architect": "法蘭克・洛伊・萊特",
+      "architectEnglish": "Frank Lloyd Wright",
+      "credit": "為 Oak Park 教會社群設計；禮拜與日常聚會共同構成計畫",
+      "year": "1906–1908 年建造，1909 年奉獻啟用",
+      "location": "美國・伊利諾州橡樹園",
+      "npc": {
+        "name": "萊特｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "這次不要尋找尖塔。先看看厚實的混凝土，再找高處的窗；一個面向繁忙街道的聚會場所，可以如何讓人安定下來？"
+      },
+      "quests": [
+        {
+          "id": "unity-concrete",
+          "title": "沒有尖塔的紀念性",
+          "position": "front",
+          "locationLabel": "外部・混凝土主量體",
+          "observation": [
+            "觀察近方形量體、深出簷與連續牆面。",
+            "灰色外觀的重點是體量與構件秩序，不是尖塔高度。"
+          ],
+          "question": "哪項最能說明這裡的紀念性？",
+          "choices": [
+            "靠體量、比例與混凝土構件建立莊重感",
+            "只能靠尖塔建立莊重感",
+            "所有牆面都必須是玻璃"
+          ],
+          "correctIndex": 0,
+          "explanation": "現澆鋼筋混凝土讓牆、構件與裝飾可整合施工；它也是當時預算與建造選擇的一部分。",
+          "sourceIds": [
+            "unity-foundation"
+          ]
+        },
+        {
+          "id": "unity-highlight",
+          "title": "窗為什麼往高處走？",
+          "position": "side",
+          "locationLabel": "外部・高側窗",
+          "observation": [
+            "比較街面高度的實牆與較高位置的開口。",
+            "這一站從外面辨認採光位置，不把室內天窗效果當成眼前已見。"
+          ],
+          "question": "高側窗與上方採光最適合回應什麼需要？",
+          "choices": [
+            "讓所有街道活動直接穿過講壇",
+            "完全取消自然光",
+            "隔開部分街道干擾，同時把日光帶進來"
+          ],
+          "correctIndex": 2,
+          "explanation": "原設計減少街面低窗以回應噪音，改由高側窗與天窗採光。開口位置本身就在安排外界與室內的關係。",
+          "sourceIds": [
+            "unity-foundation"
+          ]
+        },
+        {
+          "id": "unity-volumes",
+          "title": "禮拜之外，社群還需要什麼？",
+          "position": "rear",
+          "locationLabel": "Unity House 室內・聚會空間",
+          "observation": [
+            "在開放的安全區比較牆面、室內尺度與聚會空間的圍合。",
+            "這裡是雙量體中的 Unity House，不是主禮拜廳；模型家具與細部含近似。"
+          ],
+          "question": "這個空間與另一端禮拜廳的分工是？",
+          "choices": [
+            "一邊停飛機，一邊修船",
+            "社群日常聚會與禮拜活動互相補充",
+            "兩邊都是完全相同的住宅"
+          ],
+          "correctIndex": 1,
+          "explanation": "原案同時容納禮拜與日常社群生活，兩個主要部分透過入口連接。你現在只在其中一個限定區域，不代表已可穿行全棟。",
+          "sourceIds": [
+            "unity-foundation"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "把聚會放在中心",
+        "keywords": [
+          "鋼筋混凝土",
+          "高側採光",
+          "雙量體",
+          "社群場所"
+        ],
+        "summary": "厚實外牆不必帶來陰暗。團結聖殿把日光放到高處，並用相連的不同空間容納禮拜和日常交往。",
+        "reflection": "一間靠近吵雜道路的教室，窗應放在哪裡？"
+      }
+    },
+    {
+      "id": "saynatsalo",
+      "name": "磚庭島",
+      "theme": "用小城般的高低，安排公共生活",
+      "building": "珊納特賽羅市政廳",
+      "buildingEnglish": "Säynätsalo Town Hall",
+      "architect": "阿瓦・阿爾托",
+      "architectEnglish": "Alvar Aalto",
+      "credit": "Elsa Mäkiniemi（後為 Elissa Aalto）擔任工地主任建築師",
+      "year": "1952 年完工",
+      "location": "芬蘭・珊納特賽羅，今屬于韋斯屈萊",
+      "npc": {
+        "name": "阿爾托｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "看看紅磚如何靠近人的尺度，再看看哪個量體最高。這座市政廳除了辦公，也把圖書館、商店與共同的庭院放在一起。"
+      },
+      "quests": [
+        {
+          "id": "saynatsalo-brick",
+          "title": "紅磚不是紅色塗料",
+          "position": "front",
+          "locationLabel": "外部・磚牆與窗邊",
+          "observation": [
+            "比較磚的重複單元、接縫與較大的開口。",
+            "模型紋理呈現磚材語彙，不是每一塊原磚的掃描。"
+          ],
+          "question": "小單元砌築讓你讀到什麼？",
+          "choices": [
+            "牆完全沒有尺度",
+            "只有顏色，沒有構造線索",
+            "材料單元與整體牆面的尺度關係"
+          ],
+          "correctIndex": 2,
+          "explanation": "裸露紅磚把小單元帶到公共建築上。接縫與表面使大牆仍可用接近身體的尺度閱讀。",
+          "sourceIds": [
+            "saynatsalo-foundation"
+          ]
+        },
+        {
+          "id": "saynatsalo-court",
+          "title": "庭院為什麼要抬高？",
+          "position": "side",
+          "locationLabel": "庭院外緣・階梯與高差",
+          "observation": [
+            "從外部比較街層與內院的高低。",
+            "先辨認通向院落的階梯，不必爬上未開放的坡地。"
+          ],
+          "question": "這個高差把哪些活動層次區分開？",
+          "choices": [
+            "街層日常用途與上層公共服務",
+            "海底與空中機場",
+            "所有房間都封在地下"
+          ],
+          "correctIndex": 0,
+          "explanation": "原設計把商店留在街層，市政及圖書館等公共用途位於較高層，內院成為到達與停留的共同核心。",
+          "sourceIds": [
+            "saynatsalo-foundation"
+          ]
+        },
+        {
+          "id": "saynatsalo-chamber",
+          "title": "找出小城的最高點",
+          "position": "rear",
+          "locationLabel": "外部遠觀・議事廳量體",
+          "observation": [
+            "在連續低屋頂之間，找出明顯高起的紅磚部分。",
+            "只讀外部高低，不假設眼前已能看清內部屋架。"
+          ],
+          "question": "這個高起部分對整體有何作用？",
+          "choices": [
+            "讓全部空間看起來完全相同",
+            "讓議事廳在公共建築群中被辨認",
+            "證明它是中世紀古堡"
+          ],
+          "correctIndex": 1,
+          "explanation": "議事廳像一座小塔，讓公共決策空間取得辨識度。這是現代市政廳，不是中世紀城堡的復原。",
+          "sourceIds": [
+            "saynatsalo-foundation"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "公共生活的小城",
+        "keywords": [
+          "紅磚",
+          "抬高庭院",
+          "高低層次",
+          "議事廳"
+        ],
+        "summary": "階梯、庭院與高起議事廳把多種公共用途連成一個整體；紅磚則讓這座小城同時有重量與細節。",
+        "reflection": "如果校園也有一座共同庭院，哪些活動應該面向它？"
+      }
+    },
+    {
+      "id": "luce",
+      "name": "曲翼島",
+      "theme": "把屋頂、牆與採光縫一起思考",
+      "building": "路思義教堂",
+      "buildingEnglish": "Luce Memorial Chapel",
+      "architect": "貝聿銘、陳其寬",
+      "architectEnglish": "I. M. Pei and Chen Chi-Kwan",
+      "credit": "共同設計，並保留張肇康、結構工程與營造工匠的協作貢獻",
+      "year": "1963 年落成",
+      "location": "臺灣・臺中東海大學",
+      "npc": {
+        "name": "貝聿銘與陳其寬｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "請繞著四片曲面慢慢走。從不同角度看，屋頂與牆好像接在一起，曲面之間卻留了空隙；那些縫，也在設計光。"
+      },
+      "quests": [
+        {
+          "id": "luce-curves",
+          "title": "屋頂從哪裡開始？",
+          "position": "front",
+          "locationLabel": "外部・曲面輪廓",
+          "observation": [
+            "沿著曲面從低處看到高處。",
+            "試著找一條清楚的界線，把屋頂與側牆分開。"
+          ],
+          "question": "這座教堂最特別的形體關係是？",
+          "choices": [
+            "厚方盒上另加尖塔",
+            "牆與屋頂由連續曲面共同形成",
+            "所有表面都完全水平"
+          ],
+          "correctIndex": 1,
+          "explanation": "四片曲面讓圍護與覆蓋連在一起；結構仍有工程設計，不能把流動造形誤讀為沒有梁或支撐。",
+          "sourceIds": [
+            "luce-heritage",
+            "luce-conservation"
+          ]
+        },
+        {
+          "id": "luce-tiles",
+          "title": "黃色曲面由什麼拼成？",
+          "position": "side",
+          "locationLabel": "外部近觀・曲面表皮",
+          "observation": [
+            "留意黃褐色表面與細小菱形單元。",
+            "比較遠看連續的曲面，與近看分件的材料。"
+          ],
+          "question": "小型菱形面磚有何幫助？",
+          "choices": [
+            "讓曲面變成一整片黃金",
+            "把所有曲面取消",
+            "以分件方式貼合彎曲表面"
+          ],
+          "correctIndex": 2,
+          "explanation": "琉璃面磚讓表皮適應曲面，也形成教堂的色彩表情；影像材質保留語彙，不代表精密復原每片磚。",
+          "sourceIds": [
+            "luce-heritage"
+          ]
+        },
+        {
+          "id": "luce-seams",
+          "title": "四片曲面之間的光路",
+          "position": "rear",
+          "locationLabel": "室內中央走道・曲面與光縫",
+          "observation": [
+            "在中央走道的安全範圍抬頭，找曲面交接與前後玻璃的光線入口。",
+            "把四片曲面的分離和採光一起看，不把亮線當成貼上的裝飾。"
+          ],
+          "question": "這些有意保留的間隙參與了什麼？",
+          "choices": [
+            "引入自然光並顯示四片曲面的分離",
+            "讓雨水必然流進教堂",
+            "證明建築尚未完成"
+          ],
+          "correctIndex": 0,
+          "explanation": "原作在分離曲面之間安排天窗與前後窗；室內可把圍護、格子梁與光的入口一起閱讀。遊戲照明不是原址實測，地面標記可返回俯視。",
+          "sourceIds": [
+            "luce-heritage"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "曲面之間，讓光進來",
+        "keywords": [
+          "四片曲面",
+          "屋牆合一",
+          "琉璃面磚",
+          "縫隙採光"
+        ],
+        "summary": "路思義教堂不是單純的薄殼外形。曲面、格子梁、面磚與採光間隙由設計及施工團隊共同實現，形成完整的空間。",
+        "reflection": "如果把曲面間的縫全部封住，建築會失去哪些線索？"
+      }
+    },
+    {
+      "id": "douglas",
+      "name": "懸岸島",
+      "theme": "房子的入口不一定在最底層",
+      "building": "道格拉斯住宅",
+      "buildingEnglish": "Douglas House",
+      "architect": "理查・麥爾",
+      "architectEnglish": "Richard Meier",
+      "credit": "Richard Meier & Partners；Tod Williams 為專案建築師",
+      "year": "1973 年完工",
+      "location": "美國・密西根州哈伯斯普林斯附近",
+      "npc": {
+        "name": "麥爾｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先把房子和坡地一起看。白色牆面、大片玻璃與高處入口，讓你在不同高度接近湖景；建築的剖面和立面一樣重要。"
+      },
+      "quests": [
+        {
+          "id": "douglas-white",
+          "title": "白色讓哪些線變清楚？",
+          "position": "front",
+          "locationLabel": "外部・白色框架與實牆",
+          "observation": [
+            "在白色表面找水平樓板、細欄杆與窗的邊線。",
+            "比較有陽光和在陰影裡的部分，而不是把白色當成沒有材質。"
+          ],
+          "question": "白色在這裡最有助於辨認什麼？",
+          "choices": [
+            "構件、開口與陰影的幾何關係",
+            "所有部位都用同一種石材",
+            "牆後每件家具的年代"
+          ],
+          "correctIndex": 0,
+          "explanation": "白色木質表面與玻璃構成鮮明對比；統一色調讓幾何更易讀，但不抹去材料的差異。",
+          "sourceIds": [
+            "douglas-owner"
+          ]
+        },
+        {
+          "id": "douglas-glass",
+          "title": "兩側不必長一樣",
+          "position": "side",
+          "locationLabel": "起居空間室內・玻璃與景觀",
+          "observation": [
+            "從起居空間的安全範圍，觀察玻璃面、白色構件與向外的視線。",
+            "原址玻璃側朝向密西根湖；窗外的遊戲島景不等同原湖岸。"
+          ],
+          "question": "不同透明程度主要回應哪種差異？",
+          "choices": [
+            "每面都必須完全相同",
+            "道路側的私密性與湖側的景觀",
+            "玻璃越多就完全不需要結構"
+          ],
+          "correctIndex": 1,
+          "explanation": "通透起居空間朝向湖景，較封閉道路側回應私密需要。此處可讀視線如何穿過玻璃，但只能在已開放地坪範圍走動，不能跨越窗邊。",
+          "sourceIds": [
+            "douglas-architect",
+            "douglas-owner"
+          ]
+        },
+        {
+          "id": "douglas-bridge",
+          "title": "走一座橋，進到房子上方",
+          "position": "rear",
+          "locationLabel": "外部・入口橋與高差",
+          "observation": [
+            "沿視線追蹤高處入口橋與房子的接點。",
+            "留在安全觀察區，比較橋的位置和下方樓層。"
+          ],
+          "question": "為何入口能接近屋頂層？",
+          "choices": [
+            "房子原先倒著蓋",
+            "入口只是不能通行的裝飾",
+            "原址陡坡讓道路與住宅上層接近"
+          ],
+          "correctIndex": 2,
+          "explanation": "原址由道路陡降到湖邊，上方橋接使進入方式順應地勢；此題不要求走上模型橋面。",
+          "sourceIds": [
+            "douglas-architect"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "用剖面回應地形",
+        "keywords": [
+          "白色幾何",
+          "透明與不透明",
+          "高處入口",
+          "陡坡"
+        ],
+        "summary": "道格拉斯住宅透過不同立面回應道路和湖景，透過橋與垂直動線回應坡度。看懂它，需要同時看房子和地面。",
+        "reflection": "同一棟建築建在平地，入口橋還有一樣的必要嗎？"
+      }
+    },
+    {
+      "id": "menil",
+      "name": "葉光島",
+      "theme": "把美術館的光調到剛剛好",
+      "building": "梅尼爾美術館主館",
+      "buildingEnglish": "The Menil Collection, Main Building",
+      "architect": "倫佐・皮亞諾",
+      "architectEnglish": "Renzo Piano",
+      "credit": "Piano & Fitzgerald；Peter Rice 與 Arup 等團隊共同研製屋頂系統",
+      "year": "1987 年開館",
+      "location": "美國・德州休士頓",
+      "npc": {
+        "name": "皮亞諾｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看深廊和灰色木板，它們讓美術館接近鄰居家的尺度。接著再問：要讓藝術品遇到日光，屋頂需要做哪些工作？"
+      },
+      "quests": [
+        {
+          "id": "menil-neighborhood",
+          "title": "美術館也能像鄰居",
+          "position": "front",
+          "locationLabel": "外部・灰色木板與低長量體",
+          "observation": [
+            "比較低而長的主體與灰色外牆。",
+            "原址周圍是住宅街區，遊戲草島不等同原社區。"
+          ],
+          "question": "這樣的比例與材料在原址回應什麼？",
+          "choices": [
+            "刻意壓過所有鄰居的超高量體",
+            "住宅街區的尺度與木質語彙",
+            "海港貨櫃的標準堆疊"
+          ],
+          "correctIndex": 1,
+          "explanation": "主館呼應鄰近平房的低屋線與灰色木板，公共美術館也能用不張揚的尺度融入日常。",
+          "sourceIds": [
+            "menil-owner",
+            "menil-rpbw"
+          ]
+        },
+        {
+          "id": "menil-shade",
+          "title": "牆外多出一條陰影帶",
+          "position": "side",
+          "locationLabel": "外部・深廊與細柱",
+          "observation": [
+            "看屋頂邊緣是否伸到牆面之外。",
+            "柱子與外牆之間的帶狀空間，是可以辨認的過渡區。"
+          ],
+          "question": "深廊為室內外帶來什麼？",
+          "choices": [
+            "完全封閉的隔離牆",
+            "只能從空中觀看的裝飾",
+            "遮蔭與停留的過渡空間"
+          ],
+          "correctIndex": 2,
+          "explanation": "深廊延續當地住宅的門廊語彙，讓接近美術館成為漸進的經驗。此站只在已核對的外部區域移動。",
+          "sourceIds": [
+            "menil-owner",
+            "menil-rpbw"
+          ]
+        },
+        {
+          "id": "menil-leaves",
+          "title": "屋頂裡的葉片在做什麼？",
+          "position": "rear",
+          "locationLabel": "展廳室內・採光葉片",
+          "observation": [
+            "在展廳安全區抬頭，辨認白色曲面葉片的重複。",
+            "比較葉片、間隙與承接它們的構件，思考天空的光如何被重新分配。"
+          ],
+          "question": "曲面採光葉片的主要工作是？",
+          "choices": [
+            "調節與散布日光，兼顧觀賞及保存",
+            "讓強烈直射光永遠落在畫上",
+            "模仿樹葉，所以不用結構"
+          ],
+          "correctIndex": 0,
+          "explanation": "曲面鐵絲網水泥葉片調節日光，讓採光與保存需求一起被設計。眼前模型用來閱讀構成，不是文物保存照度模擬；可沿返回標記離開。",
+          "sourceIds": [
+            "menil-rpbw"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "像門廊一樣親近，像儀器一樣細心",
+        "keywords": [
+          "住宅尺度",
+          "深廊",
+          "採光葉片",
+          "藝術保存"
+        ],
+        "summary": "灰柏木與深廊把美術館接回街區，採光葉片則把天空的變化帶進展覽。親切外觀與精密光學思考可以共存。",
+        "reflection": "圖書館與美術館需要的自然光，有哪些相同與不同？"
+      },
+      "modelScope": "本島對應 1987 年皮亞諾主館，不是 Cy Twombly Gallery 或 Menil Drawing Institute。"
+    },
+    {
+      "id": "gunma",
+      "name": "方格島",
+      "theme": "把美術館當作容納藝術的框架",
+      "building": "群馬縣立近代美術館",
+      "buildingEnglish": "The Museum of Modern Art, Gunma",
+      "architect": "磯崎新",
+      "architectEnglish": "Arata Isozaki",
+      "credit": "1974 年原館設計；原建築後續另有增建",
+      "year": "1974 年原館",
+      "location": "日本・群馬縣高崎市",
+      "npc": {
+        "name": "磯崎新｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先在外牆找一個方格，再找一個更大的方塊。這裡從小板片到大空間，反覆調整同一套幾何語彙。"
+      },
+      "quests": [
+        {
+          "id": "gunma-grid",
+          "title": "大小方格屬於同一家族",
+          "position": "front",
+          "locationLabel": "外部・鋁板與玻璃格網",
+          "observation": [
+            "沿鋁板接縫找出重複的正方形。",
+            "再看玻璃分格，對比兩種材料上的共同節奏。"
+          ],
+          "question": "這些格網的設計關係是？",
+          "choices": [
+            "各自隨機排列，沒有共同尺度",
+            "只用來畫裝飾格子",
+            "用相關模數協調不同構件"
+          ],
+          "correctIndex": 2,
+          "explanation": "館方記錄外牆鋁板與玻璃格網以 1.2 公尺為單元，與較大的立方框架相聯；模型不作逐格測量依據。",
+          "sourceIds": [
+            "gunma-museum"
+          ]
+        },
+        {
+          "id": "gunma-cubes",
+          "title": "一個方塊，還是一群方塊？",
+          "position": "side",
+          "locationLabel": "外部斜角・立方量體",
+          "observation": [
+            "換角度辨認各部分的轉折與前後位置。",
+            "不要只盯一面平牆，試著讀出立方體的組合。"
+          ],
+          "question": "磯崎新的基本空間構想最接近？",
+          "choices": [
+            "以立方框架組成可延展的整體",
+            "一塊不能改變的巨大實心石頭",
+            "只有一張沒有深度的立面"
+          ],
+          "correctIndex": 0,
+          "explanation": "原館以 12 公尺立方框架為基本結構概念。框架的重複容許組織與延展，不代表畫面顯示了所有年代的增建。",
+          "sourceIds": [
+            "gunma-museum"
+          ]
+        },
+        {
+          "id": "gunma-frame",
+          "title": "建築是作品外面的框",
+          "position": "rear",
+          "locationLabel": "大廳室內・格網與空間框架",
+          "observation": [
+            "在大廳的限定範圍內，觀察玻璃分格、邊框與空間的深度。",
+            "把外牆的小格與室內較大的框架聯繫起來，而不是只看一張平立面。"
+          ],
+          "question": "把美術館比作額緣，重點是什麼？",
+          "choices": [
+            "建築本身必須畫滿名畫",
+            "以有秩序的空間承接不同展覽",
+            "所有展品都不能更換"
+          ],
+          "correctIndex": 1,
+          "explanation": "館方記錄磯崎新以框架與空洞討論美術館。從室內看，框架也在安排人與展覽的空間；此區不等於開放全館所有展廳。",
+          "sourceIds": [
+            "gunma-museum"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "讓內容改變，讓框架接住",
+        "keywords": [
+          "立方框架",
+          "模數",
+          "鋁板格網",
+          "展覽容器"
+        ],
+        "summary": "群馬原館以相關尺度的方格連結表皮與量體，讓建築成為容納藝術、活動與未來變化的框架。",
+        "reflection": "哪種空間應該保持秩序，哪種內容應該自由變化？"
+      },
+      "modelScope": "本模型以 1974 年原館為主；1994、1998 年增建不視為已完整呈現。"
+    },
+    {
+      "id": "retti",
+      "name": "銀門島",
+      "theme": "一個小店面，也能改變整條街的閱讀",
+      "building": "Retti 蠟燭店",
+      "buildingEnglish": "Retti Candle Shop",
+      "architect": "漢斯・霍萊因",
+      "architectEnglish": "Hans Hollein",
+      "credit": "原蠟燭店設計；店舖用途與室內狀態後來曾變更及修復",
+      "year": "1966 年完工（依建築師資料）",
+      "location": "奧地利・維也納",
+      "npc": {
+        "name": "霍萊因｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "不用先走進去，站在門前就能開始。這片金屬如何從街屋中被辨認？入口又如何把你的身體尺度帶進來？"
+      },
+      "quests": [
+        {
+          "id": "retti-metal",
+          "title": "一片銀色，換一種時代語彙",
+          "position": "front",
+          "locationLabel": "街側・鋁質門面",
+          "observation": [
+            "看金屬面的反射與清楚邊界。",
+            "模型沒有完整復原周邊華麗街屋；原址的材料對比需配合史料理解。"
+          ],
+          "question": "原作最鮮明的門面材料是？",
+          "choices": [
+            "紅磚",
+            "鋁",
+            "木瓦"
+          ],
+          "correctIndex": 1,
+          "explanation": "鋁質門面以精煉形體對照原街區裝飾豐富的建築。銀色不是實心白銀，也不代表所有發亮部位使用同種材料。",
+          "sourceIds": [
+            "retti-preservation"
+          ]
+        },
+        {
+          "id": "retti-portal",
+          "title": "門比門面小得多",
+          "position": "side",
+          "locationLabel": "入口斜角・狹窄通道",
+          "observation": [
+            "比較整片金屬外框與實際進入的開口。",
+            "沿著開口的邊界觀察凹進、轉折與厚度。"
+          ],
+          "question": "這種大小對比帶來什麼感受？",
+          "choices": [
+            "先聚焦到一個清楚的門檻，再進入小空間",
+            "店面越亮，入口就一定越寬",
+            "整面金屬都可以直接穿過"
+          ],
+          "correctIndex": 0,
+          "explanation": "霍萊因把入口當成一個精準的空間轉換。金屬門面不是無厚度的招牌，遊戲也不要求穿過未開放的門。",
+          "sourceIds": [
+            "retti-preservation",
+            "retti-hollein"
+          ]
+        },
+        {
+          "id": "retti-scale",
+          "title": "小面積不等於少設計",
+          "position": "rear",
+          "locationLabel": "街側稍退・整體門面",
+          "observation": [
+            "退後把入口、外框與側邊一起看。",
+            "想像把它放回狹窄都市店面，而不是把遊戲島當成原基地。"
+          ],
+          "question": "理解這件作品最需要避免什麼？",
+          "choices": [
+            "留意材料與人的尺度",
+            "把門檻視為空間設計的一部分",
+            "只因店面小就認為它沒有建築思考"
+          ],
+          "correctIndex": 2,
+          "explanation": "原案在很小的店面中處理幾何、展示與感知。室內八角形與鏡面是延伸知識，此室外任務不聲稱你已看清那些細節。",
+          "sourceIds": [
+            "retti-preservation",
+            "retti-hollein"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "小店面的強烈門檻",
+        "keywords": [
+          "鋁質門面",
+          "狹窄入口",
+          "尺度對比",
+          "都市介入"
+        ],
+        "summary": "Retti 用金屬、開口與幾何，把小店的入口變成清楚可辨的空間事件。建築的設計強度不只取決於面積。",
+        "reflection": "如果只能改造一個門面，你會把細節集中在哪裡？"
+      },
+      "modelScope": "原 Retti 蠟燭店的教學重建；不是對現今商店營業用途或完整現況的宣稱。"
+    },
+    {
+      "id": "aerospace",
+      "name": "飛行島",
+      "theme": "讓量體與展示一起向外展開",
+      "building": "加州航太博物館",
+      "buildingEnglish": "California Aerospace Museum",
+      "architect": "法蘭克・蓋瑞",
+      "architectEnglish": "Frank Gehry",
+      "credit": "1984 年 Exposition Park 原館；非後來的新航太中心",
+      "year": "1984 年原館",
+      "location": "美國・加州洛杉磯",
+      "npc": {
+        "name": "蓋瑞｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先找幾個彼此不同的量體，再看材料如何把它們分開。這座航太館讓展示的動勢走到外牆上，並不只把展品收進盒子。"
+      },
+      "quests": [
+        {
+          "id": "aerospace-volumes",
+          "title": "這些塊體朝同一方向嗎？",
+          "position": "front",
+          "locationLabel": "外部・傾斜量體組合",
+          "observation": [
+            "比較直立方整部分與向外傾斜的多面體。",
+            "轉動視角，觀察它們不是一個輪廓一致的盒子。"
+          ],
+          "question": "傾斜與外挑對原來狹窄基地有何意義？",
+          "choices": [
+            "讓建築完全沒有重量",
+            "在有限基地中爭取空間並形成多面視角",
+            "每一面都必須彼此垂直"
+          ],
+          "correctIndex": 1,
+          "explanation": "原館靠傾斜與外挑擴展展覽量體；造形與空間需求一起被考慮，不只是任意扭動外殼。",
+          "sourceIds": [
+            "aerospace-heritage",
+            "aerospace-getty"
+          ]
+        },
+        {
+          "id": "aerospace-materials",
+          "title": "用材料讀出不同塊體",
+          "position": "side",
+          "locationLabel": "外部・金屬與灰泥面",
+          "observation": [
+            "比較較亮的金屬包覆與較均勻的淺色牆面。",
+            "沿材料交界，追蹤每一個量體的輪廓。"
+          ],
+          "question": "材料差異在這裡最能幫助你做什麼？",
+          "choices": [
+            "辨認各量體與接合關係",
+            "判斷所有牆都能任意拆除",
+            "認定亮面一定是玻璃"
+          ],
+          "correctIndex": 0,
+          "explanation": "金屬與灰泥讓相鄰部分保有不同表情；視覺上的碎片感，仍需由實際構造連成一座建築。",
+          "sourceIds": [
+            "aerospace-heritage",
+            "aerospace-getty"
+          ]
+        },
+        {
+          "id": "aerospace-sky",
+          "title": "飛機也能成為立面的訊息",
+          "position": "rear",
+          "locationLabel": "外部・懸掛飛機與上揚輪廓",
+          "observation": [
+            "尋找外側上揚的飛機模型，再對比建築的傾斜邊線。",
+            "這是歷史展示意象的簡化模型，不是可駕駛飛機。"
+          ],
+          "question": "飛機在原建築外部還扮演什麼角色？",
+          "choices": [
+            "用來支撐全部屋頂",
+            "表示遊戲可以操作軍事裝備",
+            "向街道傳達航太館主題的標誌"
+          ],
+          "correctIndex": 2,
+          "explanation": "歷史原館把 F-104 飛機懸掛在外部，展示物也成為建築的辨識訊息。這不是宣稱原館現在仍以相同方式開放。",
+          "sourceIds": [
+            "aerospace-heritage",
+            "aerospace-getty"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "把展示帶到建築之外",
+        "keywords": [
+          "量體拼接",
+          "金屬外殼",
+          "外挑",
+          "建築標誌"
+        ],
+        "summary": "原航太館以不同形狀與材料放大狹窄基地的空間可能，懸掛飛機則讓展示和街道之間產生直接的聯繫。",
+        "reflection": "博物館不用文字招牌，也可以怎樣讓人知道主題？"
+      },
+      "modelScope": "歷史模型為 1984 California Aerospace Museum／Air and Space Gallery；不代表現正開館，也不是 Samuel Oschin Air and Space Center。"
+    },
+    {
+      "id": "vitra",
+      "name": "疾線島",
+      "theme": "把方向感留在不動的混凝土裡",
+      "building": "維特拉消防站",
+      "buildingEnglish": "Vitra Fire Station",
+      "architect": "札哈・哈蒂",
+      "architectEnglish": "Zaha Hadid",
+      "credit": "基金會署名 Zaha Hadid、Patrik Schumacher；Schumacher 為專案建築師",
+      "year": "1993 年完成",
+      "location": "德國・萊茵河畔魏爾",
+      "npc": {
+        "name": "哈蒂｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "看看牆、雨棚與邊線往哪裡延伸。建築沒有真的移動，卻能透過角度與拉長的構件，讓你感到準備出發的張力。"
+      },
+      "quests": [
+        {
+          "id": "vitra-planes",
+          "title": "牆像切進空間的片",
+          "position": "front",
+          "locationLabel": "外部・混凝土片牆",
+          "observation": [
+            "不要先把建築看成一個盒子，先辨認幾片長牆。",
+            "比較片牆的交錯、延伸與夾角。"
+          ],
+          "question": "哪種描述最貼近這組構成？",
+          "choices": [
+            "每片牆完全重疊在同一平面",
+            "在圓球上貼裝飾",
+            "片牆相交並延伸，形成空間與方向"
+          ],
+          "correctIndex": 2,
+          "explanation": "片牆像一組相互作用的線索，界定場地與建築。混凝土仍然是沉重材料，動勢來自幾何安排。",
+          "sourceIds": [
+            "vitra-foundation"
+          ]
+        },
+        {
+          "id": "vitra-canopy",
+          "title": "一片雨棚，把門口拉長",
+          "position": "side",
+          "locationLabel": "外部・薄長雨棚",
+          "observation": [
+            "沿著突出的雨棚邊緣追蹤尖端。",
+            "比較上方遮蔽與下方留出的空間，不要走入未驗證區域。"
+          ],
+          "question": "雨棚除了遮蔽，還能如何作用？",
+          "choices": [
+            "引導接近方向並強化入口的張力",
+            "證明建築不需要結構計算",
+            "讓室內外完全沒有區別"
+          ],
+          "correctIndex": 0,
+          "explanation": "薄長輪廓把入口拉向外部，是功能與視覺方向的共同設計；不能因看起來輕薄就認定它沒有支撐。",
+          "sourceIds": [
+            "vitra-architect",
+            "vitra-foundation"
+          ]
+        },
+        {
+          "id": "vitra-direction",
+          "title": "換個角度，線會改變關係",
+          "position": "rear",
+          "locationLabel": "外部斜角・長向輪廓",
+          "observation": [
+            "移動到斜角，比較幾條原先接近重疊的邊線。",
+            "注意哪些線分開、哪些線交會。"
+          ],
+          "question": "這種變化最能提醒你什麼？",
+          "choices": [
+            "一張正面照片就包含全部空間",
+            "動勢來自可繞行的三維關係",
+            "混凝土牆正在自行移動"
+          ],
+          "correctIndex": 1,
+          "explanation": "不同角度會改變片牆與屋頂的疊合。原消防站後來轉為展覽及活動使用，動勢的造形仍可被閱讀。",
+          "sourceIds": [
+            "vitra-foundation",
+            "vitra-owner"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "凝固的方向感",
+        "keywords": [
+          "片牆",
+          "斜向幾何",
+          "長雨棚",
+          "移動視角"
+        ],
+        "summary": "維特拉消防站以混凝土片牆與銳利輪廓編排動勢。理解它需要換角度走動，也要區分原消防用途與後來的使用。",
+        "reflection": "你會用哪一條牆或哪一片棚，讓人自然找到入口？"
+      }
+    },
+    {
+      "id": "zueblin",
+      "name": "紅廊島",
+      "theme": "兩翼辦公室之間，也能是一個共同場所",
+      "building": "ZÜBLIN 辦公大樓",
+      "buildingEnglish": "ZÜBLIN-Haus",
+      "architect": "哥特弗利德・波姆",
+      "architectEnglish": "Gottfried Böhm",
+      "credit": "由 Gottfried Böhm 與 ZÜBLIN 建造團隊協作的原總部大樓",
+      "year": "1983–1984 年建造，1985 年啟用",
+      "location": "德國・斯圖加特",
+      "npc": {
+        "name": "波姆｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看紅色雙翼，再看中間的玻璃。辦公室之間不一定只剩走廊；它也可以被放大成讓人相遇的大廳。"
+      },
+      "quests": [
+        {
+          "id": "zueblin-wings",
+          "title": "兩條長翼，留下一個中間",
+          "position": "front",
+          "locationLabel": "外部・雙翼整體",
+          "observation": [
+            "辨認兩側紅色辦公翼與中間較通透的部分。",
+            "從端部看，試著把「兩翼」和「中間」分成三個空間角色。"
+          ],
+          "question": "這個配置的核心是？",
+          "choices": [
+            "把所有人隔進互不相見的塔",
+            "讓兩翼圍出共同的中央空間",
+            "把整棟辦公室埋入地下"
+          ],
+          "correctIndex": 1,
+          "explanation": "辦公翼之間的中庭是一個有用途的共享空間，不是剩餘縫隙；此站從外部讀它的範圍。",
+          "sourceIds": [
+            "zueblin-owner"
+          ]
+        },
+        {
+          "id": "zueblin-atrium",
+          "title": "替中間的空間蓋一片天空",
+          "position": "side",
+          "locationLabel": "中庭室內・高大共享空間",
+          "observation": [
+            "從中庭安全區比較身邊尺度與上方高大的玻璃覆蓋。",
+            "環看兩側辦公翼與中央共享空間，留意不同深度的玻璃構件。"
+          ],
+          "question": "玻璃屋頂改變中庭的哪一種條件？",
+          "choices": [
+            "在遮蔽下仍可引入大量自然光",
+            "讓它永遠保持室外氣溫",
+            "證明它沒有任何能源需求"
+          ],
+          "correctIndex": 0,
+          "explanation": "透明屋面把兩翼之間變成有遮蔽的大廳，讓辦公之外也有共同場所。玻璃不等於零耗能；此區只開放已核對的地面，不可搭乘模型電梯。",
+          "sourceIds": [
+            "zueblin-owner"
+          ]
+        },
+        {
+          "id": "zueblin-rhythm",
+          "title": "紅色構件如何重複？",
+          "position": "rear",
+          "locationLabel": "外部・預鑄立面節奏",
+          "observation": [
+            "看窗間、窗下與垂直支撐的重複。",
+            "比較較暗支撐與紅色面板，不把它們一律看成紅磚。"
+          ],
+          "question": "原立面的重要建造語彙是？",
+          "choices": [
+            "任意大小的天然巨石",
+            "每個窗都是完全無關的造形",
+            "有重複模矩的紅色預鑄混凝土構件"
+          ],
+          "correctIndex": 2,
+          "explanation": "原建物利用預鑄面板與支撐組成有節奏的立面，將工業化建造與細緻的色彩、深度結合。",
+          "sourceIds": [
+            "zueblin-owner",
+            "zueblin-engineer"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "在辦公翼之間建立共同中心",
+        "keywords": [
+          "雙翼",
+          "玻璃中庭",
+          "預鑄混凝土",
+          "立面節奏"
+        ],
+        "summary": "紅色構件形成清楚的工作空間邊界，玻璃則把兩翼間的大廳變成共同中心。看量體也要看量體之間留下什麼。",
+        "reflection": "如果把中庭填滿辦公室，會增加什麼，又失去什麼？"
+      },
+      "modelScope": "1980 年代 Böhm 原總部，不是旁邊的 Z3 增建。"
+    },
+    {
+      "id": "boa-nova",
+      "name": "岩潮島",
+      "theme": "不是先放一棟房子，再補上風景",
+      "building": "Boa Nova 茶屋",
+      "buildingEnglish": "Boa Nova Tea House and Restaurant",
+      "architect": "阿爾瓦羅・西扎",
+      "architectEnglish": "Álvaro Siza",
+      "credit": "計畫源於 Fernando Távora 事務所競圖，後交由西扎主導",
+      "year": "1958–1963 年設計建造",
+      "location": "葡萄牙・萊薩達帕爾梅拉海岸",
+      "npc": {
+        "name": "西扎｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看岩石，再看屋頂離地有多高。這座茶屋的方向、折線與開口，要和岩岸一起讀，才能明白它為何長成這樣。"
+      },
+      "quests": [
+        {
+          "id": "boa-nova-roof",
+          "title": "低屋頂如何靠近地面？",
+          "position": "front",
+          "locationLabel": "外部・低斜屋頂",
+          "observation": [
+            "沿著紅褐色屋面看它與白牆的高低關係。",
+            "留意屋簷伸出與牆面轉折，別把低矮誤認為沒有層次。"
+          ],
+          "question": "低屋頂與伸出的簷最直接形成什麼？",
+          "choices": [
+            "壓低的輪廓與接近身體的遮蔽感",
+            "一座筆直升高的玻璃塔",
+            "完全沒有陰影的表面"
+          ],
+          "correctIndex": 0,
+          "explanation": "屋頂的折線、厚度與伸出量共同安排接近建築的感受；模型接點是教學近似，並非施工圖。",
+          "sourceIds": [
+            "boa-nova-drawings"
+          ]
+        },
+        {
+          "id": "boa-nova-rock",
+          "title": "岩石是背景，還是設計條件？",
+          "position": "side",
+          "locationLabel": "外部・石牆、岩岸與轉折",
+          "observation": [
+            "比較人工白牆與不規則岩石。",
+            "看看量體與步行方向如何繞開、靠近不同地形；島岸不等於原址精測地貌。"
+          ],
+          "question": "最適合這件作品的場址閱讀是？",
+          "choices": [
+            "把所有地形先想成平地",
+            "岩岸參與了量體與動線的安排",
+            "建築不可能與自然同時存在"
+          ],
+          "correctIndex": 1,
+          "explanation": "原案把茶屋放進既有岩岸關係中。材料可分辨人工與自然，空間安排卻讓兩者彼此回應。",
+          "sourceIds": [
+            "boa-nova-cca",
+            "boa-nova-drawings"
+          ]
+        },
+        {
+          "id": "boa-nova-horizon",
+          "title": "在屋簷下框住遠方",
+          "position": "rear",
+          "locationLabel": "外部・面海玻璃與簷線",
+          "observation": [
+            "找出簷下較長的玻璃開口。",
+            "比較上方遮蔽、下方地坪與遠方視野的層次。"
+          ],
+          "question": "長向開口與低簷組合如何安排景觀？",
+          "choices": [
+            "保證每個角落都看到一樣的海景",
+            "只讓人注意屋頂，不可能看到外面",
+            "用邊界選擇並強化向外的視線"
+          ],
+          "correctIndex": 2,
+          "explanation": "景觀不是毫無選擇地全部打開。屋簷、窗與高差一起形成取景；本島不承諾完整呈現原址潮汐或室內用餐情境。",
+          "sourceIds": [
+            "boa-nova-drawings",
+            "boa-nova-cca"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "把地形當成設計的起點",
+        "keywords": [
+          "岩岸",
+          "低屋頂",
+          "折線動線",
+          "景觀取框"
+        ],
+        "summary": "Boa Nova 的白牆、瓦頂與窗並非可任意搬到任何基地的造形套件；它們的意義來自與岩石、地勢和海的具體關係。",
+        "reflection": "如果海景在另一邊，哪些牆、屋簷或入口必須跟著調整？"
+      }
+    },
+    {
+      "id": "light",
+      "name": "靜隙島",
+      "theme": "從一面牆的開口，讀出光與暗",
+      "building": "光之教會",
+      "buildingEnglish": "Church of the Light",
+      "architect": "安藤忠雄",
+      "architectEnglish": "Tadao Ando",
+      "credit": "茨木春日丘教會主禮拜堂；教會成員與施工團隊共同促成",
+      "year": "1989 年完成",
+      "location": "日本・大阪府茨木市",
+      "npc": {
+        "name": "安藤忠雄｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看混凝土盒子與斜牆，不要急著尋找照片裡的光。光從哪裡進入，人在進入前又要轉幾次方向？"
+      },
+      "quests": [
+        {
+          "id": "light-concrete",
+          "title": "讓牆成為安靜的背景",
+          "position": "front",
+          "locationLabel": "外部・混凝土牆面",
+          "observation": [
+            "觀察大片灰色實牆與少量開口。",
+            "留意接縫、表面與陰影，而不是尋找密集裝飾。"
+          ],
+          "question": "這種實牆與少量開口最容易強化什麼？",
+          "choices": [
+            "每個方向完全相同的亮度",
+            "開口位置與光暗對比",
+            "沒有任何空間邊界"
+          ],
+          "correctIndex": 1,
+          "explanation": "較封閉的混凝土體量提供明暗對比的條件；光的效果還依時間與天氣改變，遊戲是情境示意。",
+          "sourceIds": [
+            "light-architect"
+          ]
+        },
+        {
+          "id": "light-oblique",
+          "title": "為什麼門前多了一面斜牆？",
+          "position": "side",
+          "locationLabel": "外部・斜牆與入口轉折",
+          "observation": [
+            "找出不與長方形主體平行的斜牆。",
+            "從外部追蹤牆邊留下的間隙，思考接近入口的方向。"
+          ],
+          "question": "斜牆如何影響進入？",
+          "choices": [
+            "讓人直接穿牆",
+            "只把建築變成斜屋頂",
+            "引導轉向，形成漸進的入口經驗"
+          ],
+          "correctIndex": 2,
+          "explanation": "原設計讓人繞行並由斜牆形成的開口進入。這一站讀動線，不要求玩家穿過尚未開放的牆縫。",
+          "sourceIds": [
+            "light-architect"
+          ]
+        },
+        {
+          "id": "light-cross",
+          "title": "先看十字的縫，再想光",
+          "position": "rear",
+          "locationLabel": "外部・實牆與採光方向",
+          "observation": [
+            "先觀察實牆的封閉感，再依解說理解光如何由另一端進入。",
+            "十字光在較暗的室內形成；本室外站受實際牆面遮擋，不保證看見完整十字縫，這一題是原理介紹。"
+          ],
+          "question": "為什麼小開口也能有強烈存在感？",
+          "choices": [
+            "周圍較暗時，光暗對比會集中注意力",
+            "因為混凝土本身就是燈泡",
+            "只要畫上白漆就等於自然光"
+          ],
+          "correctIndex": 0,
+          "explanation": "十字是由牆的開口引入日光，不是貼上的發光符號。本模型的端牆視線被其他實體遮擋，本站以光暗原理補充，不提供假的室內或穿牆視角。",
+          "sourceIds": [
+            "light-architect"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "光的形狀也由暗決定",
+        "keywords": [
+          "混凝土盒",
+          "斜牆",
+          "轉折入口",
+          "十字採光"
+        ],
+        "summary": "光之教會以很少的幾何元素安排進入與停留。厚實背景、有限開口及光暗對比共同作用，並非只有一張十字光的照片。",
+        "reflection": "一間太亮的空間裡，如何讓一道自然光重新被注意到？"
+      },
+      "modelScope": "以 1989 年主禮拜堂為學習主體；不把 1999 主日學校或後續牧師館改造混為同一原案。"
+    },
+    {
+      "id": "serpentine",
+      "name": "編織島",
+      "theme": "看似任意的線，其實有生成規則",
+      "building": "2002 蛇形藝廊展亭",
+      "buildingEnglish": "Serpentine Pavilion 2002",
+      "architect": "伊東豐雄、Cecil Balmond",
+      "architectEnglish": "Toyo Ito and Cecil Balmond",
+      "credit": "與 Arup 協作；建築與結構共同生成的 2002 年展亭",
+      "year": "2002 年倫敦原展亭",
+      "location": "英國・倫敦，歷史原址",
+      "npc": {
+        "name": "伊東豐雄｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "沿著一條斜線走到交點，再看看它怎麼轉過角落。我和 Cecil Balmond、Arup 的合作，把看似複雜的圖樣變成支撐空間的構造。"
+      },
+      "quests": [
+        {
+          "id": "serpentine-network",
+          "title": "不是隨手畫的亂線",
+          "position": "front",
+          "locationLabel": "外部・交叉鋼片網",
+          "observation": [
+            "找三角形與梯形，追蹤它們共享的斜邊。",
+            "這些線不全都平行或垂直，但仍形成連續系統。"
+          ],
+          "question": "看似不規則的網如何生成？",
+          "choices": [
+            "完全不使用規則地亂畫",
+            "從幾何生成規則發展交線",
+            "先堆一面石牆再貼畫"
+          ],
+          "correctIndex": 1,
+          "explanation": "官方記錄指出線網由幾何演算法發展而來；複雜外觀不等於沒有秩序，也不是每條線各自獨立。",
+          "sourceIds": [
+            "serpentine-gallery",
+            "serpentine-balmond"
+          ]
+        },
+        {
+          "id": "serpentine-infill",
+          "title": "同一片網，有些透、有些不透",
+          "position": "side",
+          "locationLabel": "展亭室內・透明與不透明填面",
+          "observation": [
+            "在展亭安全區抬頭，觀察白色線網間的玻璃與不透明面板。",
+            "比較可看向外部的格子，和只呈現明暗的格子。"
+          ],
+          "question": "這組填充的作用最接近？",
+          "choices": [
+            "取消全部牆面功能",
+            "把每個格子變成同樣的窗",
+            "在共同網絡中安排不同透光程度"
+          ],
+          "correctIndex": 2,
+          "explanation": "鋼片網與玻璃、鋁板共同構成表皮。從內側看，填充直接改變光與視線；家具及接點含近似，地面返回標記屬遊戲設施。",
+          "sourceIds": [
+            "serpentine-balmond",
+            "serpentine-gallery"
+          ]
+        },
+        {
+          "id": "serpentine-corner",
+          "title": "線到了角落，沒有就此停止",
+          "position": "rear",
+          "locationLabel": "外部斜角・牆與屋頂轉接",
+          "observation": [
+            "觀察線網如何從立面轉向另一面與屋頂邊緣。",
+            "把眼前盒子想成同一套系統的折返。"
+          ],
+          "question": "為什麼要特別看轉角？",
+          "choices": [
+            "它顯示圖樣、構造與三維空間的連續關係",
+            "它證明所有斜線只是油漆",
+            "因為轉角一定沒有受力"
+          ],
+          "correctIndex": 0,
+          "explanation": "線與交點在原作中發展為承重鋼片；轉角讓你看出它不只是立面裝飾。模型接點仍是近似，不能作結構安全判讀。",
+          "sourceIds": [
+            "serpentine-balmond"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "從規則長出複雜性",
+        "keywords": [
+          "生成幾何",
+          "鋼片網",
+          "透明填充",
+          "三維連續"
+        ],
+        "summary": "伊東豐雄與 Balmond、Arup 把幾何規則、結構與表皮一起推進。讀懂規則與轉角，複雜線網就不再只是花紋。",
+        "reflection": "如果只把圖樣印在不透明盒子上，會失去原作哪些關係？"
+      },
+      "modelScope": "本島為 2002 年倫敦原展亭的歷史模型；不是其他年份展亭，也不表示原構造目前仍在倫敦原址。"
+    },
+    {
+      "id": "bordeaux",
+      "name": "升居島",
+      "theme": "不是把人交給樓梯，而是重新安排房子",
+      "building": "波爾多住宅",
+      "buildingEnglish": "Maison à Bordeaux",
+      "architect": "雷姆・庫哈斯／OMA",
+      "architectEnglish": "Rem Koolhaas / OMA",
+      "credit": "OMA 與 Cecil Balmond／Arup 結構協作；依使用者生活需求設計",
+      "year": "1994–1998 年",
+      "location": "法國・弗盧瓦拉克，波爾多都會區",
+      "npc": {
+        "name": "庫哈斯｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看上、下、中間三種不同表情，再想一個問題：如果走樓梯不方便，住宅能不能讓一整塊生活空間跟著人移動？"
+      },
+      "quests": [
+        {
+          "id": "bordeaux-layers",
+          "title": "三層，不是三次複製",
+          "position": "front",
+          "locationLabel": "外部・疊合量體",
+          "observation": [
+            "比較貼近地面的部分、通透中層與上方較實的盒體。",
+            "三個層次的材料和開口並不相同。"
+          ],
+          "question": "哪個閱讀最符合這座住宅？",
+          "choices": [
+            "每一層都完全相同",
+            "整棟只是單層透明棚",
+            "不同生活層以不同空間性格疊合"
+          ],
+          "correctIndex": 2,
+          "explanation": "OMA 把較私密的下層、接近花園的玻璃生活層與上層房間結合；遊戲地形與地下範圍屬近似。",
+          "sourceIds": [
+            "bordeaux-oma"
+          ]
+        },
+        {
+          "id": "bordeaux-portholes",
+          "title": "實牆上，一個個圓形視孔",
+          "position": "side",
+          "locationLabel": "外部・上層圓窗",
+          "observation": [
+            "在上部較實的牆上找出圓形開口。",
+            "比較圓窗與下層連續玻璃，感受兩種觀看方式。"
+          ],
+          "question": "圓窗與大片玻璃最直接的差別是？",
+          "choices": [
+            "圓窗提供較聚焦的取景，玻璃面提供較連續的視線",
+            "圓形開口一定不能透光",
+            "所有圓窗都可以供人穿過"
+          ],
+          "correctIndex": 0,
+          "explanation": "局部開口與連續玻璃對景觀的切分不同。此處比較可見邊界，不推測每個圓窗後的具體使用者或房間。",
+          "sourceIds": [
+            "bordeaux-balmond",
+            "bordeaux-oma"
+          ]
+        },
+        {
+          "id": "bordeaux-platform",
+          "title": "可以移動的一塊生活空間",
+          "position": "rear",
+          "locationLabel": "室內・升降平台旁的靜態空間",
+          "observation": [
+            "在平台旁的安全地坪，閱讀固定空間、書架與垂直移動範圍的關係。",
+            "本次只開放靜態觀察區；書架細部與家具為教學近似，升降機不能操作。"
+          ],
+          "question": "原作升降平台最關鍵的意義是？",
+          "choices": [
+            "只把人困在固定樓層",
+            "讓樓層間的移動成為生活空間的一部分",
+            "只用來把家具藏起來"
+          ],
+          "correctIndex": 1,
+          "explanation": "原作平台連接三層，停靠後能參與生活或工作空間。此站讓你從室內思考移動需求，不宣稱平台會載人升降或所有樓層都能通行。",
+          "sourceIds": [
+            "bordeaux-oma"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "讓空間回應人的移動",
+        "keywords": [
+          "三層差異",
+          "玻璃生活層",
+          "圓形開口",
+          "移動平台"
+        ],
+        "summary": "波爾多住宅不把動線當成剩餘問題。不同樓層與升降平台共同回應生活，提醒我們從使用者的行動方式重新思考房子。",
+        "reflection": "一個空間若對輪椅使用者友善，還可能同時幫助哪些人？"
+      }
+    },
+    {
+      "id": "zollverein",
+      "name": "窗野島",
+      "theme": "一個安靜方盒，很多種觀看尺度",
+      "building": "Zollverein 設計學院",
+      "buildingEnglish": "Zollverein School / SANAA Building",
+      "architect": "妹島和世、西澤立衛／SANAA",
+      "architectEnglish": "Kazuyo Sejima and Ryue Nishizawa / SANAA",
+      "credit": "SANAA 設計；Böll Architekten 等合作實施團隊",
+      "year": "2006 年建成",
+      "location": "德國・埃森",
+      "npc": {
+        "name": "妹島和世與西澤立衛｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先遠看方盒，再走近看窗。大小不同的開口不只改變立面，也提醒你：裡面的空間不一定照著整齊樓層線排列。"
+      },
+      "quests": [
+        {
+          "id": "zollverein-windows",
+          "title": "窗戶為什麼不是整齊排隊？",
+          "position": "front",
+          "locationLabel": "外部・不同大小的方窗",
+          "observation": [
+            "找出大、小窗及不完全對齊的位置。",
+            "不要急著用窗戶數量推算教室數量。"
+          ],
+          "question": "這些開口最直接產生什麼？",
+          "choices": [
+            "不同尺度與位置的採光和取景",
+            "每個窗都一定對應一個相同房間",
+            "立面完全沒有任何幾何"
+          ],
+          "correctIndex": 0,
+          "explanation": "窗形保有幾何秩序，大小與位置卻不一致。外觀可以提示空間差異，不能單靠窗數認定房間配置。",
+          "sourceIds": [
+            "zollverein-owner",
+            "zollverein-project"
+          ]
+        },
+        {
+          "id": "zollverein-cube",
+          "title": "輪廓很單純，表面不單調",
+          "position": "side",
+          "locationLabel": "外部斜角・近立方量體",
+          "observation": [
+            "退後看平直屋頂與連續轉角。",
+            "對比大尺度的簡單外廓與細部開口的差異。"
+          ],
+          "question": "這裡主要運用哪種對比？",
+          "choices": [
+            "彎曲屋頂對圓形塔",
+            "單純體量對多樣開口",
+            "只有貼上的華麗花紋"
+          ],
+          "correctIndex": 1,
+          "explanation": "近立方外廓提供穩定整體，方窗的大小與位置則帶來變化。簡單外形不等於每個內部空間都相同。",
+          "sourceIds": [
+            "zollverein-owner",
+            "zollverein-project"
+          ]
+        },
+        {
+          "id": "zollverein-scale",
+          "title": "用身體讀懂大空間",
+          "position": "rear",
+          "locationLabel": "工作室室內・家具與人的尺度",
+          "observation": [
+            "從工作室安全區比較模型中的木質家具、地坪與上方空間。",
+            "家具只提供人體尺度參考，不是已核實的原始設備清單；此站也不保證直接看見每一扇窗。"
+          ],
+          "question": "家具能在閱讀大空間時提供什麼？",
+          "choices": [
+            "只要數椅子就能推算全部樓層",
+            "證明模型家具都是歷史原件",
+            "以身體與日常使用尺度對照空間大小"
+          ],
+          "correctIndex": 2,
+          "explanation": "從模型家具的近身尺度，對照工作室的高度與延伸，可理解室內外尺度為何不同。原館各層用途及配置有差異，不能從外面的窗數推定所有房間。",
+          "sourceIds": [
+            "zollverein-project",
+            "zollverein-university"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "窗是尺度的提問",
+        "keywords": [
+          "近立方體",
+          "不同大小方窗",
+          "空間高度",
+          "取景"
+        ],
+        "summary": "SANAA 用有限的幾何語彙創造多種尺度。外面的方窗提出問題，真正的答案需要回到光、視線與空間的關係。",
+        "reflection": "同一面牆上，大窗與小窗各適合框住什麼？"
+      }
+    },
+    {
+      "id": "paper-church",
+      "name": "紙聚島",
+      "theme": "用可再組裝的構件，支持一個社群",
+      "building": "神戶紙教會",
+      "buildingEnglish": "Paper Church – Kobe",
+      "architect": "坂茂",
+      "architectEnglish": "Shigeru Ban",
+      "credit": "由志工以捐贈材料共同建造，兼作社區中心與禮拜場所",
+      "year": "1995 年神戶原案",
+      "location": "日本・神戶，歷史原址",
+      "npc": {
+        "name": "坂茂｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先看紙管怎麼站成一圈，再看外面的輕質圍護。材料是否值得使用，不只看它昂不昂貴，也要看設計、施工與社群需要。"
+      },
+      "quests": [
+        {
+          "id": "paper-church-tubes",
+          "title": "紙也能是有設計的構件",
+          "position": "front",
+          "locationLabel": "外部・入口可見紙管",
+          "observation": [
+            "從入口透明部分辨認一根根圓柱狀紙管。",
+            "比較管狀構件與大片外皮，不把兩者當成同一材料。"
+          ],
+          "question": "這件作品應如何理解「紙」？",
+          "choices": [
+            "隨便捲紙都可以直接蓋房子",
+            "紙只可能是裝飾壁紙",
+            "經設計與處理的紙管成為構造系統的一部分"
+          ],
+          "correctIndex": 2,
+          "explanation": "原案使用有規格的紙管，不是把日常紙張直接替代任何柱子。遊戲不能作為結構、防火或耐久的施工依據。",
+          "sourceIds": [
+            "paper-church-original"
+          ]
+        },
+        {
+          "id": "paper-church-oval",
+          "title": "方框裡為何又有一圈橢圓？",
+          "position": "side",
+          "locationLabel": "室內・橢圓紙柱列",
+          "observation": [
+            "從室內安全區沿著紙管柱列看它如何轉彎。",
+            "比較橢圓內圈與外層矩形圍護，不必走出標定範圍才能完成觀察。"
+          ],
+          "question": "橢圓內圈與方形外皮之間形成什麼？",
+          "choices": [
+            "有層次的邊界及環繞空間",
+            "兩個完全重疊的實心牆",
+            "毫無用途且一定不可到達的縫"
+          ],
+          "correctIndex": 0,
+          "explanation": "原神戶案以橢圓紙管界定聚會核心，外圍為矩形輕質外皮；入口附近加大柱距。你正在歷史原案模型，不是臺灣移建現況。",
+          "sourceIds": [
+            "paper-church-original"
+          ]
+        },
+        {
+          "id": "paper-church-reuse",
+          "title": "一座建築，能不能繼續旅行？",
+          "position": "rear",
+          "locationLabel": "外部・重複構件與輕質圍護",
+          "observation": [
+            "退後比較重複紙管、外皮與屋面。",
+            "把這些可辨認的部件，和「整棟一次澆成」的想像作比較。"
+          ],
+          "question": "這座原教會的後續歷史說明什麼？",
+          "choices": [
+            "所有紙管建築都永遠不必維護",
+            "預先考慮拆卸再用，可以延續建築的生命",
+            "原建物今天仍完整留在神戶原址"
+          ],
+          "correctIndex": 1,
+          "explanation": "1995 神戶紙教會後來拆卸，構件移至臺灣重組。本島保留神戶原案，不把移建後狀態或神戶後建膜教會混為同一模型。",
+          "sourceIds": [
+            "paper-church-sba",
+            "paper-church-original"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "可再用的構件，共同建立的場所",
+        "keywords": [
+          "紙管",
+          "橢圓內圈",
+          "志工協作",
+          "拆卸再用"
+        ],
+        "summary": "紙教會的價值不只在材料出人意料，也在以可組裝構件回應震後社群需要，並為建築的下一段使用留下可能。",
+        "reflection": "一個臨時空間，如何從第一天就為下一個用途作準備？"
+      },
+      "modelScope": "1995 年神戶原案，非臺灣埔里重組現況，亦非神戶原址後來的膜教會。"
+    },
+    {
+      "id": "hiroshima",
+      "name": "共見島",
+      "theme": "讓公共工作的日常被城市理解",
+      "building": "廣島市西消防署",
+      "buildingEnglish": "Hiroshima Nishi Fire Station",
+      "architect": "山本理顯",
+      "architectEnglish": "Riken Yamamoto",
+      "credit": "Riken Yamamoto & Field Shop；與結構及消防安全專業團隊合作",
+      "year": "2000 年完成",
+      "location": "日本・廣島",
+      "npc": {
+        "name": "山本理顯｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先從外面看看玻璃後的深度。消防署除了出勤，也有訓練與教育；讓居民看見工作的過程，能建立另一種公共關係。"
+      },
+      "quests": [
+        {
+          "id": "hiroshima-glass",
+          "title": "玻璃不只為了採光",
+          "position": "front",
+          "locationLabel": "外部・玻璃百葉表皮",
+          "observation": [
+            "觀察重複玻璃片與後方建築深度。",
+            "如果受反射遮擋，移動視角比較，不保證每個角度都看穿。"
+          ],
+          "question": "原設計讓日常工作被看見，還希望達成什麼？",
+          "choices": [
+            "增進居民與消防工作的理解",
+            "表示所有工作區都能任意進入",
+            "讓建築完全不需要隱私與安全"
+          ],
+          "correctIndex": 0,
+          "explanation": "透明性在此兼具公共教育意義。但能看見不等於能進入，工作安全與不同區域的使用界線仍要保留。",
+          "sourceIds": [
+            "hiroshima-architect",
+            "hiroshima-pritzker"
+          ]
+        },
+        {
+          "id": "hiroshima-grid",
+          "title": "一層玻璃，很多層空間",
+          "position": "side",
+          "locationLabel": "外部斜角・百葉與框架",
+          "observation": [
+            "比較外層水平玻璃片、後方柱梁與更深處的樓板。",
+            "試著辨認前、中、後，而不是把它們當成同一張網格圖。"
+          ],
+          "question": "從斜角看最能讀出什麼？",
+          "choices": [
+            "所有玻璃片都會旋轉",
+            "表皮、結構與使用空間的不同層次",
+            "每片玻璃都承擔全部樓層重量"
+          ],
+          "correctIndex": 1,
+          "explanation": "重複構件建立秩序，斜角則揭露深度。玻璃圍護與主體結構各有工作，不應只憑透明感推測承重。",
+          "sourceIds": [
+            "hiroshima-architect"
+          ]
+        },
+        {
+          "id": "hiroshima-training",
+          "title": "把訓練放到可以理解的位置",
+          "position": "rear",
+          "locationLabel": "外部・中央空間的視線",
+          "observation": [
+            "從外部找向中央較開敞部分延伸的視線。",
+            "模型沒有真實消防員演練；以下討論原設計的活動安排，不是即時訓練場景。"
+          ],
+          "question": "將設施圍繞訓練中庭安排，帶來什麼可能？",
+          "choices": [
+            "讓訓練完全與建築無關",
+            "取消消防專業與安全界線",
+            "讓工作、訓練與公共觀看建立聯繫"
+          ],
+          "correctIndex": 2,
+          "explanation": "原案把訓練中庭放在設施中心，並設指定公共區域觀看與學習。本遊戲此站留在室外，不開放攀爬訓練設備。",
+          "sourceIds": [
+            "hiroshima-architect",
+            "hiroshima-pritzker"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "看得見，不等於沒有邊界",
+        "keywords": [
+          "玻璃百葉",
+          "多層深度",
+          "訓練中庭",
+          "公共教育"
+        ],
+        "summary": "廣島西消防署以可見性建立城市與公共服務的聯繫，同時仍有專業工作及安全界線。透明不只是材質，也是空間安排。",
+        "reflection": "學校、工廠或市政府有哪些工作過程，值得讓公眾看見？"
+      }
+    },
+    {
+      "id": "kimbell",
+      "name": "拱光島",
+      "theme": "讓重複拱頂把日光帶進藝術空間",
+      "building": "金貝爾美術館",
+      "buildingEnglish": "Kimbell Art Museum, Louis I. Kahn Building",
+      "architect": "路易・康",
+      "architectEnglish": "Louis I. Kahn",
+      "credit": "與 August Komendant、Richard Kelly 及專案團隊共同實現結構與採光",
+      "year": "1972 年開館",
+      "location": "美國・德州沃斯堡",
+      "npc": {
+        "name": "路易・康｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "從一個拱開始，看看它如何重複，又在哪裡留出入口和庭院。屋頂不只是遮蓋，也參與每一刻觀看藝術的光。"
+      },
+      "quests": [
+        {
+          "id": "kimbell-vaults",
+          "title": "同一個拱，可以形成一整座美術館",
+          "position": "front",
+          "locationLabel": "外部・連續拱頂與門廊",
+          "observation": [
+            "辨認一組組平行的曲面屋頂。",
+            "比較實際室內量體與前方敞開的拱下門廊。"
+          ],
+          "question": "重複拱頂最直接建立什麼？",
+          "choices": [
+            "規則節奏與可辨認的空間單元",
+            "一整片完全平的屋頂",
+            "每個展間都必須同樣佈展"
+          ],
+          "correctIndex": 0,
+          "explanation": "原館以擺線輪廓的拱頂組織空間，並在入口留下敞開門廊；形式重複不表示用途或光線完全相同。",
+          "sourceIds": [
+            "kimbell-detail"
+          ]
+        },
+        {
+          "id": "kimbell-materials",
+          "title": "不是所有淺灰面都是混凝土",
+          "position": "side",
+          "locationLabel": "外部・混凝土與洞石交接",
+          "observation": [
+            "比較拱面、柱與牆面不同的肌理。",
+            "尋找構件交接，避免僅憑淺色就把所有材料歸為同一種。"
+          ],
+          "question": "原館重要的材料配對是？",
+          "choices": [
+            "紙管與塑膠帆布",
+            "混凝土與洞石，並配合木材等細部",
+            "紅色琉璃瓦與鋁網"
+          ],
+          "correctIndex": 1,
+          "explanation": "混凝土的結構表情與洞石牆面形成細緻對照；遊戲紋理為外觀參考，不是原館石材的逐片掃描。",
+          "sourceIds": [
+            "kimbell-detail",
+            "kimbell-history"
+          ]
+        },
+        {
+          "id": "kimbell-daylight",
+          "title": "不是把天窗開得越大越好",
+          "position": "rear",
+          "locationLabel": "展廳室內・拱頂與反射板",
+          "observation": [
+            "在展廳安全區抬頭，沿拱頂找長向採光縫下的反射板。",
+            "比較板、曲面與下方空間，想想日光為何不直接射到作品上。"
+          ],
+          "question": "頂部光線經反射板後，主要希望得到什麼？",
+          "choices": [
+            "讓直射光永遠集中在一幅畫上",
+            "完全不讓天空的變化進入",
+            "較柔和、分散且隨日光變化的照明"
+          ],
+          "correctIndex": 2,
+          "explanation": "日光由頂部窄縫進入，經穿孔鋁反射板擴散到曲面。這裡呈現構成與原理，不把遊戲亮度當成保存照度測試；勿離開安全地坪。",
+          "sourceIds": [
+            "kimbell-detail"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "有秩序的屋頂，有變化的日光",
+        "keywords": [
+          "擺線拱頂",
+          "洞石",
+          "反射採光",
+          "門廊"
+        ],
+        "summary": "金貝爾原館把重複的空間單元與細緻光線結合。材料與採光共同建立安靜背景，讓藝術與時間的變化被注意。",
+        "reflection": "美術館需要穩定，日光卻不斷變動，設計要如何協調？"
+      },
+      "modelScope": "本島是 1972 年 Louis I. Kahn 原館，不是 2013 年 Renzo Piano Pavilion。"
+    },
+    {
+      "id": "olivetti",
+      "name": "細作島",
+      "theme": "沿著接縫，讀一間展示店的深度",
+      "building": "Olivetti 展示店",
+      "buildingEnglish": "Olivetti Showroom",
+      "architect": "卡羅・斯卡帕",
+      "architectEnglish": "Carlo Scarpa",
+      "credit": "Adriano Olivetti 委託；由熟練工匠共同完成的展示空間",
+      "year": "1957–1958 年設計建造",
+      "location": "義大利・威尼斯聖馬可廣場",
+      "npc": {
+        "name": "斯卡帕｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "請從入口與玻璃邊界看進去。石階、地坪與每個接縫，都在很小的空間裡安排身體、光和展示品的關係。"
+      },
+      "quests": [
+        {
+          "id": "olivetti-threshold",
+          "title": "騎樓與展示室之間",
+          "position": "front",
+          "locationLabel": "外部・入口玻璃與門檻",
+          "observation": [
+            "從外部看透明玻璃與石材邊界。",
+            "原址位於聖馬可廣場的騎樓下，島嶼未復原完整廣場與周邊建物。"
+          ],
+          "question": "入口玻璃在這個位置可以做什麼？",
+          "choices": [
+            "讓廣場與展示室保持視覺關聯",
+            "把所有歷史建築拆掉",
+            "取消展示室的實際門檻"
+          ],
+          "correctIndex": 0,
+          "explanation": "展示店透過細緻邊界與城市對話；可見性不代表可任意穿過玻璃。本島從已驗證的外部站觀察。",
+          "sourceIds": [
+            "olivetti-fai",
+            "olivetti-ground"
+          ]
+        },
+        {
+          "id": "olivetti-stair",
+          "title": "石階為什麼看起來不笨重？",
+          "position": "side",
+          "locationLabel": "外部透視・主樓梯方向",
+          "observation": [
+            "透過入口玻璃，尋找室內階梯的錯位輪廓。",
+            "若視角或反射遮住細節，以實際可辨認的石材與空隙為準；完整石階構成屬延伸介紹，不必進入未開放室內。"
+          ],
+          "question": "厚重石材如何產生較輕的視覺感？",
+          "choices": [
+            "把石頭說成塑膠",
+            "以錯位踏步、間隙及支撐安排改變閱讀",
+            "宣稱石階完全不受重力"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aurisina 石階的錯位組合讓重量與輕盈感並存。這裡比較造形，不宣稱模型接點就是可直接施工的結構。",
+          "sourceIds": [
+            "olivetti-fai"
+          ]
+        },
+        {
+          "id": "olivetti-materials",
+          "title": "用交接處辨認工藝",
+          "position": "rear",
+          "locationLabel": "外部透視・入口地坪與材質",
+          "observation": [
+            "從玻璃外比較可見的石材、地坪與透明界面。",
+            "將注意力放在材料交接，而不是要求看清每件室內展品。"
+          ],
+          "question": "這件作品的細部設計最值得注意什麼？",
+          "choices": [
+            "只要材料貴就不必安排接縫",
+            "所有材料都應塗成同一種質感",
+            "不同材料的邊界、尺度與相接方式"
+          ],
+          "correctIndex": 2,
+          "explanation": "原作以彩色玻璃馬賽克、石材、木與玻璃組成細緻空間。當前外部站不保證每種材料都完整可見，未見細節屬延伸解讀。",
+          "sourceIds": [
+            "olivetti-fai",
+            "olivetti-ground"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "細部讓材料彼此說明",
+        "keywords": [
+          "展示空間",
+          "石階",
+          "材料接縫",
+          "威尼斯工藝"
+        ],
+        "summary": "斯卡帕把小尺度的門檻、階梯與材料交接做成完整空間。看細節不是只辨認昂貴材料，而是理解它們如何相遇。",
+        "reflection": "兩種材料相接時，你會讓接縫隱藏，還是讓它被看見？"
+      }
+    },
+    {
+      "id": "bregenz",
+      "name": "霧晶島",
+      "theme": "透明材料，也可以保留朦朧的邊界",
+      "building": "布雷根茲美術館",
+      "buildingEnglish": "Kunsthaus Bregenz",
+      "architect": "彼得・卒姆托",
+      "architectEnglish": "Peter Zumthor",
+      "credit": "主展館與附屬行政樓分工；本島以玻璃主館為學習核心",
+      "year": "1997 年開館",
+      "location": "奧地利・布雷根茲",
+      "npc": {
+        "name": "卒姆托｜教學角色",
+        "label": "教學改寫，非本人原話",
+        "dialogue": "先比較靠近和退後時的玻璃。它不是只把裡面毫無保留地展示出來，而是讓光、反射與模糊深度一起形成建築的表情。"
+      },
+      "quests": [
+        {
+          "id": "bregenz-skin",
+          "title": "玻璃是另一層皮",
+          "position": "front",
+          "locationLabel": "外部・玻璃片與鋼構固定",
+          "observation": [
+            "找出一片片玻璃的邊緣與重疊節奏。",
+            "留意外皮與後方量體不是同一個表面。"
+          ],
+          "question": "怎樣描述這裡的玻璃較合適？",
+          "choices": [
+            "支撐所有展覽樓板的唯一構件",
+            "外層圍護與光的界面，與內部構造分工",
+            "貼在完全實心玻璃塊上的圖案"
+          ],
+          "correctIndex": 1,
+          "explanation": "外部玻璃片由鋼構系統承接，內部混凝土組織結構與空間。外皮與內部重量形成不同層次。",
+          "sourceIds": [
+            "bregenz-museum"
+          ]
+        },
+        {
+          "id": "bregenz-translucent",
+          "title": "為何有玻璃，卻看不完全？",
+          "position": "side",
+          "locationLabel": "外部斜角・反射與半透明感",
+          "observation": [
+            "稍微移動，對比玻璃的反光、朦朧輪廓與可見深度。",
+            "畫面效果會受遊戲燈光與顯示設備影響，不把它當成光學實測。"
+          ],
+          "question": "玻璃在這裡如何改變內外關係？",
+          "choices": [
+            "只要用玻璃，所有角度都必須看穿",
+            "玻璃完全不能反射光",
+            "讓視線、反射與透光以不同程度同時存在"
+          ],
+          "correctIndex": 2,
+          "explanation": "透明材質不是「全看見」的開關。多層界面、表面處理、角度與明暗差，都會影響觀看。",
+          "sourceIds": [
+            "bregenz-museum"
+          ]
+        },
+        {
+          "id": "bregenz-light",
+          "title": "光不是直接從窗打到作品上",
+          "position": "rear",
+          "locationLabel": "展廳室內・玻璃天花",
+          "observation": [
+            "從展廳的安全範圍抬頭，看玻璃天花的重複單元。",
+            "比較柔和頂面與較實的混凝土，思考外部日光到達眼前前經過的層次。"
+          ],
+          "question": "原館如何把日光送進上層展廳？",
+          "choices": [
+            "經外皮與中間採光空間，再由玻璃天花散入",
+            "只在作品背後點一根蠟燭",
+            "所有外牆都打開讓陽光直接照射"
+          ],
+          "correctIndex": 0,
+          "explanation": "日光經外部玻璃及中間採光空間，再由玻璃天花散入；需要時加人工光。模型讓你理解層次，不重現每一時刻照度，也不開放上方設備夾層。",
+          "sourceIds": [
+            "bregenz-museum"
+          ]
+        }
+      ],
+      "conceptCard": {
+        "title": "光經過幾層，空間就有幾層表情",
+        "keywords": [
+          "玻璃外皮",
+          "混凝土核心",
+          "半透明",
+          "分層採光"
+        ],
+        "summary": "布雷根茲主館讓外皮、結構與日光路徑分別工作。朦朧玻璃不只是視覺效果，也是閱讀內外關係的一種方式。",
+        "reflection": "如果把外皮換成完全透明的單層玻璃，還會有同樣的感受嗎？"
+      }
+    }
+  ],
+  "sources": [
+    {"id": "farnsworth-history", "title": "Edith Farnsworth House｜History of the Farnsworth House", "url": "https://edithfarnsworthhouse.org/history-farnsworth-house/", "supports": "1951 年完工、業主與建築師、抬高、玻璃、三個水平面、景觀關係及洪水限制"},
+    {"id": "farnsworth-habs", "title": "美國國會圖書館｜Edith Farnsworth House 歷史建築測繪紀錄", "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il0300/il0323/data/il0323data.pdf", "supports": "鋼柱支撐與玻璃圍護構造"},
+    {"id": "schroder-official", "title": "Rietveld Schröder House｜官方建築導覽", "url": "https://www.rietveldschroderhuis.nl/en", "supports": "1924 年設計、Truus Schröder 合作、風格派、可移動隔間、可開啟轉角窗"},
+    {"id": "schroder-truus", "title": "Rietveld Schröder House｜The story of Truus Schröder", "url": "https://www.rietveldschroderhuis.nl/en/explore/truus-schroder-schrader", "supports": "Truus Schröder 為業主暨共同設計者"},
+    {"id": "schroder-unesco-museum", "title": "Rietveld Schröder House｜UNESCO World Heritage", "url": "https://www.rietveldschroderhuis.nl/en/about/unesco-world-heritage", "supports": "水平垂直線面及三原色構圖"},
+    {"id": "schroder-unesco-dossier", "title": "UNESCO｜Rietveld Schröder House 申遺資料", "url": "https://whc.unesco.org/uploads/nominations/965.pdf", "supports": "線、矩形平面與構件的獨立性，空間連續性與三維組合"},
+    {"id": "savoye-five-points", "title": "Villa Savoye／法國國家古蹟中心｜Le Corbusier's 5 points of modern architecture", "url": "https://www.villa-savoye.fr/en/discover/le-corbusier-s-5-points-of-modern-architecture", "supports": "架空柱、自由平面、自由立面、水平長窗、屋頂露台與日光浴空間"},
+    {"id": "savoye-guide", "title": "Villa Savoye／法國國家古蹟中心｜官方參觀指南", "url": "https://www.villa-savoye.fr/content/download/9824393/file/document-visite-villa-savoye-FR-2021.pdf?version=3", "supports": "Le Corbusier 與 Pierre Jeanneret 共同作品、1929–1931 年建造、Savoye 夫婦委託、五點理論"},
+    {"id": "savoye-foundation", "title": "Fondation Le Corbusier｜Villa Savoye et loge du jardinier", "url": "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-villa-savoye-et-loge-du-jardinier-poissy-france-1928-1931/", "supports": "建築史、五點與屋頂設計"},
+    {"id": "tassel-icomos", "title": "UNESCO／ICOMOS｜霍塔城市住宅評估，Hôtel Tassel 段落", "url": "https://whc.unesco.org/document/151511", "supports": "1893 委託、1894 完成；街屋石立面、鋼構凸窗、狹長基地與中央採光。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "horta-unesco", "title": "UNESCO｜Major Town Houses of Victor Horta", "url": "https://whc.unesco.org/en/list/1005/", "supports": "新藝術住宅的曲線、材料與空間整合。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "batllo-facade", "title": "Casa Batlló｜The façade", "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/facade/", "supports": "石、玻璃、陶瓷拼貼；鑄鐵陽台、骨骼狀柱與鱗片屋頂；龍的說法屬流傳解讀。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "batllo-history", "title": "Casa Batlló｜History", "url": "https://www.casabatllo.es/en/antoni-gaudi/casa-batllo/history/", "supports": "Josep Batlló 委託高第改造既有建物，1904–1906 年工程。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "unity-foundation", "title": "Frank Lloyd Wright Foundation｜Unity Temple", "url": "https://franklloydwright.org/site/unity-temple/", "supports": "1906–1908 年建造；現澆鋼筋混凝土、街側少低窗、天窗與高側窗、兩個主量體及低入口。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "unity-congregation", "title": "Unity Temple｜History", "url": "https://unitytemple.org/buildings-history/", "supports": "教會委託脈絡與 1909 年 9 月 26 日奉獻啟用。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "saynatsalo-foundation", "title": "Alvar Aalto Foundation｜Säynätsalo Town Hall", "url": "https://www.alvaraalto.fi/en/architecture/saynatsalo-town-hall/", "supports": "1952 完工；裸露紅磚、抬高內院、街層商店與上層公共服務、高起議事廳；Elsa Mäkiniemi 現場主責。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "luce-thu", "title": "東海大學｜路思義教堂", "url": "https://www.thu.edu.tw/web/campus/detail.php?scid=27&sid=46", "supports": "1963 年落成，貝聿銘與陳其寬共同設計。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "luce-heritage", "title": "文化部國家文化資產網｜路思義教堂", "url": "https://nchdb.boch.gov.tw/city/TC/assets/overview/monument/20190515000003/", "supports": "屋頂與牆合一、四片分離曲面及間隙採光、黃色菱形琉璃面磚。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "luce-conservation", "title": "東海大學／Getty｜Luce Memorial Chapel 保存管理研究", "url": "https://www.getty.edu/publications-reports/item/2K7KXX", "supports": "曲面格子梁體系及貝聿銘、陳其寬、張肇康與工程營造團隊脈絡。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "douglas-architect", "title": "MeierArchitects｜Douglas House", "url": "https://meierarchitects.us/project/douglas-house", "supports": "陡坡、屋頂層入口橋、道路側較實與湖側玻璃、外部階梯。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "douglas-owner", "title": "Douglas House｜The Exterior", "url": "https://www.douglashouse.org/exterior", "supports": "白色木質外表與玻璃；專案建築師 Tod Williams；湖景及外梯。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "douglas-story", "title": "Douglas House｜The Story", "url": "https://www.douglashouse.org/story", "supports": "Richard Meier & Partners 及 1973 完成、密西根湖岸場址。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "menil-owner", "title": "The Menil Collection｜Main Building", "url": "https://www.menil.org/campus/main-building", "supports": "1987 主館；灰柏木、周邊住宅、深廊與變動自然光。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "menil-rpbw", "title": "Renzo Piano Building Workshop｜The Menil Collection", "url": "https://www.rpbw.com/project/the-menil-collection", "supports": "住宅尺度、深廊、灰柏木、鐵絲網水泥採光葉片；Piano & Fitzgerald 與 Arup 團隊。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "gunma-museum", "title": "群馬縣立近代美術館｜磯崎新の建築", "url": "https://mmag.pref.gunma.jp/architecture", "supports": "1974 原館；12 公尺立方框架、1.2 公尺外牆與玻璃格網、框景概念；後續增建另列。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "retti-hollein", "title": "Hans Hollein｜Retti", "url": "https://hollein.com/index.php/ger/Architektur/Nach-Typus/Shops-und-Interiors/Retti", "supports": "原蠟燭店、設計圖與鋁質門面；建築師資料列 1965–1966 年設計、1966 年完工。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "retti-preservation", "title": "奧地利聯邦古蹟局｜Retti 修復紀錄", "url": "https://www.bda.gv.at/themen/ich-bin-denkmal/dezember-2022.html", "supports": "1966 年小型蠟燭店；鋁質入口與歷史街屋對比、狹窄入口及室內八角形。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "aerospace-heritage", "title": "California Resources Agency／洛杉磯郡｜California Aerospace Museum 文化資產記錄", "url": "https://file.lacounty.gov/bos/supdocs/71662.pdf", "supports": "1984 原館、不規則金屬及灰泥量體、懸掛飛機、歷史用途與展覽遷出。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "aerospace-getty", "title": "Getty｜Frank Gehry 的洛杉磯作品", "url": "https://www.getty.edu/news/10-frank-gehry-buildings-to-see-in-los-angeles/", "supports": "加州航太博物館原館及外觀記錄。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "vitra-foundation", "title": "Zaha Hadid Foundation｜Vitra Fire Station", "url": "https://www.zhfoundation.com/collections/vitra-fire-station/", "supports": "1991–1993 年；混凝土片牆、斜向動勢與場址邊界；Zaha Hadid 與 Patrik Schumacher 設計署名。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "vitra-owner", "title": "Vitra｜Fire Station", "url": "https://www.vitra.com/en-lp/campus/architecture/1370600", "supports": "1993 年消防站、園區火災背景，以及後來改作活動與展覽用途。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "vitra-architect", "title": "Zaha Hadid Architects｜Vitra Fire Station", "url": "https://www.zha.com/projects/architecture/vitra-fire-station?disclaimer=true", "supports": "原消防站的混凝土牆、雨棚與空間序列。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "zueblin-owner", "title": "Ed. Züblin AG｜The ZÜBLIN-House", "url": "https://www.zueblin.de/en/projects/the-zueblin-house", "supports": "1983–1984 建造、1985 啟用；紅色預鑄混凝土構件、雙翼、玻璃中庭與屋頂。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "zueblin-engineer", "title": "Ed. Züblin AG 工程師 A. Steinle｜Het Züblin-Haus", "url": "https://www.cementonline.nl/artikelen/het-zublin-haus", "supports": "原工程作者對預鑄構造、模矩、辦公翼與中央大廳的記錄。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "boa-nova-cca", "title": "Canadian Centre for Architecture｜Álvaro Siza 原案檔案：Boa Nova", "url": "https://www.cca.qc.ca/en/archives/447183/alvaro-siza-fonds/469692/architectural-projects/473701/casa-de-cha-restaurante-da-boa-nova-tea-house-boa-nova-restaurant-leca-da-palmeira-portugal-1958-1959-1963", "supports": "1958–1963 原案、沿海地形、平剖面與細部圖檔。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "boa-nova-archive", "title": "Matosinhos 市立檔案｜Boa Nova", "url": "https://arquivomunicipal.cm-matosinhos.pt/Result.aspx?id=36886&type=Autoridade", "supports": "原作及源於 Fernando Távora 事務所、交由 Siza 主導的計畫脈絡。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "boa-nova-drawings", "title": "Canadian Centre for Architecture｜Boa Nova 細部及平面原圖", "url": "https://www.cca.qc.ca/en/search/details/collection/object/473757", "supports": "西扎原圖檔案目錄及平、剖面索引；可見形體並與市立檔案描述交叉閱讀。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "light-architect", "title": "Tadao Ando Architect & Associates｜The Church of the Light", "url": "https://artsandculture.google.com/story/the-church-of-the-light-a-cross-of-light-floating-in-the-dark-tadao-ando-architect-associates/2QVRGQpQrOQ8sQ", "supports": "1989 禮拜堂；混凝土盒、斜牆入口、十字開口與明暗；教會及施工團隊共同完成。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "light-church", "title": "茨木春日丘教會｜官方介紹", "url": "https://www.ibaraki-kasugaoka-church.jp/e-top.html", "supports": "光之教會的禮拜場所身分，非一般可自由進入的觀光設施。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "serpentine-gallery", "title": "Serpentine｜Pavilion 2002", "url": "https://www.serpentinegalleries.org/whats-on/serpentine-gallery-pavilion-2002-toyo-ito-and-cecil-balmond-arup/", "supports": "2002 倫敦展亭，伊東豐雄、Cecil Balmond、Arup；由規則生成的交線及透明／半透明填充。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "serpentine-balmond", "title": "Balmond Studio｜Serpentine Pavilion 2002", "url": "https://www.balmondstudio.com/work/serpentine-pavilion-2002.php", "supports": "交線成為承重鋼片、玻璃與鋁板填充、盒形和演算法協作。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "bordeaux-oma", "title": "OMA｜Maison à Bordeaux", "url": "https://www.oma.com/projects/maison-a-bordeaux", "supports": "1994–1998 年；三種樓層、玻璃生活層與可在樓層間移動的升降平台。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "bordeaux-balmond", "title": "Balmond Studio｜Bordeaux Villa", "url": "https://www.balmondstudio.com/work/bordeaux-villa.php", "supports": "與 OMA 協作的非對稱支撐、上部盒體及圓形開口。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "zollverein-project", "title": "Böll Architekten｜Zollverein School", "url": "https://boellarchitekten.de/projekte/zollverein-school", "supports": "2006 年 SANAA 作品及 Böll Architekten 合作實施署名；官方專案影像。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "zollverein-owner", "title": "Stiftung Zollverein｜SANAA-Gebäude", "url": "https://www.zollverein.de/erleben/faszination-unesco-welterbe-zollverein/stachelhaus-sanaa-gebaeude/", "supports": "SANAA 建築外觀、不等大小方窗、埃森原址。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "zollverein-university", "title": "Folkwang／Zollverein｜SANAA 建築資料", "url": "https://www.zollverein.de/app/uploads/2018/01/20170502_factsheet_sanaa_de_low.pdf", "supports": "2006 建成、不同樓層用途及框景窗；不主張模型家具為原件。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "paper-church-sba", "title": "Shigeru Ban Architects｜Paper Church – Kobe", "url": "https://shigerubanarchitects.com/works/cultural/paper-church-kobe/", "supports": "1995 神戶震後，志工與捐贈材料共同建造；預先考慮再用，後移至臺灣。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "paper-church-original", "title": "Shigeru Ban Architects｜1995–2005 原神戶紙教會資料", "url": "https://shigerubanarchitects.com/old/works/1995_paper-church/index.html", "supports": "橢圓紙管排列、入口柱距放大、透明入口與聚碳酸酯外皮、2005 拆卸。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "hiroshima-architect", "title": "Riken Yamamoto & Field Shop｜Hiroshima Nishi Fire Station", "url": "https://www.riken-yamamoto.co.jp/index.html?id=140&lng=_Eng&page=ry_proj_detail", "supports": "2000 年、玻璃百葉、透明分隔、中央訓練中庭及指定公共空間。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "hiroshima-pritzker", "title": "Pritzker Prize｜Riken Yamamoto", "url": "https://www.pritzkerprize.com/laureates/riken-yamamoto", "supports": "廣島西消防署以透明表皮讓居民理解消防工作；可見性與社群連結。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "kimbell-detail", "title": "Kimbell Art Museum｜Kahn Building in Detail", "url": "https://kimbellart.org/content/kahn-building-detail", "supports": "擺線拱頂、頂部採光縫與鋁反射板、門廊，以及混凝土、洞石與木材。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "kimbell-history", "title": "Kimbell Art Museum｜The Louis I. Kahn Building", "url": "https://50.kimbellart.org/architecture/the-louis-i-kahn-building/", "supports": "1972 原館與協作團隊、重複拱頂、材料和採光。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "olivetti-fai", "title": "FAI｜Negozio Olivetti", "url": "https://fondoambiente.it/luoghi/negozio-olivetti", "supports": "1957–1958、Adriano Olivetti 委託、工藝協作、Aurisina 石階、玻璃馬賽克及廣場關係。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "olivetti-ground", "title": "FAI｜Il piano terra", "url": "https://fai-website.imgix.net/uploads/2020/05/22070459/Il-piano-terra.pdf", "supports": "入口玻璃、地坪材料、石階及展示店地面層構成。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "bregenz-museum", "title": "Kunsthaus Bregenz｜Architecture", "url": "https://www.kunsthaus-bregenz.at/en/architecture", "supports": "玻璃外皮、鋼架與內部混凝土；分層日光系統及主館與行政棟。", "sourceType": "primary", "verifiedDate": "2026-10-24"},
+    {"id": "bregenz-facts", "title": "Kunsthaus Bregenz｜Facts and Figures", "url": "https://www.kunsthaus-bregenz.at/architektur/daten-und-fakten", "supports": "1997 年、玻璃面板與混凝土構造及主館資料。", "sourceType": "primary", "verifiedDate": "2026-10-24"}
+  ],
+  "implementationNotes": [
+    "全部選擇題答案採零起算 correctIndex；必須以選項文字及位置共同核對，避免排序後答案錯置。",
+    "front、side、rear 可依模型朝向調整；施洛德的 rear 觀察點需放在真正能看見上層轉角窗的斜角，而不是任意後立面。",
+    "施洛德轉角窗可在模型中保持打開，或提供示意狀態切換；若未做開窗動畫，保留題目『想像』措辭，勿聲稱畫面正在開窗。",
+    "薩伏伊屋頂題需要從地面看得到弧形圍牆；不要把玩家傳送進室內或屋頂。",
+    "范斯沃斯須清楚呈現較低露台、抬高主樓板、平屋頂、玻璃與外緣鋼柱；鋼柱截面不要誤做為巴塞隆納館的十字形柱。",
+    "模型可簡化，但不可把施洛德住宅的實際連棟街角原址說成獨棟海島；島嶼是教學舞台。",
+    "不要把自由平面說成沒有任何隔間，也不要把透明性說成所有居住需求已被解決。",
+    "NPC 對話標籤與合作設計者署名應在遊戲內可見，不只放在原始碼。"
+  ]
+}
